@@ -39,6 +39,19 @@ try {
             if (interaction.isModalSubmit()) {
                 const { user, customId, guild, member } = interaction;
 
+
+                    if (customId === 'rulesModal') {
+                        const nickname = interaction.fields.getTextInputValue('rules_nickname')
+                        const member = interaction.member
+                        await member.setNickname(nickname)
+                        if(member.roles.cache.has('1252266446050951378')) {
+                            return interaction.reply({content: 'Déjà accepté!', ephemeral:true})
+                        } else {
+                            await member.roles.add('1252266446050951378')
+                            return interaction.reply({content: 'Accepté!', ephemeral:true})
+                        }
+                    }
+
                 const createTicketChannel = async (name, type) => {
                     console.log("📂 Création du salon en cours...");
                     return await guild.channels.create({

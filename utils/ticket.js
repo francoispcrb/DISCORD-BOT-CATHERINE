@@ -81,7 +81,8 @@ async function showModalForm(interaction, { customId, title, fields }) {
                 .setCustomId(field.id)
                 .setLabel(field.label)
                 .setStyle(field.style || TextInputStyle.Short)
-                .setRequired(field.required ?? true);
+                .setRequired(field.required ?? true)
+                .setPlaceholder(field.placeholder || "")
 
             modal.addComponents(new ActionRowBuilder().addComponents(input));
         }

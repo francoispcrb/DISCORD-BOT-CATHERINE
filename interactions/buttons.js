@@ -25,6 +25,7 @@ const {createTicketChannel, showModalForm} = require ('../utils/ticket');
 const path = require('path')
 
 const { skip, stop, pause, resume } = require('../music/player');
+const { notificationChannelId } = require('../events/voiceStateUpdate');
 
 var nbTicket = config.plugin.ticket_plugin.var
 
@@ -354,18 +355,63 @@ try {
                 }
 
                 if(interaction.customId === 'rulescheck') {
-                    const member = interaction.member
-                    if(member.roles.cache.has('1252266446050951378')) {
-                        return interaction.reply({content: 'Déjà accepté!', ephemeral:true})
-                    } else {
-                        await member.roles.add('1252266446050951378')
-                        return interaction.reply({content: 'Accepté!', ephemeral:true})
-                    }
+                    const modal = new ModalBuilder().setCustomId('rulesModal').setTitle("Validation du règlement")
+                    const nickname = new TextInputBuilder().setCustomId('rules_nickname').setLabel('Choisissez votre nom RP').setStyle(TextInputStyle.Short).setPlaceholder("Ex. Marc Stuart")
+                    modal.addComponents(new ActionRowBuilder().addComponents(nickname))
+                    await interaction.showModal(modal)
                 }
                 
                 const ticketConf = ticketConfigMap[interaction.customId];
                 if (ticketConf) {
                     return createTicketChannel(interaction, ticketConf.emoji, ticketConf.role);
+                }
+
+                if (interaction.customId === 'claim') {
+                    const notificationChannelId = '1383552275556991178';
+                    const cachePath = path.join(__dirname, '../assets/cache.json');
+
+                    if (interaction.channel.id !== notificationChannelId) {
+                        return interaction.reply({
+                            content: "❌ Vous n'êtes pas dans le bon salon !",
+                            flags: MessageFlags.Ephemeral
+                        });
+                    }
+
+                    // Lire le cache.json pour retrouver le message
+                    let cacheData = [];
+                    if (fs.existsSync(cachePath)) {
+                        try {
+                            const raw = fs.readFileSync(cachePath, 'utf-8');
+                            cacheData = JSON.parse(raw);
+                        } catch (err) {
+                            console.error('Erreur lecture cache.json :', err);
+                        }
+                    }
+
+                    // Trouver l'entrée correspondant à ce message
+                    const entryIndex = cacheData.findIndex(entry => entry.messageId === interaction.message.id);
+
+                    if (entryIndex === -1) {
+                        return interaction.reply({
+                            content: "❌ Impossible de retrouver l'utilisateur concerné.",
+                            flags: MessageFlags.Ephemeral
+                        });
+                    }
+
+                    const { userId } = cacheData[entryIndex];
+
+                    // Modifier le message original
+                    await interaction.message.edit({
+                        content: `🛡️ <@${interaction.user.id}> s’est occupé de <@${userId}>.`,
+                        components: [] // supprime les boutons
+                    });
+
+                    // Supprimer l'entrée du cache
+                    cacheData.splice(entryIndex, 1);
+                    fs.writeFileSync(cachePath, JSON.stringify(cacheData, null, 2), 'utf-8');
+
+                    // Accusé de réception silencieux
+                    await interaction.deferUpdate();
                 }
 
                 if (interaction.customId === 'recruit') {
@@ -377,7 +423,12 @@ try {
                             { id: 'roleplay_firstname', label: 'Prénom (Rôleplay)' },
                             { id: 'roleplay_birthdate', label: 'Date de naissance (Rôleplay)' },
                             { id: 'roleplay_nationality', label: 'Nationalité (Rôleplay)' },
-                            { id: 'roleplay_unit', label: "Indiquez l'unité spéciale voulue", required: false }
+                            {
+                                id: 'roleplay_unit',
+                                label: "Indiquez l'unité spéciale voulue",
+                                required: false,
+                                placeholder: 'Non obligatoire'
+                            }
                         ]
                     });
                 }
