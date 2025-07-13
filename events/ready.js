@@ -3,6 +3,7 @@ const { ActivityType } = require('discord.js');
 const config = require('../config/config.json');
 const commands = require('../utils/commands');
 const cron = require('node-cron');
+const { compareVersion } = require('../win/compareVersion');
 
 module.exports = {
     name: 'ready',
@@ -177,6 +178,7 @@ module.exports = {
             divDaily(client);
             checkAndSendRules(client);
             checkMemberRole(client);
+            compareVersion()
         }
 
         function taskEvening() {
@@ -186,11 +188,13 @@ module.exports = {
             checkAndSendRules(client);
             checkMemberRole(client);
             sendOpenService(client);
+            compareVersion()
         }
 
         function taskNight() {
             console.log(chalk.green("🌙 Tâches de la nuit exécutées !"));
             checkTicketInit(client);
+            compareVersion()
             reboot();
         }
 
