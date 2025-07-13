@@ -16,7 +16,7 @@ const client = new Discord.Client({
 
 require('./utils/loggers');
 
-compareVersion()
+await compareVersion()
 
 function sendLog(embed) {
     const LOG_CHANNEL_ID = config.channel.log; 
@@ -34,7 +34,7 @@ for (const file of eventFiles) {
     } else {
         client.on(event.name, (...args) => event.execute(...args, client));
     }
-    console.notify('event', `Chargement de l'événement : ${event.name}`);
+    await console.notify('event', `Chargement de l'événement : ${event.name}`);
 }
 
 
@@ -49,19 +49,19 @@ try {
             messageId: configData.openservice_last_id,
             participants: configData.openservice_participants
         };
-        console.log("✅ Données rechargées depuis config.json :", globalThis.clientData);
+        await console.log("✅ Données rechargées depuis config.json :", globalThis.clientData);
     } else {
-        console.log("⚠️ Aucune donnée trouvée dans config.json");
+        await console.log("⚠️ Aucune donnée trouvée dans config.json");
     }
 } catch (error) {
     console.error("❌ Erreur lors du chargement de config.json :", error);
 }
 
-console.debug('Hi !!');
-console.log(chalk.bgGreen.black("Chargement du fichier index.js"));
-console.notify('hot', 'Hey!');
+await console.debug('Hi !!');
+await console.log(chalk.bgGreen.black("Chargement du fichier index.js"));
+await console.notify('hot', 'Hey!');
 
-loader();
+await loader();
 patchSendMethod();
 
 // Chargement dynamique des commandes

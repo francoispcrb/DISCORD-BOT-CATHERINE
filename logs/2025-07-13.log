@@ -10,3 +10,327 @@
 [2025-07-13T14:31:06.984Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
 [2025-07-13T14:31:06.986Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
 [2025-07-13T14:31:06.990Z] 2025-07-13 16:31:06 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:50:56.183Z] 2025-07-13 16:50:56 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:50:56.246Z] 2025-07-13 16:50:56 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:50:56.247Z] 2025-07-13 16:50:56 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:50:56.247Z] 2025-07-13 16:50:56 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:50:56.248Z] 2025-07-13 16:50:56 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:50:56.291Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:50:56.293Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:50:56.296Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:50:56.299Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:50:56.304Z] 2025-07-13 16:50:56 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:50:56.716Z] 2025-07-13 16:50:56 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:50:56.863Z] 2025-07-13 16:50:56 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:50:56.864Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T14:50:56.865Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T14:50:56.868Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T14:50:56.871Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T14:50:56.880Z] 2025-07-13 16:50:56 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:50:56.901Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T14:50:56.903Z] [EVENT] 2025-07-13 16:50:56 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T14:50:56.905Z] 2025-07-13 16:50:56 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T14:50:56.906Z] 2025-07-13 16:50:56 [DEBUG] Hi !!
+[2025-07-13T14:50:56.907Z] 2025-07-13 16:50:56 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T14:50:56.907Z] [ERROR] 2025-07-13 16:50:56 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T14:50:56.908Z] 2025-07-13 16:50:56 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T14:50:56.911Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T14:50:56.913Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T14:50:56.915Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T14:50:56.917Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T14:50:56.920Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T14:50:56.923Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T14:50:56.926Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T14:50:56.929Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T14:50:56.933Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T14:50:56.936Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T14:50:56.939Z] [COMMANDS] 2025-07-13 16:50:56 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T14:51:03.322Z] 2025-07-13 16:51:03 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:51:03.360Z] 2025-07-13 16:51:03 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:51:03.361Z] 2025-07-13 16:51:03 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:51:03.361Z] 2025-07-13 16:51:03 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:51:03.362Z] 2025-07-13 16:51:03 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:51:03.399Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:51:03.403Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:51:03.405Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:51:03.407Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:51:03.410Z] 2025-07-13 16:51:03 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:03.629Z] 2025-07-13 16:51:03 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:03.724Z] 2025-07-13 16:51:03 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:03.725Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T14:51:03.726Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T14:51:03.727Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T14:51:03.729Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T14:51:03.735Z] 2025-07-13 16:51:03 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:03.771Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T14:51:03.773Z] [EVENT] 2025-07-13 16:51:03 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T14:51:03.776Z] 2025-07-13 16:51:03 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T14:51:03.778Z] 2025-07-13 16:51:03 [DEBUG] Hi !!
+[2025-07-13T14:51:03.780Z] 2025-07-13 16:51:03 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T14:51:03.782Z] [ERROR] 2025-07-13 16:51:03 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T14:51:03.783Z] 2025-07-13 16:51:03 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T14:51:03.789Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T14:51:03.791Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T14:51:03.794Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T14:51:03.798Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T14:51:03.802Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T14:51:03.805Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T14:51:03.810Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T14:51:03.812Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T14:51:03.814Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T14:51:03.816Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T14:51:03.818Z] [COMMANDS] 2025-07-13 16:51:03 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T14:51:10.247Z] 2025-07-13 16:51:10 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:51:10.288Z] 2025-07-13 16:51:10 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:51:10.289Z] 2025-07-13 16:51:10 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:51:10.289Z] 2025-07-13 16:51:10 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:51:10.290Z] 2025-07-13 16:51:10 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:51:10.326Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:51:10.327Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:51:10.328Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:51:10.330Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:51:10.333Z] 2025-07-13 16:51:10 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:10.573Z] 2025-07-13 16:51:10 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:10.674Z] 2025-07-13 16:51:10 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:10.675Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T14:51:10.677Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T14:51:10.678Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T14:51:10.679Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T14:51:10.686Z] 2025-07-13 16:51:10 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:10.701Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T14:51:10.702Z] [EVENT] 2025-07-13 16:51:10 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T14:51:10.703Z] 2025-07-13 16:51:10 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T14:51:10.703Z] 2025-07-13 16:51:10 [DEBUG] Hi !!
+[2025-07-13T14:51:10.705Z] 2025-07-13 16:51:10 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T14:51:10.706Z] [ERROR] 2025-07-13 16:51:10 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T14:51:10.707Z] 2025-07-13 16:51:10 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T14:51:10.710Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T14:51:10.711Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T14:51:10.713Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T14:51:10.713Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T14:51:10.715Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T14:51:10.716Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T14:51:10.717Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T14:51:10.718Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T14:51:10.719Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T14:51:10.724Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T14:51:10.726Z] [COMMANDS] 2025-07-13 16:51:10 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T14:51:17.061Z] 2025-07-13 16:51:17 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:51:17.100Z] 2025-07-13 16:51:17 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:51:17.101Z] 2025-07-13 16:51:17 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:51:17.101Z] 2025-07-13 16:51:17 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:51:17.102Z] 2025-07-13 16:51:17 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:51:17.136Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:51:17.139Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:51:17.142Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:51:17.143Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:51:17.146Z] 2025-07-13 16:51:17 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:17.358Z] 2025-07-13 16:51:17 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:17.449Z] 2025-07-13 16:51:17 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:17.449Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T14:51:17.451Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T14:51:17.453Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T14:51:17.454Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T14:51:17.463Z] 2025-07-13 16:51:17 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:17.475Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T14:51:17.476Z] [EVENT] 2025-07-13 16:51:17 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T14:51:17.477Z] 2025-07-13 16:51:17 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T14:51:17.479Z] 2025-07-13 16:51:17 [DEBUG] Hi !!
+[2025-07-13T14:51:17.481Z] 2025-07-13 16:51:17 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T14:51:17.482Z] [ERROR] 2025-07-13 16:51:17 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T14:51:17.485Z] 2025-07-13 16:51:17 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T14:51:17.489Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T14:51:17.491Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T14:51:17.494Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T14:51:17.497Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T14:51:17.500Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T14:51:17.501Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T14:51:17.502Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T14:51:17.504Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T14:51:17.509Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T14:51:17.513Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T14:51:17.514Z] [COMMANDS] 2025-07-13 16:51:17 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T14:51:34.901Z] 2025-07-13 16:51:34 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:51:34.943Z] 2025-07-13 16:51:34 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:51:34.943Z] 2025-07-13 16:51:34 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:51:34.944Z] 2025-07-13 16:51:34 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:51:34.945Z] 2025-07-13 16:51:34 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:51:34.984Z] [EVENT] 2025-07-13 16:51:34 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:51:34.985Z] [EVENT] 2025-07-13 16:51:34 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:51:34.987Z] [EVENT] 2025-07-13 16:51:34 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:51:34.989Z] [EVENT] 2025-07-13 16:51:34 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:51:34.991Z] 2025-07-13 16:51:34 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:35.203Z] 2025-07-13 16:51:35 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:35.291Z] 2025-07-13 16:51:35 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:35.291Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T14:51:35.292Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T14:51:35.294Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T14:51:35.296Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T14:51:35.303Z] 2025-07-13 16:51:35 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T14:51:35.313Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T14:51:35.315Z] [EVENT] 2025-07-13 16:51:35 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T14:51:35.318Z] 2025-07-13 16:51:35 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T14:51:35.318Z] 2025-07-13 16:51:35 [DEBUG] Hi !!
+[2025-07-13T14:51:35.319Z] 2025-07-13 16:51:35 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T14:51:35.319Z] [ERROR] 2025-07-13 16:51:35 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T14:51:35.320Z] 2025-07-13 16:51:35 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T14:51:35.321Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T14:51:35.322Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T14:51:35.324Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T14:51:35.325Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T14:51:35.326Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T14:51:35.327Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T14:51:35.329Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T14:51:35.333Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T14:51:35.338Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T14:51:35.340Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T14:51:35.341Z] [COMMANDS] 2025-07-13 16:51:35 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T15:00:38.930Z] 2025-07-13 17:00:38 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T15:00:38.977Z] 2025-07-13 17:00:38 [DEBUG] 📦 Checking version from local...
+[2025-07-13T15:00:38.978Z] 2025-07-13 17:00:38 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T15:00:38.978Z] 2025-07-13 17:00:38 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T15:00:38.979Z] 2025-07-13 17:00:38 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T15:00:39.018Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T15:00:39.020Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T15:00:39.021Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T15:00:39.023Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T15:00:39.025Z] 2025-07-13 17:00:39 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T15:00:39.272Z] 2025-07-13 17:00:39 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T15:00:39.366Z] 2025-07-13 17:00:39 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T15:00:39.366Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-07-13T15:00:39.367Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-07-13T15:00:39.369Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-07-13T15:00:39.370Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-07-13T15:00:39.375Z] 2025-07-13 17:00:39 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-13T15:00:39.388Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-07-13T15:00:39.389Z] [EVENT] 2025-07-13 17:00:39 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-07-13T15:00:39.389Z] 2025-07-13 17:00:39 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1381286795622354954",
+  "participants": {
+    "yes": [
+      "287 I Rodriguez DaSilva"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-07-13T15:00:39.390Z] 2025-07-13 17:00:39 [DEBUG] Hi !!
+[2025-07-13T15:00:39.391Z] 2025-07-13 17:00:39 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-07-13T15:00:39.391Z] [ERROR] 2025-07-13 17:00:39 [🔴 CRITICAL NOTIFY] Hey!
+[2025-07-13T15:00:39.392Z] 2025-07-13 17:00:39 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, @distube/yt-dlp, axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid, youtube-sr, ytdl-core[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"electron ."}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-13T15:00:39.394Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-07-13T15:00:39.394Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-07-13T15:00:39.396Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-07-13T15:00:39.397Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-07-13T15:00:39.398Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-07-13T15:00:39.400Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-07-13T15:00:39.404Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-07-13T15:00:39.406Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-07-13T15:00:39.407Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-07-13T15:00:39.408Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-07-13T15:00:39.409Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : pex
