@@ -22,6 +22,4 @@ async function compareVersion() {
   }
 }
 
-compareVersion()
-
 module.exports = {compareVersion}

@@ -9,6 +9,8 @@ module.exports = {
     name: 'ready',
     async execute(client) {
         // --- Console startup ---
+
+        await compareVersion()
         console.log(chalk.blue("=============================="));
         console.log(chalk.green("🚀 Démarrage du bot..."));
         console.log(chalk.yellow("🔗 Connexion à Discord API..."));

@@ -1,11 +1,12 @@
-console.log("Initialisation...")
+console.log("Initialisation...");
 
+const ora = require('ora');
 const chalk = require("chalk");
 const fs = require('fs');
 const path = require('path');
 const config = require('./config/config.json');
 const { loader, patchSendMethod } = require('./utils/functions');
-const { compareVersion } = require('./win/compareVersion')
+const { compareVersion } = require('./win/compareVersion');
 
 const Discord = require('discord.js');
 const intents = new Discord.IntentsBitField(53608447);
@@ -16,30 +17,64 @@ const client = new Discord.Client({
 
 require('./utils/loggers');
 
-compareVersion()
-
+// Fonction pour envoyer un log
 function sendLog(embed) {
-    const LOG_CHANNEL_ID = config.channel.log; 
+    const LOG_CHANNEL_ID = config.channel.log;
     const logChannel = client.channels.cache.get(LOG_CHANNEL_ID);
     if (logChannel) logChannel.send({ embeds: [embed] });
-} 
+}
 module.exports = { sendLog };
 
-// Chargement automatique des événements depuis le dossier 'events'
-const eventFiles = fs.readdirSync(path.join(__dirname, 'events')).filter(file => file.endsWith('.js'));
-for (const file of eventFiles) {
-    const event = require(path.join(__dirname, 'events', file));
-    if (event.once) {
-        client.once(event.name, (...args) => event.execute(...args, client));
-    } else {
-        client.on(event.name, (...args) => event.execute(...args, client));
+// ==============================
+// 🔹 ÉTAPE 1 - Chargement des EVENTS
+// ==============================
+const eventsSpinner = ora("Chargement des événements...\n").start();
+try {
+    const eventFiles = fs.readdirSync(path.join(__dirname, 'events')).filter(file => file.endsWith('.js'));
+    for (const file of eventFiles) {
+        const event = require(path.join(__dirname, 'events', file));
+        if (event.once) {
+            client.once(event.name, (...args) => event.execute(...args, client));
+        } else {
+            client.on(event.name, (...args) => event.execute(...args, client));
+        }
+        console.notify('event', `Chargé : ${event.name}`);
     }
-    console.notify('event', `Chargement de l'événement : ${event.name}`);
+    eventsSpinner.succeed("✅ Événements chargés.");
+} catch (err) {
+    eventsSpinner.fail("❌ Erreur lors du chargement des événements.");
+    console.error(err);
 }
 
+// ==============================
+// 🔹 ÉTAPE 2 - Chargement des COMMANDES
+// ==============================
+const commandsSpinner = ora("Chargement des commandes...\n").start();
+try {
+    client.commands = new Map();
+    const commandFiles = fs.readdirSync(path.join(__dirname, 'interactions', 'commands')).filter(file => file.endsWith('.js'));
 
+    for (const file of commandFiles) {
+        const command = require(path.join(__dirname, 'interactions', 'commands', file));
+        if (command.name) {
+            client.commands.set(command.name, command);
+            console.notify('commands', `Chargée : ${command.name}`);
+        } else {
+            console.warn(`⚠️ Commande ignorée : ${file} (pas de propriété 'name')`);
+        }
+    }
+
+    commandsSpinner.succeed("✅ Commandes chargées.");
+} catch (err) {
+    commandsSpinner.fail("❌ Erreur lors du chargement des commandes.");
+    console.error(err);
+}
+
+// ==============================
+// 🔹 ÉTAPE 3 - Chargement des données config
+// ==============================
+const configSpinner = ora("Chargement de config.json...\n").start();
 globalThis.clientData = {};
-
 try {
     const rawData = fs.readFileSync('./config/config.json', 'utf8');
     const configData = JSON.parse(rawData);
@@ -49,33 +84,38 @@ try {
             messageId: configData.openservice_last_id,
             participants: configData.openservice_participants
         };
-        console.log("✅ Données rechargées depuis config.json :", globalThis.clientData);
+        configSpinner.succeed("✅ Données config.json rechargées.");
     } else {
-        console.log("⚠️ Aucune donnée trouvée dans config.json");
+        configSpinner.warn("⚠️ Aucune donnée trouvée dans config.json");
     }
 } catch (error) {
-    console.error("❌ Erreur lors du chargement de config.json :", error);
+    configSpinner.fail("❌ Erreur de lecture de config.json");
+    console.error(error);
 }
 
-console.debug('Hi !!');
-console.log(chalk.bgGreen.black("Chargement du fichier index.js"));
-console.notify('hot', 'Hey!');
-
-loader();
-patchSendMethod();
-
-// Chargement dynamique des commandes
-client.commands = new Map();
-const commandFiles = fs.readdirSync(path.join(__dirname, 'interactions', 'commands')).filter(file => file.endsWith('.js'));
-for (const file of commandFiles) {
-    const command = require(path.join(__dirname, 'interactions', 'commands', file));
-    if (command.name) {
-        client.commands.set(command.name, command);
-        console.notify('commands', 'Commande chargée : ' + command.name);
-    } else {
-        console.warn(`Commande dans ${file} ignorée car elle n'a pas de propriété 'name'`);
-    }
+// ==============================
+// 🔹 ÉTAPE 4 - Initialisation fonctions utilitaires
+// ==============================
+const utilSpinner = ora("Initialisation des fonctions utilitaires...\n").start();
+try {
+    loader();
+    patchSendMethod();
+    utilSpinner.succeed("✅ Fonctions utilitaires prêtes.");
+} catch (error) {
+    utilSpinner.fail("❌ Erreur pendant l'initialisation des fonctions.");
+    console.error(error);
 }
 
+// ==============================
+// 🔹 ÉTAPE 5 - Connexion à Discord
+// ==============================
+const connectSpinner = ora("Connexion à Discord...").start();
 require('dotenv').config();
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN)
+    .then(() => {
+        connectSpinner.succeed("✅ Connecté à Discord !");
+    })
+    .catch(err => {
+        connectSpinner.fail("❌ Échec de la connexion à Discord.");
+        console.error(err);
+    });

@@ -1,4 +1,5 @@
 const { Player, useQueue } = require('discord-player');
+const { DefaultExtractors } = require('@discord-player/extractor');
 
 let playerInstance;
 
@@ -11,8 +12,12 @@ function initPlayer(client) {
       },
     });
 
-    // Charge tous les extracteurs par défaut (YouTube, Spotify, etc.)
-    playerInstance.extractors.loadDefault();
+    // ✅ Nouvelle méthode recommandée pour charger les extracteurs
+    playerInstance.extractors.loadMulti(DefaultExtractors).then(() => {
+      console.log('[player] Extracteurs chargés avec succès.');
+    }).catch(err => {
+      console.error('[player] Erreur lors du chargement des extracteurs :', err);
+    });
 
     // Gestion d'erreurs
     playerInstance.events.on('error', (queue, error) => {
