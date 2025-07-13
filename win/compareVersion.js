@@ -10,7 +10,7 @@ async function compareVersion() {
     const gitVersion = await getGitVersion();
 
     if (localVersion === gitVersion) {
-      console.log('✅ Les versions sont identiques.');
+      console.notify('info','✅ Les versions sont identiques.');
       return true;
     } else {
       console.warn(`⚠️ Les versions diffèrent : locale (${localVersion}) ≠ distante (${gitVersion})`);
@@ -21,5 +21,7 @@ async function compareVersion() {
     return err;
   }
 }
+
+compareVersion()
 
 module.exports = {compareVersion}

@@ -2,7 +2,7 @@
 const https = require('https');
 
 module.exports = function getGitVersion() {
-  console.log("🌐 Checking version from GitHub...");
+  console.debug("🌐 Checking version from GitHub...");
 
   return new Promise((resolve, reject) => {
     const token = "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";

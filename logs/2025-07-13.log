@@ -334,3 +334,28 @@
 [2025-07-13T15:00:39.407Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : mute
 [2025-07-13T15:00:39.408Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : openservice
 [2025-07-13T15:00:39.409Z] [COMMANDS] 2025-07-13 17:00:39 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-07-13T15:09:50.631Z] 2025-07-13 17:09:50 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T15:12:00.890Z] 2025-07-13 17:12:00 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T15:12:00.892Z] 2025-07-13 17:12:00 [DEBUG] 📦 Checking version from local...
+[2025-07-13T15:12:00.893Z] 2025-07-13 17:12:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T15:12:00.894Z] 2025-07-13 17:12:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.0
+[2025-07-13T15:12:00.894Z] 2025-07-13 17:12:00 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T15:12:01.264Z] 2025-07-13 17:12:01 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-13T15:12:01.266Z] 2025-07-13 17:12:01 [CLIENT DISCORD] 🕒 Version distante : 2.1.0
+[2025-07-13T15:12:01.269Z] 2025-07-13 17:12:01 [CLIENT DISCORD] ✅ Les versions sont identiques.
+[2025-07-13T15:12:46.424Z] 2025-07-13 17:12:46 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T15:12:46.426Z] 2025-07-13 17:12:46 [DEBUG] 📦 Checking version from local...
+[2025-07-13T15:12:46.427Z] 2025-07-13 17:12:46 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T15:12:46.428Z] 2025-07-13 17:12:46 [CLIENT DISCORD] 🕒 Version locale : 2.1.0
+[2025-07-13T15:12:46.429Z] 2025-07-13 17:12:46 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-13T15:12:46.715Z] 2025-07-13 17:12:46 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-13T15:12:46.716Z] 2025-07-13 17:12:46 [CLIENT DISCORD] 🕒 Version distante : 2.1.0
+[2025-07-13T15:12:46.719Z] 2025-07-13 17:12:46 [CLIENT DISCORD] ✅ Les versions sont identiques.
+[2025-07-13T15:13:11.293Z] 2025-07-13 17:13:11 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T15:13:11.296Z] 2025-07-13 17:13:11 [DEBUG] 📦 Checking version from local...
+[2025-07-13T15:13:11.297Z] 2025-07-13 17:13:11 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T15:13:11.298Z] 2025-07-13 17:13:11 [CLIENT DISCORD] 🕒 Version locale : 2.1.0
+[2025-07-13T15:13:11.298Z] 2025-07-13 17:13:11 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-13T15:13:11.635Z] 2025-07-13 17:13:11 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-13T15:13:11.636Z] 2025-07-13 17:13:11 [CLIENT DISCORD] 🕒 Version distante : 2.1.0
+[2025-07-13T15:13:11.638Z] [INFO] 2025-07-13 17:13:11 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
