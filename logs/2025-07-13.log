@@ -1,0 +1,12 @@
+[2025-07-13T14:23:02.359Z] 2025-07-13 16:23:02 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:26:28.942Z] 2025-07-13 16:26:28 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:31:06.877Z] 2025-07-13 16:31:06 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-13T14:31:06.913Z] 2025-07-13 16:31:06 [DEBUG] 📦 Checking version from local...
+[2025-07-13T14:31:06.914Z] 2025-07-13 16:31:06 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-13T14:31:06.914Z] 2025-07-13 16:31:06 [CLIENT DISCORD] 🕒 Version locale : 2.0.5
+[2025-07-13T14:31:06.915Z] 2025-07-13 16:31:06 [CLIENT DISCORD] 🌐 Checking version from GitHub...
+[2025-07-13T14:31:06.980Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-07-13T14:31:06.982Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-07-13T14:31:06.984Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-07-13T14:31:06.986Z] [EVENT] 2025-07-13 16:31:06 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-07-13T14:31:06.990Z] 2025-07-13 16:31:06 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m

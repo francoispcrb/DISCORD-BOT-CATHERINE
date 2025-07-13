@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const config = require('./config/config.json');
 const { loader, patchSendMethod } = require('./utils/functions');
+const { compareVersion } = require('./win/compareVersion')
 
 const Discord = require('discord.js');
 const intents = new Discord.IntentsBitField(53608447);
@@ -14,6 +15,8 @@ const client = new Discord.Client({
 });
 
 require('./utils/loggers');
+
+compareVersion()
 
 function sendLog(embed) {
     const LOG_CHANNEL_ID = config.channel.log; 

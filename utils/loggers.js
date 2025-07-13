@@ -66,58 +66,58 @@ console.log = (...args) => logWithLevel('CLIENT DISCORD', chalk.bgBlueBright.bla
 console.error = (...args) => logWithLevel('ERROR', chalk.bgRed.black, process.stderr, ...args);
 console.warn = (...args) => logWithLevel('WARN', chalk.bgYellow.black, process.stdout, ...args);
 console.debug = (...args) => logWithLevel('DEBUG', chalk.bgMagenta.black, process.stdout, ...args);
-// console.notify = (type = 'soft', ...args) => {
-//     if (args.length === 0) {
-//         args = [type];
-//         type = 'soft';
-//     }
+console.notify = (type = 'soft', ...args) => {
+    if (args.length === 0) {
+        args = [type];
+        type = 'soft';
+    }
 
-//     const date = DateTime.now().setZone('Europe/Paris').toFormat('yyyy-MM-dd HH:mm:ss');
-//     let prefix = '';
-//     let colorFn = chalk.reset;
-//     let level = '';
+    const date = DateTime.now().setZone('Europe/Paris').toFormat('yyyy-MM-dd HH:mm:ss');
+    let prefix = '';
+    let colorFn = chalk.reset;
+    let level = '';
 
-//     switch(type.toLowerCase()) {
-//         case 'soft':
-//             prefix = '🟢 SOFT NOTIFY';
-//             colorFn = chalk.bgGreen.black;
-//             level = 'NOTIFY';
-//             break;
-//         case 'warm':
-//             prefix = '🟡 WARM NOTIFY';
-//             colorFn = chalk.bgYellow.black;
-//             level = 'WARN';
-//             break;
-//         case 'hot':
-//             prefix = '🔴 CRITICAL NOTIFY';
-//             colorFn = chalk.bgRed.black;
-//             level = 'ERROR';
-//             break;
-//         case 'commands':
-//             prefix = '📌 COMMANDS NOTIFY';
-//             colorFn = chalk.bgBlueBright.black;
-//             level = 'COMMANDS';
-//             break;
-//         case 'event':
-//             prefix = '📅 EVENT NOTIFY';
-//             colorFn = chalk.bgCyan.black;
-//             level = 'EVENT';
-//             break;
-//         case 'info':
-//             prefix = 'ℹ️ INFO NOTIFY';
-//             colorFn = chalk.bgWhite.black;
-//             level = 'INFO';
-//             break;
-//         default:
-//             console.log(...args);
-//             return;
-//     }
+    switch(type.toLowerCase()) {
+        case 'soft':
+            prefix = '🟢 SOFT NOTIFY';
+            colorFn = chalk.bgGreen.black;
+            level = 'NOTIFY';
+            break;
+        case 'warm':
+            prefix = '🟡 WARM NOTIFY';
+            colorFn = chalk.bgYellow.black;
+            level = 'WARN';
+            break;
+        case 'hot':
+            prefix = '🔴 CRITICAL NOTIFY';
+            colorFn = chalk.bgRed.black;
+            level = 'ERROR';
+            break;
+        case 'commands':
+            prefix = '📌 COMMANDS NOTIFY';
+            colorFn = chalk.bgBlueBright.black;
+            level = 'COMMANDS';
+            break;
+        case 'event':
+            prefix = '📅 EVENT NOTIFY';
+            colorFn = chalk.bgCyan.black;
+            level = 'EVENT';
+            break;
+        case 'info':
+            prefix = 'ℹ️ INFO NOTIFY';
+            colorFn = chalk.bgWhite.black;
+            level = 'INFO';
+            break;
+        default:
+            console.log(...args);
+            return;
+    }
 
-//     const message = args.map(a => typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)).join(' ');
-//     const fullMsg = `[${level}] ${date} [${prefix}] ${message}`;
-//     writeLog(fullMsg, level);
-//     process.stdout.write(colorFn(fullMsg) + '\n');
-// };
+    const message = args.map(a => typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)).join(' ');
+    const fullMsg = `[${level}] ${date} [${prefix}] ${message}`;
+    writeLog(fullMsg, level);
+    process.stdout.write(colorFn(fullMsg) + '\n');
+};
 
 try {
     module.exports = { writeLog };
