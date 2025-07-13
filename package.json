@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "electron ."
   },
   "patchnote": "**[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*",
   "author": "François 🌸",
