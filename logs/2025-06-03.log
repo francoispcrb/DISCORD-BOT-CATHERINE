@@ -1,0 +1,49 @@
+2025-06-03T03:00:00.074Z [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+2025-06-03T03:00:07.248Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-03T03:00:07.273Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-03T03:00:07.847Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-03T03:00:07.847Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-03T03:00:07.850Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-03T03:00:07.874Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-03T03:00:07.875Z [DEBUG] Hi !!
+2025-06-03T03:00:07.875Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-03T03:00:07.875Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-03T03:00:07.876Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, body-parser, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-06-03T03:00:08.530Z [CLIENT DISCORD] [34m==============================[39m
+2025-06-03T03:00:08.531Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-03T03:00:08.532Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-03T03:00:08.534Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-03T03:00:08.535Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-03T03:00:08.541Z [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-03T03:00:08.808Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-03T03:00:08.811Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-03T03:00:08.812Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-03T03:00:08.813Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-03T03:00:08.814Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-03T03:00:09.028Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 17 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-03T06:00:00.145Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 17 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+🔔2025-06-03T06:00:01.009Z [🟢 SOFT NOTIFY] Message TABS supprimé
+2025-06-03T06:00:04.254Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-06-03T06:00:04.661Z [CLIENT DISCORD] [Cron] Hiérarchie régénérée automatiquement à 8h.
+2025-06-03T06:00:05.180Z [CLIENT DISCORD] [✅] Hiérarchie mise à jour automatiquement à 8h (heure de Paris).
+2025-06-03T08:00:00.010Z [ERROR] ❌ openservice_channel_id non défini dans config.json
+2025-06-03T08:37:53.742Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkhalil35[39m [0ma envoyé[0m [32mSalut  everyone  comment allez vous[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-06-03T08:38:13.687Z [CLIENT DISCORD] [MESSAGE UPDATED] khalil35 a modifié un message dans #💬-discussion-hrp: "Salut  everyone  comment allez vous" → "Hello everyone comment allez vous"
+2025-06-03T11:18:59.793Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHey bien et toi ?[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-06-03T11:21:51.087Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkhalil35[39m [0ma envoyé[0m [32mCa va[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-06-03T17:14:41.226Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mriad_1020[39m [0ma envoyé[0m [32mBonjour quelqu’un se connaît en pack graphique ?[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-06-03T17:32:33.071Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mJe dirais à l'instant Martinez, Rory ou Aurel lol[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-06-03T17:43:53.387Z [CLIENT DISCORD] [MESSAGE UPDATED] francois.piano a modifié un message dans #💬-discussion-hrp: "Je dirais à l'instant Martinez, Rory ou Aurel lol" → "Je dirais à l'instinct Martinez, Rory ou Aurel lol"
+2025-06-03T17:44:54.807Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1004002821445779588>[39m [0mdans[0m [32m✅-probation-tom-juarez[39m
+2025-06-03T17:48:11.007Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mriad_1020[39m [0ma envoyé[0m [32mOk merci je vais les dm[39m [0mdans[0m [32m💬-discussion-hrp[39m

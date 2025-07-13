@@ -1,0 +1,100 @@
+{
+    "server": {
+        "test": {
+            "id": "1252231195312259073",
+            "everyone": "1208418377039618108",
+            "webhook_moderator_only": "https://discord.com/api/webhooks/1346476129376014466/75cLw-LyF0kiq0hK7G_MnkCKQXl31iG0vpibAlsOMKTgHTIvZ5XtXyd4emUzVNimSCij",
+            "webhook_recruit": "https://discord.com/api/webhooks/1384643765846671411/apoy5-kvdeayfSKCYCXbRfDtqLzdEsqyBDSb-YW2PJdb9wNFTh5m3vSC0tMk74hsgfJ3"
+        }
+    },
+    "channel": {
+        "log": "1342566050742403253",
+        "promote": "1252236651653107763",
+        "register_check": "1352698910086267011",
+        "ticket": "1252239174610718782",
+        "shift": "1372282287370010744",
+        "rules": "1252234244760141874",
+        "RECRUIT_CHANNEL": "1383552275556991178"
+    },
+    "role": {
+        "spv": "1342563302043025408",
+        "dir": "1342565895188254740",
+        "cmd": "1342563289338744872",
+        "lssd": "1259234502866108456",
+        "gov": "1260947297307463783",
+        "lsmc": "1354482500214456431",
+        "lspd": "1252274500968513687",
+        "doj": "1354881043349635193",
+        "wazel": "1360585391622586438",
+        "comm": "1273983803274039451",
+        "dev": "1375108785940463636",
+        "cpl": "1367197630311960776"
+    },
+    "category": {
+        "ticket": "1342565777340895262",
+        "ticket2": "1345396814790135900",
+        "archive": "1346900061535211560"
+    },
+    "bot_id": {
+        "id": "1142911903165853846"
+    },
+    "plugin": {
+        "ticket_plugin": {
+            "avaible": true,
+            "var": 98,
+            "ticket_file": "./config/ticket.json"
+        },
+        "log_plugin": {
+            "avaible": true,
+            "log_file": "./log/"
+        },
+        "permis_plugin": {
+            "avaible": false,
+            "permis_file": "./config/permis.json"
+        },
+        "bank_plugin": {
+            "avaible": false,
+            "bank_file": "./config/bank.json"
+        },
+        "basic": {
+            "avaible": true,
+            "": null
+        },
+        "moderat_plugin": {
+            "avaible": true,
+            "warn_file": "./config/warn.json",
+            "mute_file": "./config/muted.json",
+            "kick_file": "./config/kick.json",
+            "ban_file": "./config/ban.json"
+        }
+    },
+    "openservice_last_id": "1381286795622354954",
+    "openservice_channel_id": "1347963262892904469",
+    "openservice_participants": {
+        "yes": [
+            "287 I Rodriguez DaSilva"
+        ],
+        "no": [],
+        "maybe": []
+    },
+    "tabs": {
+        "id_message": "1383056409817780245",
+        "id_message_div": "1383056408572067850"
+    },
+    "veh": {
+        "id_message": ""
+    },
+    "embedMessageId": "1380597805852397630",
+    "admins": [
+        "433966775240097792",
+        "449432156595552257",
+        "439425425131962368",
+        "767703415413014579"
+    ],
+    "rules_channel_id": "1252234244760141874",
+    "rules_messages": [
+        "1375425620338802720",
+        "1375425623463428176"
+    ],
+    "ticket_message": "1383548927047110686"
+}

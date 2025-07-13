@@ -1,0 +1,146 @@
+// src/utils/dailyUpdate.js
+
+const cron = require('node-cron');
+const { EmbedBuilder } = require('discord.js');
+const config = require('../config/config.json');
+const { RANKS } = require('./utils');
+const fs = require('fs');
+
+function saveConfig() {
+    fs.writeFileSync('./config/config.json', JSON.stringify(config, null, 4));
+}
+
+async function tabsDaily(client) {
+    console.log('[Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...');
+        try {
+            const guild = await client.guilds.fetch(config.server.test.id);
+            const channel = await guild.channels.fetch('1252235098447810651');
+
+            // 🔴 Supprimer l'ancien message
+            if (config.tabs.id_message) {
+                try {
+                    const oldMessage = await channel.messages.fetch(config.tabs.id_message);
+                    await oldMessage.delete();
+                    console.notify('soft', 'Message TABS supprimé')
+                } catch (err) {
+                    console.warn('[!] (TABS) Ancien message non trouvé ou déjà supprimé.');
+                }
+            }
+
+            // INIT
+            const fhp = '<:GSP:1378036970441281597>';
+            const CMD = '<:CMD:1379898553157025984>';
+            const SPV = '<:SPV:1379898592361189376>';
+            const TRP = '<:TRP:1379898584371298355>';
+
+            const SECTION_LABELS = {
+                COMMISSION: "# 🔰 Commission",
+                CMD: `# ${CMD} Corps de Commandement`,
+                SPV: `# ${SPV} Corps de Supervision`,
+                TRP: `# ${TRP} Corps d'Application`,
+            };
+
+            const sections = {
+                [SECTION_LABELS.COMMISSION]: [],
+                [SECTION_LABELS.CMD]: [],
+                [SECTION_LABELS.SPV]: [],
+                [SECTION_LABELS.TRP]: [],
+            };
+
+            const rankOrder = [
+                "• Colonel", "• Lt-Colonel", "• Major", "• Captain", "• Lieutenant",
+                "• Sergeant First Class", "• Sergeant",
+                "• Corporal", "• Master Trooper",
+                "• Senior Trooper", "• Trooper Third Class", "• Trooper Second Class", "• Trooper First Class", "• Trooper"
+            ];
+
+            const getSectionForGrade = (gradeName) => {
+                if (["• Trooper", "• Trooper First Class", "• Trooper Second Class", "• Trooper Third Class", "• Master Trooper", "• Senior Trooper", "• Corporal"].includes(gradeName)) {
+                    return SECTION_LABELS.TRP;
+                } else if (["• Sergeant", "• Sergeant First Class"].includes(gradeName)) {
+                    return SECTION_LABELS.SPV;
+                } else if (["• Lieutenant", "• Captain"].includes(gradeName)) {
+                    return SECTION_LABELS.CMD;
+                } else if (["• Major", "• Lt-Colonel", "• Colonel"].includes(gradeName)) {
+                    return SECTION_LABELS.COMMISSION;
+                }
+                return null;
+            };
+
+            // Envoyer le message initial
+            const newMessage = await channel.send({
+                content: `# ${fhp} Hiérarchie au sein de la Georgia State Patrol ${fhp}`,
+                embeds: [
+                    new EmbedBuilder().setDescription(
+                        `${SECTION_LABELS.COMMISSION}\n\n${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`
+                    )
+                ]
+            });
+
+            // Enregistrer le nouvel ID de message
+            config.tabs.id_message = newMessage.id;
+            saveConfig();
+
+            // Collecte des membres et classification
+            const members = await guild.members.fetch();
+            for (const member of members.values()) {
+                const userRoles = member.roles.cache;
+                const matchedRanks = [];
+
+                for (const [rankName, rankData] of Object.entries(RANKS)) {
+                    if (userRoles.has(rankData.id)) {
+                        matchedRanks.push({ name: rankData.name, emoji: rankData.emoji });
+                    }
+                }
+
+                if (matchedRanks.length > 0) {
+                    matchedRanks.sort((a, b) =>
+                        rankOrder.indexOf(a.name) - rankOrder.indexOf(b.name)
+                    );
+                    const matchedRank = matchedRanks[0];
+                    const gradeName = matchedRank.name;
+                    const section = getSectionForGrade(gradeName);
+
+                    if (section) {
+                        const nickname = member.displayName;
+                        const entry = `> - ${matchedRank.emoji} **\`${gradeName}\` ${nickname}**`;
+                        sections[section].push(entry);
+                    }
+                }
+            }
+
+            // Génération finale du texte
+            let description = '';
+            for (const [section, entries] of Object.entries(sections)) {
+                description += `${section}\n`;
+
+                if (entries.length > 0) {
+                    const sortedEntries = entries.sort((a, b) => {
+                        const gradeA = a.match(/`([^`]+)`/)[1];
+                        const gradeB = b.match(/`([^`]+)`/)[1];
+                        return rankOrder.indexOf(gradeA) - rankOrder.indexOf(gradeB);
+                    });
+                    description += sortedEntries.join('\n') + '\n\n';
+                } else {
+                    description += "Aucun membre\n\n";
+                }
+            }
+
+            // Vérification limite Discord
+            if (description.length > 6000) {
+                console.warn('[Cron] ⚠️ Description trop longue pour un embed, tronquée.');
+                description = description.slice(0, 5990) + '\n...';
+            }
+
+            const embed = EmbedBuilder.from(newMessage.embeds[0]);
+            embed.setDescription(description);
+            await newMessage.edit({ embeds: [embed] });
+
+            console.log(`[✅] Hiérarchie TABS envoyée.`);
+        } catch (err) {
+            console.error('[Cron] ❌ Erreur lors de la régénération automatique :', err);
+        }
+    console.log('[Cron] 🕒 Fin de la régénération automatique de la hiérarchie.');
+    }
+
+module.exports = { tabsDaily };

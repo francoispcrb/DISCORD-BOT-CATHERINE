@@ -1,0 +1,87 @@
+2025-05-29T11:40:25.602Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-29T11:40:25.928Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:40:28.040Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:40:28.041Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:40:28.060Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:40:28.280Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-29T11:40:28.280Z [DEBUG] Hi !!
+2025-05-29T11:40:28.281Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-29T11:40:28.281Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-29T11:40:28.284Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-29T11:40:30.101Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-29T11:40:30.102Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-29T11:40:30.102Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-29T11:40:30.103Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-05-29T11:40:30.104Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-29T11:40:30.114Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-29T11:40:30.395Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-29T11:40:30.396Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-29T11:40:30.397Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-29T11:40:30.397Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-29T11:40:30.397Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-05-29T11:40:31.149Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 19 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-05-29T11:41:17.468Z [CLIENT DISCORD] [ACTION BUTTON] cmd of command /ticket has been used.
+2025-05-29T11:41:17.506Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-05-29T11:41:18.238Z [CLIENT DISCORD] [ACTION BUTTON] New channel created
+2025-05-29T11:41:18.245Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-29T11:41:18.736Z [ERROR] (node:10268) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-29T11:44:07.791Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-29T11:44:07.879Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:44:09.532Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:44:09.532Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:44:09.552Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-05-29T11:44:09.730Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-29T11:44:09.730Z [DEBUG] Hi !!
+2025-05-29T11:44:09.731Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-29T11:44:09.731Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-29T11:44:09.732Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-29T11:44:11.328Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-29T11:44:11.329Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-29T11:44:11.330Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-29T11:44:11.330Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-05-29T11:44:11.331Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-29T11:44:11.337Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-29T11:44:11.609Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m🔰-cmd-francoispiano[39m
+2025-05-29T11:44:11.609Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-29T11:44:11.613Z [DEBUG] ticket.json avant modification: [object Object]
+2025-05-29T11:44:11.614Z [DEBUG] Ticket non trouvé, création...
+2025-05-29T11:44:11.616Z [DEBUG] L'utilisateur 433966775240097792 n'est pas dans le ticket.
+2025-05-29T11:44:11.617Z [DEBUG] ticket.json après modification: [object Object]
+2025-05-29T11:44:11.627Z [ERROR] (node:20376) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-29T11:44:11.732Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-29T11:44:11.733Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-29T11:44:11.734Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-29T11:44:11.734Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-29T11:44:11.735Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-05-29T11:44:11.987Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 19 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-05-29T11:44:23.255Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m🔰-cmd-francoispiano[39m
+2025-05-29T11:44:23.255Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-29T11:44:23.256Z [DEBUG] ticket.json avant modification: [object Object]
+2025-05-29T11:44:23.256Z [DEBUG] Ajout de l'utilisateur 433966775240097792...
+2025-05-29T11:44:23.257Z [DEBUG] ticket.json après modification: [object Object]
+2025-05-29T11:44:23.264Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-29T11:44:31.431Z [CLIENT DISCORD] [BUTTON] francois.piano.two a exécuté l'interaction bouton view_433966775240097792 dans 1252239174610718782

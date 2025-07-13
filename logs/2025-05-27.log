@@ -1,0 +1,114 @@
+2025-05-27T21:04:32.054Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-27T21:04:33.903Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:04:38.102Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:04:38.102Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:04:38.124Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:04:38.548Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-27T21:04:38.549Z [DEBUG] Hi !!
+2025-05-27T21:04:38.550Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-27T21:04:38.551Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-27T21:04:38.553Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-27T21:04:40.196Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-27T21:04:40.196Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-27T21:04:40.197Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-27T21:04:40.197Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-05-27T21:04:40.198Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-27T21:04:40.207Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-27T21:04:40.484Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-27T21:04:40.486Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-27T21:04:40.488Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-27T21:04:40.490Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-27T21:04:40.493Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-05-27T21:04:40.871Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 19 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-05-27T21:04:42.768Z [ERROR] Erreur avec le serveur IA: TypeError: fetch failed
+2025-05-27T21:04:43.085Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHey![39m [0mdans[0m [32mundefined[39m
+2025-05-27T21:05:23.502Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mtabs[39m [0mdans[0m [32m📌-hiérarchie[39m
+2025-05-27T21:05:23.576Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:05:25.580Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mtabsdiv[39m [0mdans[0m [32m📌-hiérarchie[39m
+2025-05-27T21:05:25.733Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:05:26.526Z [CLIENT DISCORD] Message envoyé avec l'ID : 1377030059587535000
+2025-05-27T21:05:26.596Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-05-27T21:05:26.805Z [CLIENT DISCORD] Message envoyé avec l'ID : 1377030069964505130
+2025-05-27T21:05:26.917Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-05-27T21:05:46.924Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-27T21:05:46.960Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:05:47.304Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:05:47.305Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:05:47.312Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-05-27T21:05:47.338Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-27T21:05:47.339Z [DEBUG] Hi !!
+2025-05-27T21:05:47.342Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-27T21:05:47.343Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-27T21:05:47.346Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-27T21:05:48.455Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-27T21:05:48.456Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-27T21:05:48.456Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-27T21:05:48.456Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-05-27T21:05:48.457Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-27T21:05:48.460Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-27T21:05:48.699Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-27T21:05:48.700Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-27T21:05:48.702Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-27T21:05:48.709Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-27T21:05:48.717Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-05-27T21:05:48.946Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 19 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-05-27T21:05:50.206Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mtabsdiv[39m [0mdans[0m [32m📌-hiérarchie[39m
+2025-05-27T21:05:50.207Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:05:50.217Z [ERROR] (node:77756) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-27T21:05:54.367Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mtabs[39m [0mdans[0m [32m📌-hiérarchie[39m
+2025-05-27T21:05:54.367Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:19:00.997Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m# <:FHP:1367174845150007430> We're Hiring ! <:FHP:1367174845150007430> [39m
+[32m[39m
+[32m> Vous cherchez une carrière dynamique, enrichissante et au service de votre communauté ? La Florida Highway Patrol (FHP) recrute dès maintenant des femmes et des hommes motivés pour rejoindre ses rangs ![39m
+[32m[39m
+[32m## 👮‍♂️ Ce que nous offrons :[39m
+[32m> - ✅ Une formation complète et rémunérée à l'académie[39m
+[32m> - ✅ Un salaire compétitif dès l’entrée en service[39m
+[32m> - ✅ Des opportunités d’avancement rapide[39m
+[32m> - ✅ Des missions variées sur tout le territoire de la Floride[39m
+[32m> - ✅ Une vraie fraternité au sein d’une équipe engagée[39m
+[32m[39m
+[32m## 📋 Conditions d’admission :[39m
+[32m> - 🔹 Être citoyen américain[39m
+[32m> - 🔹 Avoir au moins 19 ans[39m
+[32m> - 🔹 Détenir un diplôme de fin d’études secondaires ou équivalent[39m
+[32m> - 🔹 Avoir un casier judiciaire vierge[39m
+[32m> - 🔹 Être en bonne condition physique[39m
+[32m[39m
+[32m🚗 Protégez les routes, sauvez des vies, faites la différence.[39m
+[32mRejoignez une carrière qui a du sens avec la FHP ![39m
+[32m[39m
+[32m📞 Postulez dès aujourd’hui sur : [flhsmv.gov/fhp](https://ptb.discord.com/channels/1...[39m [0mdans[0m [32mRecrutement[39m
+2025-05-27T21:38:53.994Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mclear[39m [0mdans[0m [32m📠-radio[39m
+2025-05-27T21:38:54.010Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:39:06.647Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mclear[39m [0mdans[0m [32m📠-radio[39m
+2025-05-27T21:39:06.670Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:39:18.785Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mclear[39m [0mdans[0m [32m📠-radio[39m
+2025-05-27T21:39:18.785Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:39:31.886Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mclear[39m [0mdans[0m [32m📠-radio[39m
+2025-05-27T21:39:31.887Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-27T21:56:21.151Z [CLIENT DISCORD] ❌ Type invalide. Utilise "embed" ou "text".
+2025-05-27T21:56:33.238Z [CLIENT DISCORD] ✅ Message texte envoyé !

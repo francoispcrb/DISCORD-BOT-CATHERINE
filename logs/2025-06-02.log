@@ -1,0 +1,47 @@
+2025-06-02T03:00:00.058Z [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+2025-06-02T03:00:07.223Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-02T03:00:07.251Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-02T03:00:07.641Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-02T03:00:07.641Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-02T03:00:07.643Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-02T03:00:07.659Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-02T03:00:07.659Z [DEBUG] Hi !!
+2025-06-02T03:00:07.660Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-02T03:00:07.660Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-02T03:00:07.660Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, body-parser, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-06-02T03:00:08.400Z [CLIENT DISCORD] [34m==============================[39m
+2025-06-02T03:00:08.400Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-02T03:00:08.400Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-02T03:00:08.401Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-02T03:00:08.401Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-02T03:00:08.407Z [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-02T03:00:08.658Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-02T03:00:08.659Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-02T03:00:08.660Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-02T03:00:08.660Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-02T03:00:08.660Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-02T03:00:08.834Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 17 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-02T06:00:00.124Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 17 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+🔔2025-06-02T06:00:00.535Z [🟢 SOFT NOTIFY] Message TABS supprimé
+2025-06-02T06:00:03.083Z [CLIENT DISCORD] [✅] Hiérarchie mise à jour automatiquement à 8h (heure de Paris).
+2025-06-02T06:00:03.141Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-06-02T06:00:03.604Z [CLIENT DISCORD] [Cron] Hiérarchie régénérée automatiquement à 8h.
+2025-06-02T08:00:00.027Z [ERROR] ❌ openservice_channel_id non défini dans config.json
+2025-06-02T11:38:28.342Z [CLIENT DISCORD] [31m[MEMBER REMOVE] nadinho_28 est parti à 6/2/2025, 11:38:28 AM[39m
+2025-06-02T18:18:36.802Z [CLIENT DISCORD] [32m[MEMBER ADD] cnt_tete12 est arrivé à 6/2/2025, 6:18:36 PM[39m
+2025-06-02T18:18:41.696Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mcnt_tete12[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+2025-06-02T18:18:46.487Z [ERROR] (node:45627) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-06-02T18:18:46.693Z [CLIENT DISCORD] [BUTTON] cnt_tete12 a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-06-02T18:19:36.349Z [CLIENT DISCORD] [31m[MEMBER REMOVE] cnt_tete12 est parti à 6/2/2025, 6:19:36 PM[39m

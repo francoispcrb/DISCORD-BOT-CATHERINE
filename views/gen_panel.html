@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panel Administration - Georgia State Patrol</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e2f;
+      color: #eee;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 25px 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #ffa500;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .panel-button {
+      display: block;
+      width: 100%;
+      margin: 18px 0;
+      padding: 16px;
+      font-size: 1.2em;
+      font-weight: 600;
+      background-color: #5865f2;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(88, 101, 242, 0.3);
+      transition: background-color 0.25s ease, box-shadow 0.25s ease;
+      user-select: none;
+    }
+
+    .panel-button:hover:not(:disabled) {
+      background-color: #4752c4;
+      box-shadow: 0 6px 12px rgba(71, 82, 196, 0.5);
+    }
+
+    .panel-button:disabled {
+      background-color: #444;
+      color: #aaa;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    .info {
+      font-style: italic;
+      color: #bbb;
+      margin: 6px 0 20px 2px;
+      font-size: 0.9em;
+      max-width: 460px;
+    }
+
+    #btnLogout {
+      background-color: #cc2b2b;
+      box-shadow: 0 3px 6px rgba(204,43,43,0.5);
+      margin-top: 60px;
+    }
+
+    #btnLogout:hover {
+      background-color: #9f2121;
+      box-shadow: 0 5px 10px rgba(159,33,33,0.8);
+    }
+  </style>
+</head>
+<body>
+  <h1>Panel Administration<br>Florida Highway Patrol</h1>
+
+  <a href="commission_panel.html" id="btnCommission" class="panel-button">Panel Commission</a>
+  <p class="info">Seuls les membres inscrits dans la section <strong>COMMISSION</strong> peuvent s'y connecter.</p>
+
+  <a href="commandement_panel.html" id="btnCommandement" class="panel-button">Panel Commandement</a>
+  <p class="info">Seuls les membres inscrits dans les sections <strong>COMMANDEMENT</strong> ou <strong>COMMISSION</strong> peuvent s'y connecter.</p>
+
+  <a href="supervision_panel.html" id="btnSupervision" class="panel-button">Panel Supervision</a>
+  <p class="info">Tout le monde y a accès.</p>
+
+  <a href="/logout" id="btnLogout" class="panel-button">Déconnexion</a>
+
+  <script>
+    const btnCommission = document.getElementById('btnCommission');
+    const btnCommandement = document.getElementById('btnCommandement');
+
+    fetch('/api/access')
+      .then(resp => {
+        if (!resp.ok) throw new Error('Non connecté ou erreur API');
+        return resp.json();
+      })
+      .then(data => {
+        if (!data.isInCommission) btnCommission.disabled = true;
+        if (!(data.isInCommandement || data.isInCommission)) btnCommandement.disabled = true;
+      })
+      .catch(err => {
+        console.error("Erreur accès :", err);
+        btnCommission.disabled = true;
+        btnCommandement.disabled = true;
+      });
+  </script>
+</body>
+</html>

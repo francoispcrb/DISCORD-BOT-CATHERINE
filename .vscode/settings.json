@@ -1,0 +1,7 @@
+{
+    "workbench.editor.scrollToSwitchTabs": false,
+    "workbench.editor.autoLockGroups": {
+        "jsProfileVisualizer.cpuprofile.table": true,
+        "default": true
+    }
+}

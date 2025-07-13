@@ -1,0 +1,9 @@
+# Patch Note Bot
+-# v2.1 - Boost by Gamini
+
+> - Patch des mises à jours de la hiérarchie à 8h et à 16h.
+> - Vérification si modification du réglèment aux même heures.
+> - Envoie du OPENSERVICE tous les jours à 16h.
+> - Implémentation du Google Gemini pour faciliter et pour répondre aux messages :)
+
+Bise.

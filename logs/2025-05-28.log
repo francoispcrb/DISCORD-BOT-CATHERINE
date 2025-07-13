@@ -1,0 +1,718 @@
+2025-05-28T13:19:38.172Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-28T13:19:38.186Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-28T13:19:38.325Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-28T13:19:38.325Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-28T13:19:38.326Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-05-28T13:19:38.339Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-28T13:19:38.339Z [DEBUG] Hi !!
+2025-05-28T13:19:38.340Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-28T13:19:38.340Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-28T13:19:38.340Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, node-cron, node-fetch, openai, passport, passport-discord, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-28T13:19:39.106Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-28T13:19:39.106Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-28T13:19:39.106Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-28T13:19:39.107Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-05-28T13:19:39.107Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-28T13:19:39.114Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-28T13:19:39.301Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-28T13:19:39.301Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-28T13:19:39.301Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-28T13:19:39.301Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-28T13:19:39.301Z [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-05-28T13:19:39.459Z [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 19 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-05-28T13:27:44.025Z [ERROR] Erreur avec le serveur IA: TypeError: fetch failed
+2025-05-28T13:27:44.393Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHey[39m [0mdans[0m [32mundefined[39m
+2025-05-28T13:47:26.495Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@&1252266446050951378> [39m
+[32m[39m
+[32mUn bureau de recrutement est ouvert en ville dès maintenant ![39m
+[32mAucune autre procédure ne sera attendue ![39m
+[32m[39m
+[32mTentez votre chance :)[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T15:32:14.670Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m## Notre merveilleuse secrétaire <@1349084626127294487> est de retour ! N'oubliez pas vos /shift ![39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T15:32:35.753Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mclear[39m [0mdans[0m [32m📠-radio[39m
+2025-05-28T15:32:35.753Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T15:32:36.094Z [ERROR] (node:2394) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-28T16:09:22.927Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmathiieeuu[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m🌆-photos-hrp[39m
+2025-05-28T16:13:04.468Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmathiieeuu[39m [0ma envoyé[0m [32m@here on est 4 de chez nous en jeu si vous voulez ! 🙂[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T16:14:09.559Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mnatael_mds[39m [0ma envoyé[0m [32mje peux pas venir tout de suite.... 😔[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T16:21:18.776Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mj'arrive ce soir :)[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T16:33:51.464Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mopenservice[39m [0mdans[0m [32m👥-présence[39m
+2025-05-28T16:33:51.466Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T16:33:51.472Z [ERROR] (node:2394) Warning: Supplying "fetchReply" for interaction response options is deprecated. Utilize "withResponse" instead or fetch the response after using the method.
+2025-05-28T16:33:52.083Z [CLIENT DISCORD] ✅ Données stockées : [object Object]
+2025-05-28T16:33:52.084Z [CLIENT DISCORD] ✅ Données écrites dans config.json : {
+    "messageId": "1377324001923305669",
+    "participants": {
+        "yes": [],
+        "no": [],
+        "maybe": []
+    }
+}
+2025-05-28T16:34:21.242Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T16:34:21.242Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T16:34:21.242Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T16:34:21.242Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T16:34:21.242Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T16:34:21.243Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T16:34:21.243Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T16:34:22.251Z [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T16:35:53.413Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T16:35:53.415Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T16:35:53.416Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T16:35:53.417Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T16:35:53.418Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T16:35:53.419Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T16:35:53.421Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T16:35:54.098Z [CLIENT DISCORD] [BUTTON] rory.p71 a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T16:39:46.021Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T16:39:46.022Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T16:39:46.752Z [CLIENT DISCORD] [BUTTON] .darkodin92 a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T16:48:43.959Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mhttps://www.instagram.com/p/DKMm85qONrb/?igsh=MTczem90eDgwNjYzcw==[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T16:50:36.510Z [CLIENT DISCORD] [94m[COMMAND][39m [32mrory.p71[39m [0ma exécuté la commande[0m [32mshift[39m [0mdans[0m [32m📠-radio[39m
+2025-05-28T16:50:36.512Z [CLIENT DISCORD] [32mLa commande shift ne requiert pas de permission.[39m
+2025-05-28T16:50:36.765Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 4,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 2,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 1,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 10
+}
+2025-05-28T16:50:36.766Z [CLIENT DISCORD] Writing shiftUser: {
+  "794334752165330964": {
+    "veh": "Dodge Charger 2023",
+    "logMessageId": "1377328217794412676"
+  }
+}
+2025-05-28T16:50:36.766Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ]
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "start": 1748451036513
+  }
+}
+2025-05-28T16:50:36.904Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32mYes ya du monde qui arrive ig[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T16:52:36.698Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mtant mieux !!! je suis là d'ici une heure je pense[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T16:57:15.216Z [CLIENT DISCORD] [94m[COMMAND][39m [32mbadbunnysixnueve[39m [0ma exécuté la commande[0m [32mshift[39m [0mdans[0m [32m📠-radio[39m
+2025-05-28T16:57:15.218Z [CLIENT DISCORD] [32mLa commande shift ne requiert pas de permission.[39m
+2025-05-28T16:57:15.530Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 4,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 2,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 0,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 10
+}
+2025-05-28T16:57:15.531Z [CLIENT DISCORD] Writing shiftUser: {
+  "794334752165330964": {
+    "veh": "Dodge Charger 2023",
+    "logMessageId": "1377328217794412676"
+  },
+  "248739383908368385": {
+    "veh": "Dodge Challenger 2018",
+    "logMessageId": "1377329890071806075"
+  }
+}
+2025-05-28T16:57:15.532Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ]
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "start": 1748451036513
+  },
+  "248739383908368385": {
+    "start": 1748451435219
+  }
+}
+2025-05-28T17:02:13.390Z [CLIENT DISCORD] [94m[COMMAND][39m [32mmathiieeuu[39m [0ma exécuté la commande[0m [32mshift[39m [0mdans[0m [32m📠-radio[39m
+2025-05-28T17:02:13.391Z [CLIENT DISCORD] [32mLa commande shift ne requiert pas de permission.[39m
+2025-05-28T17:02:13.736Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 4,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 1,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 0,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 10
+}
+2025-05-28T17:02:13.749Z [CLIENT DISCORD] Writing shiftUser: {
+  "794334752165330964": {
+    "veh": "Dodge Charger 2023",
+    "logMessageId": "1377328217794412676"
+  },
+  "248739383908368385": {
+    "veh": "Dodge Challenger 2018",
+    "logMessageId": "1377329890071806075"
+  },
+  "729389796270800948": {
+    "veh": "Ford F-150 - Slicktop",
+    "logMessageId": "1377331140704207020"
+  }
+}
+2025-05-28T17:02:13.755Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ]
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "start": 1748451036513
+  },
+  "248739383908368385": {
+    "start": 1748451435219
+  },
+  "729389796270800948": {
+    "start": 1748451733391
+  }
+}
+2025-05-28T17:02:18.769Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T17:02:18.770Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T17:02:18.771Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T17:02:18.772Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T17:02:18.773Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T17:02:18.774Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T17:02:18.776Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T17:02:19.434Z [CLIENT DISCORD] [BUTTON] mathiieeuu a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T17:13:56.640Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m0[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T17:14:00.863Z [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m DiscordAPIError[50035]: Invalid Form Body
+action_type[NUMBER_TYPE_COERCE]: Value "MESSAGE_DELETE" is not int.
+2025-05-28T17:14:00.864Z [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m💬-discussion-hrp[39m
+2025-05-28T17:20:30.331Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m0[39m [0mdans[0m [32mlogs[39m
+2025-05-28T17:20:32.515Z [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m DiscordAPIError[50035]: Invalid Form Body
+action_type[NUMBER_TYPE_COERCE]: Value "MESSAGE_DELETE" is not int.
+2025-05-28T17:20:32.516Z [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32mlogs[39m
+2025-05-28T17:29:54.778Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mshift[39m [0mdans[0m [32m📠-radio[39m
+2025-05-28T17:29:54.781Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T17:29:55.093Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 4,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 1,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 0,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 9
+}
+2025-05-28T17:29:55.094Z [CLIENT DISCORD] Writing shiftUser: {
+  "794334752165330964": {
+    "veh": "Dodge Charger 2023",
+    "logMessageId": "1377328217794412676"
+  },
+  "248739383908368385": {
+    "veh": "Dodge Challenger 2018",
+    "logMessageId": "1377329890071806075"
+  },
+  "729389796270800948": {
+    "veh": "Ford F-150 - Slicktop",
+    "logMessageId": "1377331140704207020"
+  },
+  "449432156595552257": {
+    "veh": "Unmarked",
+    "logMessageId": "1377338108789395550"
+  }
+}
+2025-05-28T17:29:55.095Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "start": 1748453394783
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "start": 1748451036513
+  },
+  "248739383908368385": {
+    "start": 1748451435219
+  },
+  "729389796270800948": {
+    "start": 1748451733391
+  }
+}
+2025-05-28T17:37:14.157Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mEtes vous disponible ?[39m [0mdans[0m [32m✅-probation-tom-juarez[39m
+2025-05-28T17:37:29.246Z [CLIENT DISCORD] [MESSAGE UPDATED] francois.piano a modifié un message dans #✅-probation-tom-juarez: "Etes vous disponible ?" → "Êtes-vous disponible ?"
+2025-05-28T17:38:45.515Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m✅-probation-jems-gordon[39m
+2025-05-28T17:38:45.516Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T17:38:45.516Z [CLIENT DISCORD] 🛑 Fermeture de ticket demandée !
+2025-05-28T17:38:45.523Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-28T17:53:49.836Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 4,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 1,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 1,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 9
+}
+2025-05-28T17:53:49.853Z [CLIENT DISCORD] Writing shiftUser: {
+  "794334752165330964": {
+    "veh": "Dodge Charger 2023",
+    "logMessageId": "1377328217794412676"
+  },
+  "729389796270800948": {
+    "veh": "Ford F-150 - Slicktop",
+    "logMessageId": "1377331140704207020"
+  },
+  "449432156595552257": {
+    "veh": "Unmarked",
+    "logMessageId": "1377338108789395550"
+  }
+}
+2025-05-28T17:53:49.863Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "start": 1748453394783
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "start": 1748451036513
+  },
+  "248739383908368385": {
+    "service du 2025-05-28": [
+      "0h 56m 34s"
+    ]
+  },
+  "729389796270800948": {
+    "start": 1748451733391
+  }
+}
+2025-05-28T17:53:50.597Z [CLIENT DISCORD] [BUTTON] badbunnysixnueve a exécuté l'interaction bouton end_shift_248739383908368385 dans 1344736680137199675
+2025-05-28T17:59:26.976Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mn_7.1_r[39m [0ma envoyé[0m [32mBonjour, vous n'avez pris aucun service depuis 8 jours, vous ne m'avez fait aucun rapport ?[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T18:00:25.068Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mn_7.1_r[39m [0ma envoyé[0m [32mSinon, c'est plutôt inquiétant[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T18:01:22.061Z [CLIENT DISCORD] [MESSAGE UPDATED] n_7.1_r a modifié un message dans #✅-probation-norman-math: "Sinon, c'est plutôt inquiétant" → "Sinon, c'est plutôt inquiétant, voyez vous."
+2025-05-28T18:11:37.210Z [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton close_def dans 1374494345209581638
+2025-05-28T18:11:37.506Z [ERROR] (node:2394) ExperimentalWarning: buffer.File is an experimental feature and might change at any time
+2025-05-28T18:11:38.058Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+🔔2025-05-28T18:11:38.507Z [🟢 SOFT NOTIFY] 🗑️ [ACTION BUTTON] : Ticket supprimé avec succès.
+2025-05-28T18:15:27.266Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 5,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 1,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 1,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 9
+}
+2025-05-28T18:15:27.281Z [CLIENT DISCORD] Writing shiftUser: {
+  "729389796270800948": {
+    "veh": "Ford F-150 - Slicktop",
+    "logMessageId": "1377331140704207020"
+  },
+  "449432156595552257": {
+    "veh": "Unmarked",
+    "logMessageId": "1377338108789395550"
+  }
+}
+2025-05-28T18:15:27.287Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "start": 1748453394783
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "service du 2025-05-28": [
+      "1h 24m 50s"
+    ]
+  },
+  "248739383908368385": {
+    "service du 2025-05-28": [
+      "0h 56m 34s"
+    ]
+  },
+  "729389796270800948": {
+    "start": 1748451733391
+  }
+}
+2025-05-28T18:15:27.873Z [CLIENT DISCORD] [BUTTON] rory.p71 a exécuté l'interaction bouton end_shift_794334752165330964 dans 1344736680137199675
+2025-05-28T18:35:07.516Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 5,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 2,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 1,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 9
+}
+2025-05-28T18:35:07.516Z [CLIENT DISCORD] Writing shiftUser: {
+  "449432156595552257": {
+    "veh": "Unmarked",
+    "logMessageId": "1377338108789395550"
+  }
+}
+2025-05-28T18:35:07.517Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "start": 1748453394783
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "service du 2025-05-28": [
+      "1h 24m 50s"
+    ]
+  },
+  "248739383908368385": {
+    "service du 2025-05-28": [
+      "0h 56m 34s"
+    ]
+  },
+  "729389796270800948": {
+    "service du 2025-05-28": [
+      "1h 32m 54s"
+    ]
+  }
+}
+2025-05-28T18:35:07.993Z [CLIENT DISCORD] [BUTTON] mathiieeuu a exécuté l'interaction bouton end_shift_729389796270800948 dans 1344736680137199675
+2025-05-28T18:37:47.901Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m✅-probation-cole-maddox[39m
+2025-05-28T18:37:47.904Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T18:37:47.906Z [DEBUG] ticket.json avant modification: [object Object]
+2025-05-28T18:37:47.907Z [DEBUG] Ajout de l'utilisateur 729389796270800948...
+2025-05-28T18:37:47.908Z [DEBUG] ticket.json après modification: [object Object]
+2025-05-28T18:37:47.915Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-28T18:38:14.330Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m📨procureur-général-keegan[39m
+2025-05-28T18:38:14.332Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T18:38:14.334Z [DEBUG] ticket.json avant modification: [object Object]
+2025-05-28T18:38:14.335Z [DEBUG] Ticket non trouvé, création...
+2025-05-28T18:38:14.336Z [DEBUG] Ajout de l'utilisateur 729389796270800948...
+2025-05-28T18:38:14.337Z [DEBUG] ticket.json après modification: [object Object]
+2025-05-28T18:38:14.344Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-28T18:46:37.028Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mnatael_mds[39m [0ma envoyé[0m [32mJe vais candidater mdr[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T18:57:15.587Z [CLIENT DISCORD] [32m[MEMBER ADD] stoptoilajepense est arrivé à 5/28/2025, 6:57:15 PM[39m
+2025-05-28T18:57:33.481Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mstoptoilajepense[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+2025-05-28T18:57:37.094Z [CLIENT DISCORD] [BUTTON] stoptoilajepense a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-28T19:01:50.987Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@713836228654530580> Dispo voc ?[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:07:40.147Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mstoptoilajepense[39m [0ma envoyé[0m [32mpas tout de suite[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:07:48.469Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mok ok ping moi[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:13:03.028Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mjerushenclio2[39m [0ma envoyé[0m [32mBonjour, oui fait plus de 8jours que je n'es pas pris mon service.[39m
+[32m[39m
+[32mJe rentre en période d'examen, donc j'essaye de me concentré sur mon examen.[39m
+[32m[39m
+[32mJ'essaye aussi de passer du temps avec mes amis.[39m
+[32m[39m
+[32mCordialement.[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T19:13:39.516Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mstoptoilajepense[39m [0ma envoyé[0m [32mvsy[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:13:52.359Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mPing[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:15:33.327Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mIl va me frapper[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:16:11.840Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32moui je me suis co parce que j'ai vu que qqln a envoyé Ping.[39m
+[32m[39m
+[32mmais je ne voyais pas qui.[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:16:37.141Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mCheh[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T19:26:17.788Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T19:26:17.790Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T19:26:17.791Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T19:26:17.792Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T19:26:17.794Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T19:26:17.795Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T19:26:17.797Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T19:26:18.655Z [CLIENT DISCORD] [BUTTON] natael_mds a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T19:26:34.903Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mnatael_mds[39m [0ma envoyé[0m [32mCa se connecte quand ?[39m [0mdans[0m [32mPrésents - 5/28/2025[39m
+2025-05-28T19:26:45.705Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32msi y'a un peu de monde moi d'ici 30 min[39m [0mdans[0m [32mPrésents - 5/28/2025[39m
+2025-05-28T19:27:20.812Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mn_7.1_r[39m [0ma envoyé[0m [32mBien, alors je vous rassure vous n’êtes pas seul.[39m
+[32mNÉANMOINS, la moindre des choses serait de prévenir. [39m
+[32mPar conséquent, je rajoute 4 jours supplémentaire à votre période de probation. À partir du moment où vous prendrez votre premier service, vous aurez 11 jours de probation.[39m
+[32m[39m
+[32mCordialement.[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T19:28:11.191Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mjerushenclio2[39m [0ma envoyé[0m [32md'accord pas de probleme[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T19:28:29.814Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mn_7.1_r[39m [0ma envoyé[0m [32mÀ partir de quand vous n’êtes plus en « période d’examen » ?[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T19:28:59.563Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mjerushenclio2[39m [0ma envoyé[0m [32mje pense que je pourrai revenir d'ici une ou deux semaine[39m [0mdans[0m [32m✅-probation-norman-math[39m
+2025-05-28T19:29:55.749Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mnatael_mds[39m [0ma envoyé[0m [32mje suis dispo <@449432156595552257> préviens moi si tu vois du monde de cop[39m [0mdans[0m [32mPrésents - 5/28/2025[39m
+2025-05-28T19:29:58.350Z [CLIENT DISCORD] [MESSAGE UPDATED] natael_mds a modifié un message dans #Présents - 5/28/2025: "je suis dispo <@449432156595552257> préviens moi si tu vois du monde de cop" → "je suis dispo <@449432156595552257> préviens moi si tu vois du monde de co"
+2025-05-28T20:24:17.507Z [CLIENT DISCORD] 🔵 Interaction détectée : yes
+2025-05-28T20:24:17.508Z [CLIENT DISCORD] 🟢 clientData trouvé : [object Object]
+2025-05-28T20:24:17.509Z [CLIENT DISCORD] 📌 ID du message enregistré : 1377324001923305669
+2025-05-28T20:24:17.510Z [CLIENT DISCORD] 📌 ID du message de l'interaction : 1377324001923305669
+2025-05-28T20:24:17.511Z [CLIENT DISCORD] 🟢 Avant modification des participants : [object Object]
+2025-05-28T20:24:17.512Z [CLIENT DISCORD] 🟢 Après modification des participants : [object Object]
+2025-05-28T20:24:17.513Z [CLIENT DISCORD] 🟢 Embed mis à jour : [object Object]
+2025-05-28T20:24:18.194Z [CLIENT DISCORD] [BUTTON] khalil35 a exécuté l'interaction bouton yes dans 1347963262892904469
+2025-05-28T20:50:39.436Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mstoptoilajepense[39m [0ma envoyé[0m [32m<@449432156595552257> je suis dispo[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T20:52:10.969Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mrejoins un voc[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T20:52:49.666Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mstoptoilajepense[39m [0ma envoyé[0m [32mc'est fait[39m [0mdans[0m [32m💬-discussion[39m
+2025-05-28T21:02:28.045Z [CLIENT DISCORD] [ACTION BUTTON] cmd of command /ticket has been used.
+2025-05-28T21:02:28.048Z [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+2025-05-28T21:02:28.802Z [CLIENT DISCORD] [ACTION BUTTON] New channel created
+2025-05-28T21:02:28.806Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-28T21:02:29.222Z [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton cmd dans 1252239174610718782
+2025-05-28T21:02:52.598Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m🔰-cmd-francoispiano[39m
+2025-05-28T21:02:52.600Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T21:02:52.601Z [DEBUG] ticket.json avant modification: [object Object]
+2025-05-28T21:02:52.602Z [DEBUG] Ajout de l'utilisateur 713836228654530580...
+2025-05-28T21:02:52.603Z [DEBUG] ticket.json après modification: [object Object]
+2025-05-28T21:02:52.609Z [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+2025-05-28T21:03:46.983Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrecruit[39m [0mdans[0m [32m🔰-cmd-francoispiano[39m
+2025-05-28T21:03:46.985Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T21:03:48.656Z [CLIENT DISCORD] [94m609 | Jawad Bagnolet a été recruté au sein de la SAHP avec les rôles [object Object][39m
+2025-05-28T21:03:48.658Z [ERROR] ❌ Erreur critique : ReferenceError: message is not defined
+2025-05-28T21:06:27.372Z [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Dodge Charger 2023": 5,
+  "Dodge Charger 2023 - Slicktop": 5,
+  "Dodge Charger 2018": 2,
+  "Dodge Charger 2017 - Slicktop": 2,
+  "Dodge Charger 2017 - Poursuit": 1,
+  "Dodge Charger 2017 - Javelin": 1,
+  "Dodge Charger 2014": 2,
+  "Ford FPIU 2020": 3,
+  "Ford FPIU 2020 - Slicktop": 2,
+  "Ford FPIU 2016": 3,
+  "Ford FPIU 2016 - Slicktop": 2,
+  "Dodge Durango 2023": 2,
+  "Dodge Durango 2023 - Slicktop": 3,
+  "Ford F-150": 2,
+  "Ford F-150 - Slicktop": 2,
+  "Chevrolet Tahoe 2018": 1,
+  "Chevrolet Tahoe 2018 - Slicktop": 3,
+  "Harley Davidson Electraglyde": 3,
+  "Ford Crown Victoria 2002": 1,
+  "Ford Crown Victoria 2011 - Javelin": 2,
+  "Ford Crown Victoria 2011 - Slicktop": 1,
+  "Dodge Challenger 2018": 1,
+  "Chevrolet Suburban 2024": 3,
+  "Unmarked": 10
+}
+2025-05-28T21:06:27.373Z [CLIENT DISCORD] Writing shiftUser: {}
+2025-05-28T21:06:27.373Z [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "service du 2025-05-28": [
+      "3h 36m 32s"
+    ]
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "service du 2025-05-28": [
+      "1h 24m 50s"
+    ]
+  },
+  "248739383908368385": {
+    "service du 2025-05-28": [
+      "0h 56m 34s"
+    ]
+  },
+  "729389796270800948": {
+    "service du 2025-05-28": [
+      "1h 32m 54s"
+    ]
+  }
+}
+2025-05-28T21:06:27.803Z [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton end_shift_449432156595552257 dans 1344736680137199675
+2025-05-28T21:11:47.228Z [CLIENT DISCORD] [BUTTON] stoptoilajepense a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-28T21:12:59.017Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m🔰-cmd-francoispiano[39m
+2025-05-28T21:12:59.017Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-28T21:48:30.907Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mghostnd10[39m [0ma envoyé[0m [32mNon désoler[39m [0mdans[0m [32m✅-probation-tom-juarez[39m
+2025-05-28T21:48:34.458Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mghostnd10[39m [0ma envoyé[0m [32mDemain oui ![39m [0mdans[0m [32m✅-probation-tom-juarez[39m

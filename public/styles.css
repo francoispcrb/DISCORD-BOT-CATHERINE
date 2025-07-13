@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.discord-button {
+    background-color: #5865F2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.discord-button:hover {
+    background-color: #4752c4;
+}
+
+
+/* public/css/theme.css */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Bouton fixe en bas à droite */
+#theme-toggle {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: none;
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}

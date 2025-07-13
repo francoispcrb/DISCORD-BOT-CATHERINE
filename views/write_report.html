@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rédiger un rapport - FHP</title>
+  <style>
+    body {
+      background-color: #1e1e2f;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0 20px 40px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #282a44;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #ffa500;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.7);
+      margin-bottom: 30px;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #ffa500;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .classification-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .classification-btn {
+      padding: 10px 25px;
+      border: none;
+      border-radius: 8px;
+      background-color: #33345a;
+      color: #eee;
+      cursor: pointer;
+      font-size: 1.1em;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      user-select: none;
+      min-width: 180px;
+      text-align: center;
+    }
+
+    .classification-btn:hover {
+      background-color: #444672;
+    }
+
+    .classification-btn.selected {
+      background-color: #ffa500;
+      color: #1e1e2f;
+      font-weight: bold;
+      box-shadow: 0 0 10px #ffa500;
+    }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+      width: 90vw;
+      max-width: 1200px;
+      height: 800px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.4);
+      flex-grow: 1;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      flex-shrink: 0;
+    }
+
+    #sendReportBtn {
+      padding: 15px 40px;
+      font-size: 1.3em;
+      background-color: #ffa500;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      color: #1e1e2f;
+      font-weight: bold;
+      box-shadow: 0 0 15px #ffa500;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+
+    #sendReportBtn:hover {
+      background-color: #e69500;
+    }
+  </style>
+</head>
+<body>
+  <header>Rédiger un rapport</header>
+
+  <section>
+    <h2>Classification du Rapport</h2>
+    <div class="classification-buttons">
+      <button type="button" class="classification-btn selected">Law Enforcement Security</button>
+      <button type="button" class="classification-btn">For Official Use Only</button>
+      <button type="button" class="classification-btn">Top Secret</button>
+    </div>
+  </section>
+
+  <section>
+    <iframe
+      id="docFrame"
+      allowfullscreen
+      sandbox="allow-scripts allow-same-origin allow-forms"
+      title="Document Google Docs">
+    </iframe>
+  </section>
+
+  <footer>
+    <button id="sendReportBtn">Envoyer le rapport</button>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.classification-btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+      });
+    });
+    const urlParams = new URLSearchParams(window.location.search);
+    const docId = "1YimPZpfgvii1jdnJ5EkZ0asZI5-OeFVWLH1nAXtAmiA"
+
+    if (!docId) {
+      alert("Erreur : aucun document à afficher.");
+    } else {
+      document.getElementById("docFrame").src = `https://docs.google.com/document/d/${docId}/edit?usp=sharing`;
+    }
+
+    document.getElementById('sendReportBtn').addEventListener('click', async () => {
+      const selectedClassificationBtn = document.querySelector('.classification-btn.selected');
+      if (!selectedClassificationBtn) {
+        alert("Veuillez sélectionner une classification.");
+        return;
+      }
+      const classification = selectedClassificationBtn.textContent.trim();
+
+      let reportName = prompt("Nom du rapport (sans extension) :", "rapport_fhp");
+      if (!reportName) {
+        alert("Nom de rapport invalide.");
+        return;
+      }
+
+      try {
+        const response = await fetch('/api/generate-pdf', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            docId,
+            classification,
+            reportName
+          })
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          alert("Rapport envoyé et sauvegardé avec succès !");
+        } else {
+          alert("Erreur lors de l'envoi du rapport : " + (data.message || "Erreur inconnue"));
+        }
+      } catch (err) {
+        alert("Erreur lors de la communication avec le serveur : " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

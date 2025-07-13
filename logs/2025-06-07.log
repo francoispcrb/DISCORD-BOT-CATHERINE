@@ -1,0 +1,302 @@
+2025-06-07 16:04:32 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 16:04:32 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:35 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:35 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:35 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:35 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 16:04:35 [DEBUG] Hi !!
+2025-06-07 16:04:35 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T14:04:35.321Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 16:04:35 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : [39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : [39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine-bot[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.0.0[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 16:04:36 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 16:04:36 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 16:04:36 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 16:04:36 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 16:04:36 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 16:04:37 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 15 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 16:04:47 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 16:04:47 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:47 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:47 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:47 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:04:47 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 16:04:47 [DEBUG] Hi !!
+2025-06-07 16:04:47 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T14:04:47.456Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 16:04:47 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : [39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : [39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine-bot[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.0.0[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 16:04:48 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 16:04:48 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 16:04:48 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 16:04:48 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 16:04:48 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 16:04:49 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 15 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 16:13:42 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m# Patch Note Bot[39m
+[32m-# v2.0 - Boost by Gamini[39m
+[32m[39m
+[32m> - Mise à jour de <#1252235098447810651> toutes les 8 heures (8h, 16h, 00h).[39m
+[32m> - Retrait des commandes /tabs, /tabsdiv etc.[39m
+[32m> - Schedule du /openservice tous les jours à 10h (PARIS AM).[39m
+[32m> - Reboot du bot tous les jours à 5h (PARIS AM).[39m
+[32m> - Patch de la commande /shift [39m
+[32m> - - Suffit d'appuyer sur le bouton pour arrêter le shift, patch de <#1372282287370010744>.[39m
+[32m> - Nouveau commande handlers qui devrait éviter les bugs.[39m
+[32m> - Patch des commandes (error function)[39m
+[32m> - Implémentation de l'intranet sur le Client Discord[39m
+[32m[39m
+[32mBise.[39m [0mdans[0m [32mbots-implements[39m
+2025-06-07 16:28:08 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 16:28:09 [CLIENT DISCORD] Les modules  [32mfunctions[39m ont correctement été exportés.
+2025-06-07 16:28:09 [CLIENT DISCORD] Hey!
+2025-06-07 16:28:09 [ERROR] Hey !
+2025-06-07 16:28:09 [WARN] Hey !
+2025-06-07 16:28:09 [DEBUG] Hey !
+🔔2025-06-07T14:28:09.023Z [🟢 SOFT NOTIFY] Hey !
+🔔2025-06-07T14:28:09.024Z [🟡 WARM NOTIFY] Hey !
+🔔2025-06-07T14:28:09.025Z [🔴 CRITICAL NOTIFY] Hey !
+2025-06-07 16:34:02 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 16:34:02 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:34:04 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:34:04 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:34:05 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 16:34:05 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 16:34:05 [DEBUG] Hi !!
+2025-06-07 16:34:05 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T14:34:05.099Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 16:34:05 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 16:34:06 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 16:34:06 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 16:34:06 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 16:34:06 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 16:34:06 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 16:34:06 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:42:36 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 22:42:36 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:42:40 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:42:40 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:42:40 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:42:40 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 22:42:40 [DEBUG] Hi !!
+2025-06-07 22:42:40 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T20:42:40.609Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 22:42:40 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 22:42:41 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 22:42:42 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 22:42:42 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 22:42:42 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 22:42:42 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 22:42:42 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 22:42:42 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:43:47 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 22:43:47 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:43:47 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:43:47 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:43:47 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:43:47 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 22:43:47 [DEBUG] Hi !!
+2025-06-07 22:43:47 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T20:43:47.373Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 22:43:47 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 22:43:48 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 22:43:48 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 22:43:48 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 22:43:48 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 22:43:48 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 22:43:48 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:43:50 [ERROR] Erreur avec le serveur IA: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+2025-06-07 22:43:50 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m!![39m [0mdans[0m [32mundefined[39m
+2025-06-07 22:43:58 [ERROR] Erreur avec le serveur IA: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+2025-06-07 22:44:00 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHeyy![39m [0mdans[0m [32mundefined[39m
+2025-06-07 22:47:24 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 22:47:25 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:47:27 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:47:27 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:47:28 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:47:28 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 22:47:28 [DEBUG] Hi !!
+2025-06-07 22:47:28 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T20:47:28.222Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 22:47:28 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 22:47:29 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 22:47:29 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 22:47:29 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 22:47:29 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 22:47:29 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 22:47:29 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:49:15 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 22:49:15 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:49:16 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:49:16 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:49:16 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:49:16 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 22:49:16 [DEBUG] Hi !!
+2025-06-07 22:49:16 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T20:49:16.074Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 22:49:16 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 22:49:17 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 22:49:17 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 22:49:17 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 22:49:17 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 22:49:17 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 22:49:17 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:49:20 [CLIENT DISCORD] Message reçu : reufzjgeyriutgz | Canal type : 1
+2025-06-07 22:50:45 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-06-07 22:50:45 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:50:48 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:50:48 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:50:48 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-06-07 22:50:48 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-06-07 22:50:48 [DEBUG] Hi !!
+2025-06-07 22:50:48 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-06-07T20:50:48.406Z [🔴 CRITICAL NOTIFY] Hey!
+2025-06-07 22:50:48 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : undefined[39m
+[32m[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] [34m==============================[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+2025-06-07 22:50:49 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-06-07 22:50:49 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-06-07 22:50:49 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-06-07 22:50:49 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-06-07 22:50:49 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+2025-06-07 22:50:49 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 4 superviseur(s) et 2 commandement(s)
+2025-06-07 22:51:09 [CLIENT DISCORD] Message privé reçu, prompt : POIUYTRELKJHGFD?NBVCX
+2025-06-07 22:52:06 [ERROR] Erreur avec le serveur IA : TypeError: fetch failed
+2025-06-07 22:52:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mPOIUYTRELKJHGFD?NBVCX[39m [0mdans[0m [32mundefined[39m
+2025-06-07 22:52:25 [CLIENT DISCORD] Message privé reçu, prompt : zizi
+2025-06-07 22:54:35 [ERROR] Erreur avec le serveur IA : TypeError: fetch failed
+2025-06-07 22:54:36 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mzizi[39m [0mdans[0m [32mundefined[39m
+2025-06-07 22:54:49 [CLIENT DISCORD] Message privé reçu, prompt : Bonjour!
+2025-06-07 22:59:49 [ERROR] Erreur avec le serveur IA : TypeError: fetch failed
+2025-06-07 22:59:50 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mBonjour![39m [0mdans[0m [32mundefined[39m
+2025-06-07 23:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire de Recrutement - Georgia State Patrol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2a2a2a;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 20px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 20px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #1a252f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Formulaire de Recrutement</h1>
+    <form action="/submit-recrutement" method="POST">
+      <label for="nomRP">Nom et Prénom RP</label>
+      <input type="text" id="nomRP" name="nomRP" required>
+
+      <label for="ageRP">Âge RP</label>
+      <input type="text" id="ageRP" name="ageRP" required>
+
+      <label for="nomDiscord">Nom Discord (avec #)</label>
+      <input type="text" id="nomDiscord" name="nomDiscord" required>
+
+      <label for="ageIRL">Âge IRL</label>
+      <input type="text" id="ageIRL" name="ageIRL" required>
+
+      <label for="motivations">Pourquoi souhaitez-vous rejoindre la Georgia State Patrol ?</label>
+      <textarea id="motivations" name="motivations" required></textarea>
+
+      <label for="qualites">Quelles sont vos qualités principales ?</label>
+      <textarea id="qualites" name="qualites"></textarea>
+
+      <label for="disponibilite">Quelles sont vos disponibilités hebdomadaires ?</label>
+      <textarea id="disponibilite" name="disponibilite"></textarea>
+
+      <label for="infractions">Avez-vous un casier judiciaire RP ? Si oui, détaillez :</label>
+      <textarea id="infractions" name="infractions"></textarea>
+
+      <label for="anciennete">Avez-vous déjà été dans un service de l'ordre ? Si oui, où et combien de temps ?</label>
+      <textarea id="anciennete" name="anciennete"></textarea>
+
+      <button type="submit">Envoyer ma candidature</button>
+    </form>
+  </div>
+</body>
+</html>

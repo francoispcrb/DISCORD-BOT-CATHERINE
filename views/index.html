@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page d'Accueil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e2f;
+      color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #2c2c44;
+      padding: 40px 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      max-width: 400px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #ffa500;
+    }
+
+    p {
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+
+    .discord-button {
+      background-color: #5865F2;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .discord-button:hover {
+      background-color: #4752c4;
+    }
+
+    .discord-button i {
+      font-size: 1.2em;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue sur l'intranet<br>GEORGIA STATE PATROL</h1>
+    <p>Veuillez vous connecter avec Discord pour accéder à l'administration :</p>
+    <a href="/auth/discord">
+      <button class="discord-button">
+        <i class="fab fa-discord"></i> Se connecter avec Discord
+      </button>
+    </a>
+    <br /><br />
+    <a href="write_report.html">
+      <button class="discord-button" style="background-color: #ff6347;">
+        <i class="fas fa-pen"></i> Rédiger un rapport
+      </button>
+    </a>
+  </div>
+</body>
+
+</html>

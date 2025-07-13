@@ -1,0 +1,648 @@
+2025-05-22T17:23:14.988Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:23:15.052Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:23:15.354Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:23:15.355Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:23:15.358Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:23:20.438Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:23:20.441Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:23:20.441Z [DEBUG] Hi !!
+2025-05-22T17:23:20.442Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:23:20.442Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:23:20.443Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:23:21.500Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:23:21.501Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:23:21.501Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:23:21.501Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:23:21.502Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:23:21.507Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:23:21.848Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:23:21.849Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:23:21.849Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:23:21.850Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:23:21.850Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:42:22.995Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:42:23.102Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:24.627Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:24.628Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:24.648Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:42:26.175Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:42:26.176Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:42:26.178Z [DEBUG] Hi !!
+2025-05-22T17:42:26.178Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:42:26.179Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:42:26.181Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:42:26.210Z [ERROR] (node:11060) Warning: Accessing non-existent property 'autoEndShifts' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T17:42:27.373Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:42:27.374Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:42:27.374Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:42:27.375Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:42:27.375Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:42:27.384Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:42:27.702Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:42:27.704Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:42:27.704Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:42:27.705Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:42:27.705Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:42:40.368Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:42:40.388Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:40.631Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:40.631Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:42:40.634Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:42:40.749Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:42:40.750Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:42:40.750Z [DEBUG] Hi !!
+2025-05-22T17:42:40.750Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:42:40.751Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:42:40.752Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:42:40.762Z [ERROR] (node:7080) Warning: Accessing non-existent property 'autoEndShifts' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T17:42:41.909Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:42:41.910Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:42:41.910Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:42:41.911Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:42:41.911Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:42:41.917Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:42:42.171Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:42:42.173Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:42:42.176Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:42:42.179Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:42:42.190Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:47:50.071Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:47:50.092Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:47:50.363Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:47:50.363Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:47:50.367Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:47:50.493Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:47:50.494Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:47:50.494Z [DEBUG] Hi !!
+2025-05-22T17:47:50.495Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:47:50.495Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:47:50.496Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:47:50.502Z [ERROR] (node:7240) Warning: Accessing non-existent property 'autoEndShifts' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T17:47:51.551Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:47:51.552Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:47:51.552Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:47:51.553Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:47:51.553Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:47:51.557Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:47:51.796Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:47:51.796Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:47:51.797Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:47:51.798Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:47:51.798Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:55:53.489Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:55:53.509Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:55:53.758Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:55:53.758Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:55:53.761Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:55:53.874Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:55:53.875Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:55:53.875Z [DEBUG] Hi !!
+2025-05-22T17:55:53.876Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:55:53.876Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:55:53.877Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:55:53.883Z [ERROR] (node:10432) Warning: Accessing non-existent property 'autoEndShifts' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T17:55:54.780Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:55:54.780Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:55:54.781Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:55:54.782Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:55:54.782Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:55:54.786Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:55:55.034Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:55:55.035Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:55:55.036Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:55:55.036Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:55:55.037Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:57:08.542Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:57:08.561Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:57:08.810Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:57:08.810Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:57:08.813Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:57:09.005Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:57:09.023Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:57:09.024Z [DEBUG] Hi !!
+2025-05-22T17:57:09.024Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:57:09.024Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:57:09.025Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:57:09.970Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:57:09.971Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:57:09.971Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:57:09.972Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:57:09.972Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:57:09.976Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:57:10.364Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:57:10.365Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:57:10.366Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:57:10.366Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:57:10.366Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T17:58:23.613Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T17:58:23.633Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:58:23.896Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:58:23.896Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T17:58:23.899Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T17:58:24.015Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T17:58:24.015Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T17:58:24.016Z [DEBUG] Hi !!
+2025-05-22T17:58:24.016Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T17:58:24.017Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T17:58:24.018Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T17:58:24.944Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T17:58:24.945Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T17:58:24.945Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T17:58:24.946Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T17:58:24.946Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T17:58:24.951Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T17:58:25.191Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T17:58:25.191Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T17:58:25.192Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T17:58:25.192Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T17:58:25.193Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T18:06:32.376Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T18:06:32.400Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:06:32.655Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:06:32.656Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:06:32.659Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T18:06:32.866Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T18:06:32.870Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T18:06:32.872Z [DEBUG] Hi !!
+2025-05-22T18:06:32.877Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T18:06:32.881Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T18:06:32.885Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T18:06:34.036Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T18:06:34.037Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T18:06:34.037Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T18:06:34.038Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T18:06:34.038Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T18:06:34.041Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T18:06:34.306Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T18:06:34.306Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T18:06:34.307Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T18:06:34.307Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T18:06:34.308Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T18:17:08.404Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T18:17:08.425Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:17:08.688Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:17:08.688Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T18:17:08.691Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T18:17:08.812Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T18:17:08.813Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T18:17:08.813Z [DEBUG] Hi !!
+2025-05-22T18:17:08.813Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T18:17:08.814Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T18:17:08.814Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T18:17:10.141Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T18:17:10.141Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T18:17:10.142Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T18:17:10.142Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T18:17:10.143Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T18:17:10.146Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T18:17:10.417Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T18:17:10.417Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T18:17:10.418Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T18:17:10.418Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T18:17:10.419Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T19:35:04.664Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T19:35:04.757Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:05.827Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:05.827Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:05.830Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T19:35:06.974Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T19:35:06.975Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T19:35:06.975Z [DEBUG] Hi !!
+2025-05-22T19:35:06.975Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T19:35:06.976Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T19:35:06.977Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T19:35:08.004Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T19:35:08.005Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T19:35:08.005Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T19:35:08.006Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T19:35:08.007Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T19:35:08.014Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T19:35:08.239Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T19:35:08.240Z [WARN] 🧹 Suppression de toutes les commandes...
+2025-05-22T19:35:08.549Z [CLIENT DISCORD] ✅ Toutes les commandes du serveur Florida Highway Patrol | PalmBay RP ont été supprimées.
+2025-05-22T19:35:14.055Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T19:35:14.074Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:14.327Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:14.328Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:35:14.330Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T19:35:14.446Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T19:35:14.447Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T19:35:14.447Z [DEBUG] Hi !!
+2025-05-22T19:35:14.448Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T19:35:14.448Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T19:35:14.449Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T19:35:15.383Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T19:35:15.384Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T19:35:15.384Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T19:35:15.385Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T19:35:15.386Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T19:35:15.389Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T19:35:15.594Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : Aucune
+2025-05-22T19:35:15.595Z [CLIENT DISCORD] 📦 Enregistrement de 28 commande(s)...
+2025-05-22T19:35:16.088Z [CLIENT DISCORD] ✅ Commandes enregistrées !
+2025-05-22T19:35:16.089Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T19:35:16.089Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T19:35:16.089Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T19:35:31.902Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrules[39m [0mdans[0m [32m📜-règlement[39m
+2025-05-22T19:35:31.903Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T19:39:51.687Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T19:39:51.708Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:39:51.995Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:39:52.045Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T19:39:52.053Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T19:39:52.197Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T19:39:52.198Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T19:39:52.198Z [DEBUG] Hi !!
+2025-05-22T19:39:52.198Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T19:39:52.199Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T19:39:52.200Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T19:39:53.317Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T19:39:53.317Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T19:39:53.318Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T19:39:53.318Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T19:39:53.319Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T19:39:53.323Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T19:39:54.216Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T19:39:54.217Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T19:39:54.218Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T19:39:54.218Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T19:39:54.219Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T19:40:00.629Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrules[39m [0mdans[0m [32m📜-règlement[39m
+2025-05-22T19:40:00.630Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T19:40:01.786Z [ERROR] (node:21244) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T19:41:01.753Z [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T19:41:35.105Z [CLIENT DISCORD] [BUTTON] sarkasse a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T19:44:24.418Z [CLIENT DISCORD] [BUTTON] la_soz a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T19:52:38.948Z [CLIENT DISCORD] [BUTTON] badbunnysixnueve a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T19:53:35.692Z [CLIENT DISCORD] [BUTTON] _aurel a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T20:01:18.426Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mbadbunnysixnueve[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mAlbum Photo[39m
+2025-05-22T20:01:21.973Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mbadbunnysixnueve[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mAlbum Photo[39m
+2025-05-22T20:01:23.880Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mbadbunnysixnueve[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mAlbum Photo[39m
+2025-05-22T20:01:26.847Z [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mbadbunnysixnueve[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mAlbum Photo[39m
+2025-05-22T20:37:31.136Z [CLIENT DISCORD] [BUTTON] .darkodin92 a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+2025-05-22T20:46:12.694Z [CLIENT DISCORD] [31m[MEMBER REMOVE] DraftBot#0535 est parti à 5/22/2025, 10:46:12 PM[39m
+2025-05-22T20:52:21.124Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T20:52:21.200Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:52:22.382Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:52:22.383Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:52:22.403Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T20:52:23.646Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T20:52:23.647Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T20:52:23.648Z [DEBUG] Hi !!
+2025-05-22T20:52:23.648Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T20:52:23.649Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T20:52:23.649Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T20:52:24.615Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T20:52:24.616Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T20:52:24.616Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T20:52:24.617Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T20:52:24.617Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T20:52:24.620Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T20:52:24.853Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T20:52:24.853Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T20:52:24.854Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T20:52:24.854Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T20:52:24.855Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T20:52:36.787Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m⏰-prendre-rdv[39m
+2025-05-22T20:52:36.788Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T20:52:36.792Z [CLIENT DISCORD] 🎫 Ouverture de ticket demandée !
+2025-05-22T20:52:36.795Z [CLIENT DISCORD] COMMANDE Un /ticket (init) a été exécuté par François 🌺 🎫
+2025-05-22T20:52:36.799Z [ERROR] (node:26404) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T20:54:20.393Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T20:54:20.414Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:20.669Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:20.670Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:20.673Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T20:54:20.787Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T20:54:20.788Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T20:54:20.788Z [DEBUG] Hi !!
+2025-05-22T20:54:20.789Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T20:54:20.789Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T20:54:20.790Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T20:54:21.892Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T20:54:21.896Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T20:54:21.898Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T20:54:21.900Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T20:54:21.902Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T20:54:21.913Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T20:54:22.202Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T20:54:22.202Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T20:54:22.203Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T20:54:22.203Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T20:54:22.204Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T20:54:27.237Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m⏰-prendre-rdv[39m
+2025-05-22T20:54:27.238Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T20:54:27.242Z [CLIENT DISCORD] 🎫 Ouverture de ticket demandée !
+2025-05-22T20:54:27.246Z [CLIENT DISCORD] COMMANDE Un /ticket (init) a été exécuté par François 🌺 🎫
+2025-05-22T20:54:27.252Z [ERROR] (node:27768) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T20:54:49.864Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T20:54:49.886Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:50.139Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:50.140Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:54:50.143Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T20:54:50.259Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T20:54:50.260Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T20:54:50.260Z [DEBUG] Hi !!
+2025-05-22T20:54:50.261Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T20:54:50.261Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T20:54:50.262Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T20:54:51.241Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T20:54:51.241Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T20:54:51.242Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T20:54:51.242Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T20:54:51.243Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T20:54:51.246Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T20:54:51.487Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T20:54:51.487Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T20:54:51.488Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T20:54:51.488Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T20:54:51.489Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T20:54:55.529Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m⏰-prendre-rdv[39m
+2025-05-22T20:54:55.529Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T20:54:55.533Z [CLIENT DISCORD] 🎫 Ouverture de ticket demandée !
+2025-05-22T20:54:55.537Z [CLIENT DISCORD] COMMANDE Un /ticket (init) a été exécuté par François 🌺 🎫
+2025-05-22T20:54:55.543Z [ERROR] (node:28424) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T20:55:38.376Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T20:55:38.396Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:55:38.667Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:55:38.668Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:55:38.671Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T20:55:38.792Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T20:55:38.793Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T20:55:38.794Z [DEBUG] Hi !!
+2025-05-22T20:55:38.794Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T20:55:38.795Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T20:55:38.796Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T20:55:39.961Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T20:55:39.961Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T20:55:39.962Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T20:55:39.962Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T20:55:39.963Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T20:55:39.967Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T20:55:40.233Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T20:55:40.234Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T20:55:40.235Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T20:55:40.236Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T20:55:40.236Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T20:55:41.960Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m⏰-prendre-rdv[39m
+2025-05-22T20:55:41.961Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T20:55:41.965Z [CLIENT DISCORD] 🎫 Ouverture de ticket demandée !
+2025-05-22T20:55:41.968Z [CLIENT DISCORD] COMMANDE Un /ticket (init) a été exécuté par François 🌺 🎫
+2025-05-22T20:55:41.974Z [ERROR] (node:23452) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T20:56:08.721Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T20:56:08.740Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:56:09.011Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:56:09.011Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T20:56:09.015Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T20:56:09.155Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T20:56:09.156Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T20:56:09.156Z [DEBUG] Hi !!
+2025-05-22T20:56:09.157Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T20:56:09.158Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T20:56:09.158Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T20:56:10.232Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T20:56:10.232Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T20:56:10.233Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T20:56:10.234Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T20:56:10.234Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T20:56:10.238Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T20:56:10.458Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T20:56:10.458Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T20:56:10.459Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T20:56:10.459Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T20:56:10.460Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045
+2025-05-22T20:56:13.029Z [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32m⏰-prendre-rdv[39m
+2025-05-22T20:56:13.029Z [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+2025-05-22T20:56:13.033Z [CLIENT DISCORD] 🎫 Ouverture de ticket demandée !
+2025-05-22T20:56:13.037Z [CLIENT DISCORD] COMMANDE Un /ticket (init) a été exécuté par François 🌺 🎫
+2025-05-22T20:56:13.043Z [ERROR] (node:22888) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-05-22T21:02:02.875Z [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+2025-05-22T21:02:02.894Z [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T21:02:03.139Z [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T21:02:03.139Z [CLIENT DISCORD] L'interaction  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+2025-05-22T21:02:03.142Z [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+🔔2025-05-22T21:02:03.256Z [🟢 SOFT NOTIFY] guildBanAdd.js,guildBanRemove.js,guildMemberAdd.js,guildMemberRemove.js,interactionCreate.js,messageCreate.js,messageDelete.js,messageUpdate.js,ready.js
+2025-05-22T21:02:03.256Z [CLIENT DISCORD] ✅ Données rechargées depuis config.json : [object Object]
+2025-05-22T21:02:03.257Z [DEBUG] Hi !!
+2025-05-22T21:02:03.257Z [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+🔔2025-05-22T21:02:03.258Z [🔴 CRITICAL NOTIFY] Hey!
+2025-05-22T21:02:03.259Z [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌺[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : @discordjs/voice, axios, chalk, discord-html-transcripts, discord.js, dotenv, fs, node-cron, openai, play-dl, yt-search, ytdl-core, ytdl-core-discord[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : The official bot of LSSD.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","build":"tsc"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 1.4.5 - Shift, Pex Update[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN_15-05-2025]** La version 1.4.5 implémente le choix des véhicules dans SHIFT.[39m
+[32m[39m
+2025-05-22T21:02:04.725Z [CLIENT DISCORD] [34m==============================[39m
+2025-05-22T21:02:04.725Z [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+2025-05-22T21:02:04.726Z [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+2025-05-22T21:02:04.726Z [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que Catherine#8045[39m
+2025-05-22T21:02:04.727Z [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+2025-05-22T21:02:04.732Z [CLIENT DISCORD] 📥 Serveur trouvé : Florida Highway Patrol | PalmBay RP
+2025-05-22T21:02:04.988Z [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, tabsdiv, tabs, createreport, div, role, checklog, viewdata, cleardata, bypass, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+2025-05-22T21:02:04.989Z [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+2025-05-22T21:02:04.989Z [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+2025-05-22T21:02:04.990Z [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+2025-05-22T21:02:04.990Z [CLIENT DISCORD] ✅ Bot prêt en tant que Catherine#8045

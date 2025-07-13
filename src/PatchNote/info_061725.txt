@@ -1,0 +1,11 @@
+# <:EquipeCom:1375185931795042356> Informations complémentaires <:HautesInstances:1375185930297544785>
+
+## *Information HRP sur l'utilsation de Catherine, le bot Discord.*
+
+> Sur Discord, vous est mis à disposition Catherine vous permettant de faciliter votre expérience.
+> - `/shift <veh>` Vous permet de prendre votre service afin de contabiliser vos heures.
+> - `/createreport <name>` Vous permet de créer un rapport automatiquement dans #ticket.
+> - `/infoshift` Vous permet de connaitre vos heures de services.
+> - `/help <commands>` Vous permet d'obtenir de l'aide sur les commandes discord.
+
+Pour toutes suggestions sur le bot, addressez-vous à <@&1375108785940463636> dans <#1354025228422086697>;

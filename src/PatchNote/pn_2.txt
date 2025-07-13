@@ -1,0 +1,6 @@
+# Patch Note Bot
+-# v2.1 - Boost by Gamini
+
+> - Envoie automatique du message <#1252239174610718782>
+
+Bise.
