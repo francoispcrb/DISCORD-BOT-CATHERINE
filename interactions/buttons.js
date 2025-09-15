@@ -73,133 +73,137 @@ try {
                 }
 
                 if (interaction.customId.startsWith('end_shift_')) {
-                try {
-                    const channelId = config.channel.shift;
-                    function readJSON(path) {
-                                        return fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf-8')) : {};
-                    }
-                                    
-                    function writeJSON(path, data) {
-                                        fs.writeFileSync(path, JSON.stringify(data, null, 2));
-                    }
-                    
-                    async function updateVehiculeEmbed(client) {
+                    try {
+                        const channelId = config.channel.shift;
+                        function readJSON(path) {
+                            return fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf-8')) : {};
+                        }
+                                        
+                        function writeJSON(path, data) {
+                            fs.writeFileSync(path, JSON.stringify(data, null, 2));
+                        }
+                        
+                        async function updateVehiculeEmbed(client) {
+                            const embedId = config.embedMessageId;
+                            const channel = await client.channels.fetch(config.channel.shift);
+
+                            const embed = new EmbedBuilder()
+                                .setTitle("🚔 Disponibilité des véhicules")
+                                .setColor("Blue");
+
+                            let desc = "";
+                            for (const t in shiftVeh) {
+                                desc += `# **${t}**\n`;
+                                for (const v in shiftVeh[t]) {
+                                    const total = Number(shiftVeh[t][v]) || 0;
+                                    const dispo = Number(shiftVehDyn[t]?.[v]) ?? total;
+                                    const users = Object.entries(shiftUser)
+                                        .filter(([_, d]) => d.type === t && d.veh === v)
+                                        .map(([id]) => `<@${id}>`)
+                                        .join(", ");
+
+                                    desc += `• **${v}** — ${dispo}/${total}\n`;
+                                    if (users) desc += `> ${users}\n`;
+                                }
+                                desc += `\n`;
+                            }
+
+                            embed.setDescription(desc.trim());
+
+                            if (!channel || !channel.isTextBased()) return console.error("[updateEmbed] Salon introuvable.");
+
+                            try {
+                                if (embedId) {
+                                    const msg = await channel.messages.fetch(embedId);
+                                    await msg.edit({ embeds: [embed] });
+                                } else {
+                                    throw new Error("embedMessageId manquant");
+                                }
+                            } catch (e) {
+                                console.warn("[updateEmbed] Nouveau message envoyé :", e.message);
+                                const msg = await channel.send({ embeds: [embed] });
+                                config.embedMessageId = msg.id;
+                                writeJSON(configPath, config);
+                            }
+                        }
+
+                        const userIdToStop = interaction.customId.split('_')[2];
+                        const clickerId = interaction.user.id;
+
+                        const configPath = path.join(__dirname, '../config/config.json');
+                        const shiftVehPath = path.join(__dirname, '../config/shift_veh.json');
+                        const shiftDynPath = path.join(__dirname, '../config/shift_veh_dyn.json');
+                        const shiftUserPath = path.join(__dirname, '../config/shift_user.json');
+                        const shiftFilePath = path.join(__dirname, '../config/shift.json');
+
+                        const admins = config.admins || [];
+
                         const shiftVeh = readJSON(shiftVehPath);
                         const shiftVehDyn = readJSON(shiftDynPath);
                         const shiftUser = readJSON(shiftUserPath);
-                        const embedId = config.embedMessageId;
+                        const shiftFile = readJSON(shiftFilePath);
+
+                        const dateKey = `service du ${new Date().toISOString().split('T')[0]}`;
+                        const now = Date.now();
+
+                        if (clickerId !== userIdToStop && !admins.includes(clickerId)) {
+                            return interaction.reply({ content: "🚫 Vous n'avez pas la permission d'arrêter ce service.", ephemeral: true });
+                        }
+
+                        if (!shiftFile[userIdToStop]?.start) {
+                            return interaction.reply({ content: "⚠️ Ce membre n'est pas actuellement en service.", ephemeral: true });
+                        }
+
+                        const startTime = shiftFile[userIdToStop].start;
+                        const durationMs = now - startTime;
+                        const hours = Math.floor(durationMs / 3600000);
+                        const minutes = Math.floor((durationMs % 3600000) / 60000);
+                        const seconds = Math.floor((durationMs % 60000) / 1000);
+
+                        // ✅ Corrigé : récupération du type + véhicule
+                        const usedType = shiftUser[userIdToStop]?.type;
+                        const usedVeh = shiftUser[userIdToStop]?.veh;
+
+                        if (usedType && usedVeh) {
+                            const max = Number(shiftVeh[usedType][usedVeh]) || 0;
+                            const current = Number(shiftVehDyn[usedType][usedVeh]) || 0;
+                            shiftVehDyn[usedType][usedVeh] = Math.min(max, current + 1);
+                        }
+
+                        if (!shiftFile[userIdToStop][dateKey]) shiftFile[userIdToStop][dateKey] = [];
+                        shiftFile[userIdToStop][dateKey].push(`${hours}h ${minutes}m ${seconds}s`);
+
+                        delete shiftFile[userIdToStop].start;
+                        delete shiftUser[userIdToStop];
+
+                        console.log('Writing shiftVehDyn:', JSON.stringify(shiftVehDyn, null, 2));
+                        writeJSON(shiftDynPath, shiftVehDyn);
+
+                        console.log('Writing shiftUser:', JSON.stringify(shiftUser, null, 2));
+                        writeJSON(shiftUserPath, shiftUser);
+
+                        console.log('Writing shiftFile:', JSON.stringify(shiftFile, null, 2));
+                        writeJSON(shiftFilePath, shiftFile);
 
                         const embed = new EmbedBuilder()
-                            .setTitle("🚔 Disponibilité des véhicules")
-                            .setColor("Blue");
+                            .setTitle("🚨 Fin de service")
+                            .setDescription(`⏳ <@${userIdToStop}> a terminé son shift après **${hours}h ${minutes}m ${seconds}s** !`)
+                            .setColor('Red')
+                            .setTimestamp();
 
-                        let description = "";
+                        await interaction.update({
+                            embeds: [embed],
+                            components: []
+                        });
 
-                        for (const veh in shiftVeh) {
-                            const total = shiftVeh[veh];
-                            const dispo = shiftVehDyn[veh] ?? total;
-                            const users = Object.entries(shiftUser)
-                                .filter(([_, v]) => v.veh === veh)
-                                .map(([id]) => `<@${id}>`)
-                                .join(", ");
+                        await updateVehiculeEmbed(interaction.client);
 
-                            description += `**# ${veh}** — Nb : ${dispo}/${total}\n`;
-                            if (users) description += `> ${users}\n`;
-                            description += "\n";
-                        }
-
-                        embed.setDescription(description.trim());
-
-                        const channel = await client.channels.fetch(channelId);
-
-                        try {
-                            if (embedId) {
-                                const msg = await channel.messages.fetch(embedId);
-                                await msg.edit({ embeds: [embed] });
-                            } else {
-                                const sent = await channel.send({ embeds: [embed] });
-                                config.embedMessageId = sent.id;
-                                writeJSON(configPath, config);
-                            }
-                        } catch {
-                            const sent = await channel.send({ embeds: [embed] });
-                            config.embedMessageId = sent.id;
-                            writeJSON(configPath, config);
-                        }
+                    } catch (error) {
+                        console.error('Erreur dans le bouton end_shift:', error);
+                        await interaction.reply({ content: '❌ Une erreur est survenue, contacte un administrateur.', ephemeral: true });
                     }
-                    
-
-                    const userIdToStop = interaction.customId.split('_')[2];
-                    const clickerId = interaction.user.id;
-
-                    const configPath = path.join(__dirname, '../config/config.json');
-                    const shiftVehPath = path.join(__dirname, '../config/shift_veh.json');
-                    const shiftDynPath = path.join(__dirname, '../config/shift_veh_dyn.json');
-                    const shiftUserPath = path.join(__dirname, '../config/shift_user.json');
-                    const shiftFilePath = path.join(__dirname, '../config/shift.json');
-
-                    const admins = config.admins || [];
-
-                    const shiftVeh = readJSON(shiftVehPath);
-                    const shiftVehDyn = readJSON(shiftDynPath);
-                    const shiftUser = readJSON(shiftUserPath);
-                    const shiftFile = readJSON(shiftFilePath);
-
-                    const dateKey = `service du ${new Date().toISOString().split('T')[0]}`;
-                    const now = Date.now();
-
-                    if (clickerId !== userIdToStop && !admins.includes(clickerId)) {
-                    return interaction.reply({ content: "🚫 Vous n'avez pas la permission d'arrêter ce service.", ephemeral: true });
-                    }
-
-                    if (!shiftFile[userIdToStop]?.start) {
-                    return interaction.reply({ content: "⚠️ Ce membre n'est pas actuellement en service.", ephemeral: true });
-                    }
-
-                    const startTime = shiftFile[userIdToStop].start;
-                    const durationMs = now - startTime;
-                    const hours = Math.floor(durationMs / 3600000);
-                    const minutes = Math.floor((durationMs % 3600000) / 60000);
-                    const seconds = Math.floor((durationMs % 60000) / 1000);
-
-                    const usedVeh = shiftUser[userIdToStop]?.veh;
-
-                    if (usedVeh && shiftVehDyn[usedVeh] !== undefined) {
-                    shiftVehDyn[usedVeh] = Math.min(shiftVeh[usedVeh], shiftVehDyn[usedVeh] + 1);
-                    }
-
-                    if (!shiftFile[userIdToStop][dateKey]) shiftFile[userIdToStop][dateKey] = [];
-                    shiftFile[userIdToStop][dateKey].push(`${hours}h ${minutes}m ${seconds}s`);
-                    delete shiftFile[userIdToStop].start;
-                    delete shiftUser[userIdToStop];
-
-                    console.log('Writing shiftVehDyn:', JSON.stringify(shiftVehDyn, null, 2));
-                    writeJSON(shiftDynPath, shiftVehDyn);
-
-                    console.log('Writing shiftUser:', JSON.stringify(shiftUser, null, 2));
-                    writeJSON(shiftUserPath, shiftUser);
-
-                    console.log('Writing shiftFile:', JSON.stringify(shiftFile, null, 2));
-                    writeJSON(shiftFilePath, shiftFile);
-
-                    const embed = new EmbedBuilder()
-                    .setTitle("🚨 Fin de service")
-                    .setDescription(`⏳ <@${userIdToStop}> a terminé son shift après **${hours}h ${minutes}m ${seconds}s** !`)
-                    .setColor('Red')
-                    .setTimestamp();
-
-                    await interaction.update({
-                    embeds: [embed],
-                    components: []
-                    });
-
-                    await updateVehiculeEmbed(interaction.client);
-
-                } catch (error) {
-                    console.error('Erreur dans le bouton end_shift:', error);
-                    await interaction.reply({ content: '❌ Une erreur est survenue, contacte un administrateur.', ephemeral: true });
                 }
-                }
+
 
 
                 module.exports = { closeTicketButton, closeTicketEmbed }

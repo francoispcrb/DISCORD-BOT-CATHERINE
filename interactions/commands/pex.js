@@ -1,6 +1,8 @@
 const pex = require('../../config/pex')
 const {PEX} = require('../../utils/utils')
 const {savePex} = require('../../utils/functions')
+const {EmbedBuilder} = require('discord.js')
+const chalk = require('chalk')
 
 try {
     module.exports = {

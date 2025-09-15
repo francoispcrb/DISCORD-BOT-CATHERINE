@@ -83,11 +83,21 @@ module.exports = {
                 const message = contentParts[0]?.trim();
                 const title = contentParts[1]?.trim() || null;
 
-                const channel = await client.channels.fetch(channelId).catch(() => null);
-                if (!channel || !channel.isTextBased()) {
-                    console.log('❌ Salon introuvable ou non textuel.');
+                const target = await client.channels.fetch(channelId).catch(() => null);
+
+                if (target && target.isTextBased()) {
+                // C’est un salon texte du guild, on peut envoyer dedans
+                await target.send('Ton message ici');
+                } else {
+                // Ce n’est pas un salon texte, on tente un MP à un utilisateur avec cet ID
+                const user = await client.users.fetch(channelId).catch(() => null);
+                if (!user) {
+                    console.log('❌ Salon introuvable, non textuel, et utilisateur non trouvé.');
                     return rl.prompt();
                 }
+                await user.send('Ton message ici');
+                }
+
 
                 if (type === 'embed') {
                     const embed = new EmbedBuilder()

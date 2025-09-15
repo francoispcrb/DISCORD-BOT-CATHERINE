@@ -202,12 +202,26 @@ const commands = {
         .setName('rename').setDescription('Renommer un salon')
         .addStringOption(opt => opt.setName('str').setDescription('Nouveau nom')),
 
-    shift: new SlashCommandBuilder().setName('shift').setDescription("Démarrer ou arrêter votre service.")
-                .addStringOption(opt => {
-            let veh = opt.setName('veh').setDescription("Véhicule à attribuer").setRequired(true);
-            for (const key in shift_veh) veh = veh.addChoices({ name: key, value: key });
-            return veh;
-        }),
+    shift: new SlashCommandBuilder()
+        .setName('shift')
+        .setDescription("Démarrer ou arrêter votre service.")
+        .addStringOption(opt =>
+            opt.setName('type')
+                .setDescription("Type du véhicule")
+                .setRequired(true)
+                .addChoices(
+                    { name: 'Normal', value: 'Normal' },
+                    { name: 'Slicktop', value: 'Slicktop' },
+                    { name: 'Unmarked', value: 'Unmarked' },
+                    { name: 'Admin', value: 'Admin' },
+                )
+        )
+        .addStringOption(opt =>
+            opt.setName('veh')
+                .setDescription("Véhicule à attribuer")
+                .setRequired(true)
+                .setAutocomplete(true)
+        ),
 
     promote: new SlashCommandBuilder()
         .setName('promote').setDescription("Promouvoir un utilisateur à un grade supérieur.")

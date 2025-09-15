@@ -28,7 +28,7 @@ async function tabsDaily(client) {
             }
 
             // INIT
-            const fhp = '<:GSP:1378036970441281597>';
+            const LSSD = '<:Logo_LSCSD:1414975735164305499>';
             const CMD = '<:CMD:1379898553157025984>';
             const SPV = '<:SPV:1379898592361189376>';
             const TRP = '<:TRP:1379898584371298355>';
@@ -48,20 +48,20 @@ async function tabsDaily(client) {
             };
 
             const rankOrder = [
-                "• Colonel", "• Lt-Colonel", "• Major", "• Captain", "• Lieutenant",
-                "• Sergeant First Class", "• Sergeant",
-                "• Corporal", "• Master Trooper",
-                "• Senior Trooper", "• Trooper Third Class", "• Trooper Second Class", "• Trooper First Class", "• Trooper"
+                "• Sheriff", "• Undersheriff", "• Assistant Sheriff",
+                "• Captain", "• Lieutenant",
+                "• Chief Sergeant", "• Sergeant",
+                "• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"
             ];
 
             const getSectionForGrade = (gradeName) => {
-                if (["• Trooper", "• Trooper First Class", "• Trooper Second Class", "• Trooper Third Class", "• Master Trooper", "• Senior Trooper", "• Corporal"].includes(gradeName)) {
+                if (["• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"].includes(gradeName)) {
                     return SECTION_LABELS.TRP;
-                } else if (["• Sergeant", "• Sergeant First Class"].includes(gradeName)) {
+                } else if (["• Chief Sergeant", "• Sergeant"].includes(gradeName)) {
                     return SECTION_LABELS.SPV;
-                } else if (["• Lieutenant", "• Captain"].includes(gradeName)) {
+                } else if (["• Captain", "• Lieutenant"].includes(gradeName)) {
                     return SECTION_LABELS.CMD;
-                } else if (["• Major", "• Lt-Colonel", "• Colonel"].includes(gradeName)) {
+                } else if (["• Sheriff", "• Undersheriff", "• Assistant Sheriff"].includes(gradeName)) {
                     return SECTION_LABELS.COMMISSION;
                 }
                 return null;
@@ -69,7 +69,7 @@ async function tabsDaily(client) {
 
             // Envoyer le message initial
             const newMessage = await channel.send({
-                content: `# ${fhp} Hiérarchie au sein de la Georgia State Patrol ${fhp}`,
+                content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
                         `${SECTION_LABELS.COMMISSION}\n\n${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`

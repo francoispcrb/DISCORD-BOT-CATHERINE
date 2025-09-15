@@ -29,24 +29,22 @@ async function divDaily(client) {
             }
 
             // ✅ Envoyer le nouveau message (init)
-            const fhp = '<:GSP:1378036970441281597>';
+            const LSSD = '<:Logo_LSCSD:1414975735164305499>';
             const sentMessage = await channel.send({
-                content: `# ${fhp} Hiérarchie au sein des unitées de la Georgia State Patrol ${fhp}`,
+                content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
-                        "# Patrol Operation"
+                        "# Special Response Team"
                         +"\n"
-                        +"\n# Commercial Vehicule Enforcement"
+                        +"\n# K.9 Unit"
                         +"\n"
-                        +"\n# Criminal Interdiction Unit"
+                        +"\n# Detective Division"
                         +"\n"
-                        +"\n# Bureau of Criminal Investigation & Intelligence"
+                        +"\n# Traffic Enforcement"
                         +"\n"
-                        +"\n# Special Response Team"
+                        +"\n# Internals Investigations Division"
                         +"\n"
-                        +"\n# Protection Operations Sections"
-                        +"\n"
-                        +"\n# Internals Affairs Office"
+                        +"\n# Administrative and Training Division"
                     )
                 ]
             });
@@ -70,10 +68,9 @@ async function divDaily(client) {
 
             const members = await guild.members.fetch();
             const rankOrder = [
-                "• Colonel", "• Lt-Colonel", "• Major", "• Captain", "• Lieutenant",
-                "• Master Sergeant", "• Sergeant First Class", "• Staff Sergeant", "• Sergeant",
-                "• Master Corporal", "• Senior Corporal", "• Corporal",
-                "• Master Trooper", "• Senior Trooper", "• Trooper Third Class", "• Trooper Second Class", "• Trooper First Class", "• Trooper Specialist", "• Trooper"
+                "• Sheriff", "• Deputy Sheriff", "• Assistant Sheriff", "• Captain", "• Lieutenant",
+                "• Chief Sergeant", "• Sergeant",
+                "• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"
             ];
 
             members.forEach(member => {

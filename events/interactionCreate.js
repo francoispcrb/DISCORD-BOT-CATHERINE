@@ -5,6 +5,7 @@ const chalk = require('chalk');
 
 const pex = require('../config/pex.json');
 const { PEX } = require('../utils/utils');
+const shiftVeh = require('../config/shift_veh.json')
 const { sendLog } = require('..');
 const { executeButtons } = require('../interactions/buttons');
 const { executeModal } = require('../interactions/modals');
@@ -39,6 +40,26 @@ module.exports = {
             }
             return;
         }
+
+        if (interaction.isAutocomplete() && interaction.commandName === 'shift') {
+            // Ici tu gères ton autocomplete
+            const focused = interaction.options.getFocused();
+            const type = interaction.options.getString('type');
+
+            if (!type || !shiftVeh[type]) {
+                return interaction.respond([]);
+            }
+
+            const vehList = Object.keys(shiftVeh[type]);
+            const filtered = vehList.filter(v =>
+                v.toLowerCase().includes(focused.toLowerCase())
+            );
+
+            return interaction.respond(
+                filtered.map(v => ({ name: v, value: v }))
+            );
+        }
+
 
         // Gestion des commandes slash
         if (interaction.isCommand()) {

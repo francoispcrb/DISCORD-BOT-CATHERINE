@@ -38,5 +38,18 @@
         "islock": false,
         "isarchived": false,
         "nb": 98
+    },
+    "1393695201964458104": {
+        "users": [
+            "449432156595552257",
+            "433966775240097792"
+        ],
+        "auth": "François 🌺",
+        "type": "cmd",
+        "ticketname": "🔰-cmd-francoispiano",
+        "islock": false,
+        "isarchived": false,
+        "nb": 99,
+        "delete": "waiting"
     }
 }

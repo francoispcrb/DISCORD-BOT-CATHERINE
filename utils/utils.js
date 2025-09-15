@@ -10,23 +10,20 @@ const CORPS = {
 
 const RANKS = {
     //Application
-    "Trooper":                 { id: "1271893900344299692", name: "• Trooper"               , emoji: ""},
-    "Trooper First Class":     { id: "1252231983497744507", name: "• Trooper First Class"   , emoji: ""},
-    "Trooper Second Class":    { id: "1343603998745432084", name: "• Trooper Second Class"  , emoji: ""},
-    "Trooper Third Class":     { id: "1362847237381820856", name: "• Trooper Third Class"   , emoji: ""},
-    "Senior Trooper":          { id: "1377990051450982550", name: "• Senior Trooper"        , emoji: ""},
-    "Master Trooper":          { id: "1367197569234636841", name: "• Master Trooper"        , emoji: ""},
-    "Corporal":                { id: "1367197630311960776", name: "• Corporal"              , emoji: "<:Corporal:1378034458623479898>"},
+    "Deputy Shierff Trainee": { id: "1414910715097251861", name: "• Deputy Sheriff Trainee" , emoji: ""},
+    "Deputy Shierff":         { id: "1271893900344299692", name: "• Deputy Sheriff"         , emoji: ""},
+    "Deputy Shierff II":      { id: "1252231983497744507", name: "• Deputy Sheriff II"      , emoji: "<:Deputy_Sherif_II:1414948897725354015>"},
+    "Deputy Shierff FTO":     { id: "1343603998745432084", name: "• Deputy Sheriff FTO"     , emoji: "<:Deputy_Sherif_FTOremovebgpreview:1414948894575562753>"},
     //Superivision
-    "Sergeant":                { id: "1252231826680975500", name: "• Sergeant"              , emoji: "<:Sergeant:1378034456962797628>"},
-    "Sergeant First Class":    { id: "1367187949317263380", name: "• Sergeant First Class"  , emoji: "<:Sergeant_First_Class:1378034455217967124>"},
+    "Chief Sergeant":         { id: "1414973859374825612", name: "• Chief Sergeant"              , emoji: "<:Chief_Sergeant:1414974863839465482>"},
+    "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"              , emoji: "<:Sergeant:1414977273437749258>"},
     //Commandement
-    "Lieutenant":              { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1378034452768489612>"},
-    "Captain":                 { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1378034444304384081> "},
+    "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1414948906160357516>"},
+    "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1414948892394520707>"},
     //Direction
-    "Major":                   { id: "1362833262778781887", name: "• Major"                 , emoji: "<:Major:1367251913871200316> "},
-    "Lieutenant-Colonel":      { id: "1252232933339562027", name: "• Lt-Colonel"            , emoji: "<:Lieutenant_Colonel:1367251920145744004> "},
-    "Colonel":                 { id: "1252231549752053824", name: "• Colonel"               , emoji: "<:Colonel:1379532019414859918>"},
+    "Assistant Sheriff":      { id: "1414944268933533696", name: "• Assistant Sheriff"     , emoji: "<:Assistant_Sheriff:1414974722181038161>"},
+    "Undersheriff":           { id: "1414944314903236740", name: "• Undersheriff"        , emoji: "<:Deputy_Sheriff:1414974727042105344> "},
+    "Sheriff":                { id: "1414944355524808704", name: "• Sheriff"               , emoji: "<:Sheriff:1414974819878834299>"},
 };
 
 const ROLE_MAP = {
@@ -40,27 +37,27 @@ const ROLE_MAP = {
     "CITIZEN": "1252266446050951378",
     "FED": "1261311031490248766",
     "CDT":"1342563289338744872",
-    "PERM":"1375181279124783184"
+    "PERM":"1375181279124783184",
+    "HI":"1375181279124783184",
+    "COM":"1342565895188254740"
 }
 
 const COMMANDER = {
-    "Patrol Operation": "248739383908368385",
-    "Commercial Vehicule Enforcement": "729389796270800948",
-    "Criminal Interdiction Unit": "794334752165330964",
-    "Bureau of Criminal Investigation & Intelligence": "449432156595552257",
     "Special Response Team": "ID_USER_SRT",
-    "Protection Operations Sections": "439425425131962368",
-    "Internals Affairs Office": "439425425131962368"
+    "K.9 Unit": "794334752165330964",
+    "Detective Division": "449432156595552257",
+    "Traffic Enforcement": "ID_USER_SRT",
+    "Internals Investigations Division": "449432156595552257",
+    "Administrative and Training Division": "449432156595552257",
 };
 
 const DIV_MAP = {
-    "Patrol Operation":                 { id: "1344727484951822346", name: "Patrol Operation" },
-    "C.V.Enforcement":                 { id: "1272252982750347414", name: "Commercial Vehicule Enforcement" },
-    "Criminal Interdiction Unit":      { id: "1254743492392124417", name: "Criminal Interdiction Unit" },
-    "Criminal Invest. and Intel.":     { id: "1254743617692635196", name: "Bureau of Criminal Investigation & Intelligence" },
-    "Special Response Team":           { id: "1284909028568334336", name: "Special Response Team" },
-    "Protective Operations Section":   { id: "1367185450602729575", name: "Protection Operations Sections" },
-    "Internal Affairs Office":         { id: "1272253157577064478", name: "Internals Affairs Office" },
+    "SRT":                            { id: "1344727484951822346", name: "Special Response Team" },
+    "K9":                              { id: "1272252982750347414", name: "K.9 Unit" },
+    "DD":                             { id: "1254743492392124417", name: "Detective Division" },
+    "TE":                             { id: "1254743617692635196", name: "Traffic Enforcement" },
+    "IID":                             { id: "1272253157577064478", name: "Internals Investigations Division" },
+    "ATD":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
 };
 
 const PEX = {
@@ -98,7 +95,9 @@ const PEX = {
     shutdown: "*_SHUTDOWN",
     checklog: "*_FILES",
     cleardata: "*_FILES",
-    viewdata: "*_FILES"
+    viewdata: "*_FILES",
+    null: "ADD_REMOVE_PEX",
+    null :"*"
   }
 };
 

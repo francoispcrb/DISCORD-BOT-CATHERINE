@@ -1,18 +1,44 @@
 {
-  "Dodge Charger 2018": 2,
-  "Dodge Charger 2023 - Standard": 10,
-  "Dodge Charger 2023 - Slicktop": 5,
-  "Dodge Charger 2023 - Unmarked": 3,
-  "Dodge Charger 2014 - Slicktop": 2,
-  "Ford FPIU 2016": 2,
-  "Chevrolet Tahoe 2018 - Standard": 2,
-  "Chevrolet Tahoe 2018 - Slicktop": 2,
-  "Chevrolet Tahoe 2018 - Unmarked": 2,
-  "Harley Davidson Electraglyde": 3,
-  "Dodge Challanger 2018": 1,
-  "Ford Mustang 2024": 1,
-  "Chevrolet Camaro 2023": 2,
-  "Chevrolet Tahoe 2024 - Slicktop": 2,
-  "Chevrolet Tahoe 2024 - Standard": 3,
-  "Chevrolet Tahoe 2024 - Unmarked": 1
+  "Normal": {
+    "Crown Victoria 2003": 1,
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 2,
+    "Charger 2020": 2,
+    "FPIU 2013": 2,
+    "FPIU 2016": 3,
+    "FPIU 2020": 4,
+    "Taurus 2016": 2,
+    "Tahoe 2020": 2,
+    "F-150": 1,
+    "F-250": 1
+  },
+  "Slicktop": {
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 1,
+    "Charger 2020": 1,
+    "FPIU 2013": 1,
+    "FPIU 2016": 1,
+    "FPIU 2020": 2,
+    "FPIU 2025": 1,
+    "Taurus 2016": 1,
+    "Tahoe 2020": 1,
+    "F-150": 1
+  },
+  "Unmarked": {
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 1,
+    "Charger 2020": 1,
+    "FPIU 2013": 1,
+    "FPIU 2020": 1,
+    "Taurus 2016": 1,
+    "Tahoe 2020": 1,
+    "F-150": 1,
+    "F-250": 1
+  },
+  "Admin": {
+    "FPIU 2016": 1
+  }
 }

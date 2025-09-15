@@ -1,52 +1,49 @@
-const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } = require('discord.js');
-const play = require('play-dl');
-const { joinVoiceChannel, getVoiceConnection } = require('@discordjs/voice');
-const { addToQueue } = require('../../music/player'); // ton module player.js
+const {
+  SlashCommandBuilder,
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  ComponentType
+} = require('discord.js');
+const { play } = require('../../music/player');
+const playdl = require('play-dl');
 
 module.exports = {
-  name: "play",
+  name: 'play',
 
   async execute(interaction) {
     const query = interaction.options.getString('query').trim();
     const member = interaction.member;
 
-    // 1. Vérifier que l'utilisateur est dans un channel vocal
     const voiceChannel = member.voice.channel;
     if (!voiceChannel) {
-      return interaction.reply({ content: 'Tu dois être dans un channel vocal pour utiliser cette commande.', ephemeral: true });
-    }
-
-    // 2. Joindre ou récupérer la connexion vocale
-    let connection = getVoiceConnection(interaction.guildId);
-    if (!connection) {
-      connection = joinVoiceChannel({
-        channelId: voiceChannel.id,
-        guildId: interaction.guildId,
-        adapterCreator: interaction.guild.voiceAdapterCreator,
+      return interaction.reply({
+        content: 'Tu dois être dans un salon vocal pour utiliser cette commande.',
+        ephemeral: true,
       });
     }
 
-    // 3. Faire la recherche YouTube
-    await interaction.deferReply(); // temps pour la recherche
+    await interaction.deferReply();
 
     let searchResults;
     try {
-      searchResults = await play.search(query, { limit: 10 });
-      if (searchResults.length === 0) {
+      console.log(`[play.js] Recherche YouTube pour : ${query}`);
+      searchResults = await playdl.search(query, { limit: 10 });
+      if (!searchResults.length) {
         return interaction.editReply('Aucun résultat trouvé pour ta recherche.');
       }
-    } catch (error) {
-      console.error('Erreur lors de la recherche YouTube:', error);
-      return interaction.editReply('Une erreur est survenue lors de la recherche.');
+      console.log(`[play.js] ${searchResults.length} résultats trouvés`);
+    } catch (err) {
+      console.error('[play.js] Erreur de recherche YouTube :', err);
+      return interaction.editReply('Une erreur est survenue pendant la recherche.');
     }
 
-    // 4. Construire l'embed avec les résultats
     const embed = new EmbedBuilder()
       .setTitle(`Résultats pour : "${query}"`)
       .setDescription(searchResults.map((v, i) => `**${i + 1}.** [${v.title}](${v.url})`).join('\n'))
       .setColor('Blue');
 
-    // 5. Construire les boutons en plusieurs rangées de max 5 boutons
     const rows = [];
     for (let i = 0; i < searchResults.length; i += 5) {
       const row = new ActionRowBuilder();
@@ -61,10 +58,11 @@ module.exports = {
       rows.push(row);
     }
 
-    // 6. Envoyer l'embed + boutons
-    const message = await interaction.editReply({ embeds: [embed], components: rows });
+    const message = await interaction.editReply({
+      embeds: [embed],
+      components: rows
+    });
 
-    // 7. Créer un collector pour gérer le clic sur boutons, limité à l'auteur et 30 sec
     const collector = message.createMessageComponentCollector({
       componentType: ComponentType.Button,
       time: 30000,
@@ -72,35 +70,46 @@ module.exports = {
     });
 
     collector.on('collect', async i => {
-      // désactiver les boutons après clic
-      collector.stop();
+      await i.deferUpdate();
 
       const index = parseInt(i.customId.split('_')[1], 10);
-      const selectedVideo = searchResults[index];
+      const selected = searchResults[index];
 
-      if (!selectedVideo) {
-        return i.reply({ content: 'Sélection invalide.', ephemeral: true });
+      if (!selected) {
+        return message.edit({ content: 'Sélection invalide.', embeds: [], components: [] });
       }
 
       try {
-        const result = await addToQueue(interaction.guildId, selectedVideo.url);
-        await i.update({ content: `🎶 Ajouté à la queue : **${result.title}**`, embeds: [], components: [] });
+        console.log(`[play.js] Lecture de la piste sélectionnée : ${selected.title}`);
+        const result = await play(
+          interaction.guild,
+          voiceChannel,
+          selected.url
+        );
+
+        await message.edit({
+          content: `🎶 Lecture : **[${result.title}](${result.url})**`,
+          embeds: [],
+          components: []
+        });
       } catch (error) {
-        console.error('Erreur lors de l\'ajout à la queue :', error);
-        await i.update({ content: 'Erreur lors de l\'ajout à la queue.', embeds: [], components: [] });
+        console.error('[play.js] Erreur lors de la lecture :', error);
+        console.error("[play.js] Détails de l'erreur :", JSON.stringify(error, Object.getOwnPropertyNames(error)));
+        await message.edit({
+          content: 'Une erreur est survenue lors de la lecture.',
+          embeds: [],
+          components: []
+        });
       }
     });
 
-    collector.on('end', collected => {
-      // désactiver les boutons après la fin du temps
-      const disabledRows = rows.map(row => {
-        return new ActionRowBuilder()
-          .addComponents(
-            row.components.map(button => button.setDisabled(true))
-          );
-      });
-
-      message.edit({ components: disabledRows }).catch(() => { });
+    collector.on('end', () => {
+      const disabledRows = rows.map(row =>
+        new ActionRowBuilder().addComponents(
+          row.components.map(button => button.setDisabled(true))
+        )
+      );
+      message.edit({ components: disabledRows }).catch(() => {});
     });
   }
 };
