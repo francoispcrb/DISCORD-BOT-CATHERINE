@@ -23,3 +23,5 @@ async function compareVersion() {
 }
 
 module.exports = {compareVersion}
+
+compareVersion()
