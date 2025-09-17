@@ -465,6 +465,93 @@ app.post('/api/change-nick', async (req, res) => {
 });
 
 
+// === Mail system ===
+const multer = require('multer');
+const upload = multer({ dest: path.join(__dirname, 'uploads/') });
+
+const mailData = require('./api/mail.json');
+
+// API: récupérer les boîtes mail de l'utilisateur connecté
+app.get('/api/getUserMails', (req, res) => {
+  if (!req.session.userId) {
+    return res.status(401).json({ error: 'Non connecté' });
+  }
+
+  const userId = req.session.userId;
+
+  // On prend toutes les adresses dont la valeur = l’ID utilisateur
+  const mails = Object.keys(mailData).filter(
+    email => mailData[email] === userId
+  );
+
+  res.json({ mails });
+
+  console.log(mails, userId)
+
+});
+
+// API: récupérer toutes les adresses mails disponibles
+app.get('/api/getAllMails', (req, res) => {
+  const mails = Object.keys(mailData);
+  res.json({ mails });
+});
+
+
+// Récupérer les mails d’un dossier
+app.get('/api/folder', (req, res) => {
+  const { mailbox, folder } = req.query;
+  if (!mailbox || !folder) return res.status(400).json({ error: 'mailbox et folder requis' });
+
+  const dir = path.join(__dirname, 'mails', mailbox, folder);
+  if (!fs.existsSync(dir)) return res.json([]);
+
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+  const mails = files.map(f => {
+    const raw = fs.readFileSync(path.join(dir, f), 'utf8');
+    return JSON.parse(raw);
+  }).sort((a, b) => b.date - a.date);
+
+  res.json(mails);
+});
+
+// Envoyer / sauvegarder un mail
+// === Mail Panel APIs ===
+
+// Envoyer / sauvegarder / archiver mail
+app.post('/api/sendMail', upload.array('attachments'), (req, res) => {
+  const { from, to, cc, bcc, subject, body, folderAction } = req.body;
+  const attachments = req.files.map(f => f.path);
+
+  if (!from || !mailData[from]) {
+    return res.status(400).json({ success: false, message: 'Adresse mail invalide' });
+  }
+
+  const userId = mailData[from];
+  const mailFile = getUserMailFile(userId);
+  const userMails = JSON.parse(fs.readFileSync(mailFile, 'utf-8'));
+
+  const mailEntry = {
+    from,
+    to: to ? to.split(',').map(x => x.trim()) : [],
+    cc: cc ? cc.split(',').map(x => x.trim()) : [],
+    bcc: bcc ? bcc.split(',').map(x => x.trim()) : [],
+    subject,
+    body,
+    attachments,
+    date: new Date().toISOString()
+  };
+
+  let folder = 'sent';
+  if (folderAction === 'draft') folder = 'draft';
+  else if (folderAction === 'archive') folder = 'archive';
+
+  userMails[folder].push(mailEntry);
+  fs.writeFileSync(mailFile, JSON.stringify(userMails, null, 2));
+
+  res.json({ success: true, message: `Mail ajouté dans ${folder} avec succès !` });
+});
+
+
 
 
 app.post('/member/:id/nickname', async (req, res) => {
