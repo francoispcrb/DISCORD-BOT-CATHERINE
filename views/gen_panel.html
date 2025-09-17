@@ -4,106 +4,219 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Panel Administration - Georgia State Patrol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #1e1e2f;
-      color: #eee;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 25px 40px;
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px 20px;
+      color: #fff;
     }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 50px;
-      color: #ffa500;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    body::before {
+      content: "";
+      position: fixed;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #5865F2, #ffa500);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      z-index: -2;
+      top: 0;
+      left: 0;
     }
 
-    .panel-button {
-      display: block;
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 40px 35px 60px;
       width: 100%;
-      margin: 18px 0;
-      padding: 16px;
+      max-width: 900px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      position: relative;
+    }
+/*salut bb*/
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 40px;
+      font-weight: 800;
+      background: linear-gradient(45deg, #ffa500, #ffdd57, #ffffff);
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ===== Welcome ===== */
+    .welcome {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1em;
+      font-weight: 600;
+      color: #ffdd57;
+      text-shadow: 0 0 6px rgba(0,0,0,0.6);
+    }
+    .welcome img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+
+    /* ===== Dashboard grid ===== */
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .tile {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 15px;
+      padding: 30px 20px;
       font-size: 1.2em;
       font-weight: 600;
-      background-color: #5865f2;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      text-align: center;
       text-decoration: none;
-      box-shadow: 0 4px 8px rgba(88, 101, 242, 0.3);
-      transition: background-color 0.25s ease, box-shadow 0.25s ease;
-      user-select: none;
+      color: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      cursor: pointer;
+      position: relative;
+    }
+    .tile:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
     }
 
-    .panel-button:hover:not(:disabled) {
-      background-color: #4752c4;
-      box-shadow: 0 6px 12px rgba(71, 82, 196, 0.5);
+    /* ===== Submenu ===== */
+    .submenu {
+      display: none;
+      margin-top: 15px;
+      text-align: left;
+      padding-left: 10px;
     }
-
-    .panel-button:disabled {
-      background-color: #444;
-      color: #aaa;
-      cursor: not-allowed;
-      box-shadow: none;
+    .submenu a {
+      display: block;
+      margin: 8px 0;
+      padding: 10px 12px;
+      background: rgba(0,0,0,0.25);
+      border-radius: 8px;
+      text-decoration: none;
+      color: #ffdd57;
+      font-size: 0.95em;
+      transition: background 0.2s;
     }
-
-    .info {
-      font-style: italic;
-      color: #bbb;
-      margin: 6px 0 20px 2px;
-      font-size: 0.9em;
-      max-width: 460px;
+    .submenu a:hover {
+      background: rgba(255,255,255,0.2);
     }
 
     #btnLogout {
-      background-color: #cc2b2b;
-      box-shadow: 0 3px 6px rgba(204,43,43,0.5);
-      margin-top: 60px;
+      display: block;
+      margin-top: 40px;
+      padding: 16px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #cc2b2b, #9f2121);
+      font-size: 1.1em;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+      box-shadow: 0 0 12px rgba(0,0,0,0.4);
     }
+    #btnLogout:hover { transform: scale(1.05); }
 
-    #btnLogout:hover {
-      background-color: #9f2121;
-      box-shadow: 0 5px 10px rgba(159,33,33,0.8);
-    }
   </style>
 </head>
 <body>
-  <h1>Panel Administration<br>Florida Highway Patrol</h1>
+  <div class="container">
+    <!-- Message de bienvenue -->
+    <div class="welcome" id="welcomeMessage">Bonjour invité</div>
 
-  <a href="commission_panel.html" id="btnCommission" class="panel-button">Panel Commission</a>
-  <p class="info">Seuls les membres inscrits dans la section <strong>COMMISSION</strong> peuvent s'y connecter.</p>
+    <h1>Panel Administration<br>Georgia State Patrol</h1>
 
-  <a href="commandement_panel.html" id="btnCommandement" class="panel-button">Panel Commandement</a>
-  <p class="info">Seuls les membres inscrits dans les sections <strong>COMMANDEMENT</strong> ou <strong>COMMISSION</strong> peuvent s'y connecter.</p>
+    <div class="dashboard">
+      <a href="section/commandement_panel.html" id="btnCommandement" class="tile hidden">Panel Commandement</a>
+      <a href="section/supervision_panel.html" id="btnSupervision" class="tile hidden">Panel Supervision</a>
 
-  <a href="supervision_panel.html" id="btnSupervision" class="panel-button">Panel Supervision</a>
-  <p class="info">Tout le monde y a accès.</p>
+      <div class="tile" id="tileRapport">Rapport</div>
+      <div class="submenu" id="submenuRapport">
+        <a href="rapport/SAHP 155">SAHP 155</a>
+        <a href="rapport/SAHP 580">SAHP 580</a>
+        <a href="rapport/Contravention">Contravention</a>
+        <a href="rapport/Rapport d'intervention">Rapport d'intervention</a>
+      </div>
 
-  <a href="/logout" id="btnLogout" class="panel-button">Déconnexion</a>
+      <div class="tile" id="tileRegistre">Registre</div>
+      <div class="submenu" id="submenuRegistre">
+        <a href="register/Véhicule">Véhicule</a>
+        <a href="register/Citoyen">Citoyen</a>
+      </div>
+
+      <a href="section/mail_panel.html" class="tile">Mail</a>
+    </div>
+
+    <a href="/logout" id="btnLogout">Déconnexion</a>
+  </div>
 
   <script>
-    const btnCommission = document.getElementById('btnCommission');
+    const welcomeMessage = document.getElementById('welcomeMessage');
+
     const btnCommandement = document.getElementById('btnCommandement');
+    const btnSupervision = document.getElementById('btnSupervision');
+
+    const tileRapport = document.getElementById('tileRapport');
+    const submenuRapport = document.getElementById('submenuRapport');
+
+    const tileRegistre = document.getElementById('tileRegistre');
+    const submenuRegistre = document.getElementById('submenuRegistre');
+
+    // Toggle sous-menus
+    tileRapport.addEventListener("click", () => {
+      submenuRapport.style.display = submenuRapport.style.display === "block" ? "none" : "block";
+    });
+    tileRegistre.addEventListener("click", () => {
+      submenuRegistre.style.display = submenuRegistre.style.display === "block" ? "none" : "block";
+    });
 
     fetch('/api/access')
-      .then(resp => {
-        if (!resp.ok) throw new Error('Non connecté ou erreur API');
-        return resp.json();
-      })
+      .then(resp => resp.json())
       .then(data => {
-        if (!data.isInCommission) btnCommission.disabled = true;
-        if (!(data.isInCommandement || data.isInCommission)) btnCommandement.disabled = true;
+        if (!data.error) {
+          welcomeMessage.textContent = "Bonjour " + data.nickname;
+          if (data.avatar) {
+            const img = document.createElement("img");
+            img.src = data.avatar;
+            img.alt = "Avatar Discord";
+            welcomeMessage.appendChild(img);
+          }
+
+          switch (data.accessLevel) {
+            case "commandement":
+              btnCommandement.classList.remove("hidden");
+              btnSupervision.classList.remove("hidden");
+              break;
+            case "supervisor":
+              btnSupervision.classList.remove("hidden");
+              break;
+            default:
+              break;
+          }
+        }
       })
-      .catch(err => {
-        console.error("Erreur accès :", err);
-        btnCommission.disabled = true;
-        btnCommandement.disabled = true;
-      });
+      .catch(err => console.error("Erreur API:", err));
   </script>
 </body>
 </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Membre</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #1e1e2f;
+      color: #eee;
+      margin: 20px;
+    }
+    .card {
+      background: #2c2c44;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #ffa500;
+    }
+    .info {
+      margin: 15px 0;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border-radius: 6px;
+      border: none;
+      background: #3a3a5a;
+      color: #eee;
+    }
+    button {
+      margin-top: 12px;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      background: #5865f2;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    button:hover {
+      background: #4752c4;
+    }
+    .back {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="username">Chargement...</h1>
+    <div class="info">
+      <strong>ID Discord :</strong> <span id="discordId"></span>
+    </div>
+    <div class="info">
+      <label for="nickname">Changer le pseudo :</label>
+      <input type="text" id="nickname" placeholder="Nouveau pseudo" />
+      <button id="saveBtn">Enregistrer</button>
+    </div>
+    <a href="/supervision_panel.html" class="back">⬅ Retour au panel supervision</a>
+  </div>
+
+  <script>
+    // Récupération de l'ID dans l'URL
+    const memberId = window.location.pathname.split("/").pop();
+
+    // Charger infos du membre
+    fetch(`/api/member/${memberId}`)
+      .then(res => res.json())
+      .then(member => {
+        document.getElementById("username").textContent = member.nickname || member.username;
+        document.getElementById("discordId").textContent = member.id;
+        document.getElementById("nickname").value = member.nickname || "";
+      })
+      .catch(err => {
+        console.error("Erreur chargement membre:", err);
+        document.querySelector(".card").innerHTML = "<p>Impossible de charger ce membre.</p>";
+      });
+
+    // Sauvegarder le pseudo
+    document.getElementById("saveBtn").addEventListener("click", () => {
+      const newNick = document.getElementById("nickname").value.trim();
+      if (!newNick) return alert("Le pseudo ne peut pas être vide !");
+      fetch(`/api/member/${memberId}/nickname`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nickname: newNick })
+      })
+        .then(res => {
+          if (!res.ok) throw new Error("Erreur API");
+          return res.json();
+        })
+        .then(updated => {
+          alert("Pseudo mis à jour !");
+          document.getElementById("username").textContent = updated.nickname;
+        })
+        .catch(err => {
+          console.error("Erreur MAJ pseudo:", err);
+          alert("Impossible de mettre à jour le pseudo.");
+        });
+    });
+  </script>
+</body>
+</html>

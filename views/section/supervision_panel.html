@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panel Supervision</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --panel-bg: #f0f0f0;
+      --panel-border: #ccc;
+      --button-bg: #e0e0e0;
+      --button-hover: #d0d0d0;
+      --icon: #ffa500;
+    }
+
+    [data-theme="dark"] {
+      --bg: #1e1e2f;
+      --text: #eee;
+      --panel-bg: #2c2c44;
+      --panel-border: #444;
+      --button-bg: #3a3a5a;
+      --button-hover: #4f4f7f;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 20px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    #supervision-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .rank-section {
+      background: var(--panel-bg);
+      border-radius: 10px;
+      padding: 15px;
+      min-width: 230px;
+      max-width: 250px;
+      flex: 1 1 250px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rank-title {
+      font-weight: 700;
+      font-size: 1.2em;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--panel-border);
+      padding-bottom: 6px;
+      color: var(--icon);
+    }
+
+    .button-column {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    button.user-button {
+      background-color: var(--button-bg);
+      border: none;
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: var(--text);
+      font-size: 0.95em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s ease;
+    }
+
+    button.user-button:hover {
+      background-color: var(--button-hover);
+    }
+
+    i.user-icon {
+      color: var(--icon);
+      font-size: 1.1em;
+    }
+
+    #theme-toggle {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      background: none;
+      border: 2px solid var(--text);
+      border-radius: 50%;
+      padding: 0.5rem 0.6rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: var(--text);
+      transition: all 0.3s ease;
+    }
+
+    #theme-toggle:hover {
+      background-color: var(--text);
+      color: var(--bg);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Panel Supervision - Membres par grade</h1>
+  <div id="supervision-buttons"></div>
+
+  <button id="theme-toggle" aria-label="Changer de thème">🌓</button>
+
+  <script>
+    // Toggle dark/light theme
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.addEventListener('click', () => {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    });
+
+    const RANKS = {
+      "Deputy Sheriff Trainee": { id: "1414910715097251861", name: "• Deputy Sheriff Trainee" },
+      "Deputy Sheriff":         { id: "1271893900344299692", name: "• Deputy Sheriff" },
+      "Deputy Sheriff II":      { id: "1252231983497744507", name: "• Deputy Sheriff II" },
+      "Deputy Sheriff FTO":     { id: "1343603998745432084", name: "• Deputy Sheriff FTO" },
+      "Chief Sergeant":         { id: "1414973859374825612", name: "• Chief Sergeant" },
+      "Sergeant":               { id: "1252231826680975500", name: "• Sergeant" },
+      "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant" },
+      "Captain":                { id: "1252232015948808244", name: "• Captain" },
+      "Assistant Sheriff":      { id: "1414944268933533696", name: "• Assistant Sheriff" },
+      "Undersheriff":           { id: "1414944314903236740", name: "• Undersheriff" },
+      "Sheriff":                { id: "1414944355524808704", name: "• Sheriff" },
+    };
+
+    async function loadMembers() {
+      try {
+        const res = await fetch('/api/executif-members');
+        const data = await res.json();
+        const container = document.getElementById('supervision-buttons');
+        container.innerHTML = '';
+
+        const sorted = {};
+        Object.keys(RANKS).forEach(rank => sorted[rank] = []);
+
+        data.forEach(member => {
+          const rankName = Object.keys(RANKS).find(r => member.roles.includes(RANKS[r].id));
+          if (rankName) sorted[rankName].push(member);
+          else {
+            if (!sorted["__NONE__"]) sorted["__NONE__"] = [];
+            sorted["__NONE__"].push(member);
+          }
+        });
+
+        Object.keys(RANKS).forEach(rank => {
+          const members = sorted[rank];
+          if (!members || members.length === 0) return;
+          addRankSection(container, RANKS[rank].name, members);
+        });
+
+        if (sorted["__NONE__"] && sorted["__NONE__"].length > 0) {
+          addRankSection(container, '❓ Aucun grade', sorted["__NONE__"]);
+        }
+      } catch (err) {
+        console.error('Erreur chargement membres:', err);
+        document.getElementById('supervision-buttons').innerHTML = '<p>Erreur lors du chargement des membres.</p>';
+      }
+    }
+
+    function addRankSection(container, titleText, members) {
+      const section = document.createElement('div');
+      section.className = 'rank-section';
+
+      const title = document.createElement('div');
+      title.className = 'rank-title';
+      title.textContent = titleText;
+      section.appendChild(title);
+
+      const list = document.createElement('div');
+      list.className = 'button-column';
+
+      members.forEach(member => {
+        const btn = document.createElement('button');
+        btn.className = 'user-button';
+        btn.innerHTML = `<i class="fas fa-user user-icon"></i> ${member.nickname || member.username}`;
+        btn.addEventListener('click', () => window.location.href = `/member/${member.id}`);
+        list.appendChild(btn);
+      });
+
+      section.appendChild(list);
+      container.appendChild(section);
+    }
+
+    loadMembers();
+  </script>
+</body>
+</html>

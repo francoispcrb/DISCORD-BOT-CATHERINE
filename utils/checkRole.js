@@ -23,14 +23,14 @@ async function checkMemberRole(client) {
       return console.error("Un ou plusieurs rôles sont introuvables.");
     }
 
-    const executif = roleExecutif.members.map(member => member.id);
-    const supervisor = roleSupervisor.members.map(member => member.id);
-    const commandement = roleCommandement.members.map(member => member.id);
+    const exe = roleExecutif.members.map(member => member.id);
+    const spv = roleSupervisor.members.map(member => member.id);
+    const cmd = roleCommandement.members.map(member => member.id);
 
-    const jsonData = JSON.stringify({ executif, supervisor, commandement }, null, 2);
+    const jsonData = JSON.stringify({ exe, spv, cmd }, null, 2);
     fs.writeFileSync(FILE_PATH, jsonData, 'utf8');
 
-    console.log(`[EXPORT] access.json mis à jour avec ${executif.length} exécutif(s), ${supervisor.length} superviseur(s) et ${commandement.length} commandement(s)`);
+    console.log(`[EXPORT] access.json mis à jour avec ${exe.length} exécutif(s), ${spv.length} superviseur(s) et ${cmd.length} commandement(s)`);
   } catch (error) {
     console.error("Erreur lors de l'export des membres :", error);
   }
