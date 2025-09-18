@@ -582,6 +582,53 @@ app.post('/member/:id/nickname', async (req, res) => {
   }
 });
 
+
+const savedDataDir = path.join(__dirname, "views", "register", "saved_data");
+
+// API pour lister fichiers véhicules
+app.get("/api/getVehicles", (req, res) => {
+  try {
+    const files = fs.readdirSync(savedDataDir).filter(f => f.endsWith(".html"));
+    res.json({ files });
+  } catch (e) {
+    res.json({ files: [] });
+  }
+});
+
+// API pour ajouter un véhicule
+app.post("/api/addVehicle", (req, res) => {
+  try {
+    const { name, plate, type } = req.body;
+    if (!name || !plate || !type) {
+      return res.json({ success: false, message: "Champs manquants" });
+    }
+
+    const safeName = name.replace(/\s+/g, "_");
+    const safePlate = plate.replace(/\s+/g, "_");
+    const filename = `${safeName}_${safePlate}.html`;
+    const filePath = path.join(savedDataDir, filename);
+
+    const content = `<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><title>${name} - ${plate}</title></head>
+<body>
+  <h1>Fiche Véhicule</h1>
+  <p><strong>Nom :</strong> ${name}</p>
+  <p><strong>Immatriculation :</strong> ${plate}</p>
+  <p><strong>Type :</strong> ${type}</p>
+</body>
+</html>`;
+
+    fs.writeFileSync(filePath, content, "utf-8");
+
+    res.json({ success: true, message: "Véhicule enregistré !" });
+  } catch (err) {
+    console.error(err);
+    res.json({ success: false, message: "Erreur lors de l’enregistrement" });
+  }
+});
+
+
 // === Start server ===
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur http://localhost:${PORT}`);

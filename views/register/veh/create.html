@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Créer un véhicule</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#1e1e2f; color:#fff; margin:0; padding:20px; }
+    h1 { text-align:center; }
+    form { max-width:500px; margin:20px auto; display:flex; flex-direction:column; gap:10px; }
+    input, button { padding:10px; border:none; border-radius:6px; }
+    button { background:#5865F2; color:#fff; cursor:pointer; }
+    button:hover { background:#4752c4; }
+  </style>
+</head>
+<body>
+  <h1>Créer une fiche véhicule</h1>
+  <form id="vehForm">
+    <input type="text" name="name" placeholder="Nom du véhicule" required>
+    <input type="text" name="plate" placeholder="Immatriculation" required>
+    <input type="text" name="type" placeholder="Type (SUV, Sedan...)" required>
+    <button type="submit">Enregistrer</button>
+  </form>
+
+  <script>
+    document.getElementById("vehForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const data = Object.fromEntries(formData.entries());
+
+      const res = await fetch("/api/addVehicle", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      const result = await res.json();
+      alert(result.message);
+      if (result.success) window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>

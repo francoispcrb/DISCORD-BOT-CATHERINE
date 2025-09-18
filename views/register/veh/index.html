@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Registre Véhicules</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#1e1e2f; color:#fff; margin:0; padding:20px; }
+    h1 { text-align:center; }
+    ul { list-style:none; padding:0; }
+    li { margin:10px 0; }
+    a { color:#5865F2; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .btn { display:inline-block; margin:10px 0; padding:10px; background:#5865F2; color:white; text-decoration:none; border-radius:6px; }
+    .btn:hover { background:#4752c4; }
+  </style>
+</head>
+<body>
+  <h1>Véhicules enregistrés</h1>
+  <a href="create.html" class="btn">➕ Ajouter un véhicule</a>
+  <ul id="vehList">Chargement...</ul>
+
+  <script>
+    async function loadVehicles() {
+      const res = await fetch("/api/getVehicles");
+      const data = await res.json();
+      const list = document.getElementById("vehList");
+      list.innerHTML = "";
+
+      if (!data.files || data.files.length === 0) {
+        list.innerHTML = "<li>Aucun véhicule enregistré</li>";
+        return;
+      }
+
+      data.files.forEach(file => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="/register/saved_data/${file}" target="_blank">${file.replace(".html","")}</a>`;
+        list.appendChild(li);
+      });
+    }
+    document.addEventListener("DOMContentLoaded", loadVehicles);
+  </script>
+</body>
+</html>
