@@ -597,38 +597,109 @@ app.get("/api/getVehicles", (req, res) => {
 
 // API pour ajouter un véhicule
 app.post("/api/addVehicle", (req, res) => {
-  try {
-    const { name, plate, type } = req.body;
-    if (!name || !plate || !type) {
-      return res.json({ success: false, message: "Champs manquants" });
-    }
+  const { name, plate, owner, infraction } = req.body;
 
-    const safeName = name.replace(/\s+/g, "_");
-    const safePlate = plate.replace(/\s+/g, "_");
-    const filename = `${safeName}_${safePlate}.html`;
-    const filePath = path.join(savedDataDir, filename);
+  if (!name || !plate) {
+    return res.status(400).json({ message: "Nom et plaque requis !" });
+  }
 
-    const content = `<!DOCTYPE html>
+  // Nom du fichier (ex: Dodge_Charger_DIV569.html)
+  const fileName = `${name.replace(/\s+/g, "_")}_${plate}.html`;
+  const filePath = path.join(__dirname, "gen_panel/register/saved_data", fileName);
+
+  // Template HTML de la fiche véhicule
+  const template = `
+<!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>${name} - ${plate}</title></head>
+<head>
+  <meta charset="UTF-8">
+  <title>Fiche véhicule - ${name} ${plate}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #12121b;
+      color: #eee;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      max-width: 700px;
+      margin: auto;
+      background: rgba(0,0,0,0.6);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #5865F2;
+    }
+    .info {
+      margin: 15px 0;
+      padding: 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+    }
+    .label {
+      font-weight: 600;
+      color: #aaa;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .value {
+      font-size: 1.1em;
+      color: #fff;
+    }
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
 <body>
-  <h1>Fiche Véhicule</h1>
-  <p><strong>Nom :</strong> ${name}</p>
-  <p><strong>Immatriculation :</strong> ${plate}</p>
-  <p><strong>Type :</strong> ${type}</p>
+  <div class="card">
+    <h1>🚓 Fiche véhicule</h1>
+
+    <div class="info">
+      <span class="label">Nom du véhicule</span>
+      <span class="value">${name}</span>
+    </div>
+
+    <div class="info">
+      <span class="label">Plaque d'immatriculation</span>
+      <span class="value">${plate}</span>
+    </div>
+
+    <div class="info">
+      <span class="label">Propriétaire</span>
+      <span class="value">${owner || "Non renseigné"}</span>
+    </div>
+
+    <div class="info">
+      <span class="label">Infraction commise</span>
+      <span class="value">${infraction || "Aucune"}</span>
+    </div>
+
+    <div class="footer">
+      Enregistré automatiquement par le système | LSSD ©
+    </div>
+  </div>
 </body>
-</html>`;
+</html>
+`;
 
-    fs.writeFileSync(filePath, content, "utf-8");
-
-    res.json({ success: true, message: "Véhicule enregistré !" });
+  try {
+    fs.writeFileSync(filePath, template, "utf-8");
+    res.json({ message: `Véhicule ${name} enregistré avec succès !` });
   } catch (err) {
-    console.error(err);
-    res.json({ success: false, message: "Erreur lors de l’enregistrement" });
+    console.error("Erreur écriture fichier:", err);
+    res.status(500).json({ message: "Erreur lors de la sauvegarde" });
   }
 });
-
-
 // === Start server ===
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur http://localhost:${PORT}`);

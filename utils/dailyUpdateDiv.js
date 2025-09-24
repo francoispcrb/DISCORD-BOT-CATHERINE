@@ -34,17 +34,19 @@ async function divDaily(client) {
                 content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
-                        "# Special Response Team"
+                        "# Patrol Diviion"
                         +"\n"
-                        +"\n# K.9 Unit"
+                        +"\n# Special Enforcement Bureau"
+                        +"\n"
+                        +"\n# Traffic Enforcement Bureau"
                         +"\n"
                         +"\n# Detective Division"
                         +"\n"
-                        +"\n# Traffic Enforcement"
-                        +"\n"
-                        +"\n# Internals Investigations Division"
+                        +"\n# Division de protection Judiciaire"
                         +"\n"
                         +"\n# Administrative and Training Division"
+                        +"\n"
+                        +"\n# Bureau Executif"
                     )
                 ]
             });

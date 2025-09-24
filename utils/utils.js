@@ -27,9 +27,9 @@ const RANKS = {
 };
 
 const ROLE_MAP = {
-    "FHP": "1259234502866108456",
-    "MDPD": "1252274500968513687",
-    "MPD":"1367955141570990252",
+    "LSSD": "1259234502866108456",
+    "LSPD": "1252274500968513687",
+    "LSPD2":"1367955141570990252",
     "SAMR": "1354482500214456431",
     "DOJ": "1354881043349635193",
     "GOUV": "1260947297307463783",
@@ -43,21 +43,23 @@ const ROLE_MAP = {
 }
 
 const COMMANDER = {
-    "Special Response Team": "ID_USER_SRT",
-    "K.9 Unit": "794334752165330964",
+    "Patrol Division": "439425425131962368",
+    "Special Enforcement Bureau": "ID_USER_SEB",
     "Detective Division": "449432156595552257",
-    "Traffic Enforcement": "ID_USER_SRT",
-    "Internals Investigations Division": "449432156595552257",
-    "Administrative and Training Division": "449432156595552257",
+    "Division de protection Judiciaire": "ID_SER_JD",
+    "Traffic Enforcement (Interim)": "794334752165330964",
+    "Bureau Executif (PSD & Affaires Internes)": "449432156595552257",
+    "Administrative and Training Division": "ID_USER_ATD",
 };
 
 const DIV_MAP = {
-    "SRT":                            { id: "1344727484951822346", name: "Special Response Team" },
-    "K9":                              { id: "1272252982750347414", name: "K.9 Unit" },
-    "DD":                             { id: "1254743492392124417", name: "Detective Division" },
-    "TE":                             { id: "1254743617692635196", name: "Traffic Enforcement" },
-    "IID":                             { id: "1272253157577064478", name: "Internals Investigations Division" },
+    "SEB":                            { id: "1344727484951822346", name: "Special Enforcement Bureau" },
+    "DD":                              { id: "1272252982750347414", name: "Detective Division" },
+    "DPJ":                             { id: "1254743492392124417", name: "Division de protection Judiciaire" },
+    "TE":                             { id: "1254743617692635196", name: "Traffic Enforcement (Interim)" },
+    "BE":                             { id: "1272253157577064478", name: "Bureau Executif (PSD & Affaires Internes)" },
     "ATD":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
+    "PAT": {id:"1259234502866108456", name: "Patrol Division"}
 };
 
 const PEX = {
