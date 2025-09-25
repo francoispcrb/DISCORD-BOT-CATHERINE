@@ -47,19 +47,19 @@ const COMMANDER = {
     "Special Enforcement Bureau": "ID_USER_SEB",
     "Detective Division": "449432156595552257",
     "Division de protection Judiciaire": "ID_SER_JD",
-    "Traffic Enforcement (Interim)": "794334752165330964",
+    "Traffic Enforcement Bureau (Interim)": "794334752165330964",
     "Bureau Executif (PSD & Affaires Internes)": "449432156595552257",
     "Administrative and Training Division": "ID_USER_ATD",
 };
 
 const DIV_MAP = {
-    "SEB":                            { id: "1344727484951822346", name: "Special Enforcement Bureau" },
-    "DD":                              { id: "1272252982750347414", name: "Detective Division" },
-    "DPJ":                             { id: "1254743492392124417", name: "Division de protection Judiciaire" },
-    "TE":                             { id: "1254743617692635196", name: "Traffic Enforcement (Interim)" },
-    "BE":                             { id: "1272253157577064478", name: "Bureau Executif (PSD & Affaires Internes)" },
-    "ATD":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
-    "PAT": {id:"1259234502866108456", name: "Patrol Division"}
+    "Special Enforcement Bureau":                            { id: "1344727484951822346", name: "Special Enforcement Bureau" },
+    "Detective Division":                              { id: "1254743492392124417", name: "Detective Division" },
+    "Division de protection Judiciaire":                             { id: "1254743617692635196", name: "Division de protection Judiciaire" },
+    "Traffic Enforcement Bureau (Interim)":                             { id: "1272252982750347414", name: "Traffic Enforcement Bureau (Interim)" },
+    "Bureau Executif (PSD & Affaires Internes)":                             { id: "1272253157577064478", name: "Bureau Executif (PSD & Affaires Internes)" },
+    "Administrative and Training Division":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
+    "Patrol Division": {id:"1259234502866108456", name: "Patrol Division"}
 };
 
 const PEX = {

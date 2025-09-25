@@ -34,11 +34,11 @@ async function divDaily(client) {
                 content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
-                        "# Patrol Diviion"
+                        "# Patrol Division"
                         +"\n"
                         +"\n# Special Enforcement Bureau"
                         +"\n"
-                        +"\n# Traffic Enforcement Bureau"
+                        +"\n# Traffic Enforcement Bureau (Interim)"
                         +"\n"
                         +"\n# Detective Division"
                         +"\n"
@@ -46,7 +46,7 @@ async function divDaily(client) {
                         +"\n"
                         +"\n# Administrative and Training Division"
                         +"\n"
-                        +"\n# Bureau Executif"
+                        +"\n# Bureau Executif (PSD & Affaires Internes)"
                     )
                 ]
             });
@@ -70,7 +70,7 @@ async function divDaily(client) {
 
             const members = await guild.members.fetch();
             const rankOrder = [
-                "• Sheriff", "• Deputy Sheriff", "• Assistant Sheriff", "• Captain", "• Lieutenant",
+                "• Sheriff", "• Assistant Sheriff", "• Captain", "• Lieutenant",
                 "• Chief Sergeant", "• Sergeant",
                 "• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"
             ];

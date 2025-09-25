@@ -183,8 +183,8 @@ module.exports = {
         const {sendOpenService} = require('../utils/openService');
         const {reboot} = require('../utils/reboot');
         const {checkTicketInit} = require('../utils/checkTicketInit');
-
-        checkMemberRole(client)
+        
+        tabsDaily(client), divDaily(client)
 
         function taskMorning() {
             console.log(chalk.green("🌅 Tâches du matin exécutées !"));
