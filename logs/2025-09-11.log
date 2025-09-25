@@ -1,0 +1,437 @@
+[2025-09-11T06:57:51.321Z] 2025-09-11 08:57:51 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-09-11T06:57:51.352Z] [EVENT] 2025-09-11 08:57:51 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-09-11T06:57:51.354Z] [EVENT] 2025-09-11 08:57:51 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-09-11T06:57:51.355Z] [EVENT] 2025-09-11 08:57:51 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-09-11T06:57:51.356Z] [EVENT] 2025-09-11 08:57:51 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-09-11T06:57:51.359Z] 2025-09-11 08:57:51 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T06:57:52.165Z] 2025-09-11 08:57:52 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T06:57:52.419Z] 2025-09-11 08:57:52 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T06:57:52.420Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-09-11T06:57:52.423Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-09-11T06:57:52.424Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-09-11T06:57:52.426Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-09-11T06:57:52.451Z] 2025-09-11 08:57:52 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T06:57:52.469Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : ready
+[2025-09-11T06:57:52.470Z] [EVENT] 2025-09-11 08:57:52 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-09-11T06:57:52.476Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-09-11T06:57:52.477Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-09-11T06:57:52.478Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-09-11T06:57:52.480Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-09-11T06:57:52.482Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-09-11T06:57:52.484Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-09-11T06:57:52.486Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-09-11T06:57:52.488Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-09-11T06:57:52.489Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-09-11T06:57:52.491Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-09-11T06:57:52.493Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-09-11T06:57:52.509Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-09-11T06:57:52.511Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-09-11T06:57:52.512Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-09-11T06:57:52.514Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-09-11T06:57:52.515Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-09-11T06:57:52.517Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-09-11T06:57:52.519Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-09-11T06:57:52.522Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-09-11T06:57:52.523Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-09-11T06:57:52.525Z] [COMMANDS] 2025-09-11 08:57:52 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-09-11T06:57:52.530Z] 2025-09-11 08:57:52 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.1.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-09-11T06:57:53.299Z] 2025-09-11 08:57:53 [DEBUG] 📦 Checking version from local...
+[2025-09-11T06:57:53.300Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-11T06:57:53.301Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-09-11T06:57:53.302Z] 2025-09-11 08:57:53 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-11T06:57:53.306Z] 2025-09-11 08:57:53 [ERROR] (node:354365) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-09-11T06:57:53.559Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-11T06:57:53.560Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-11T06:57:53.560Z] [INFO] 2025-09-11 08:57:53 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-09-11T06:57:53.560Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [34m==============================[39m
+[2025-09-11T06:57:53.561Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-09-11T06:57:53.561Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-09-11T06:57:53.561Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-09-11T06:57:53.561Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-09-11T06:57:53.569Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-09-11T06:57:53.572Z] 2025-09-11 08:57:53 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-09-11T06:57:53.572Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 📥 Serveur trouvé : Los Santos Sheriff Department
+[2025-09-11T06:57:53.742Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-09-11T06:57:53.743Z] 2025-09-11 08:57:53 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-09-11T06:57:53.743Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-09-11T06:57:53.743Z] 2025-09-11 08:57:53 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-09-11T06:57:53.744Z] 2025-09-11 08:57:53 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-09-11T09:15:38.017Z] 2025-09-11 11:15:37 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-09-11T09:15:38.041Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-09-11T09:15:38.043Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-09-11T09:15:38.044Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-09-11T09:15:38.046Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-09-11T09:15:38.047Z] 2025-09-11 11:15:38 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T09:15:38.519Z] 2025-09-11 11:15:38 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T09:15:38.639Z] 2025-09-11 11:15:38 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T09:15:38.641Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-09-11T09:15:38.643Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-09-11T09:15:38.644Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-09-11T09:15:38.646Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-09-11T09:15:38.655Z] 2025-09-11 11:15:38 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-09-11T09:15:38.667Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : ready
+[2025-09-11T09:15:38.669Z] [EVENT] 2025-09-11 11:15:38 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-09-11T09:15:38.673Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-09-11T09:15:38.674Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-09-11T09:15:38.676Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-09-11T09:15:38.677Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-09-11T09:15:38.679Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-09-11T09:15:38.680Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-09-11T09:15:38.682Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-09-11T09:15:38.683Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-09-11T09:15:38.684Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-09-11T09:15:38.686Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-09-11T09:15:38.688Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-09-11T09:15:38.695Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-09-11T09:15:38.696Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-09-11T09:15:38.698Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-09-11T09:15:38.700Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-09-11T09:15:38.702Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-09-11T09:15:38.703Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-09-11T09:15:38.706Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-09-11T09:15:38.708Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-09-11T09:15:38.709Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-09-11T09:15:38.711Z] [COMMANDS] 2025-09-11 11:15:38 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-09-11T09:15:38.717Z] 2025-09-11 11:15:38 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-09-11T09:15:39.486Z] 2025-09-11 11:15:39 [DEBUG] 📦 Checking version from local...
+[2025-09-11T09:15:39.487Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-11T09:15:39.487Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-11T09:15:39.487Z] 2025-09-11 11:15:39 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-11T09:15:39.490Z] 2025-09-11 11:15:39 [ERROR] (node:355324) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-09-11T09:15:39.726Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-11T09:15:39.727Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-11T09:15:39.727Z] 2025-09-11 11:15:39 [WARN] ⚠️ Les versions diffèrent : locale (2.2) ≠ distante (2.1.2)
+[2025-09-11T09:15:39.727Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [34m==============================[39m
+[2025-09-11T09:15:39.728Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-09-11T09:15:39.728Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-09-11T09:15:39.728Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-09-11T09:15:39.728Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-09-11T09:15:39.736Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-09-11T09:15:39.739Z] 2025-09-11 11:15:39 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-09-11T09:15:39.739Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 📥 Serveur trouvé : Los Santos Sheriff Department
+[2025-09-11T09:15:39.922Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-09-11T09:15:39.923Z] 2025-09-11 11:15:39 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-09-11T09:15:39.924Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-09-11T09:15:39.924Z] 2025-09-11 11:15:39 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-09-11T09:15:39.924Z] 2025-09-11 11:15:39 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-09-11T10:11:58.731Z] 2025-09-11 12:11:58 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32m|| @everyone ||[39m
+[32m[39m
+[32mVoici le serveur sur lequel nous reprenons du service en tant que LSSD ![39m
+[32m[39m
+[32mhttps://discord.gg/rmfs3thu6G[39m
+[32m[39m
+[32mIl est encore en beta mais fonctionne bien, encore quelques petites chose à régler pour nous mais le service est en état de fonction.[39m
+[32mAussi, vous aurez remarqué que <@439425425131962368> est notre nouveau Sheriff. En effet, <@767703415413014579> prend une petite pause et reviendra bientôt pour gagner les prochaines élections de Sheriff.[39m
+[32m[39m
+[32m-# <@794334752165330964> , Captain at the Sandy Shores Station ;[39m
+[32m-# <:Logo_LSCSD:1414975735164305499> Los Santos Sheriff's Dept.[39m [0mdans[0m [32m📢-annonce[39m
+[2025-09-11T10:18:58.222Z] 2025-09-11 12:18:58 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32m# Test[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-11T10:19:00.498Z] 2025-09-11 12:19:00 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-11T10:19:00.499Z] 2025-09-11 12:19:00 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mrory.p71[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-11T10:42:54.329Z] 2025-09-11 12:42:54 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmathiieeuu[39m [0ma envoyé[0m [32mDispo quand tu veux[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-11T11:12:00.162Z] 2025-09-11 13:12:00 [CLIENT DISCORD] [32m[MEMBER ADD] titanium20_ est arrivé à 9/11/2025, 11:12:00 AM[39m
+[2025-09-11T11:12:44.787Z] 2025-09-11 13:12:44 [CLIENT DISCORD] [31m[MEMBER REMOVE] titanium20_ est parti à 9/11/2025, 11:12:44 AM[39m
+[2025-09-11T12:55:08.472Z] 2025-09-11 14:55:08 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mEn vigueur sur l'entièreté de l'État.[39m
+[32m[39m
+[32mLien : https://docs.google.com/document/d/1N4Ff0ohXvYpExmlNHz3-EQ6DrTg8AbzZuwb-DC4NlXI/edit?usp=sharing[39m
+[32m[39m
+[32mCODE DE PROCÉDURE PÉNAL : [39m
+[32mEn vigueur sur l'entièreté de l'État. [39m
+[32m[39m
+[32mLien : https://docs.google.com/document/d/1x6uDa6KdAVCcl21bsKx67eybVCxXbaQMlVcywL7J3h4/edit?usp=sharing [39m
+[32m[39m
+[32mCODE DE LA CHASSE : [39m
+[32mEn vigueur sur l'entièreté de l'État.[39m
+[32m[39m
+[32mLien : https://docs.google.com/document/d/1KiQ7P15IHFQcTR_BZj_yo2mZRbFvfxSghoBn7gJWcBg/edit?usp=sharing[39m [0mdans[0m [32mCode Pénal[39m
+[2025-09-11T13:07:07.940Z] 2025-09-11 15:07:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mje suis parti en ville[39m [0mdans[0m [32m🪖 Supervision[39m
+[2025-09-11T14:00:00.103Z] 2025-09-11 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-09-11T14:00:00.115Z] 2025-09-11 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-09-11T14:00:00.120Z] 2025-09-11 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-09-11T14:00:00.124Z] 2025-09-11 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-09-11T14:00:00.136Z] 2025-09-11 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-11T14:00:00.138Z] 2025-09-11 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-11T14:00:00.139Z] 2025-09-11 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-11T14:00:00.140Z] 2025-09-11 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-11T14:00:00.182Z] 2025-09-11 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-09-11T14:00:00.184Z] 2025-09-11 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-09-11T14:00:00.186Z] 2025-09-11 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-09-11T14:00:00.270Z] 2025-09-11 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 14 exécutif(s), 2 superviseur(s) et 2 commandement(s)
+[2025-09-11T14:00:00.551Z] 2025-09-11 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-11T14:00:00.553Z] 2025-09-11 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-11T14:00:00.554Z] 2025-09-11 16:00:00 [WARN] ⚠️ Les versions diffèrent : locale (2.2) ≠ distante (2.1.2)
+[2025-09-11T14:00:00.650Z] [NOTIFY] 2025-09-11 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-09-11T14:00:00.913Z] 2025-09-11 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2025-09-11T14:00:01.056Z] [NOTIFY] 2025-09-11 16:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-09-11T14:00:01.248Z] 2025-09-11 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-09-11T14:00:01.250Z] 2025-09-11 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-11T14:00:01.800Z] 2025-09-11 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-09-11T14:00:01.802Z] 2025-09-11 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-11T14:00:30.776Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2025-09-11T14:00:30.777Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1415698397943431311",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-09-11T14:00:30.777Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 📌 ID du message enregistré : 1415698397943431311
+[2025-09-11T14:00:30.778Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1415698397943431311
+[2025-09-11T14:00:30.778Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2025-09-11T14:00:30.778Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T14:00:30.779Z] 2025-09-11 16:00:30 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`218 | Erica Sanchez`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-11T14:00:31.226Z] 2025-09-11 16:00:31 [CLIENT DISCORD] [BUTTON] matharcane a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2025-09-11T14:20:30.909Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-11T14:20:30.911Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1415698397943431311",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": [
+      "218 | Erica Sanchez"
+    ]
+  }
+}
+[2025-09-11T14:20:30.915Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 📌 ID du message enregistré : 1415698397943431311
+[2025-09-11T14:20:30.916Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1415698397943431311
+[2025-09-11T14:20:30.918Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T14:20:30.921Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "271-K9 | Rory Crowner"
+  ],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T14:20:30.925Z] 2025-09-11 16:20:30 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`271-K9 | Rory Crowner`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`218 | Erica Sanchez`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-11T14:20:32.127Z] 2025-09-11 16:20:32 [CLIENT DISCORD] [BUTTON] rory.p71 a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-11T14:32:41.214Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-11T14:32:41.215Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1415698397943431311",
+  "participants": {
+    "yes": [
+      "271-K9 | Rory Crowner"
+    ],
+    "no": [],
+    "maybe": [
+      "218 | Erica Sanchez"
+    ]
+  }
+}
+[2025-09-11T14:32:41.216Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 📌 ID du message enregistré : 1415698397943431311
+[2025-09-11T14:32:41.216Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1415698397943431311
+[2025-09-11T14:32:41.216Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "271-K9 | Rory Crowner"
+  ],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T14:32:41.217Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "271-K9 | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T14:32:41.218Z] 2025-09-11 16:32:41 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`271-K9 | Rory Crowner`, `862 | Matthew Lewis`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`218 | Erica Sanchez`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-11T14:32:41.889Z] 2025-09-11 16:32:41 [CLIENT DISCORD] [BUTTON] mathiieeuu a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-11T15:16:52.278Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-11T15:16:52.279Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1415698397943431311",
+  "participants": {
+    "yes": [
+      "271-K9 | Rory Crowner",
+      "862 | Matthew Lewis"
+    ],
+    "no": [],
+    "maybe": [
+      "218 | Erica Sanchez"
+    ]
+  }
+}
+[2025-09-11T15:16:52.279Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 📌 ID du message enregistré : 1415698397943431311
+[2025-09-11T15:16:52.280Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1415698397943431311
+[2025-09-11T15:16:52.280Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "271-K9 | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T15:16:52.280Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "271-K9 | Rory Crowner",
+    "862 | Matthew Lewis",
+    "215 | James Garcia"
+  ],
+  "no": [],
+  "maybe": [
+    "218 | Erica Sanchez"
+  ]
+}
+[2025-09-11T15:16:52.281Z] 2025-09-11 17:16:52 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`271-K9 | Rory Crowner`, `862 | Matthew Lewis`, `215 | James Garcia`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`218 | Erica Sanchez`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-11T15:16:53.003Z] 2025-09-11 17:16:53 [CLIENT DISCORD] [BUTTON] khalil35 a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-11T16:23:47.891Z] 2025-09-11 18:23:47 [CLIENT DISCORD] [31m[MEMBER REMOVE] compte_2_fou est parti à 9/11/2025, 4:23:47 PM[39m
+[2025-09-11T17:10:20.489Z] 2025-09-11 19:10:20 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mluludu04[39m [0ma envoyé[0m [32mbonsoir[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2025-09-11T17:10:34.563Z] 2025-09-11 19:10:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mluludu04[39m [0ma envoyé[0m [32moui[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2025-09-11T17:27:47.961Z] 2025-09-11 19:27:47 [CLIENT DISCORD] [32m[MEMBER ADD] clemloige est arrivé à 9/11/2025, 5:27:47 PM[39m
+[2025-09-11T17:28:02.040Z] 2025-09-11 19:28:02 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mclemloige[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-11T17:28:04.660Z] 2025-09-11 19:28:04 [CLIENT DISCORD] [BUTTON] clemloige a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2025-09-11T17:28:15.630Z] 2025-09-11 19:28:15 [ERROR] (node:355324) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+[2025-09-11T17:28:15.846Z] 2025-09-11 19:28:15 [CLIENT DISCORD] [MODAL] clemloige a exécuté l'interaction modal rulesModal dans 1252234244760141874
+[2025-09-11T17:36:38.177Z] 2025-09-11 19:36:38 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmathiieeuu[39m [0ma envoyé[0m [32m<@794334752165330964>[39m [0mdans[0m [32m🪖 Supervision[39m

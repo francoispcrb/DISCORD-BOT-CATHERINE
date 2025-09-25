@@ -1,0 +1,116 @@
+[2025-08-16T03:00:00.164Z] 2025-08-16 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2025-08-16T03:00:00.201Z] 2025-08-16 05:00:00 [DEBUG] 📦 Checking version from local...
+[2025-08-16T03:00:00.204Z] 2025-08-16 05:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-08-16T03:00:00.205Z] 2025-08-16 05:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-08-16T03:00:00.206Z] 2025-08-16 05:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-08-16T03:00:00.213Z] 2025-08-16 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2025-08-16T03:00:09.751Z] 2025-08-16 05:00:09 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-08-16T03:00:09.783Z] [EVENT] 2025-08-16 05:00:09 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-08-16T03:00:09.784Z] [EVENT] 2025-08-16 05:00:09 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-08-16T03:00:09.786Z] [EVENT] 2025-08-16 05:00:09 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-08-16T03:00:09.789Z] [EVENT] 2025-08-16 05:00:09 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-08-16T03:00:09.794Z] 2025-08-16 05:00:09 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-08-16T03:00:10.855Z] 2025-08-16 05:00:10 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-08-16T03:00:11.083Z] 2025-08-16 05:00:11 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-08-16T03:00:11.086Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-08-16T03:00:11.089Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-08-16T03:00:11.092Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-08-16T03:00:11.095Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-08-16T03:00:11.137Z] 2025-08-16 05:00:11 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-08-16T03:00:11.164Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : ready
+[2025-08-16T03:00:11.165Z] [EVENT] 2025-08-16 05:00:11 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-08-16T03:00:11.171Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-08-16T03:00:11.173Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-08-16T03:00:11.175Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-08-16T03:00:11.177Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-08-16T03:00:11.180Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-08-16T03:00:11.182Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-08-16T03:00:11.185Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-08-16T03:00:11.187Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-08-16T03:00:11.191Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-08-16T03:00:11.193Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-08-16T03:00:11.196Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-08-16T03:00:11.215Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-08-16T03:00:11.218Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-08-16T03:00:11.220Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-08-16T03:00:11.222Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-08-16T03:00:11.224Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-08-16T03:00:11.227Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-08-16T03:00:11.230Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-08-16T03:00:11.234Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-08-16T03:00:11.241Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-08-16T03:00:11.243Z] [COMMANDS] 2025-08-16 05:00:11 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-08-16T03:00:11.250Z] 2025-08-16 05:00:11 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.1.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-08-16T03:00:12.054Z] 2025-08-16 05:00:12 [DEBUG] 📦 Checking version from local...
+[2025-08-16T03:00:12.055Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-08-16T03:00:12.056Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-08-16T03:00:12.057Z] 2025-08-16 05:00:12 [DEBUG] 🌐 Checking version from GitHub...
+[2025-08-16T03:00:12.297Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-08-16T03:00:12.298Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-08-16T03:00:12.300Z] [INFO] 2025-08-16 05:00:12 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-08-16T03:00:12.301Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [34m==============================[39m
+[2025-08-16T03:00:12.302Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-08-16T03:00:12.303Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-08-16T03:00:12.304Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-08-16T03:00:12.306Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-08-16T03:00:12.319Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-08-16T03:00:12.323Z] 2025-08-16 05:00:12 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-08-16T03:00:12.324Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+[2025-08-16T03:00:12.707Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-08-16T03:00:12.708Z] 2025-08-16 05:00:12 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-08-16T03:00:12.709Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-08-16T03:00:12.709Z] 2025-08-16 05:00:12 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-08-16T03:00:12.709Z] 2025-08-16 05:00:12 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-08-16T06:00:00.216Z] 2025-08-16 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2025-08-16T06:00:00.251Z] 2025-08-16 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-08-16T06:00:00.260Z] 2025-08-16 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-08-16T06:00:00.265Z] 2025-08-16 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-08-16T06:00:00.284Z] 2025-08-16 08:00:00 [DEBUG] 📦 Checking version from local...
+[2025-08-16T06:00:00.287Z] 2025-08-16 08:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-08-16T06:00:00.288Z] 2025-08-16 08:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-08-16T06:00:00.289Z] 2025-08-16 08:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-08-16T06:00:00.425Z] 2025-08-16 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-08-16T06:00:00.432Z] 2025-08-16 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-08-16T06:00:00.433Z] 2025-08-16 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-08-16T06:00:00.502Z] 2025-08-16 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-08-16T06:00:00.742Z] 2025-08-16 08:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-08-16T06:00:00.743Z] 2025-08-16 08:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-08-16T06:00:00.745Z] [INFO] 2025-08-16 08:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-08-16T06:00:01.097Z] [NOTIFY] 2025-08-16 08:00:01 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-08-16T06:00:01.374Z] [NOTIFY] 2025-08-16 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-08-16T06:00:04.616Z] 2025-08-16 08:00:04 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-08-16T06:00:04.643Z] 2025-08-16 08:00:04 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-08-16T06:00:05.051Z] 2025-08-16 08:00:05 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-08-16T06:00:05.053Z] 2025-08-16 08:00:05 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-08-16T14:00:00.116Z] 2025-08-16 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-08-16T14:00:00.136Z] 2025-08-16 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-08-16T14:00:00.140Z] 2025-08-16 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-08-16T14:00:00.142Z] 2025-08-16 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-08-16T14:00:00.150Z] 2025-08-16 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-08-16T14:00:00.153Z] 2025-08-16 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-08-16T14:00:00.154Z] 2025-08-16 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-08-16T14:00:00.155Z] 2025-08-16 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-08-16T14:00:00.211Z] 2025-08-16 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-08-16T14:00:00.214Z] 2025-08-16 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-08-16T14:00:00.215Z] 2025-08-16 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-08-16T14:00:00.281Z] 2025-08-16 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-08-16T14:00:00.484Z] 2025-08-16 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-08-16T14:00:00.485Z] 2025-08-16 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-08-16T14:00:00.486Z] [INFO] 2025-08-16 16:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-08-16T14:00:00.642Z] [NOTIFY] 2025-08-16 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-08-16T14:00:01.039Z] [NOTIFY] 2025-08-16 16:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-08-16T14:00:02.161Z] 2025-08-16 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-08-16T14:00:02.184Z] 2025-08-16 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-08-16T14:00:02.475Z] 2025-08-16 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-08-16T14:00:02.478Z] 2025-08-16 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.

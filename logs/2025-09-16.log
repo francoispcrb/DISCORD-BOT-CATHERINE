@@ -1,0 +1,1009 @@
+[2025-09-16T03:00:00.189Z] 2025-09-16 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2025-09-16T03:00:00.220Z] 2025-09-16 05:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-16T03:00:00.223Z] 2025-09-16 05:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-16T03:00:00.224Z] 2025-09-16 05:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-16T03:00:00.229Z] 2025-09-16 05:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-16T03:00:00.293Z] 2025-09-16 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2025-09-16T03:00:08.321Z] 2025-09-16 05:00:08 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-09-16T03:00:08.356Z] [EVENT] 2025-09-16 05:00:08 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-09-16T03:00:08.357Z] [EVENT] 2025-09-16 05:00:08 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-09-16T03:00:08.358Z] [EVENT] 2025-09-16 05:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-09-16T03:00:08.359Z] [EVENT] 2025-09-16 05:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-09-16T03:00:08.362Z] 2025-09-16 05:00:08 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-09-16T03:00:09.288Z] 2025-09-16 05:00:09 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-09-16T03:00:09.532Z] 2025-09-16 05:00:09 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-09-16T03:00:09.534Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-09-16T03:00:09.535Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-09-16T03:00:09.537Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-09-16T03:00:09.539Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-09-16T03:00:09.558Z] 2025-09-16 05:00:09 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-09-16T03:00:09.574Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : ready
+[2025-09-16T03:00:09.574Z] [EVENT] 2025-09-16 05:00:09 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-09-16T03:00:09.580Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-09-16T03:00:09.581Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-09-16T03:00:09.582Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-09-16T03:00:09.584Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-09-16T03:00:09.585Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-09-16T03:00:09.586Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-09-16T03:00:09.588Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-09-16T03:00:09.589Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-09-16T03:00:09.591Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-09-16T03:00:09.593Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-09-16T03:00:09.595Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-09-16T03:00:09.611Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-09-16T03:00:09.612Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-09-16T03:00:09.613Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-09-16T03:00:09.614Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-09-16T03:00:09.616Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-09-16T03:00:09.617Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-09-16T03:00:09.618Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-09-16T03:00:09.621Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-09-16T03:00:09.623Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-09-16T03:00:09.624Z] [COMMANDS] 2025-09-16 05:00:09 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-09-16T03:00:09.628Z] 2025-09-16 05:00:09 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-09-16T03:00:12.475Z] 2025-09-16 05:00:12 [DEBUG] 📦 Checking version from local...
+[2025-09-16T03:00:12.477Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-16T03:00:12.477Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-16T03:00:12.478Z] 2025-09-16 05:00:12 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-16T03:00:12.481Z] 2025-09-16 05:00:12 [ERROR] (node:376309) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-09-16T03:00:12.714Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-16T03:00:12.715Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 🕒 Version distante : 2.2
+[2025-09-16T03:00:12.717Z] [INFO] 2025-09-16 05:00:12 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-09-16T03:00:12.718Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [34m==============================[39m
+[2025-09-16T03:00:12.719Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-09-16T03:00:12.720Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-09-16T03:00:12.721Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-09-16T03:00:12.722Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-09-16T03:00:12.734Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-09-16T03:00:12.737Z] 2025-09-16 05:00:12 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-09-16T03:00:12.738Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 📥 Serveur trouvé : Los Santos Sheriff Department
+[2025-09-16T03:00:12.931Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-09-16T03:00:12.933Z] 2025-09-16 05:00:12 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-09-16T03:00:12.934Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-09-16T03:00:12.935Z] 2025-09-16 05:00:12 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-09-16T03:00:12.937Z] 2025-09-16 05:00:12 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-09-16T06:00:00.164Z] 2025-09-16 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2025-09-16T06:00:00.195Z] 2025-09-16 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-09-16T06:00:00.201Z] 2025-09-16 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-09-16T06:00:00.206Z] 2025-09-16 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-09-16T06:00:00.224Z] 2025-09-16 08:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-16T06:00:00.226Z] 2025-09-16 08:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-16T06:00:00.226Z] 2025-09-16 08:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-16T06:00:00.226Z] 2025-09-16 08:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-16T06:00:00.276Z] 2025-09-16 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-09-16T06:00:00.278Z] 2025-09-16 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-09-16T06:00:00.279Z] 2025-09-16 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-09-16T06:00:00.358Z] 2025-09-16 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 2 superviseur(s) et 3 commandement(s)
+[2025-09-16T06:00:00.543Z] 2025-09-16 08:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-16T06:00:00.544Z] 2025-09-16 08:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.2
+[2025-09-16T06:00:00.544Z] [INFO] 2025-09-16 08:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-09-16T06:00:00.879Z] [NOTIFY] 2025-09-16 08:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-09-16T06:00:01.229Z] [NOTIFY] 2025-09-16 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-09-16T06:00:01.817Z] 2025-09-16 08:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-09-16T06:00:01.820Z] 2025-09-16 08:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-16T06:00:02.494Z] 2025-09-16 08:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-09-16T06:00:02.495Z] 2025-09-16 08:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-16T06:28:17.992Z] 2025-09-16 08:28:17 [ERROR] (node:376309) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+[2025-09-16T06:28:18.229Z] 2025-09-16 08:28:18 [ERROR] Erreur dans executeButtons/executeModal: {}
+[2025-09-16T12:33:08.936Z] 2025-09-16 14:33:08 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mC'est la mission de la <@&1254743492392124417>[39m [0mdans[0m [32mdi-ravello[39m
+[2025-09-16T14:00:00.095Z] 2025-09-16 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-09-16T14:00:00.098Z] 2025-09-16 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-09-16T14:00:00.101Z] 2025-09-16 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-09-16T14:00:00.103Z] 2025-09-16 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-09-16T14:00:00.114Z] 2025-09-16 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-16T14:00:00.116Z] 2025-09-16 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-16T14:00:00.117Z] 2025-09-16 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-16T14:00:00.118Z] 2025-09-16 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-16T14:00:00.155Z] 2025-09-16 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-09-16T14:00:00.157Z] 2025-09-16 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-09-16T14:00:00.158Z] 2025-09-16 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-09-16T14:00:00.241Z] 2025-09-16 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 2 superviseur(s) et 3 commandement(s)
+[2025-09-16T14:00:00.486Z] 2025-09-16 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-16T14:00:00.487Z] 2025-09-16 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.2
+[2025-09-16T14:00:00.488Z] [INFO] 2025-09-16 16:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-09-16T14:00:00.650Z] [NOTIFY] 2025-09-16 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-09-16T14:00:00.832Z] [NOTIFY] 2025-09-16 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-09-16T14:00:00.851Z] 2025-09-16 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2025-09-16T14:00:01.566Z] 2025-09-16 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-09-16T14:00:01.569Z] 2025-09-16 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-16T14:00:02.071Z] 2025-09-16 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-09-16T14:00:02.076Z] 2025-09-16 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-16T14:00:12.237Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-16T14:00:12.238Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-09-16T14:00:12.242Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T14:00:12.243Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T14:00:12.245Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2025-09-16T14:00:12.247Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-09-16T14:00:12.252Z] 2025-09-16 16:00:12 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T14:00:13.884Z] 2025-09-16 16:00:13 [CLIENT DISCORD] [BUTTON] rory.p71 a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-16T14:01:30.887Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-16T14:01:30.889Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-09-16T14:01:30.893Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T14:01:30.895Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T14:01:30.896Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-09-16T14:01:30.899Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-09-16T14:01:30.903Z] 2025-09-16 16:01:30 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`, `862 | Matthew Lewis`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T14:01:31.841Z] 2025-09-16 16:01:31 [CLIENT DISCORD] [BUTTON] mathiieeuu a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-16T14:09:38.427Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2025-09-16T14:09:38.428Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner",
+      "862 | Matthew Lewis"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-09-16T14:09:38.432Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T14:09:38.433Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T14:09:38.434Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-09-16T14:09:38.437Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T14:09:38.441Z] 2025-09-16 16:09:38 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`, `862 | Matthew Lewis`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`1228-FTO | Pablo Mendes`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T14:09:38.917Z] 2025-09-16 16:09:38 [CLIENT DISCORD] [BUTTON] natael_mds a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2025-09-16T14:39:17.492Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 🔵 Interaction détectée : no
+[2025-09-16T14:39:17.493Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner",
+      "862 | Matthew Lewis"
+    ],
+    "no": [],
+    "maybe": [
+      "1228-FTO | Pablo Mendes"
+    ]
+  }
+}
+[2025-09-16T14:39:17.498Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T14:39:17.499Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T14:39:17.500Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T14:39:17.504Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [
+    "4893-LT | Sean Lennon"
+  ],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T14:39:17.508Z] 2025-09-16 16:39:17 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`, `862 | Matthew Lewis`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`4893-LT | Sean Lennon`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`1228-FTO | Pablo Mendes`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T14:39:18.018Z] 2025-09-16 16:39:18 [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton no dans 1347963262892904469
+[2025-09-16T16:29:30.486Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-16T16:29:30.495Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner",
+      "862 | Matthew Lewis"
+    ],
+    "no": [
+      "4893-LT | Sean Lennon"
+    ],
+    "maybe": [
+      "1228-FTO | Pablo Mendes"
+    ]
+  }
+}
+[2025-09-16T16:29:30.501Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T16:29:30.502Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T16:29:30.503Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis"
+  ],
+  "no": [
+    "4893-LT | Sean Lennon"
+  ],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T16:29:30.507Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis",
+    "CAR 01 | Ben Bolt"
+  ],
+  "no": [
+    "4893-LT | Sean Lennon"
+  ],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T16:29:30.514Z] 2025-09-16 18:29:30 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`, `862 | Matthew Lewis`, `CAR 01 | Ben Bolt`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`4893-LT | Sean Lennon`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`1228-FTO | Pablo Mendes`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T16:29:31.408Z] 2025-09-16 18:29:31 [CLIENT DISCORD] [BUTTON] mrbobolt a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-16T16:29:45.668Z] 2025-09-16 18:29:45 [CLIENT DISCORD] 🔵 Interaction détectée : no
+[2025-09-16T16:29:45.668Z] 2025-09-16 18:29:45 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner",
+      "862 | Matthew Lewis",
+      "CAR 01 | Ben Bolt"
+    ],
+    "no": [
+      "4893-LT | Sean Lennon"
+    ],
+    "maybe": [
+      "1228-FTO | Pablo Mendes"
+    ]
+  }
+}
+[2025-09-16T16:29:45.669Z] 2025-09-16 18:29:45 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T16:29:45.669Z] 2025-09-16 18:29:45 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417147948571295794
+[2025-09-16T16:29:45.669Z] 2025-09-16 18:29:45 [CLIENT DISCORD] 🔴 Le message de l'interaction ne correspond pas !
+[2025-09-16T16:29:45.670Z] 2025-09-16 18:29:45 [CLIENT DISCORD] [BUTTON] mrbobolt a exécuté l'interaction bouton no dans 1347963262892904469
+[2025-09-16T16:37:05.294Z] 2025-09-16 18:37:05 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32m<@439425425131962368>[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:37:17.627Z] 2025-09-16 18:37:17 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-16T16:37:17.636Z] 2025-09-16 18:37:17 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mrory.p71[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:38:38.354Z] 2025-09-16 18:38:38 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mt-shirt : 24[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:38:47.695Z] 2025-09-16 18:38:47 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:38:50.491Z] 2025-09-16 18:38:50 [CLIENT DISCORD] [94m[COMMAND][39m [32mrory.p71[39m [0ma exécuté la commande[0m [32mshift[39m [0mdans[0m [32m📠-radio[39m
+[2025-09-16T16:38:50.493Z] 2025-09-16 18:38:50 [CLIENT DISCORD] [42m✅ Utilisateur 794334752165330964 bypass les permissions.[49m
+[2025-09-16T16:40:19.115Z] 2025-09-16 18:40:19 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChemise manche courte : 190[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:40:21.924Z] 2025-09-16 18:40:21 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:40:27.810Z] 2025-09-16 18:40:27 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<3[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:40:43.818Z] 2025-09-16 18:40:43 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChemise manche longue : 193[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:40:45.931Z] 2025-09-16 18:40:45 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:45:28.998Z] 2025-09-16 18:45:28 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mPolo : 590 (c'est pas de notre pack mais en vrai c'est pas dérangant il y a écrit que sheriff)[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:47:27.419Z] 2025-09-16 18:47:27 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mHaut AirSupport : 594 (c'est toujours pas notre pack)[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:48:19.161Z] 2025-09-16 18:48:19 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mVest grand froid : 600 (même choses)[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:49:44.827Z] 2025-09-16 18:49:44 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mVeste : 608[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:50:12.047Z] 2025-09-16 18:50:12 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mVeste avec chemise : 609[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:51:07.864Z] 2025-09-16 18:51:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChemise longue Search  and Rescue : 615[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:53:53.765Z] 2025-09-16 18:53:53 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChemise SRT : 623 (pas notre pack mais il y a des trucs intéressant qu'on peut utiliser)[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:54:33.626Z] 2025-09-16 18:54:33 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m# <:Logo_LSCSD:1414975735164305499> Official statement from the Sandy Shore Station, Lieutenant Lennon[39m
+[32m> ## NOTE DE SERVICE N°1 • Call Identifer et Matricule[39m
+[32m> ## *Los Santos Sheriff Department*[39m
+[32m*<@&1259234502866108456>*[39m
+[32m[39m
+[32mBonjour,[39m
+[32m[39m
+[32m> Comme vous l'avez remarqué, un MDT est mis à notre dispostion par la ville.[39m
+[32m> Dans ce cas, la mise des rapports sur le MDT est ***obligatoire***. [39m
+[32m[39m
+[32m> Sur Discord, est ***obligatoire*** :[39m
+[32m> - Les rapports nécessitant un suivi judiciaire.[39m
+[32m> - Les dossiers <#1417242678214656200> et <#1417213630394400928> mis à jour en fonction de vos rapports / altercation / contravention.[39m
+[32m[39m
+[32mL'équipe Développeur est en train de mettre en oeuvre un système informatique permettant de simplifier vos rapports.[39m
+[32m[39m
+[32mLe temps du développement, vous serez priez de respct ces contraintes. Je suis au courant que c'est contragnant de devoir faire "deux fois" le travail (vous copiez collez de || FiveM|| à || Discord ||) mais il est nécessaire pour un suivi optimal || plus RP et ne contraint la connection IG pour...[39m [0mdans[0m [32m📢-annonce[39m
+[2025-09-16T16:54:40.281Z] 2025-09-16 18:54:40 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mVeste imperméable : 625[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:54:46.470Z] 2025-09-16 18:54:46 [CLIENT DISCORD] [MESSAGE UPDATED] francois.piano a modifié un message dans #📢-annonce: "# <:Logo_LSCSD:1414975735164305499> Official statement from the Sandy Shore Station, Lieutenant Lennon
+> ## NOTE DE SERVICE N°1 • Call Identifer et Matricule
+> ## *Los Santos Sheriff Department*
+*<@&1259234502866108456>*
+
+Bonjour,
+
+> Comme vous l'avez remarqué, un MDT est mis à notre dispostion par la ville.
+> Dans ce cas, la mise des rapports sur le MDT est ***obligatoire***. 
+
+> Sur Discord, est ***obligatoire*** :
+> - Les rapports nécessitant un suivi judiciaire.
+> - Les dossiers <#1417242678214656200> et <#1417213630394400928> mis à jour en fonction de vos rapports / altercation / contravention.
+
+L'équipe Développeur est en train de mettre en oeuvre un système informatique permettant de simplifier vos rapports.
+
+Le temps du développement, vous serez priez de respct ces contraintes. Je suis au courant que c'est contragnant de devoir faire "deux fois" le travail (vous copiez collez de || FiveM|| à || Discord ||) mais il est nécessaire pour un suivi optimal || plus RP et ne contraint la connection IG pour..." → "# <:Logo_LSCSD:1414975735164305499> Official statement from the Sandy Shore Station, Lieutenant Lennon
+> ## NOTE DE SERVICE N°1 • Rapport
+> ## *Los Santos Sheriff Department*
+*<@&1259234502866108456>*
+
+Bonjour,
+
+> Comme vous l'avez remarqué, un MDT est mis à notre dispostion par la ville.
+> Dans ce cas, la mise des rapports sur le MDT est ***obligatoire***. 
+
+> Sur Discord, est ***obligatoire*** :
+> - Les rapports nécessitant un suivi judiciaire.
+> - Les dossiers <#1417242678214656200> et <#1417213630394400928> mis à jour en fonction de vos rapports / altercation / contravention.
+
+L'équipe Développeur est en train de mettre en oeuvre un système informatique permettant de simplifier vos rapports.
+
+Le temps du développement, vous serez priez de respct ces contraintes. Je suis au courant que c'est contragnant de devoir faire "deux fois" le travail (vous copiez collez de || FiveM|| à || Discord ||) mais il est nécessaire pour un suivi optimal || plus RP et ne contraint la connection IG pour pouvoir travailler ..."
+[2025-09-16T16:55:42.736Z] 2025-09-16 18:55:42 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGrosse veste sa mère : 627[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:56:15.529Z] 2025-09-16 18:56:15 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChemise courte mais pas notre putain de pack : 628[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:56:34.984Z] 2025-09-16 18:56:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mMême choses mais en long : 629[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:57:15.243Z] 2025-09-16 18:57:15 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mP'tit col rouler en dessous : 630[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:57:45.912Z] 2025-09-16 18:57:45 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mAh ? : 631[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:58:07.350Z] 2025-09-16 18:58:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mOh ? : 632[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:58:59.592Z] 2025-09-16 18:58:59 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mMhh.. : 640[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:59:37.655Z] 2025-09-16 18:59:37 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mMouais : 642[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T16:59:59.281Z] 2025-09-16 18:59:59 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mBeurk : 644[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:00:31.858Z] 2025-09-16 19:00:31 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mEncore une veste ? : 649[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:00:54.372Z] 2025-09-16 19:00:54 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mOk... : 650[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:01:24.751Z] 2025-09-16 19:01:24 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mOkie dokie : 651[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:02:42.686Z] 2025-09-16 19:02:42 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mNote perso : 739[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:08:59.999Z] 2025-09-16 19:08:59 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mPantalon moto : 231[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:09:57.285Z] 2025-09-16 19:09:57 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mPantalon de service courant : 225 (à voir celui de notre pack)[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:11:26.680Z] 2025-09-16 19:11:26 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mAnti emeute : 125[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:13:20.846Z] 2025-09-16 19:13:20 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32ma voir : 28[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:13:44.121Z] 2025-09-16 19:13:44 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mjsp : 25[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:16:09.507Z] 2025-09-16 19:16:09 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet de sauvetage : 75[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:16:34.834Z] 2025-09-16 19:16:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mRadio déporté : 77[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:17:06.653Z] 2025-09-16 19:17:06 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mRadio déporté + Caméra corporel : 79[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:18:14.836Z] 2025-09-16 19:18:14 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet sheriff : 87[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:18:38.578Z] 2025-09-16 19:18:38 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet lourd : 89[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:19:24.552Z] 2025-09-16 19:19:24 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet jaune ! MACRON DEmmmiiii.... : 90[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:20:23.182Z] 2025-09-16 19:20:23 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mBadge + menotte : 92[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:21:00.941Z] 2025-09-16 19:21:00 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet pare balle : 94[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:21:32.843Z] 2025-09-16 19:21:32 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mGilet pare balle 2 : 96[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:21:59.304Z] 2025-09-16 19:21:59 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mRadio Déporté 2 : 98[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:22:30.616Z] 2025-09-16 19:22:30 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mRadio Déporté 3 :[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:24:01.411Z] 2025-09-16 19:24:01 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mDécoration + insigne : 83[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:24:05.117Z] 2025-09-16 19:24:05 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-16T17:24:05.128Z] 2025-09-16 19:24:05 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mmrbobolt[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:24:15.988Z] 2025-09-16 19:24:15 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mDécoration + insigne : 53[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:25:25.434Z] 2025-09-16 19:25:25 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mCarte pro : 112, 113[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:25:51.718Z] 2025-09-16 19:25:51 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mBadge gilet : 121[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:26:16.968Z] 2025-09-16 19:26:16 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mBref : 133[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:26:49.228Z] 2025-09-16 19:26:49 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mInsigne + nametag : 150[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:27:06.946Z] 2025-09-16 19:27:06 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mbnadge : 157[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:27:39.362Z] 2025-09-16 19:27:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mChat ? : 181[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:28:36.200Z] 2025-09-16 19:28:36 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mcasquette : 3[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:30:20.775Z] 2025-09-16 19:30:20 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mcasque balistique : 108[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:31:32.134Z] 2025-09-16 19:31:32 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mRobin des bois x) :  189[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:32:02.943Z] 2025-09-16 19:32:02 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mStylé : 205[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:39:10.774Z] 2025-09-16 19:39:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mCeinturon : 219, 220, 221, 224, 226, 227, 230, 231 (très beau nombre), 240, 241, 256[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-16T17:49:05.680Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-09-16T17:49:05.680Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1417510336701005986",
+  "participants": {
+    "yes": [
+      "7271-C | Rory Crowner",
+      "862 | Matthew Lewis",
+      "CAR 01 | Ben Bolt"
+    ],
+    "no": [
+      "4893-LT | Sean Lennon"
+    ],
+    "maybe": [
+      "1228-FTO | Pablo Mendes"
+    ]
+  }
+}
+[2025-09-16T17:49:05.681Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 📌 ID du message enregistré : 1417510336701005986
+[2025-09-16T17:49:05.681Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1417510336701005986
+[2025-09-16T17:49:05.681Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis",
+    "CAR 01 | Ben Bolt"
+  ],
+  "no": [
+    "4893-LT | Sean Lennon"
+  ],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T17:49:05.681Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "7271-C | Rory Crowner",
+    "862 | Matthew Lewis",
+    "CAR 01 | Ben Bolt",
+    "215 | James Garcia"
+  ],
+  "no": [
+    "4893-LT | Sean Lennon"
+  ],
+  "maybe": [
+    "1228-FTO | Pablo Mendes"
+  ]
+}
+[2025-09-16T17:49:05.682Z] 2025-09-16 19:49:05 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`7271-C | Rory Crowner`, `862 | Matthew Lewis`, `CAR 01 | Ben Bolt`, `215 | James Garcia`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`4893-LT | Sean Lennon`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`1228-FTO | Pablo Mendes`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-16T17:49:06.481Z] 2025-09-16 19:49:06 [CLIENT DISCORD] [BUTTON] khalil35 a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-09-16T17:53:30.548Z] 2025-09-16 19:53:30 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32muserinfo[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-16T17:53:30.550Z] 2025-09-16 19:53:30 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-16T17:54:27.021Z] 2025-09-16 19:54:27 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32muserinfo[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-16T17:54:27.021Z] 2025-09-16 19:54:27 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-16T17:54:36.482Z] 2025-09-16 19:54:36 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32muserinfo[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-16T17:54:36.484Z] 2025-09-16 19:54:36 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-16T18:47:02.958Z] 2025-09-16 20:47:02 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mLe 16 septembre, aux alentours de 20h, moi et john carter avons détenur Tyler Parker.[39m
+[32m[39m
+[32mUne fois Mr. Parker en cellule, j'ai passé pour la pesée les 50 sachets de weed à carter, qui en a consommé un devant moi. Je l'ai alors démis de ses fonctions pour la journée et lui ai invité à rentrer chez lui. Je l'ai recroisé peu après dans sandy shores, avec les mains en sang. J'ai tout de suite suspecté qu"il était à nouveau entré dans le poste pour tabasser mr Tyler. J'ai confirmé ces suspicions en voyant mr Tyler en sang dans sa cellule. J'ai procédé à la détention et la suspention de Mr Carter. Après une demi heure de problèmes ennyants, ou mr Carter s'est enfermé dans les vestiares pour mettre de la musique country très fort, j'ai réussit à lui faire quitter les lieux sous menace du tazer.[39m
+[32m[39m
+[32mMr John Carter est suspendu, et je laisses aux affaires internes le rôle de terminer son contract de la meilleure des manières.[39m
+[32m[39m
+[32mCpt Rory Crowner[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T18:47:17.515Z] 2025-09-16 20:47:17 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32m<@&1272253157577064478>[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T18:48:53.288Z] 2025-09-16 20:48:53 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mMcCarty ?[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T18:50:30.183Z] 2025-09-16 20:50:30 [CLIENT DISCORD] [MESSAGE UPDATED] rory.p71 a modifié un message dans #Rapport (3): "Le 16 septembre, aux alentours de 20h, moi et john carter avons détenur Tyler Parker.
+
+Une fois Mr. Parker en cellule, j'ai passé pour la pesée les 50 sachets de weed à carter, qui en a consommé un devant moi. Je l'ai alors démis de ses fonctions pour la journée et lui ai invité à rentrer chez lui. Je l'ai recroisé peu après dans sandy shores, avec les mains en sang. J'ai tout de suite suspecté qu"il était à nouveau entré dans le poste pour tabasser mr Tyler. J'ai confirmé ces suspicions en voyant mr Tyler en sang dans sa cellule. J'ai procédé à la détention et la suspention de Mr Carter. Après une demi heure de problèmes ennyants, ou mr Carter s'est enfermé dans les vestiares pour mettre de la musique country très fort, j'ai réussit à lui faire quitter les lieux sous menace du tazer.
+
+Mr John Carter est suspendu, et je laisses aux affaires internes le rôle de terminer son contract de la meilleure des manières.
+
+Cpt Rory Crowner" → "Le 16 septembre, aux alentours de 20h, moi et john mcCarty avons détenur Tyler Parker.
+
+Une fois Mr. Parker en cellule, j'ai passé pour la pesée les 50 sachets de weed à mcCarty, qui en a consommé un devant moi. Je l'ai alors démis de ses fonctions pour la journée et lui ai invité à rentrer chez lui. Je l'ai recroisé peu après dans sandy shores, avec les mains en sang. J'ai tout de suite suspecté qu"il était à nouveau entré dans le poste pour tabasser mr Tyler. J'ai confirmé ces suspicions en voyant mr Tyler en sang dans sa cellule. J'ai procédé à la détention et la suspention de Mr mcCarty. Après une demi heure de problèmes ennyants, ou mr mcCarty s'est enfermé dans les vestiares pour mettre de la musique country très fort, j'ai réussit à lui faire quitter les lieux sous menace du tazer.
+
+Mr John mcCarty est suspendu, et je laisses aux affaires internes le rôle de terminer son contract de la meilleure des manières.
+
+Cpt Rory Crowner"
+[2025-09-16T18:50:32.958Z] 2025-09-16 20:50:32 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-16T18:50:32.971Z] 2025-09-16 20:50:32 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T18:54:51.048Z] 2025-09-16 20:54:51 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-16T18:54:51.063Z] 2025-09-16 20:54:51 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mrory.p71[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T18:55:48.458Z] 2025-09-16 20:55:48 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mcreatereport[39m [0mdans[0m [32m💬-discussion[39m
+[2025-09-16T18:55:48.460Z] 2025-09-16 20:55:48 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-16T18:56:04.958Z] 2025-09-16 20:56:04 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mticket[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T18:56:04.960Z] 2025-09-16 20:56:04 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-16T18:56:04.974Z] 2025-09-16 20:56:04 [DEBUG] ticket.json avant modification: {
+  "1393302039496495104": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 93
+  },
+  "1393302043023642800": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 94
+  },
+  "1393302766599934114": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 95
+  },
+  "1393305286969786511": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 98
+  },
+  "1393695201964458104": {
+    "users": [
+      "449432156595552257",
+      "433966775240097792"
+    ],
+    "auth": "François 🌺",
+    "type": "cmd",
+    "ticketname": "🔰-cmd-francoispiano",
+    "islock": false,
+    "isarchived": false,
+    "nb": 99,
+    "delete": "waiting"
+  },
+  "1417240232247558245": {
+    "users": [
+      "553899291362721793"
+    ],
+    "auth": "Nata3l_",
+    "type": "cmd",
+    "ticketname": "🔰-cmd-natael_mds",
+    "islock": false,
+    "isarchived": false,
+    "nb": 100
+  },
+  "1417243895347286016": {
+    "users": [
+      "1347944146496917505"
+    ],
+    "type": "unknown"
+  }
+}
+[2025-09-16T18:56:05.001Z] 2025-09-16 20:56:05 [DEBUG] Ticket non trouvé, création...
+[2025-09-16T18:56:05.002Z] 2025-09-16 20:56:05 [DEBUG] Ajout de l'utilisateur 815216042363715604...
+[2025-09-16T18:56:05.006Z] 2025-09-16 20:56:05 [DEBUG] ticket.json après modification: {
+  "1393302039496495104": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 93
+  },
+  "1393302043023642800": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 94
+  },
+  "1393302766599934114": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 95
+  },
+  "1393305286969786511": {
+    "users": [
+      "449432156595552257"
+    ],
+    "type": "recruit_modal",
+    "ticketname": "👥recruit-993--sean-lennon",
+    "islock": false,
+    "isarchived": false,
+    "nb": 98
+  },
+  "1393695201964458104": {
+    "users": [
+      "449432156595552257",
+      "433966775240097792"
+    ],
+    "auth": "François 🌺",
+    "type": "cmd",
+    "ticketname": "🔰-cmd-francoispiano",
+    "islock": false,
+    "isarchived": false,
+    "nb": 99,
+    "delete": "waiting"
+  },
+  "1417240232247558245": {
+    "users": [
+      "553899291362721793"
+    ],
+    "auth": "Nata3l_",
+    "type": "cmd",
+    "ticketname": "🔰-cmd-natael_mds",
+    "islock": false,
+    "isarchived": false,
+    "nb": 100
+  },
+  "1417243895347286016": {
+    "users": [
+      "1347944146496917505"
+    ],
+    "type": "unknown"
+  },
+  "1417584778378743809": {
+    "users": [
+      "815216042363715604"
+    ],
+    "type": "unknown"
+  }
+}
+[2025-09-16T18:56:05.047Z] 2025-09-16 20:56:05 [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+[2025-09-16T18:57:12.300Z] 2025-09-16 20:57:12 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m`Affairs Internes`[39m
+[32m[39m
+[32m# <:Logo_LSCSD:1414975735164305499> Official statement from the Sandy Shore Station, Lieutenant Lennon[39m
+[32m# <:LSSDemblem:815757431430447114> Official Investigation report from the Internal Affairs, Chief Lennon.[39m
+[32m[39m
+[32mBonjour M. McCarty.[39m
+[32m[39m
+[32mPouvous nous convenir d'un rendez-vous téléphonique ou en présentielle dans les plus brefs délais.[39m
+[32m[39m
+[32mCordialement[39m
+[32m[39m
+[32m-# <@449432156595552257>, Assistant Chief of Sandy Shore Station,[39m
+[32m-# 🇺🇸 Lieutenant of Los Santos Sheriff Department,[39m
+[32m-# <:LSSDemblem:815757431430447114>  Commander of LSSD Detective Division,[39m
+[32m-# <:BCSO:1238448088520196227>  Lieutenant of Internal Investigation Affairs.[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T19:05:13.756Z] 2025-09-16 21:05:13 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32measyjulien[39m [0ma envoyé[0m [32mBonsoir en téléphone je préfere[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T19:07:42.609Z] 2025-09-16 21:07:42 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mBonjour,[39m
+[32m[39m
+[32mSouhaitez-vous déposer plainte contre l'Officier et que le DoJ se saisisse du dossier ? [39m
+[32m[39m
+[32mCordialement,[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T19:11:16.871Z] 2025-09-16 21:11:16 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mJe vous laisse vous organiser en interne, bien entendu. [39m
+[32m[39m
+[32mLe suspect sera reçu vendredi soir par mes services car il ne peut être présent dans les prochains jours. [39m
+[32m[39m
+[32mJe rééditerais une convocation à ce titre et la glisserais ici-même. [39m
+[32m[39m
+[32mCordialement,[39m [0mdans[0m [32mdi-ravello[39m
+[2025-09-16T19:11:20.598Z] 2025-09-16 21:11:20 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mc'est à Mr Tyler Parker qu'il faut poser la question. L'état peut le suivre pour son comportement[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T19:12:13.719Z] 2025-09-16 21:12:13 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mVous pouvez, vous aussi, au nom du département déposer plainte. [39m
+[32m[39m
+[32mMes services vont contacter M. PARKER.[39m [0mdans[0m [32mRapport (3)[39m
+[2025-09-16T19:25:07.812Z] 2025-09-16 21:25:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mLe 16 septembre, entre 18h30 et 19h50, plusieurs poursuites très risquées ont été faites sur la  bravado buffalo https://discord.com/channels/1252231195312259073/1417213666993901619, notament suite à un vol d'ATM . Autours de 19h50, j'ai croisé le véhicule au nord de Davis. J'ai procédé à un contrôle à haut risque et ai détenu sans aucun soucis mr Tyler qui était au volant. Il dit avoir tout juste récupéré son véhicule qui avait été volé. Il ne nous aurais pas contacté suite au vol car il n'apprécie pas les forces de l'ordre. Il correspond cependant à la description du conducteur de la buffalo lors des poursuites. Il était en possession de 50 sachets de weed, pour 1kg de poids total.[39m
+[32mIl a été ramené au poste sans soucis. (cs https://discord.com/channels/1252231195312259073/1417582573109907728 )[39m
+[32m[39m
+[32mRory Crowner,[39m
+[32m-# Captain with the LSSD,[39m
+[32m-# Head of the Sandy Shores Station.[39m [0mdans[0m [32mRapport (4)[39m
+[2025-09-16T19:25:11.573Z] 2025-09-16 21:25:11 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mÊtes vous disponible ?[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T19:26:23.806Z] 2025-09-16 21:26:23 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@815216042363715604>[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T19:29:03.010Z] 2025-09-16 21:29:03 [CLIENT DISCORD] Writing shiftVehDyn: {
+  "Normal": {
+    "Crown Victoria 2003": 1,
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 2,
+    "Charger 2020": 2,
+    "FPIU 2013": 2,
+    "FPIU 2016": 3,
+    "FPIU 2020": 4,
+    "Taurus 2016": 2,
+    "Tahoe 2020": 2,
+    "F-150": 1,
+    "F-250": 1
+  },
+  "Slicktop": {
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 1,
+    "Charger 2020": 1,
+    "FPIU 2013": 1,
+    "FPIU 2016": 1,
+    "FPIU 2020": 2,
+    "FPIU 2025": 1,
+    "Taurus 2016": 1,
+    "Tahoe 2020": 1,
+    "F-150": 1
+  },
+  "Unmarked": {
+    "Crown Victoria 2010": 1,
+    "Charger 2014": 1,
+    "Charger 2016": 1,
+    "Charger 2020": 1,
+    "FPIU 2013": 1,
+    "FPIU 2020": 1,
+    "Taurus 2016": 1,
+    "Tahoe 2020": 1,
+    "F-150": 1,
+    "F-250": 1
+  },
+  "Admin": {
+    "FPIU 2016": 1
+  }
+}
+[2025-09-16T19:29:03.013Z] 2025-09-16 21:29:03 [CLIENT DISCORD] Writing shiftUser: {}
+[2025-09-16T19:29:03.013Z] 2025-09-16 21:29:03 [CLIENT DISCORD] Writing shiftFile: {
+  "449432156595552257": {
+    "service du 2025-05-23": [
+      "0h 0m 12s",
+      "0h 0m 4s",
+      "0h 1m 42s",
+      "0h 0m 9s",
+      "0h 0m 2s"
+    ],
+    "service du 2025-06-06": [
+      "0h 1m 37s",
+      "0h 0m 27s",
+      "0h 0m 8s"
+    ],
+    "service du 2025-06-14": [
+      "0h 0m 11s"
+    ],
+    "service du 2025-09-09": [
+      "0h 0m 52s",
+      "0h 0m 21s",
+      "0h 0m 10s"
+    ],
+    "service du 2025-09-10": [
+      "0h 0m 10s",
+      "0h 0m 10s",
+      "0h 1m 19s",
+      "0h 0m 11s",
+      "0h 0m 4s"
+    ],
+    "service du 2025-09-12": [
+      "0h 20m 58s"
+    ]
+  },
+  "433966775240097792": {
+    "service du 2025-05-23": [
+      "0h 1m 18s"
+    ]
+  },
+  "794334752165330964": {
+    "service du 2025-09-16": [
+      "2h 50m 12s"
+    ]
+  }
+}
+[2025-09-16T19:29:03.461Z] 2025-09-16 21:29:03 [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton end_shift_794334752165330964 dans 1344736680137199675
+[2025-09-16T20:26:39.657Z] 2025-09-16 22:26:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32measyjulien[39m [0ma envoyé[0m [32mdemain[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T20:43:02.256Z] 2025-09-16 22:43:02 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mBien. Prevenez moi de vos disponibilitées.[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T20:54:21.246Z] 2025-09-16 22:54:21 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32measyjulien[39m [0ma envoyé[0m [32mFin d apres midi[39m [0mdans[0m [32minternal-affairs[39m
+[2025-09-16T21:05:03.209Z] 2025-09-16 23:05:03 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32mhttps://recklemodifications.com/products/lcso-eup-pack-v1?srsltid=AfmBOooTKH4wTPsnpBAgvICgVos8wcLuaZ3D9m0b7BFBKwCYmiF5f-i5[39m [0mdans[0m [32m🗯 Général HRP[39m
+[2025-09-16T23:33:21.370Z] 2025-09-17 01:33:21 [CLIENT DISCORD] [BUTTON] keegan_rp a exécuté l'interaction bouton view_1347944146496917505 dans 1417243927160819902

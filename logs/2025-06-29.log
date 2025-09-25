@@ -1,0 +1,261 @@
+[2025-06-29T03:00:00.083Z] 2025-06-29 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2025-06-29T03:00:00.100Z] 2025-06-29 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2025-06-29T03:00:08.752Z] 2025-06-29 05:00:08 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-06-29T03:00:08.755Z] [EVENT] 2025-06-29 05:00:08 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanAdd
+[2025-06-29T03:00:08.756Z] [EVENT] 2025-06-29 05:00:08 [📅 EVENT NOTIFY] Chargement de l'événement : guildBanRemove
+[2025-06-29T03:00:08.761Z] [EVENT] 2025-06-29 05:00:08 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberAdd
+[2025-06-29T03:00:08.761Z] [EVENT] 2025-06-29 05:00:08 [📅 EVENT NOTIFY] Chargement de l'événement : guildMemberRemove
+[2025-06-29T03:00:08.765Z] 2025-06-29 05:00:08 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-06-29T03:00:09.297Z] 2025-06-29 05:00:09 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-06-29T03:00:09.300Z] 2025-06-29 05:00:09 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-06-29T03:00:09.301Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : interactionCreate
+[2025-06-29T03:00:09.302Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : messageCreate
+[2025-06-29T03:00:09.303Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : messageDelete
+[2025-06-29T03:00:09.304Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : messageUpdate
+[2025-06-29T03:00:09.317Z] 2025-06-29 05:00:09 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-06-29T03:00:09.335Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : ready
+[2025-06-29T03:00:09.336Z] [EVENT] 2025-06-29 05:00:09 [📅 EVENT NOTIFY] Chargement de l'événement : voiceStateUpdate
+[2025-06-29T03:00:09.336Z] 2025-06-29 05:00:09 [CLIENT DISCORD] ✅ Données rechargées depuis config.json : {
+  "messageId": "1388519307654467694",
+  "participants": {
+    "yes": [
+      "528 | Pablo Mendes",
+      "231 | Ben Bolt"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-06-29T03:00:09.337Z] 2025-06-29 05:00:09 [DEBUG] Hi !!
+[2025-06-29T03:00:09.337Z] 2025-06-29 05:00:09 [CLIENT DISCORD] [42m[30mChargement du fichier index.js[39m[49m
+[2025-06-29T03:00:09.338Z] [ERROR] 2025-06-29 05:00:09 [🔴 CRITICAL NOTIFY] Hey!
+[2025-06-29T03:00:09.338Z] 2025-06-29 05:00:09 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord.js, dotenv, express, express-session, fs, googleapis, luxon, node-cron, path, readline, rl[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : Catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.0 - Boost by Google Gemini[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06] **Passage 2.0 with new patch (shift, tabs... new commands handler)**[39m
+[32m[39m
+[2025-06-29T03:00:09.340Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : ban
+[2025-06-29T03:00:09.341Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : clear
+[2025-06-29T03:00:09.341Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : createreport
+[2025-06-29T03:00:09.343Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : div
+[2025-06-29T03:00:09.344Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : help
+[2025-06-29T03:00:09.345Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : info
+[2025-06-29T03:00:09.346Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : infoshift
+[2025-06-29T03:00:09.346Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : kick
+[2025-06-29T03:00:09.348Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : mute
+[2025-06-29T03:00:09.349Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : openservice
+[2025-06-29T03:00:09.351Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : pex
+[2025-06-29T03:00:09.351Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : promote
+[2025-06-29T03:00:09.353Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : recruit
+[2025-06-29T03:00:09.354Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : rename
+[2025-06-29T03:00:09.355Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : role
+[2025-06-29T03:00:09.357Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : send
+[2025-06-29T03:00:09.358Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : shift
+[2025-06-29T03:00:09.361Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : ticket
+[2025-06-29T03:00:09.364Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : userinfo
+[2025-06-29T03:00:09.365Z] [COMMANDS] 2025-06-29 05:00:09 [📌 COMMANDS NOTIFY] Commande chargée : warn
+[2025-06-29T03:00:10.093Z] 2025-06-29 05:00:10 [CLIENT DISCORD] [34m==============================[39m
+[2025-06-29T03:00:10.095Z] 2025-06-29 05:00:10 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-06-29T03:00:10.096Z] 2025-06-29 05:00:10 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-06-29T03:00:10.097Z] 2025-06-29 05:00:10 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-06-29T03:00:10.099Z] 2025-06-29 05:00:10 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-06-29T03:00:10.108Z] 2025-06-29 05:00:10 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+[2025-06-29T03:00:10.305Z] 2025-06-29 05:00:10 [CLIENT DISCORD] 🔍 Commandes déjà présentes : rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-06-29T03:00:10.308Z] 2025-06-29 05:00:10 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-06-29T03:00:10.310Z] 2025-06-29 05:00:10 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-06-29T03:00:10.311Z] 2025-06-29 05:00:10 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-06-29T03:00:10.312Z] 2025-06-29 05:00:10 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-06-29T06:00:00.111Z] 2025-06-29 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2025-06-29T06:00:00.137Z] 2025-06-29 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-06-29T06:00:00.142Z] 2025-06-29 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-06-29T06:00:00.145Z] 2025-06-29 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-06-29T06:00:00.195Z] 2025-06-29 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-06-29T06:00:00.196Z] 2025-06-29 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-06-29T06:00:00.197Z] 2025-06-29 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-06-29T06:00:00.278Z] 2025-06-29 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-06-29T06:00:00.823Z] [NOTIFY] 2025-06-29 08:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-06-29T06:00:01.059Z] [NOTIFY] 2025-06-29 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-06-29T06:00:05.524Z] 2025-06-29 08:00:05 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-06-29T06:00:05.525Z] 2025-06-29 08:00:05 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-06-29T06:00:06.096Z] 2025-06-29 08:00:06 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-06-29T06:00:06.097Z] 2025-06-29 08:00:06 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-06-29T13:02:15.368Z] 2025-06-29 15:02:15 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mVotre nom ?[39m [0mdans[0m [32m💬-discussion[39m
+[2025-06-29T14:00:00.063Z] 2025-06-29 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-06-29T14:00:00.065Z] 2025-06-29 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-06-29T14:00:00.067Z] 2025-06-29 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-06-29T14:00:00.069Z] 2025-06-29 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-06-29T14:00:00.090Z] 2025-06-29 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-06-29T14:00:00.092Z] 2025-06-29 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-06-29T14:00:00.093Z] 2025-06-29 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-06-29T14:00:00.176Z] 2025-06-29 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-06-29T14:00:00.409Z] [NOTIFY] 2025-06-29 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-06-29T14:00:00.425Z] 2025-06-29 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2025-06-29T14:00:00.817Z] [NOTIFY] 2025-06-29 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-06-29T14:00:01.504Z] 2025-06-29 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-06-29T14:00:01.519Z] 2025-06-29 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-06-29T14:00:01.867Z] 2025-06-29 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-06-29T14:00:01.868Z] 2025-06-29 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-06-29T14:26:16.578Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2025-06-29T14:26:16.580Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1388881694861295776",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-06-29T14:26:16.584Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 📌 ID du message enregistré : 1388881694861295776
+[2025-06-29T14:26:16.586Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1388881694861295776
+[2025-06-29T14:26:16.587Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2025-06-29T14:26:16.589Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": [
+    "993 | Sean Lennon"
+  ]
+}
+[2025-06-29T14:26:16.594Z] 2025-06-29 16:26:16 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`993 | Sean Lennon`",
+      "inline": true
+    }
+  ]
+}
+[2025-06-29T14:26:17.060Z] 2025-06-29 16:26:17 [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2025-06-29T14:31:59.619Z] 2025-06-29 16:31:59 [CLIENT DISCORD] [31m[MEMBER REMOVE] ines_xiv est parti à 6/29/2025, 2:31:59 PM[39m
+[2025-06-29T15:22:04.957Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 🔵 Interaction détectée : no
+[2025-06-29T15:22:04.958Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1388881694861295776",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": [
+      "993 | Sean Lennon"
+    ]
+  }
+}
+[2025-06-29T15:22:04.958Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 📌 ID du message enregistré : 1388881694861295776
+[2025-06-29T15:22:04.958Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1388881694861295776
+[2025-06-29T15:22:04.959Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": [
+    "993 | Sean Lennon"
+  ]
+}
+[2025-06-29T15:22:04.959Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [
+    "528 | Pablo Mendes"
+  ],
+  "maybe": [
+    "993 | Sean Lennon"
+  ]
+}
+[2025-06-29T15:22:04.960Z] 2025-06-29 17:22:04 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`528 | Pablo Mendes`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`993 | Sean Lennon`",
+      "inline": true
+    }
+  ]
+}
+[2025-06-29T15:22:05.374Z] 2025-06-29 17:22:05 [CLIENT DISCORD] [BUTTON] natael_mds a exécuté l'interaction bouton no dans 1347963262892904469
+[2025-06-29T16:33:42.693Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-06-29T16:33:42.694Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1388881694861295776",
+  "participants": {
+    "yes": [],
+    "no": [
+      "528 | Pablo Mendes"
+    ],
+    "maybe": [
+      "993 | Sean Lennon"
+    ]
+  }
+}
+[2025-06-29T16:33:42.694Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 📌 ID du message enregistré : 1388881694861295776
+[2025-06-29T16:33:42.694Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1388881694861295776
+[2025-06-29T16:33:42.695Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [
+    "528 | Pablo Mendes"
+  ],
+  "maybe": [
+    "993 | Sean Lennon"
+  ]
+}
+[2025-06-29T16:33:42.695Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "287 I Rodriguez DaSilva"
+  ],
+  "no": [
+    "528 | Pablo Mendes"
+  ],
+  "maybe": [
+    "993 | Sean Lennon"
+  ]
+}
+[2025-06-29T16:33:42.705Z] 2025-06-29 18:33:42 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`287 I Rodriguez DaSilva`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`528 | Pablo Mendes`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`993 | Sean Lennon`",
+      "inline": true
+    }
+  ]
+}
+[2025-06-29T16:33:44.428Z] 2025-06-29 18:33:44 [CLIENT DISCORD] [BUTTON] .darkodin92 a exécuté l'interaction bouton yes dans 1347963262892904469

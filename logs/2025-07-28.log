@@ -1,0 +1,185 @@
+[2025-07-28T03:00:00.153Z] 2025-07-28 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2025-07-28T03:00:00.190Z] 2025-07-28 05:00:00 [DEBUG] 📦 Checking version from local...
+[2025-07-28T03:00:00.193Z] 2025-07-28 05:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-28T03:00:00.194Z] 2025-07-28 05:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-07-28T03:00:00.195Z] 2025-07-28 05:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-28T03:00:00.206Z] 2025-07-28 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2025-07-28T03:00:10.755Z] 2025-07-28 05:00:10 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-07-28T03:00:10.793Z] [EVENT] 2025-07-28 05:00:10 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-07-28T03:00:10.795Z] [EVENT] 2025-07-28 05:00:10 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-07-28T03:00:10.797Z] [EVENT] 2025-07-28 05:00:10 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-07-28T03:00:10.799Z] [EVENT] 2025-07-28 05:00:10 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-07-28T03:00:10.802Z] 2025-07-28 05:00:10 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-07-28T03:00:11.813Z] 2025-07-28 05:00:11 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-07-28T03:00:12.212Z] 2025-07-28 05:00:12 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-07-28T03:00:12.215Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-07-28T03:00:12.218Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-07-28T03:00:12.222Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-07-28T03:00:12.224Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-07-28T03:00:12.258Z] 2025-07-28 05:00:12 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-07-28T03:00:12.279Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : ready
+[2025-07-28T03:00:12.281Z] [EVENT] 2025-07-28 05:00:12 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-07-28T03:00:12.289Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-07-28T03:00:12.291Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-07-28T03:00:12.293Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-07-28T03:00:12.296Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-07-28T03:00:12.299Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-07-28T03:00:12.301Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-07-28T03:00:12.304Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-07-28T03:00:12.307Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-07-28T03:00:12.310Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-07-28T03:00:12.312Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-07-28T03:00:12.315Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-07-28T03:00:12.334Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-07-28T03:00:12.336Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-07-28T03:00:12.340Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-07-28T03:00:12.342Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-07-28T03:00:12.344Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-07-28T03:00:12.346Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-07-28T03:00:12.349Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-07-28T03:00:12.353Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-07-28T03:00:12.356Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-07-28T03:00:12.359Z] [COMMANDS] 2025-07-28 05:00:12 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-07-28T03:00:12.365Z] 2025-07-28 05:00:12 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.1.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-07-28T03:00:13.189Z] 2025-07-28 05:00:13 [DEBUG] 📦 Checking version from local...
+[2025-07-28T03:00:13.189Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-28T03:00:13.189Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-07-28T03:00:13.190Z] 2025-07-28 05:00:13 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-28T03:00:13.389Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-28T03:00:13.390Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-07-28T03:00:13.390Z] [INFO] 2025-07-28 05:00:13 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-07-28T03:00:13.390Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [34m==============================[39m
+[2025-07-28T03:00:13.391Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-07-28T03:00:13.391Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-07-28T03:00:13.391Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-07-28T03:00:13.391Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-07-28T03:00:13.403Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-07-28T03:00:13.407Z] 2025-07-28 05:00:13 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-07-28T03:00:13.407Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 📥 Serveur trouvé : Georgia State Police (GSP)
+[2025-07-28T03:00:13.724Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-07-28T03:00:13.724Z] 2025-07-28 05:00:13 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-07-28T03:00:13.725Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-07-28T03:00:13.725Z] 2025-07-28 05:00:13 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-07-28T03:00:13.725Z] 2025-07-28 05:00:13 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-07-28T06:00:00.151Z] 2025-07-28 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2025-07-28T06:00:00.187Z] 2025-07-28 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-07-28T06:00:00.196Z] 2025-07-28 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-07-28T06:00:00.200Z] 2025-07-28 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-07-28T06:00:00.220Z] 2025-07-28 08:00:00 [DEBUG] 📦 Checking version from local...
+[2025-07-28T06:00:00.222Z] 2025-07-28 08:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-28T06:00:00.223Z] 2025-07-28 08:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-07-28T06:00:00.224Z] 2025-07-28 08:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-28T06:00:00.269Z] 2025-07-28 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-07-28T06:00:00.274Z] 2025-07-28 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-07-28T06:00:00.274Z] 2025-07-28 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-07-28T06:00:00.349Z] 2025-07-28 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-07-28T06:00:00.528Z] 2025-07-28 08:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-28T06:00:00.529Z] 2025-07-28 08:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-07-28T06:00:00.530Z] [INFO] 2025-07-28 08:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-07-28T06:00:00.969Z] [NOTIFY] 2025-07-28 08:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-07-28T06:00:01.325Z] [NOTIFY] 2025-07-28 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-07-28T06:00:03.324Z] 2025-07-28 08:00:03 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-07-28T06:00:03.327Z] 2025-07-28 08:00:03 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-07-28T06:00:03.800Z] 2025-07-28 08:00:03 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-07-28T06:00:03.800Z] 2025-07-28 08:00:03 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-07-28T13:21:38.906Z] 2025-07-28 15:21:38 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mghostnd10[39m [0ma envoyé[0m [32m<@729389796270800948>[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T13:21:45.454Z] 2025-07-28 15:21:45 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-07-28T13:21:45.466Z] 2025-07-28 15:21:45 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mghostnd10[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T13:40:48.908Z] 2025-07-28 15:40:48 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mBonjour[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T14:00:00.110Z] 2025-07-28 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-07-28T14:00:00.112Z] 2025-07-28 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-07-28T14:00:00.113Z] 2025-07-28 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-07-28T14:00:00.114Z] 2025-07-28 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-07-28T14:00:00.118Z] 2025-07-28 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-07-28T14:00:00.120Z] 2025-07-28 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-07-28T14:00:00.120Z] 2025-07-28 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.1.2
+[2025-07-28T14:00:00.120Z] 2025-07-28 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-07-28T14:00:00.159Z] 2025-07-28 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-07-28T14:00:00.161Z] 2025-07-28 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-07-28T14:00:00.162Z] 2025-07-28 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-07-28T14:00:00.246Z] 2025-07-28 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 3 superviseur(s) et 2 commandement(s)
+[2025-07-28T14:00:00.402Z] [NOTIFY] 2025-07-28 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-07-28T14:00:00.426Z] 2025-07-28 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-07-28T14:00:00.427Z] 2025-07-28 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-07-28T14:00:00.428Z] [INFO] 2025-07-28 16:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-07-28T14:00:00.724Z] [NOTIFY] 2025-07-28 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-07-28T14:00:01.577Z] 2025-07-28 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-07-28T14:00:01.579Z] 2025-07-28 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-07-28T14:00:02.032Z] 2025-07-28 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-07-28T14:00:02.035Z] 2025-07-28 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-07-28T15:25:10.261Z] 2025-07-28 17:25:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHello[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:50:27.244Z] 2025-07-28 17:50:27 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mÇa va bieng ?[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:50:38.045Z] 2025-07-28 17:50:38 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mOui et toi ?[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:52:16.589Z] 2025-07-28 17:52:16 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mTranquillement. Quoi de neuf ?[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:54:10.884Z] 2025-07-28 17:54:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mPas grand chose ahah et toi ?[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:54:54.119Z] 2025-07-28 17:54:54 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mBah écoute, je suis gérant légal d'un serveur. J'ai proposé plusieurs fois à DarkNullos de reprendre une police mais il ne me répond jamais à l'heure[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:56:06.356Z] 2025-07-28 17:56:06 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mPar DarkNullos je dois entendre DarkOdin ? 😂[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:56:24.589Z] 2025-07-28 17:56:24 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mOui, c'est ça[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:56:29.817Z] 2025-07-28 17:56:29 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mJe m'en doutais lol[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:56:40.415Z] 2025-07-28 17:56:40 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32m<@767703415413014579> Oui, toi la[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:57:13.756Z] 2025-07-28 17:57:13 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mJ'ai pensé à toi Sean, jsuis en train de re matter toute la série The Rookie depuis le début[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:57:21.148Z] 2025-07-28 17:57:21 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mMdrrrrr[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:57:35.085Z] 2025-07-28 17:57:35 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mhttps://tenor.com/view/evil-winter-tim-bradford-the-rookie-arichenford-gif-10465662618650267091[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:58:25.313Z] 2025-07-28 17:58:25 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mOuvre un ticket [Modération](https://discord.com/channels/1252231195312259073/1252239174610718782), ça sera peut être plus utile lol[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:58:39.645Z] 2025-07-28 17:58:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mYes[39m [0mdans[0m [32m💬-discussion[39m
+[2025-07-28T15:58:42.769Z] 2025-07-28 17:58:42 [CLIENT DISCORD] [ACTION BUTTON] dir of command /ticket has been used.
+[2025-07-28T15:58:42.782Z] 2025-07-28 17:58:42 [CLIENT DISCORD] ✅ Fichier config.json enregistré avec succès !
+[2025-07-28T15:58:43.246Z] 2025-07-28 17:58:43 [DEBUG] [NEW TICKET CREATE]
+[2025-07-28T15:58:43.248Z] 2025-07-28 17:58:43 [CLIENT DISCORD] [ACTION BUTTON] New channel created
+[2025-07-28T15:58:43.267Z] 2025-07-28 17:58:43 [CLIENT DISCORD] ✅ Fichier ticket.json enregistré avec succès !
+[2025-07-28T15:58:43.729Z] 2025-07-28 17:58:43 [ERROR] (node:67883) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2025-07-28T15:58:44.026Z] 2025-07-28 17:58:44 [CLIENT DISCORD] [BUTTON] keegan_rp a exécuté l'interaction bouton dir dans 1252239174610718782
+[2025-07-28T15:58:49.958Z] 2025-07-28 17:58:49 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mReuh[39m [0mdans[0m [32m⚔️-dir-keegan_rp[39m
+[2025-07-28T15:59:17.725Z] 2025-07-28 17:59:17 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@&1375181279124783184>[39m [0mdans[0m [32mmod_keeganrp[39m
+[2025-07-28T15:59:33.193Z] 2025-07-28 17:59:33 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mExpose le projet[39m [0mdans[0m [32mmod_keeganrp[39m
+[2025-07-28T16:06:01.717Z] 2025-07-28 18:06:01 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mJe suis gérant légal d'un serveur qui est en dev mais devrait ouvrir courant août. [39m
+[32m[39m
+[32mJe recherche deux projets, à choisir entre vous, lequel vous conviendrait le mieux. [39m
+[32m[39m
+[32mÀ savoir que comparé à bcp de serveurs, je veux que les polices aient une totale liberté sur leur action RP. [39m
+[32mSi un agent fait de la merde en RP et que ça reste du RP, alors ça doit se régler au même endroit.[39m [0mdans[0m [32mmod_keeganrp[39m
+[2025-07-28T16:06:19.396Z] 2025-07-28 18:06:19 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mJ'ai donc deux propositions :.[39m
+[32m[39m
+[32m1) Créer un service LSSD [39m
+[32m[39m
+[32m2) Créer une deuxième Police Station LSPD[39m [0mdans[0m [32mmod_keeganrp[39m
+[2025-07-28T16:27:21.672Z] 2025-07-28 18:27:21 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mRectification, pour créer le LSSD.[39m [0mdans[0m [32mmod_keeganrp[39m
+[2025-07-28T16:30:46.536Z] 2025-07-28 18:30:46 [CLIENT DISCORD] [MESSAGE UPDATED] keegan_rp a modifié un message dans #mod_keeganrp: "J'ai donc deux propositions :.
+
+1) Créer un service LSSD 
+
+2) Créer une deuxième Police Station LSPD" → "J'ai donc une proposition : 
+
+1) Créer un service LSSD"

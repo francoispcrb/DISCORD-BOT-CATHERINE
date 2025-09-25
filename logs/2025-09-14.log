@@ -1,0 +1,407 @@
+[2025-09-14T03:00:00.135Z] 2025-09-14 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2025-09-14T03:00:00.171Z] 2025-09-14 05:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-14T03:00:00.174Z] 2025-09-14 05:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-14T03:00:00.175Z] 2025-09-14 05:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-14T03:00:00.176Z] 2025-09-14 05:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-14T03:00:00.182Z] 2025-09-14 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2025-09-14T03:00:08.483Z] 2025-09-14 05:00:08 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-09-14T03:00:08.519Z] [EVENT] 2025-09-14 05:00:08 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-09-14T03:00:08.520Z] [EVENT] 2025-09-14 05:00:08 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-09-14T03:00:08.521Z] [EVENT] 2025-09-14 05:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-09-14T03:00:08.523Z] [EVENT] 2025-09-14 05:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-09-14T03:00:08.526Z] 2025-09-14 05:00:08 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-09-14T03:00:09.049Z] 2025-09-14 05:00:09 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-09-14T03:00:09.392Z] 2025-09-14 05:00:09 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-09-14T03:00:09.394Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-09-14T03:00:09.396Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-09-14T03:00:09.398Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-09-14T03:00:09.400Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-09-14T03:00:09.431Z] 2025-09-14 05:00:09 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-09-14T03:00:09.450Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : ready
+[2025-09-14T03:00:09.451Z] [EVENT] 2025-09-14 05:00:09 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-09-14T03:00:09.456Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-09-14T03:00:09.458Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-09-14T03:00:09.460Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-09-14T03:00:09.462Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-09-14T03:00:09.464Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-09-14T03:00:09.466Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-09-14T03:00:09.468Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-09-14T03:00:09.470Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-09-14T03:00:09.472Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-09-14T03:00:09.474Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-09-14T03:00:09.479Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-09-14T03:00:09.502Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-09-14T03:00:09.504Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-09-14T03:00:09.508Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-09-14T03:00:09.510Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-09-14T03:00:09.512Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-09-14T03:00:09.514Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-09-14T03:00:09.518Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-09-14T03:00:09.524Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-09-14T03:00:09.527Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-09-14T03:00:09.531Z] [COMMANDS] 2025-09-14 05:00:09 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-09-14T03:00:09.537Z] 2025-09-14 05:00:09 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.2[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-09-14T03:00:10.503Z] 2025-09-14 05:00:10 [DEBUG] 📦 Checking version from local...
+[2025-09-14T03:00:10.504Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-14T03:00:10.505Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-14T03:00:10.505Z] 2025-09-14 05:00:10 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-14T03:00:10.509Z] 2025-09-14 05:00:10 [ERROR] (node:366636) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-09-14T03:00:10.732Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-14T03:00:10.733Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-14T03:00:10.734Z] 2025-09-14 05:00:10 [WARN] ⚠️ Les versions diffèrent : locale (2.2) ≠ distante (2.1.2)
+[2025-09-14T03:00:10.735Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [34m==============================[39m
+[2025-09-14T03:00:10.736Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-09-14T03:00:10.737Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-09-14T03:00:10.738Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-09-14T03:00:10.739Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-09-14T03:00:10.751Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-09-14T03:00:10.756Z] 2025-09-14 05:00:10 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-09-14T03:00:10.757Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 📥 Serveur trouvé : Los Santos Sheriff Department
+[2025-09-14T03:00:10.945Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 🔍 Commandes déjà présentes : play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-09-14T03:00:10.946Z] 2025-09-14 05:00:10 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-09-14T03:00:10.946Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 🎮 Statut et activité mis à jour.
+[2025-09-14T03:00:10.946Z] 2025-09-14 05:00:10 [CLIENT DISCORD] 📌 Mode de lancement : [33mAucun[39m
+[2025-09-14T03:00:10.947Z] 2025-09-14 05:00:10 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-09-14T06:00:00.153Z] 2025-09-14 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2025-09-14T06:00:00.183Z] 2025-09-14 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-09-14T06:00:00.191Z] 2025-09-14 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-09-14T06:00:00.196Z] 2025-09-14 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-09-14T06:00:00.211Z] 2025-09-14 08:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-14T06:00:00.213Z] 2025-09-14 08:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-14T06:00:00.214Z] 2025-09-14 08:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-14T06:00:00.214Z] 2025-09-14 08:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-14T06:00:00.251Z] 2025-09-14 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-09-14T06:00:00.252Z] 2025-09-14 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-09-14T06:00:00.253Z] 2025-09-14 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-09-14T06:00:00.370Z] 2025-09-14 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 2 superviseur(s) et 2 commandement(s)
+[2025-09-14T06:00:00.499Z] 2025-09-14 08:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-14T06:00:00.499Z] 2025-09-14 08:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-14T06:00:00.500Z] 2025-09-14 08:00:00 [WARN] ⚠️ Les versions diffèrent : locale (2.2) ≠ distante (2.1.2)
+[2025-09-14T06:00:00.974Z] [NOTIFY] 2025-09-14 08:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-09-14T06:00:01.278Z] [NOTIFY] 2025-09-14 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-09-14T06:00:02.525Z] 2025-09-14 08:00:02 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-09-14T06:00:02.527Z] 2025-09-14 08:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-14T06:00:03.149Z] 2025-09-14 08:00:03 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-09-14T06:00:03.149Z] 2025-09-14 08:00:03 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-14T13:35:35.940Z] 2025-09-14 15:35:35 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmathiieeuu[39m [0ma envoyé[0m [32m<@794334752165330964> ignite ?[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-14T13:36:19.133Z] 2025-09-14 15:36:19 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mje suis en voc[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-14T13:45:39.997Z] 2025-09-14 15:45:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32m<@729389796270800948>[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-14T14:00:00.062Z] 2025-09-14 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-09-14T14:00:00.063Z] 2025-09-14 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-09-14T14:00:00.065Z] 2025-09-14 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-09-14T14:00:00.066Z] 2025-09-14 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-09-14T14:00:00.069Z] 2025-09-14 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-09-14T14:00:00.071Z] 2025-09-14 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-09-14T14:00:00.072Z] 2025-09-14 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.2
+[2025-09-14T14:00:00.073Z] 2025-09-14 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-09-14T14:00:00.085Z] 2025-09-14 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-09-14T14:00:00.086Z] 2025-09-14 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-09-14T14:00:00.087Z] 2025-09-14 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-09-14T14:00:00.174Z] 2025-09-14 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 13 exécutif(s), 2 superviseur(s) et 2 commandement(s)
+[2025-09-14T14:00:00.333Z] 2025-09-14 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-09-14T14:00:00.334Z] 2025-09-14 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.1.2
+[2025-09-14T14:00:00.335Z] 2025-09-14 16:00:00 [WARN] ⚠️ Les versions diffèrent : locale (2.2) ≠ distante (2.1.2)
+[2025-09-14T14:00:00.475Z] [NOTIFY] 2025-09-14 16:00:00 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-09-14T14:00:00.648Z] 2025-09-14 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2025-09-14T14:00:00.758Z] [NOTIFY] 2025-09-14 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-09-14T14:00:01.603Z] 2025-09-14 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-09-14T14:00:01.605Z] 2025-09-14 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-14T14:00:02.033Z] 2025-09-14 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-09-14T14:00:02.035Z] 2025-09-14 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-09-14T14:02:06.175Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 🔵 Interaction détectée : no
+[2025-09-14T14:02:06.178Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1416785560869277819",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-09-14T14:02:06.179Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 📌 ID du message enregistré : 1416785560869277819
+[2025-09-14T14:02:06.179Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1416785560869277819
+[2025-09-14T14:02:06.179Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2025-09-14T14:02:06.180Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [
+    "D-993 | Sean Lennon"
+  ],
+  "maybe": []
+}
+[2025-09-14T14:02:06.181Z] 2025-09-14 16:02:06 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`D-993 | Sean Lennon`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2025-09-14T14:02:06.581Z] 2025-09-14 16:02:06 [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton no dans 1347963262892904469
+[2025-09-14T14:20:45.003Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2025-09-14T14:20:45.004Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1416785560869277819",
+  "participants": {
+    "yes": [],
+    "no": [
+      "D-993 | Sean Lennon"
+    ],
+    "maybe": []
+  }
+}
+[2025-09-14T14:20:45.008Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 📌 ID du message enregistré : 1416785560869277819
+[2025-09-14T14:20:45.009Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1416785560869277819
+[2025-09-14T14:20:45.010Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [
+    "D-993 | Sean Lennon"
+  ],
+  "maybe": []
+}
+[2025-09-14T14:20:45.013Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [
+    "D-993 | Sean Lennon"
+  ],
+  "maybe": [
+    "271-K9 | Rory Crowner"
+  ]
+}
+[2025-09-14T14:20:45.017Z] 2025-09-14 16:20:45 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`D-993 | Sean Lennon`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`271-K9 | Rory Crowner`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-14T14:20:45.919Z] 2025-09-14 16:20:45 [CLIENT DISCORD] [BUTTON] rory.p71 a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2025-09-14T14:21:27.962Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 🔵 Interaction détectée : no
+[2025-09-14T14:21:27.963Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1416785560869277819",
+  "participants": {
+    "yes": [],
+    "no": [
+      "D-993 | Sean Lennon"
+    ],
+    "maybe": [
+      "271-K9 | Rory Crowner"
+    ]
+  }
+}
+[2025-09-14T14:21:27.968Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 📌 ID du message enregistré : 1416785560869277819
+[2025-09-14T14:21:27.970Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1416785560869277819
+[2025-09-14T14:21:27.971Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [
+    "D-993 | Sean Lennon"
+  ],
+  "maybe": [
+    "271-K9 | Rory Crowner"
+  ]
+}
+[2025-09-14T14:21:27.974Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [],
+  "no": [
+    "D-993 | Sean Lennon",
+    "218 | Erica Sanchez"
+  ],
+  "maybe": [
+    "271-K9 | Rory Crowner"
+  ]
+}
+[2025-09-14T14:21:27.978Z] 2025-09-14 16:21:27 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "`D-993 | Sean Lennon`, `218 | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`271-K9 | Rory Crowner`",
+      "inline": true
+    }
+  ]
+}
+[2025-09-14T14:21:28.379Z] 2025-09-14 16:21:28 [CLIENT DISCORD] [BUTTON] matharcane a exécuté l'interaction bouton no dans 1347963262892904469
+[2025-09-14T16:53:44.293Z] 2025-09-14 18:53:44 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32my'a du monde en jeu[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-14T16:53:48.159Z] 2025-09-14 18:53:48 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mça bouge[39m [0mdans[0m [32m🪖-supervision[39m
+[2025-09-14T17:45:39.463Z] 2025-09-14 19:45:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32m<@449432156595552257>[39m [0mdans[0m [32m💬-général[39m
+[2025-09-14T17:54:31.050Z] 2025-09-14 19:54:31 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1347944146496917505>[39m [0mdans[0m [32m⚖️annonce-doj[39m
+[2025-09-14T17:54:58.257Z] 2025-09-14 19:54:58 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mkeegan_rp[39m [0ma envoyé[0m [32mImpeccable, merci[39m [0mdans[0m [32m⚖️annonce-doj[39m
+[2025-09-14T17:57:44.617Z] 2025-09-14 19:57:44 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-14T17:57:44.627Z] 2025-09-14 19:57:44 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mkeegan_rp[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m⚖️annonce-doj[39m
+[2025-09-14T17:57:46.645Z] 2025-09-14 19:57:46 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-14T17:57:46.655Z] 2025-09-14 19:57:46 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m⚖️annonce-doj[39m
+[2025-09-14T18:02:43.163Z] 2025-09-14 20:02:43 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrole[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-14T18:02:43.165Z] 2025-09-14 20:02:43 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-14T18:03:46.680Z] 2025-09-14 20:03:46 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrole[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-14T18:03:46.682Z] 2025-09-14 20:03:46 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-14T18:05:28.729Z] 2025-09-14 20:05:28 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrole[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-14T18:05:28.731Z] 2025-09-14 20:05:28 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-14T18:05:39.323Z] 2025-09-14 20:05:39 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mrole[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-14T18:05:39.323Z] 2025-09-14 20:05:39 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-09-14T18:13:48.959Z] 2025-09-14 20:13:48 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mclass c 190[39m [0mdans[0m [32m🔒-hautes-instances[39m
+[2025-09-14T18:19:44.431Z] 2025-09-14 20:19:44 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mLe 14/09/25, autours de 19h30, j'ai été appelé pour un vol de superette à vinewood.[39m
+[32mJ'ai localisé une dodge charger 2011 noire garée devant le 24/7, dans laquelle est partie Mr. Tyler avant de quitter les lieux. Une longue et extrèmement dangereuse poursuite s'en est suivit, laquelle s'est arrêtée lorsqu'il a tenté de prendre un racourci trop vite ce qui a causé un accident avec mon véhicule (dodge charger marquée LSSD). Il a été pris en charge sans soucis.[39m [0mdans[0m [32mRapport (2)[39m
+[2025-09-14T18:34:49.581Z] 2025-09-14 20:34:49 [CLIENT DISCORD] [32m[MEMBER ADD] easyjulien est arrivé à 9/14/2025, 6:34:49 PM[39m
+[2025-09-14T18:35:07.061Z] 2025-09-14 20:35:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32measyjulien[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+[2025-09-14T18:35:08.711Z] 2025-09-14 20:35:08 [CLIENT DISCORD] [BUTTON] easyjulien a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2025-09-14T18:35:15.164Z] 2025-09-14 20:35:15 [ERROR] (node:366636) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+[2025-09-14T18:35:15.392Z] 2025-09-14 20:35:15 [CLIENT DISCORD] [MODAL] easyjulien a exécuté l'interaction modal rulesModal dans 1252234244760141874
+[2025-09-14T18:35:21.999Z] 2025-09-14 20:35:21 [ERROR] Erreur lors de la lecture de cache.json : {}
+[2025-09-14T18:35:22.000Z] 2025-09-14 20:35:22 [CLIENT DISCORD] Message 1416854857381445864 enregistré dans cache.json
+[2025-09-14T18:35:47.513Z] 2025-09-14 20:35:47 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32measyjulien[39m [0ma envoyé[0m [32mpossible de me moove svp[39m [0mdans[0m [32m💬-discussion[39m
+[2025-09-14T19:39:35.767Z] 2025-09-14 21:39:35 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m# <:Logo_LSCSD:1414975735164305499> Official statement from the Sandy Shore Station, Lieutenant Lennon[39m
+[32m> ## NOTE DE SERVICE • Call Identifier[39m
+[32m> ## *<@&1259234502866108456>*[39m
+[32m*À l'attention de tous les membres du LSSD*[39m
+[32m[39m
+[32mBonsoir, [39m
+[32m[39m
+[32m> Suites aux nouvelles directives, je vous prierais de lire ***ATTENTIVEMENT*** ce message.[39m
+[32m[39m
+[32mÀ compter de ce jour, voici les nouveaux indicatifs radios (call identifier) et matricule.[39m
+[32m[39m
+[32m## 1. Matricule [39m
+[32m[39m
+[32m-# <@449432156595552257>, Assistant Chief of Harmony Station,[39m
+[32m-# 🇺🇸 Lieutenant of Florida Highway Patrol,[39m
+[32m-# :FHP:  Commander of FHP Investigation Section MIT,[39m
+[32m-# :OIA: Lieutenant of Internal Investigation Affairs.[39m [0mdans[0m [32m📢-annonce[39m
+[2025-09-14T19:39:37.862Z] 2025-09-14 21:39:37 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-14T19:39:37.872Z] 2025-09-14 21:39:37 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📢-annonce[39m
+[2025-09-14T19:39:39.382Z] 2025-09-14 21:39:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mpardon[39m [0mdans[0m [32m📢-annonce[39m
+[2025-09-14T21:39:44.009Z] 2025-09-14 23:39:44 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-09-14T21:39:44.026Z] 2025-09-14 23:39:44 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📢-annonce[39m
