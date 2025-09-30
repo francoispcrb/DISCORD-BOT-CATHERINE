@@ -28,51 +28,47 @@ async function tabsDaily(client) {
             }
 
             // INIT
-            const LSSD = '<:Logo_LSCSD:1414975735164305499>';
+            const SASP = '<:SASP:1422314061101666456>';
             const CMD = '<:CMD:1379898553157025984>';
             const SPV = '<:SPV:1379898592361189376>';
             const TRP = '<:TRP:1379898584371298355>';
 
             const SECTION_LABELS = {
-                COMMISSION: "# 🔰 Commission",
                 CMD: `# ${CMD} Corps de Commandement`,
                 SPV: `# ${SPV} Corps de Supervision`,
                 TRP: `# ${TRP} Corps d'Application`,
             };
 
             const sections = {
-                [SECTION_LABELS.COMMISSION]: [],
                 [SECTION_LABELS.CMD]: [],
                 [SECTION_LABELS.SPV]: [],
                 [SECTION_LABELS.TRP]: [],
             };
 
             const rankOrder = [
-                "• Sheriff", "• Undersheriff", "• Assistant Sheriff",
+                "• Commissioner", "• Assistant Commissioner", "• Deputy Commissioner",
                 "• Captain", "• Lieutenant",
                 "• Chief Sergeant", "• Sergeant",
-                "• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"
+                "• Master Trooper", "• Trooper II", "• Trooper", "• Trainee"
             ];
 
             const getSectionForGrade = (gradeName) => {
-                if (["• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"].includes(gradeName)) {
+                if (["• Master Trooper", "• Trooper II", "• Trooper", "• Trainee"].includes(gradeName)) {
                     return SECTION_LABELS.TRP;
                 } else if (["• Chief Sergeant", "• Sergeant"].includes(gradeName)) {
                     return SECTION_LABELS.SPV;
-                } else if (["• Captain", "• Lieutenant"].includes(gradeName)) {
+                } else if (["• Commissioner", "• Assistant Commissioner", "• Deputy Commissioner", "• Captain", "• Lieutenant"].includes(gradeName)) {
                     return SECTION_LABELS.CMD;
-                } else if (["• Sheriff", "• Undersheriff", "• Assistant Sheriff"].includes(gradeName)) {
-                    return SECTION_LABELS.COMMISSION;
                 }
                 return null;
             };
 
             // Envoyer le message initial
             const newMessage = await channel.send({
-                content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
+                content: `# ${SASP} Hiérarchie au sein de la San Andreas State Police ${SASP}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
-                        `${SECTION_LABELS.COMMISSION}\n\n${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`
+                        `${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`
                     )
                 ]
             });

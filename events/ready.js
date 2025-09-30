@@ -151,7 +151,7 @@ module.exports = {
 
             // --- Activité du bot ---
             const activity = {
-                name: 'gérer la G.S.P.',
+                name: 'gérer la SASP',
                 type: ActivityType.Playing
             };
             client.user.setPresence({

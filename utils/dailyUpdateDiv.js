@@ -29,9 +29,9 @@ async function divDaily(client) {
             }
 
             // ✅ Envoyer le nouveau message (init)
-            const LSSD = '<:Logo_LSCSD:1414975735164305499>';
+            const SASP = '<:SASP:1422314061101666456>';
             const sentMessage = await channel.send({
-                content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
+                content: `# ${SASP} Hiérarchie au sein de la San Andreas State Police ${SASP}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
                         "# Patrol Division"
@@ -47,6 +47,9 @@ async function divDaily(client) {
                         +"\n# Administrative and Training Division"
                         +"\n"
                         +"\n# Bureau Executif (PSD & Affaires Internes)"
+                        +"\n"
+                        +"\n# Park Ranger"
+
                     )
                 ]
             });
@@ -70,9 +73,10 @@ async function divDaily(client) {
 
             const members = await guild.members.fetch();
             const rankOrder = [
-                "• Sheriff", "• Assistant Sheriff", "• Captain", "• Lieutenant",
+                "• Commissionner", "• Assistant Commissionner", "• Deputy Commissionner",
+                "• Captain", "• Lieutenant",
                 "• Chief Sergeant", "• Sergeant",
-                "• Deputy Sheriff FTO", "• Deputy Sheriff II", "• Deputy Sheriff", "• Deputy Sheriff Trainee"
+                "• Master Trooper", "• Trooper II", "• Trooper", "• Trainee"
             ];
 
             members.forEach(member => {

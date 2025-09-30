@@ -10,21 +10,23 @@ const CORPS = {
 
 const RANKS = {
     //Application
-    "Deputy Shierff Trainee": { id: "1414910715097251861", name: "• Deputy Sheriff Trainee" , emoji: ""},
-    "Deputy Shierff":         { id: "1271893900344299692", name: "• Deputy Sheriff"         , emoji: ""},
-    "Deputy Shierff II":      { id: "1252231983497744507", name: "• Deputy Sheriff II"      , emoji: "<:Deputy_Sherif_II:1414948897725354015>"},
-    "Deputy Shierff FTO":     { id: "1343603998745432084", name: "• Deputy Sheriff FTO"     , emoji: "<:Deputy_Sherif_FTOremovebgpreview:1414948894575562753>"},
+    "Trainee":                { id: "1414910715097251861", name: "• Trainee" , emoji: ""},
+    "Trooper":                { id: "1271893900344299692", name: "• Trooper"         , emoji: ""},
+    "Trooper II":             { id: "1252231983497744507", name: "• Trooper II"      , emoji: "<:Trooper_II:1422682143657558016>"},
+    "Master Trooper":         { id: "1343603998745432084", name: "• Master Trooper"  , emoji: "<:Master_Trooper:1422682137047466197>"},
     //Superivision
-    "Chief Sergeant":         { id: "1414973859374825612", name: "• Chief Sergeant"              , emoji: "<:Chief_Sergeant:1414974863839465482>"},
-    "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"              , emoji: "<:Sergeant:1414977273437749258>"},
+    "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"                    , emoji: "<:Sergeant:1422682140419817533>"},
+    "Chief Sergeant":         { id: "1414973859374825612", name: "• Chief Sergeant"              , emoji: "<:Chief_Sergeant:1422682907251576893>"},
     //Commandement
-    "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1414948906160357516>"},
-    "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1414948892394520707>"},
+    "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1422682925001867365>"},
+    "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1422682904554897559>"},
     //Direction
-    "Assistant Sheriff":      { id: "1414944268933533696", name: "• Assistant Sheriff"     , emoji: "<:Assistant_Sheriff:1414974722181038161>"},
-    "Undersheriff":           { id: "1414944314903236740", name: "• Undersheriff"        , emoji: "<:Deputy_Sheriff:1414974727042105344> "},
-    "Sheriff":                { id: "1414944355524808704", name: "• Sheriff"               , emoji: "<:Sheriff:1414974819878834299>"},
+    "Deputy Commissioner":    { id: "1414944268933533696", name: "• Deputy Commissioner"     , emoji: "<:Deputy_Commissioner:1422682660643536926>"},
+    "Assstant Commissioner":  { id: "1414944314903236740", name: "• Assistant Commissioner"        , emoji: "<:Assistant_Commissioner:1422682902063222804>"},
+    "Commissioner":           { id: "1414944355524808704", name: "• Commissioner"               , emoji: "<:Commissioner:1422682656088522832>"},
 };
+
+
 
 const ROLE_MAP = {
     "LSSD": "1259234502866108456",
@@ -46,7 +48,8 @@ const COMMANDER = {
     "Patrol Division": "439425425131962368",
     "Special Enforcement Bureau": "ID_USER_SEB",
     "Detective Division": "449432156595552257",
-    "Division de protection Judiciaire": "ID_SER_JD",
+    "Division de protection Judiciaire": "ID_USER_JD",
+    "Park Ranger": "ID_USER_PR",
     "Traffic Enforcement Bureau (Interim)": "794334752165330964",
     "Bureau Executif (PSD & Affaires Internes)": "449432156595552257",
     "Administrative and Training Division": "ID_USER_ATD",
@@ -59,7 +62,8 @@ const DIV_MAP = {
     "Traffic Enforcement Bureau (Interim)":                             { id: "1272252982750347414", name: "Traffic Enforcement Bureau (Interim)" },
     "Bureau Executif (PSD & Affaires Internes)":                             { id: "1272253157577064478", name: "Bureau Executif (PSD & Affaires Internes)" },
     "Administrative and Training Division":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
-    "Patrol Division": {id:"1259234502866108456", name: "Patrol Division"}
+    "Patrol Division": {id:"1259234502866108456", name: "Patrol Division"},
+    "Park Ranger": {id: "", name: "Park Ranger"}
 };
 
 const PEX = {
