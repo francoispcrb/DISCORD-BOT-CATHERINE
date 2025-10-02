@@ -14,10 +14,10 @@ Il est donc important de rappeler la liste exhaustive des salons **RP** où chaq
 > - À l'exception de <#1252231195312259076>, <#1252233579765694504> et <#1252593010764550174>, tous les channels sont **RP**.
 
 ## Catégories suivantes :
-> - `📟 Dispatch • LSSD.` : tous les channels sont **RP**.
-> - `🚓 Los Santos Sheriff Departement` : tous les channels sont **RP**.
-> - `📚 Corps Supérieurs de la LSSD` : tous les channels sont **RP**.
-> - `🔰 Unités Spéciales LSSD` : tous les channels sont **RP**.
+> - `📟 Dispatch • SASP.` : tous les channels sont **RP**.
+> - `🚓 San Andreas State Police` : tous les channels sont **RP**.
+> - `📚 Corps Supérieurs de la SASP` : tous les channels sont **RP**.
+> - `🔰 Unités Spéciales SASP` : tous les channels sont **RP**.
 > - `📌 • Zone Inter-Service` : tous les channels sont **RP**.
 
 *Veuillez cliquer sur le bouton ci-dessous pour approuver ce règlement. Une fois validé, vous êtes censé l’avoir lu car **nul n’est censé ignorer la loi.***

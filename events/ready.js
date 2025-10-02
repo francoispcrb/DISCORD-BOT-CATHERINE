@@ -49,6 +49,8 @@ module.exports = {
                     return rl.prompt();
                 }
 
+                const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+
                 if (type === 'file') {
                     const fileName = args[1];
                     const channelId = args[2];
@@ -64,7 +66,7 @@ module.exports = {
                         return rl.prompt();
                     }
 
-                    const filePath = `./src/PatchNote/${fileName}`;
+                    const filePath = `./src/${fileName}`;
                     let content;
                     try {
                         content = await fs.readFile(filePath, 'utf8');
@@ -73,8 +75,22 @@ module.exports = {
                         return rl.prompt();
                     }
 
-                    await channel.send(content);
-                    console.log(`✅ Fichier "${fileName}" envoyé dans le salon ${channelId}`);
+                    if (fileName === 'Rules/rules_2.txt') {
+                        // Création du bouton
+                        const button = new ButtonBuilder()
+                            .setCustomId('rulescheck')
+                            .setLabel("✅ J'ai lu et accepté le règlement.")
+                            .setStyle(ButtonStyle.Success);
+
+                        const row = new ActionRowBuilder().addComponents(button);
+
+                        await channel.send({ content, components: [row] });
+                        console.log(`✅ Fichier "${fileName}" envoyé avec le bouton dans le salon ${channelId}`);
+                    } else {
+                        await channel.send(content);
+                        console.log(`✅ Fichier "${fileName}" envoyé dans le salon ${channelId}`);
+                    }
+
                     return rl.prompt();
                 }
 
@@ -184,8 +200,6 @@ module.exports = {
         const {reboot} = require('../utils/reboot');
         const {checkTicketInit} = require('../utils/checkTicketInit');
         
-        tabsDaily(client), divDaily(client)
-
         function taskMorning() {
             console.log(chalk.green("🌅 Tâches du matin exécutées !"));
             tabsDaily(client);
