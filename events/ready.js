@@ -200,6 +200,8 @@ module.exports = {
         const {reboot} = require('../utils/reboot');
         const {checkTicketInit} = require('../utils/checkTicketInit');
         
+        tabsDaily(client); divDaily(client)
+
         function taskMorning() {
             console.log(chalk.green("🌅 Tâches du matin exécutées !"));
             tabsDaily(client);
