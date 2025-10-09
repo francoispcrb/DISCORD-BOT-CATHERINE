@@ -45,14 +45,14 @@ const ROLE_MAP = {
 }
 
 const COMMANDER = {
-    "Patrol Division": "439425425131962368",
+    "Patrol Division": "505779694587740170",
     "Special Enforcement Bureau": "ID_USER_SEB",
-    "Detective Division": "449432156595552257",
+    "Detective Division": "381437284546904065",
     "Division de protection Judiciaire": "ID_USER_JD",
     "Park Ranger": "ID_USER_PR",
-    "Traffic Enforcement Bureau (Interim)": "794334752165330964",
+    "Traffic Enforcement Bureau": "864238068269580298",
     "Bureau Executif (PSD & Affaires Internes)": "449432156595552257",
-    "Administrative and Training Division": "ID_USER_ATD",
+    "Administrative and Training Division": "794334752165330964",
 };
 
 const DIV_MAP = {
