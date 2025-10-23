@@ -1,9 +1,45 @@
 const { SlashCommandBuilder } = require('discord.js')
 const shift_veh = require('../config/shift_veh.json')
 const { RANKS, ROLE_MAP, DIV_MAP, PEX } = require('../utils/utils')
-const chalk = require('chalk')
+const chalk = require('chalk');
 
 const commands = {
+
+    commander: new SlashCommandBuilder()
+        .setName('commander')
+        .setDescription('Gestion des différents leads des unités')
+        .addSubcommand(sub =>
+            sub
+                .setName('view')
+                .setDescription('Permet de voir les différents commanders')
+        )
+        .addSubcommand(sub =>
+            sub
+                .setName('set')
+                .setDescription('Permet de fixer un commander')
+                .addUserOption(option =>
+                    option.setName('user')
+                        .setDescription('Utilisateur à définir comme commander')
+                        .setRequired(true)
+                )
+                .addStringOption(option =>
+                    option.setName('division')
+                        .setDescription('Nom de la division')
+                        .setRequired(true)
+                        .addChoices(
+                            { name: 'Patrol Division', value: 'Patrol Division' },
+                            { name: 'Special Enforcement Bureau', value: 'Special Enforcement Bureau' },
+                            { name: 'Detective Division', value: 'Detective Division' },
+                            { name: 'Division de protection Judiciaire', value: 'Division de protection Judiciaire' },
+                            { name: 'Park Ranger', value: 'Park Ranger' },
+                            { name: 'Traffic Enforcement Bureau', value: 'Traffic Enforcement Bureau' },
+                            { name: 'Bureau Executif (PSD & Affaires Internes)', value: 'Bureau Executif (PSD & Affaires Internes)' },
+                            { name: 'Administrative and Training Division', value: 'Administrative and Training Division' }
+                        )
+                )
+        ),
+
+
 
     play: new SlashCommandBuilder()
     .setName('play')

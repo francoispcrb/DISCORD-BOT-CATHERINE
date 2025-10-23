@@ -1,5 +1,7 @@
 const chalk = require("chalk");
 const fs = require('fs')
+const commander = require('../config/commander.json')
+
 
 const CORPS = {
     "EXECUTIVE_BODY":       { id: "1342563267910045749" },
@@ -29,30 +31,26 @@ const RANKS = {
 
 
 const ROLE_MAP = {
-    "LSSD": "1259234502866108456",
-    "LSPD": "1252274500968513687",
-    "LSPD2":"1367955141570990252",
-    "SAMR": "1354482500214456431",
-    "DOJ": "1354881043349635193",
-    "GOUV": "1260947297307463783",
-    "WAZEL": "1360585391622586438",
-    "CITIZEN": "1252266446050951378",
-    "FED": "1261311031490248766",
-    "CDT":"1342563289338744872",
-    "PERM":"1375181279124783184",
-    "HI":"1375181279124783184",
-    "COM":"1342565895188254740"
+    "San Andreas State Police": "1259234502866108456",
+    "United States Marshall Service": "1252274500968513687",
+    "Departement of Justice": "1354881043349635193",
+    "Gouvernement": "1260947297307463783",
+    "Wazel News": "1360585391622586438",
+    "Citoyens": "1252266446050951378",
+    "Corps de Commandement":"1342563289338744872",
+    "Hautes Instances Communautaires":"1375181279124783184",
+    "Commission":"1342565895188254740"
 }
 
 const COMMANDER = {
-    "Patrol Division": "505779694587740170",
-    "Special Enforcement Bureau": "ID_USER_SEB",
-    "Detective Division": "381437284546904065",
-    "Division de protection Judiciaire": "ID_USER_JD",
-    "Park Ranger": "ID_USER_PR",
-    "Traffic Enforcement Bureau": "864238068269580298",
-    "Bureau Executif (PSD & Affaires Internes)": "449432156595552257",
-    "Administrative and Training Division": "794334752165330964",
+    "Patrol Division": commander["Patrol Division"],
+    "Special Enforcement Bureau": commander["Special Enforcement Bureau"],
+    "Detective Division": commander["Detective Division"],
+    "Division de protection Judiciaire": commander["Division de protection Judiciaire"],
+    "Park Ranger": commander["Park Ranger"],
+    "Traffic Enforcement Bureau": commander["Traffic Enforcement Bureau"],
+    "Bureau Executif (PSD & Affaires Internes)": commander["Bureau Executif (PSD & Affaires Internes)"],
+    "Administrative and Training Division": commander["Administrative and Training Division"],
 };
 
 const DIV_MAP = {
@@ -107,28 +105,34 @@ const PEX = {
   }
 };
 
+
 const DESC_COMMAND = {
-    "ban": "Bannit un membre du serveur. Arguments : `user` (utilisateur à bannir), `reason` (raison), `temp` (durée en jours, optionnel).",
-    "kick": "Expulse un membre du serveur. Arguments : `user` (utilisateur à expulser), `reason` (raison).",
-    "warn": "Ajoute un avertissement à un membre. Arguments : `user` (utilisateur), `mark` (motif). Sous-commandes : `info` (obtenir le nombre d'avertissements), `warn` (ajouter un avertissement).",
-    "mute": "Rend un membre muet temporairement. Arguments : `user` (utilisateur), `reason` (raison), `temps` (durée).",
-    "ticket": "Gère les tickets de support. Sous-commandes : `init`, `add` (ajouter un membre, avec `user`), `remove` (retirer un membre, avec `user`), `archive`, `close`, `lock`, `unlock`, `info`.",
+    "commander": "Gère les différents leads des unités. Sous-commandes : `view` (affiche les commanders) et `set` (définit un nouveau commander avec `user` et `division`).",
+    "play": "Recherche et joue une musique depuis YouTube. Argument : `query` (titre ou lien YouTube).",
+    "rules": "Affiche les règles du serveur.",
+    "createreport": "Crée un rapport. Argument : `name` (nom du rapport).",
+    "div": "Gère les divisions d'un utilisateur. Arguments : `user` (utilisateur), `action` (`add` ou `remove`), `div` (nom de la division).",
+    "role": "Gère les rôles d'un utilisateur. Arguments : `user` (utilisateur), `action` (`add` ou `remove`), `role` (nom du rôle).",
+    "info": "Affiche des informations générales sur le bot.",
+    "pex": "Gère les permissions personnalisées. Arguments : `user`, `action` (`add`, `remove`, `check`), `type` (catégorie de permission), `permission` (nom précis, optionnel).",
+    "recruit": "Recrute un utilisateur. Arguments : `user`, `indicatif` (numéro), `nickname` (prénom et nom).",
+    "help": "Affiche la liste des commandes ou l’aide d’une commande spécifique. Argument optionnel : `commandes`.",
+    "ban": "Bannit un membre. Arguments : `user`, `reason` (raison), `temp` (durée en jours, optionnel).",
+    "ticket": "Gère les tickets de support. Sous-commandes : `init`, `add`, `remove`, `archive`, `close`, `lock`, `unlock`, `info`, `rename`.",
     "shutdown": "Arrête le bot.",
-    "userinfo": "Affiche des informations sur un utilisateur. Arguments : `user` (utilisateur).",
-    "send": "Envoie un message privé à un utilisateur. Arguments : `auth` (autorisation), `user` (utilisateur), `obj` (objet), `msg` (message).",
-    "clear": "Supprime des messages dans un salon.",
-    "ping": "Vérifie la latence du bot.",
-    "rename": "Renomme un salon. Arguments : `str` (nouveau nom).",
-    "shift": "Démarre ou arrête un service.",
-    "infoshift": "Obtenir les informations de l'intégralité des services de l'utilisateur. Arguments : `user`.",
-    "promote": "Promouvoir un utilisateur à un grade supérieur. Arguments : `user` (utilisateur), `grade` (grade à attribuer, choisir parmi les grades disponibles).",
-    "recruit": "Recruter un utilisateur. Arguments : `user` (utilisateur), `indicatif` (indicatif à attribuer au membre), `prénom & nom` (prénom et nom du membre).",
-    "pex": "Permet d'ajouter des permissions à un membre. Arguments : `user` (utilisateur dont on veut ajouter des permissions), `add|remove|check` (ajouter, retirer ou vérifier les permissions du membre en question), `permission` (permission à ajouter ou retirer).",
-    "openservice": "Permet d'envoyer un message demandant aux membres s'ils seront présent le soir.",
-    "info": "Donne les informations primaire du Client du bot.",
-    "music": "Permet de jouer de la musique.",
-    "bypass": "Permet de bypass une commande (Ex. /bypass shift `user`)"
+    "userinfo": "Affiche les informations d’un utilisateur. Argument optionnel : `user`.",
+    "send": "Envoie un message privé à un utilisateur. Arguments : `auth` (booléen), `user`, `obj` (objet), `msg` (contenu du message).",
+    "clear": "Supprime des messages. Argument : `amount` (nombre de messages à supprimer).",
+    "kick": "Expulse un utilisateur. Arguments : `user`, `reason` (optionnel).",
+    "warn": "Ajoute un avertissement à un utilisateur. Arguments : `user`, `mark` (motif).",
+    "mute": "Rend un utilisateur muet temporairement. Arguments : `user`, `reason`, `temps` (durée).",
+    "rename": "Renomme un salon. Argument : `str` (nouveau nom).",
+    "shift": "Démarre ou arrête un service. Arguments : `type` (Normal, Slicktop, Unmarked, Admin), `veh` (véhicule).",
+    "promote": "Promouv un utilisateur à un grade supérieur. Arguments : `user`, `grade`.",
+    "infoshift": "Affiche les informations des shifts d’un utilisateur. Argument optionnel : `utilisateur`.",
+    "openservice": "Crée un message demandant la présence des membres pour le service du soir."
 };
+
 
 
 try {
