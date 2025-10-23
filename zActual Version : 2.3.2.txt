@@ -1,4 +1,0 @@
-The current version of Catherine is 2.3.2.
-
-Follow the update on GitHub.
-
