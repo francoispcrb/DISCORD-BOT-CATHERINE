@@ -75,7 +75,7 @@ function addFooterToEmbeds(message) {
 
     message.embeds = message.embeds.map(embedData => {
         const embed = EmbedBuilder.from(embedData);
-        embed.setFooter({ text: `${packageJson.name} • ${packageJson.version} • Secretaire de la S.A.S.P.` });
+        embed.setFooter({ text: `${packageJson.name} • ${packageJson.version} • Secretaire bonnase du BCSO` });
         return embed;
     });
 }
