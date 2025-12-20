@@ -28,7 +28,7 @@ async function tabsDaily(client) {
             }
 
             // INIT
-            const SASP = '<:SASP:1422314061101666456>';
+            const LSSD = '<:Logo_LSCSD:1451908624933720250>';
             const CMD = '<:CMD:1379898553157025984>';
             const SPV = '<:SPV:1379898592361189376>';
             const TRP = '<:TRP:1379898584371298355>';
@@ -46,18 +46,18 @@ async function tabsDaily(client) {
             };
 
             const rankOrder = [
-                "• Commissioner", "• Assistant Commissioner", "• Deputy Commissioner",
+                "• Sheriff", "• Undersheriff", "• Area Commander",
                 "• Captain", "• Lieutenant",
-                "• Chief Sergeant", "• Sergeant",
-                "• Master Trooper", "• Trooper II", "• Trooper", "• Trainee"
+                "• Sergeant",
+                "• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"
             ];
 
             const getSectionForGrade = (gradeName) => {
-                if (["• Master Trooper", "• Trooper II", "• Trooper", "• Trainee"].includes(gradeName)) {
+                if (["• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"].includes(gradeName)) {
                     return SECTION_LABELS.TRP;
-                } else if (["• Chief Sergeant", "• Sergeant"].includes(gradeName)) {
+                } else if (["• Sergeant"].includes(gradeName)) {
                     return SECTION_LABELS.SPV;
-                } else if (["• Commissioner", "• Assistant Commissioner", "• Deputy Commissioner", "• Captain", "• Lieutenant"].includes(gradeName)) {
+                } else if (["• Sheriff", "• Undersheriff", "• Area Commander", "• Captain", "• Lieutenant"].includes(gradeName)) {
                     return SECTION_LABELS.CMD;
                 }
                 return null;
@@ -65,7 +65,7 @@ async function tabsDaily(client) {
 
             // Envoyer le message initial
             const newMessage = await channel.send({
-                content: `# ${SASP} Hiérarchie au sein de la San Andreas State Police ${SASP}`,
+                content: `# ${LSSD} Hiérarchie au sein de la San Andreas State Police ${LSSD}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
                         `${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`
@@ -78,7 +78,15 @@ async function tabsDaily(client) {
             saveConfig();
 
             // Collecte des membres et classification
-            const members = await guild.members.fetch();
+            // Utiliser le cache en priorité
+            let members = guild.members.cache;
+
+            // Si le cache est vide (au démarrage du bot)
+            if (members.size === 0) {
+                console.log('[Cron] Cache membres vide, fetch partiel...');
+                await guild.members.fetch({ limit: 1000 });
+                members = guild.members.cache;
+            }
             for (const member of members.values()) {
                 const userRoles = member.roles.cache;
                 const matchedRanks = [];

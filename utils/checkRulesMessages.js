@@ -9,7 +9,6 @@ const RULE_FILES = [
     path.join(__dirname, '../src/Rules/rules_2.txt')
 ];
 
-// ⏱️ On stocke les dates de modification au démarrage
 const fileModificationTimes = {};
 
 async function initModificationTimes() {
@@ -55,7 +54,6 @@ async function checkAndSendRules(client) {
             const shouldReplace = fileModified || !messageId;
 
             if (shouldReplace) {
-                // Supprimer l'ancien message s'il existe
                 if (messageId) {
                     try {
                         const oldMessage = await channel.messages.fetch(messageId);

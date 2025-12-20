@@ -9,8 +9,7 @@ if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir, { recursive: true });
 }
 
-// === Webhook configuration ===
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1383562906708348970/cW6RHXJfDOjF3pINBn-4uCyEbcHCKA1djJmx9Zs_dqEmKlPXn3VADE6cVtrVi8VfeSEp'; // À personnaliser
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1383562906708348970/cW6RHXJfDOjF3pINBn-4uCyEbcHCKA1djJmx9Zs_dqEmKlPXn3VADE6cVtrVi8VfeSEp'; 
 const webhookClient = new WebhookClient({ url: WEBHOOK_URL });
 
 let webhookQueue = [];

@@ -12,27 +12,26 @@ const CORPS = {
 
 const RANKS = {
     //Application
-    "Trainee":                { id: "1414910715097251861", name: "• Trainee" , emoji: ""},
-    "Trooper":                { id: "1271893900344299692", name: "• Trooper"         , emoji: ""},
-    "Trooper II":             { id: "1252231983497744507", name: "• Trooper II"      , emoji: "<:Trooper_II:1422682143657558016>"},
-    "Master Trooper":         { id: "1343603998745432084", name: "• Master Trooper"  , emoji: "<:Master_Trooper:1422682137047466197>"},
+    "Deputy Trainee":         { id: "1414910715097251861", name: "• Deputy Trainee" , emoji: ""},
+    "Deputy":                 { id: "1271893900344299692", name: "• Deputy"         , emoji: ""},
+    "Master Deputy":          { id: "1252231983497744507", name: "• Master Deputy"      , emoji: "<:Deputy_II:1451908616633450597> "},
+    "Corporal":               { id: "1343603998745432084", name: "• Corporal"     , emoji: "<:Deputy_FTO:1451908614326587494>"},
     //Superivision
-    "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"                    , emoji: "<:Sergeant:1422682140419817533>"},
-    "Chief Sergeant":         { id: "1414973859374825612", name: "• Chief Sergeant"              , emoji: "<:Chief_Sergeant:1422682907251576893>"},
+    "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"              , emoji: "<:Sergeant:1451908627387518976>"},
     //Commandement
-    "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1422682925001867365>"},
-    "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1422682904554897559>"},
+    "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1451908622941687818>"},
+    "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1451908612157866004>"},
     //Direction
-    "Deputy Commissioner":    { id: "1414944268933533696", name: "• Deputy Commissioner"     , emoji: "<:Deputy_Commissioner:1422682660643536926>"},
-    "Assstant Commissioner":  { id: "1414944314903236740", name: "• Assistant Commissioner"        , emoji: "<:Assistant_Commissioner:1422682902063222804>"},
-    "Commissioner":           { id: "1414944355524808704", name: "• Commissioner"               , emoji: "<:Commissioner:1422682656088522832>"},
+    "Major":                  { id: "1414944268933533696", name: "• Major"     , emoji: "<:Area_Commander:1451908606445224046>"},
+    "Undersheriff":           { id: "1414944314903236740", name: "• Undersheriff"        , emoji: "<:Under_Sherif:1451908631221108849>"},
+    "Sheriff":                { id: "1414944355524808704", name: "• Sheriff"               , emoji: "<:Sheriff:1451908629182812230>"},
 };
 
 
 
 const ROLE_MAP = {
-    "San Andreas State Police": "1259234502866108456",
-    "United States Marshall Service": "1252274500968513687",
+    "Los Santos Sheriff Department": "1259234502866108456",
+    "Los Santos Police Department": "1252274500968513687",
     "Departement of Justice": "1354881043349635193",
     "Gouvernement": "1260947297307463783",
     "Wazel News": "1360585391622586438",
@@ -43,26 +42,24 @@ const ROLE_MAP = {
 }
 
 const COMMANDER = {
-    "Patrol Division": commander["Patrol Division"],
-    "Special Enforcement Bureau": commander["Special Enforcement Bureau"],
-    "Detective Division": commander["Detective Division"],
-    "Division de protection Judiciaire": commander["Division de protection Judiciaire"],
-    "Park Ranger": commander["Park Ranger"],
-    "Traffic Enforcement Bureau": commander["Traffic Enforcement Bureau"],
-    "Bureau Executif (PSD & Affaires Internes)": commander["Bureau Executif (PSD & Affaires Internes)"],
-    "Administrative and Training Division": commander["Administrative and Training Division"],
+    "Patrol Division":                      commander["PD"],
+    "Special Weapons and Tactics":          commander["SWAT"],
+    "Criminal Investigation":               commander["CI"],
+    "Internal Investigation Division":      commander["IID"],
+    "Administrative and Training Division": commander["ATD"],
+    "Air Support":                          commander["AS"],
+    "K.9 Unit":                             commander["K9"]
 };
 
 const DIV_MAP = {
-    "Special Enforcement Bureau":                            { id: "1344727484951822346", name: "Special Enforcement Bureau" },
-    "Detective Division":                              { id: "1254743492392124417", name: "Detective Division" },
-    "Division de protection Judiciaire":                             { id: "1254743617692635196", name: "Division de protection Judiciaire" },
-    "Traffic Enforcement Bureau (Interim)":                             { id: "1272252982750347414", name: "Traffic Enforcement Bureau (Interim)" },
-    "Bureau Executif (PSD & Affaires Internes)":                             { id: "1272253157577064478", name: "Bureau Executif (PSD & Affaires Internes)" },
-    "Administrative and Training Division":                             { id: "1414951063433515140", name: "Administrative and Training Division" },
-    "Patrol Division": {id:"1259234502866108456", name: "Patrol Division"},
-    "Park Ranger": {id: "", name: "Park Ranger"}
+    "Special Weapons and Tactics":              { id: "1344727484951822346", name: "Special Weapons and Tactics" },
+    "K.9 Unit":                                 { id: "1272252982750347414", name: "K.9 Unit" },
+    "Criminal Investigation":                   { id: "1254743492392124417", name: "Criminal Investigation" },
+    "Air Support":                              { id: "1254743617692635196", name: "Air Support" },
+    "Internal Investigation Division":          { id: "1272253157577064478", name: "Internal Investigation Division" },
+    "Administrative and Training Division":     { id: "1414951063433515140", name: "Administrative and Training Division" },
 };
+
 
 const PEX = {
   MANAGE: {

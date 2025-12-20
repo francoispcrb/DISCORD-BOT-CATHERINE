@@ -15,9 +15,9 @@ const client = new Discord.Client({
     partials: [Discord.Partials.Channel]
 });
 
+
 require('./utils/loggers');
 
-// Fonction pour envoyer un log
 function sendLog(embed) {
     const LOG_CHANNEL_ID = config.channel.log;
     const logChannel = client.channels.cache.get(LOG_CHANNEL_ID);

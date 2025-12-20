@@ -203,7 +203,7 @@ module.exports = {
         const {reboot} = require('../utils/reboot');
         const {checkTicketInit} = require('../utils/checkTicketInit');
         
-        //tabsDaily(client); divDaily(client)
+        tabsDaily(client); divDaily(client)
 
         function taskMorning() {
             console.log(chalk.green("🌅 Tâches du matin exécutées !"));
@@ -231,19 +231,19 @@ module.exports = {
             reboot();
         }
 
-        //cron.schedule('0 5 * * *', taskNight, {
-        //    scheduled: true,
-        //    timezone: "Europe/Paris"
-        //});
+        cron.schedule('0 5 * * *', taskNight, {
+            scheduled: true,
+            timezone: "Europe/Paris"
+        })
 
-        //cron.schedule('0 8 * * *', taskMorning, {
-        //    scheduled: true,
-        //    timezone: "Europe/Paris"
-        //});
+        cron.schedule('0 8 * * *', taskMorning, {
+            scheduled: true,
+            timezone: "Europe/Paris"
+        })
 
-        //cron.schedule('0 16 * * *', taskEvening, {
-        //    scheduled: true,
-        //    timezone: "Europe/Paris"
-        //});
+        cron.schedule('0 16 * * *', taskEvening, {
+            scheduled: true,
+            timezone: "Europe/Paris"
+        });
     }
 };

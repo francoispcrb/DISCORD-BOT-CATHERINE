@@ -1,0 +1,1310 @@
+[2025-12-20T12:40:30.656Z] 2025-12-20 13:40:30 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T12:40:30.657Z] 2025-12-20 13:40:30 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:40:30.657Z] 2025-12-20 13:40:30 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:40:30.657Z] 2025-12-20 13:40:30 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:40:30.657Z] 2025-12-20 13:40:30 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:40:30.678Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T12:40:30.678Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T12:40:30.679Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T12:40:30.679Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T12:40:30.680Z] 2025-12-20 13:40:30 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:40:30.873Z] 2025-12-20 13:40:30 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:40:30.932Z] 2025-12-20 13:40:30 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:40:30.932Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T12:40:30.933Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T12:40:30.933Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T12:40:30.934Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T12:40:30.937Z] 2025-12-20 13:40:30 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:40:30.940Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T12:40:30.940Z] [EVENT] 2025-12-20 13:40:30 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T12:40:30.941Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T12:40:30.941Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T12:40:30.942Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T12:40:30.942Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T12:40:30.942Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T12:40:30.943Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T12:40:30.943Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T12:40:30.943Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T12:40:30.944Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T12:40:30.944Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T12:40:30.944Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T12:40:30.945Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T12:40:30.949Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T12:40:30.949Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T12:40:30.950Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T12:40:30.950Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T12:40:30.950Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T12:40:30.951Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T12:40:30.951Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T12:40:30.952Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T12:40:30.952Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T12:40:30.952Z] [COMMANDS] 2025-12-20 13:40:30 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T12:40:30.953Z] 2025-12-20 13:40:30 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T12:40:31.417Z] 2025-12-20 13:40:31 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:40:31.417Z] 2025-12-20 13:40:31 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:40:31.419Z] [INFO] 2025-12-20 13:40:31 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:40:32.452Z] 2025-12-20 13:40:32 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:40:32.452Z] 2025-12-20 13:40:32 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:40:32.452Z] 2025-12-20 13:40:32 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:40:32.452Z] 2025-12-20 13:40:32 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:40:32.724Z] 2025-12-20 13:40:32 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:40:32.724Z] 2025-12-20 13:40:32 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:40:32.725Z] [INFO] 2025-12-20 13:40:32 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:40:32.725Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T12:40:32.725Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T12:40:32.725Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T12:40:32.725Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T12:40:32.725Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T12:40:32.731Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T12:40:32.732Z] 2025-12-20 13:40:32 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T12:40:32.732Z] 2025-12-20 13:40:32 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T12:40:33.004Z] 2025-12-20 13:40:33 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T12:40:33.004Z] 2025-12-20 13:40:33 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T12:40:33.005Z] 2025-12-20 13:40:33 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T12:40:33.005Z] 2025-12-20 13:40:33 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T12:41:28.836Z] 2025-12-20 13:41:28 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T12:41:28.836Z] 2025-12-20 13:41:28 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:41:28.837Z] 2025-12-20 13:41:28 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:41:28.837Z] 2025-12-20 13:41:28 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:41:28.837Z] 2025-12-20 13:41:28 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:41:28.857Z] [EVENT] 2025-12-20 13:41:28 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T12:41:28.857Z] [EVENT] 2025-12-20 13:41:28 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T12:41:28.858Z] [EVENT] 2025-12-20 13:41:28 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T12:41:28.858Z] [EVENT] 2025-12-20 13:41:28 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T12:41:28.859Z] 2025-12-20 13:41:28 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:41:28.987Z] 2025-12-20 13:41:28 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:41:29.035Z] 2025-12-20 13:41:29 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:41:29.035Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T12:41:29.036Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T12:41:29.036Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T12:41:29.036Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T12:41:29.040Z] 2025-12-20 13:41:29 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:41:29.043Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T12:41:29.043Z] [EVENT] 2025-12-20 13:41:29 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T12:41:29.044Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T12:41:29.044Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T12:41:29.044Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T12:41:29.045Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T12:41:29.045Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T12:41:29.045Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T12:41:29.046Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T12:41:29.046Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T12:41:29.046Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T12:41:29.047Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T12:41:29.047Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T12:41:29.047Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T12:41:29.051Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T12:41:29.051Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T12:41:29.052Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T12:41:29.052Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T12:41:29.052Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T12:41:29.052Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T12:41:29.053Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T12:41:29.053Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T12:41:29.054Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T12:41:29.054Z] [COMMANDS] 2025-12-20 13:41:29 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T12:41:29.055Z] 2025-12-20 13:41:29 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T12:41:29.526Z] 2025-12-20 13:41:29 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:41:29.527Z] 2025-12-20 13:41:29 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:41:29.528Z] [INFO] 2025-12-20 13:41:29 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:41:30.831Z] 2025-12-20 13:41:30 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:41:30.831Z] 2025-12-20 13:41:30 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:41:30.831Z] 2025-12-20 13:41:30 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:41:30.831Z] 2025-12-20 13:41:30 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:41:31.072Z] 2025-12-20 13:41:31 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:41:31.072Z] 2025-12-20 13:41:31 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:41:31.072Z] [INFO] 2025-12-20 13:41:31 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:41:31.073Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T12:41:31.073Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T12:41:31.073Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T12:41:31.073Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T12:41:31.073Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T12:41:31.077Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T12:41:31.078Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T12:41:31.078Z] 2025-12-20 13:41:31 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T12:41:31.340Z] 2025-12-20 13:41:31 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T12:41:31.340Z] 2025-12-20 13:41:31 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T12:41:31.341Z] 2025-12-20 13:41:31 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T12:41:31.341Z] 2025-12-20 13:41:31 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T12:41:31.343Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T12:41:31.343Z] 2025-12-20 13:41:31 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-12-20T12:41:31.650Z] 2025-12-20 13:41:31 [WARN] [!] (DIV) Ancien message non trouvé ou déjà supprimé.
+[2025-12-20T12:41:32.125Z] 2025-12-20 13:41:32 [WARN] [!] (TABS) Ancien message non trouvé ou déjà supprimé.
+[2025-12-20T12:41:33.131Z] 2025-12-20 13:41:33 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T12:41:33.131Z] 2025-12-20 13:41:33 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:43:32.827Z] 2025-12-20 13:43:32 [ERROR] [Cron] ❌ Erreur lors de la régénération automatique : {
+  "code": "GuildMembersTimeout"
+}
+[2025-12-20T12:43:32.828Z] 2025-12-20 13:43:32 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:44:16.247Z] 2025-12-20 13:44:16 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T12:44:16.248Z] 2025-12-20 13:44:16 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:44:16.249Z] 2025-12-20 13:44:16 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:44:16.249Z] 2025-12-20 13:44:16 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:44:16.249Z] 2025-12-20 13:44:16 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:44:16.269Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T12:44:16.270Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T12:44:16.270Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T12:44:16.270Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T12:44:16.271Z] 2025-12-20 13:44:16 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:44:16.397Z] 2025-12-20 13:44:16 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:44:16.441Z] 2025-12-20 13:44:16 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:44:16.442Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T12:44:16.446Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T12:44:16.446Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T12:44:16.447Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T12:44:16.450Z] 2025-12-20 13:44:16 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:44:16.453Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T12:44:16.454Z] [EVENT] 2025-12-20 13:44:16 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T12:44:16.455Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T12:44:16.456Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T12:44:16.456Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T12:44:16.456Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T12:44:16.457Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T12:44:16.457Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T12:44:16.457Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T12:44:16.458Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T12:44:16.458Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T12:44:16.458Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T12:44:16.458Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T12:44:16.459Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T12:44:16.462Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T12:44:16.462Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T12:44:16.463Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T12:44:16.463Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T12:44:16.463Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T12:44:16.463Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T12:44:16.464Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T12:44:16.464Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T12:44:16.464Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T12:44:16.464Z] [COMMANDS] 2025-12-20 13:44:16 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T12:44:16.465Z] 2025-12-20 13:44:16 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T12:44:16.953Z] 2025-12-20 13:44:16 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:44:16.954Z] 2025-12-20 13:44:16 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:44:16.956Z] [INFO] 2025-12-20 13:44:16 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:44:17.788Z] 2025-12-20 13:44:17 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:44:17.788Z] 2025-12-20 13:44:17 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:44:17.788Z] 2025-12-20 13:44:17 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:44:17.788Z] 2025-12-20 13:44:17 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:44:18.039Z] 2025-12-20 13:44:18 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:44:18.040Z] [INFO] 2025-12-20 13:44:18 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T12:44:18.040Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T12:44:18.043Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T12:44:18.044Z] 2025-12-20 13:44:18 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T12:44:18.044Z] 2025-12-20 13:44:18 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T12:44:19.044Z] 2025-12-20 13:44:19 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T12:44:19.045Z] 2025-12-20 13:44:19 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T12:44:19.045Z] 2025-12-20 13:44:19 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T12:44:19.045Z] 2025-12-20 13:44:19 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T12:44:19.048Z] 2025-12-20 13:44:19 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T12:44:19.048Z] 2025-12-20 13:44:19 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-12-20T12:44:20.339Z] [NOTIFY] 2025-12-20 13:44:20 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-12-20T12:44:20.897Z] [NOTIFY] 2025-12-20 13:44:20 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T12:44:21.448Z] 2025-12-20 13:44:21 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T12:44:21.449Z] 2025-12-20 13:44:21 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:46:21.373Z] 2025-12-20 13:46:21 [ERROR] [Cron] ❌ Erreur lors de la régénération automatique : {
+  "code": "GuildMembersTimeout"
+}
+[2025-12-20T12:46:21.373Z] 2025-12-20 13:46:21 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:49:31.157Z] 2025-12-20 13:49:31 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T12:49:31.158Z] 2025-12-20 13:49:31 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:49:31.158Z] 2025-12-20 13:49:31 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:49:31.158Z] 2025-12-20 13:49:31 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:49:31.158Z] 2025-12-20 13:49:31 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:49:31.179Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T12:49:31.179Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T12:49:31.180Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T12:49:31.180Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T12:49:31.180Z] 2025-12-20 13:49:31 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:49:31.301Z] 2025-12-20 13:49:31 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:49:31.349Z] 2025-12-20 13:49:31 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:49:31.349Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T12:49:31.349Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T12:49:31.349Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T12:49:31.350Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T12:49:31.353Z] 2025-12-20 13:49:31 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:49:31.356Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T12:49:31.357Z] [EVENT] 2025-12-20 13:49:31 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T12:49:31.358Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T12:49:31.358Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T12:49:31.358Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T12:49:31.359Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T12:49:31.359Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T12:49:31.359Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T12:49:31.359Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T12:49:31.360Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T12:49:31.360Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T12:49:31.360Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T12:49:31.361Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T12:49:31.361Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T12:49:31.365Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T12:49:31.365Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T12:49:31.365Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T12:49:31.365Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T12:49:31.365Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T12:49:31.366Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T12:49:31.366Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T12:49:31.367Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T12:49:31.367Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T12:49:31.367Z] [COMMANDS] 2025-12-20 13:49:31 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T12:49:31.368Z] 2025-12-20 13:49:31 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T12:49:32.258Z] 2025-12-20 13:49:32 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:49:32.259Z] 2025-12-20 13:49:32 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:49:32.259Z] [INFO] 2025-12-20 13:49:32 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:49:33.386Z] 2025-12-20 13:49:33 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:49:33.387Z] 2025-12-20 13:49:33 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:49:33.387Z] 2025-12-20 13:49:33 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:49:33.387Z] 2025-12-20 13:49:33 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:49:33.730Z] 2025-12-20 13:49:33 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:49:33.730Z] 2025-12-20 13:49:33 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:49:33.731Z] [INFO] 2025-12-20 13:49:33 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:49:33.731Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T12:49:33.731Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T12:49:33.731Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T12:49:33.731Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T12:49:33.732Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T12:49:33.739Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T12:49:33.741Z] 2025-12-20 13:49:33 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T12:49:33.741Z] 2025-12-20 13:49:33 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T12:49:34.099Z] 2025-12-20 13:49:34 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T12:49:34.099Z] 2025-12-20 13:49:34 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T12:49:34.100Z] 2025-12-20 13:49:34 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T12:49:34.100Z] 2025-12-20 13:49:34 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T12:49:34.102Z] 2025-12-20 13:49:34 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T12:49:34.103Z] 2025-12-20 13:49:34 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-12-20T12:49:35.209Z] [NOTIFY] 2025-12-20 13:49:35 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-12-20T12:49:35.641Z] [NOTIFY] 2025-12-20 13:49:35 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T12:49:36.832Z] 2025-12-20 13:49:36 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T12:49:36.833Z] 2025-12-20 13:49:36 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:49:37.290Z] 2025-12-20 13:49:37 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T12:49:37.291Z] 2025-12-20 13:49:37 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:55:43.418Z] 2025-12-20 13:55:43 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T12:55:43.418Z] 2025-12-20 13:55:43 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:55:43.419Z] 2025-12-20 13:55:43 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:55:43.419Z] 2025-12-20 13:55:43 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:55:43.419Z] 2025-12-20 13:55:43 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:55:43.440Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T12:55:43.441Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T12:55:43.441Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T12:55:43.441Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T12:55:43.442Z] 2025-12-20 13:55:43 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:55:43.582Z] 2025-12-20 13:55:43 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:55:43.632Z] 2025-12-20 13:55:43 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:55:43.632Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T12:55:43.633Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T12:55:43.633Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T12:55:43.633Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T12:55:43.643Z] 2025-12-20 13:55:43 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T12:55:43.646Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T12:55:43.647Z] [EVENT] 2025-12-20 13:55:43 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T12:55:43.648Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T12:55:43.648Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T12:55:43.649Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T12:55:43.649Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T12:55:43.650Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T12:55:43.650Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T12:55:43.650Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T12:55:43.651Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T12:55:43.651Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T12:55:43.651Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T12:55:43.651Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T12:55:43.652Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T12:55:43.656Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T12:55:43.656Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T12:55:43.656Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T12:55:43.657Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T12:55:43.657Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T12:55:43.657Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T12:55:43.658Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T12:55:43.658Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T12:55:43.658Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T12:55:43.658Z] [COMMANDS] 2025-12-20 13:55:43 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T12:55:43.659Z] 2025-12-20 13:55:43 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T12:55:44.111Z] 2025-12-20 13:55:44 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:55:44.111Z] 2025-12-20 13:55:44 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:55:44.112Z] [INFO] 2025-12-20 13:55:44 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:55:46.176Z] 2025-12-20 13:55:46 [DEBUG] 📦 Checking version from local...
+[2025-12-20T12:55:46.177Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T12:55:46.177Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T12:55:46.177Z] 2025-12-20 13:55:46 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T12:55:46.616Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T12:55:46.616Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T12:55:46.616Z] [INFO] 2025-12-20 13:55:46 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T12:55:46.616Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T12:55:46.616Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T12:55:46.616Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T12:55:46.617Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T12:55:46.617Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T12:55:46.621Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T12:55:46.623Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T12:55:46.623Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T12:55:46.875Z] 2025-12-20 13:55:46 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T12:55:46.875Z] 2025-12-20 13:55:46 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T12:55:46.875Z] 2025-12-20 13:55:46 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T12:55:46.875Z] 2025-12-20 13:55:46 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T12:55:46.878Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T12:55:46.878Z] 2025-12-20 13:55:46 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (div)
+[2025-12-20T12:55:47.755Z] [NOTIFY] 2025-12-20 13:55:47 [🟢 SOFT NOTIFY] Message DIV supprimé
+[2025-12-20T12:55:48.288Z] [NOTIFY] 2025-12-20 13:55:48 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T12:55:49.697Z] 2025-12-20 13:55:49 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T12:55:49.697Z] 2025-12-20 13:55:49 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T12:55:50.236Z] 2025-12-20 13:55:50 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T12:55:50.236Z] 2025-12-20 13:55:50 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:00:08.140Z] 2025-12-20 14:00:08 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:00:08.141Z] 2025-12-20 14:00:08 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:00:08.141Z] 2025-12-20 14:00:08 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:00:08.141Z] 2025-12-20 14:00:08 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:00:08.141Z] 2025-12-20 14:00:08 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:00:08.160Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:00:08.160Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:00:08.160Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:00:08.161Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:00:08.161Z] 2025-12-20 14:00:08 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:00:08.286Z] 2025-12-20 14:00:08 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:00:08.330Z] 2025-12-20 14:00:08 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:00:08.330Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:00:08.330Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:00:08.330Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:00:08.331Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:00:08.335Z] 2025-12-20 14:00:08 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:00:08.338Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:00:08.338Z] [EVENT] 2025-12-20 14:00:08 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:00:08.339Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:00:08.339Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:00:08.340Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:00:08.340Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:00:08.340Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:00:08.340Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:00:08.341Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:00:08.341Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:00:08.345Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:00:08.346Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:00:08.347Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:00:08.347Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:00:08.350Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:00:08.350Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:00:08.351Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:00:08.351Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:00:08.351Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:00:08.352Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:00:08.352Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:00:08.352Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:00:08.353Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:00:08.353Z] [COMMANDS] 2025-12-20 14:00:08 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:00:08.354Z] 2025-12-20 14:00:08 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:00:09.344Z] 2025-12-20 14:00:09 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:00:09.345Z] 2025-12-20 14:00:09 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:00:09.346Z] [INFO] 2025-12-20 14:00:09 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:00:10.119Z] 2025-12-20 14:00:10 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:00:10.120Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:00:10.120Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:00:10.120Z] 2025-12-20 14:00:10 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:00:10.355Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:00:10.355Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:00:10.356Z] [INFO] 2025-12-20 14:00:10 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:00:10.356Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:00:10.357Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:00:10.357Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:00:10.357Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:00:10.357Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:00:10.364Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:00:10.365Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:00:10.365Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T13:00:10.808Z] 2025-12-20 14:00:10 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:00:10.809Z] 2025-12-20 14:00:10 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:00:10.810Z] 2025-12-20 14:00:10 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:00:10.810Z] 2025-12-20 14:00:10 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:00:10.811Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:00:10.811Z] 2025-12-20 14:00:10 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:00:13.718Z] [NOTIFY] 2025-12-20 14:00:13 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:00:14.650Z] 2025-12-20 14:00:14 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:00:14.650Z] 2025-12-20 14:00:14 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:00:16.694Z] 2025-12-20 14:00:16 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:00:16.694Z] 2025-12-20 14:00:16 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:01:02.002Z] 2025-12-20 14:01:01 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:01:02.003Z] 2025-12-20 14:01:02 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:01:02.003Z] 2025-12-20 14:01:02 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:01:02.003Z] 2025-12-20 14:01:02 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:01:02.003Z] 2025-12-20 14:01:02 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:01:02.024Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:01:02.024Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:01:02.024Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:01:02.024Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:01:02.025Z] 2025-12-20 14:01:02 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:01:02.151Z] 2025-12-20 14:01:02 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:01:02.198Z] 2025-12-20 14:01:02 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:01:02.198Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:01:02.199Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:01:02.199Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:01:02.199Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:01:02.209Z] 2025-12-20 14:01:02 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:01:02.212Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:01:02.212Z] [EVENT] 2025-12-20 14:01:02 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:01:02.214Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:01:02.215Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:01:02.216Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:01:02.217Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:01:02.218Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:01:02.219Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:01:02.219Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:01:02.220Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:01:02.220Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:01:02.221Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:01:02.221Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:01:02.222Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:01:02.226Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:01:02.227Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:01:02.227Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:01:02.227Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:01:02.227Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:01:02.228Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:01:02.228Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:01:02.229Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:01:02.229Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:01:02.230Z] [COMMANDS] 2025-12-20 14:01:02 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:01:02.231Z] 2025-12-20 14:01:02 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:01:02.818Z] 2025-12-20 14:01:02 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:01:02.818Z] 2025-12-20 14:01:02 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:01:02.821Z] [INFO] 2025-12-20 14:01:02 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:01:03.881Z] 2025-12-20 14:01:03 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:01:03.881Z] 2025-12-20 14:01:03 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:01:03.881Z] 2025-12-20 14:01:03 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:01:03.881Z] 2025-12-20 14:01:03 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:01:04.818Z] 2025-12-20 14:01:04 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:01:04.818Z] 2025-12-20 14:01:04 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:01:04.819Z] [INFO] 2025-12-20 14:01:04 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:01:04.819Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:01:04.819Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:01:04.819Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:01:04.819Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:01:04.819Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:01:04.823Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:01:04.824Z] 2025-12-20 14:01:04 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:01:04.824Z] 2025-12-20 14:01:04 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T13:01:05.039Z] 2025-12-20 14:01:05 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:01:05.039Z] 2025-12-20 14:01:05 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:01:05.040Z] 2025-12-20 14:01:05 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:01:05.040Z] 2025-12-20 14:01:05 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:01:05.042Z] 2025-12-20 14:01:05 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:01:05.042Z] 2025-12-20 14:01:05 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:01:06.465Z] [NOTIFY] 2025-12-20 14:01:06 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:01:07.351Z] 2025-12-20 14:01:07 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:01:07.352Z] 2025-12-20 14:01:07 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:01:07.754Z] 2025-12-20 14:01:07 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:01:07.754Z] 2025-12-20 14:01:07 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:02:13.488Z] 2025-12-20 14:02:13 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:02:13.488Z] 2025-12-20 14:02:13 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:02:13.489Z] 2025-12-20 14:02:13 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:02:13.489Z] 2025-12-20 14:02:13 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:02:13.489Z] 2025-12-20 14:02:13 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:02:13.508Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:02:13.508Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:02:13.509Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:02:13.509Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:02:13.510Z] 2025-12-20 14:02:13 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:02:13.632Z] 2025-12-20 14:02:13 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:02:13.680Z] 2025-12-20 14:02:13 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:02:13.680Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:02:13.680Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:02:13.681Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:02:13.681Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:02:13.684Z] 2025-12-20 14:02:13 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:02:13.687Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:02:13.688Z] [EVENT] 2025-12-20 14:02:13 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:02:13.689Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:02:13.689Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:02:13.689Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:02:13.689Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:02:13.690Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:02:13.690Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:02:13.690Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:02:13.690Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:02:13.691Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:02:13.691Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:02:13.691Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:02:13.692Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:02:13.695Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:02:13.695Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:02:13.696Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:02:13.696Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:02:13.696Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:02:13.696Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:02:13.697Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:02:13.697Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:02:13.697Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:02:13.698Z] [COMMANDS] 2025-12-20 14:02:13 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:02:13.698Z] 2025-12-20 14:02:13 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:02:14.314Z] 2025-12-20 14:02:14 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:02:14.314Z] 2025-12-20 14:02:14 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:02:14.316Z] [INFO] 2025-12-20 14:02:14 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:02:16.465Z] 2025-12-20 14:02:16 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:02:16.465Z] 2025-12-20 14:02:16 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:02:16.465Z] 2025-12-20 14:02:16 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:02:16.465Z] 2025-12-20 14:02:16 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:02:16.952Z] [INFO] 2025-12-20 14:02:16 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:02:16.952Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:02:16.956Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:02:16.957Z] 2025-12-20 14:02:16 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:02:16.957Z] 2025-12-20 14:02:16 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T13:02:17.654Z] 2025-12-20 14:02:17 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:02:17.654Z] 2025-12-20 14:02:17 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:02:17.654Z] 2025-12-20 14:02:17 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:02:17.654Z] 2025-12-20 14:02:17 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:02:17.656Z] 2025-12-20 14:02:17 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:02:17.656Z] 2025-12-20 14:02:17 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:02:19.184Z] [NOTIFY] 2025-12-20 14:02:19 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:02:20.583Z] 2025-12-20 14:02:20 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:02:20.583Z] 2025-12-20 14:02:20 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:02:21.545Z] 2025-12-20 14:02:21 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:02:21.545Z] 2025-12-20 14:02:21 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:05:50.036Z] 2025-12-20 14:05:50 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:05:50.037Z] 2025-12-20 14:05:50 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:05:50.037Z] 2025-12-20 14:05:50 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:05:50.038Z] 2025-12-20 14:05:50 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:05:50.038Z] 2025-12-20 14:05:50 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:05:50.058Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:05:50.058Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:05:50.058Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:05:50.058Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:05:50.059Z] 2025-12-20 14:05:50 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:05:50.183Z] 2025-12-20 14:05:50 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:05:50.234Z] 2025-12-20 14:05:50 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:05:50.234Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:05:50.235Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:05:50.235Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:05:50.235Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:05:50.238Z] 2025-12-20 14:05:50 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:05:50.241Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:05:50.241Z] [EVENT] 2025-12-20 14:05:50 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:05:50.242Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:05:50.242Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:05:50.243Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:05:50.243Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:05:50.243Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:05:50.243Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:05:50.244Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:05:50.244Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:05:50.244Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:05:50.244Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:05:50.245Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:05:50.245Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:05:50.248Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:05:50.249Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:05:50.249Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:05:50.249Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:05:50.249Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:05:50.250Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:05:50.250Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:05:50.251Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:05:50.251Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:05:50.251Z] [COMMANDS] 2025-12-20 14:05:50 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:05:50.252Z] 2025-12-20 14:05:50 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:05:50.516Z] 2025-12-20 14:05:50 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:05:50.517Z] 2025-12-20 14:05:50 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:05:50.519Z] [INFO] 2025-12-20 14:05:50 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:05:51.188Z] 2025-12-20 14:05:51 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:05:51.188Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:05:51.188Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:05:51.188Z] 2025-12-20 14:05:51 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:05:51.349Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:05:51.349Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:05:51.350Z] [INFO] 2025-12-20 14:05:51 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:05:51.350Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:05:51.350Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:05:51.351Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:05:51.351Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:05:51.351Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:05:51.356Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:05:51.356Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:05:51.357Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T13:05:51.585Z] 2025-12-20 14:05:51 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:05:51.586Z] 2025-12-20 14:05:51 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:05:51.587Z] 2025-12-20 14:05:51 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:05:51.587Z] 2025-12-20 14:05:51 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:05:51.591Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:05:51.591Z] 2025-12-20 14:05:51 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:05:52.520Z] [NOTIFY] 2025-12-20 14:05:52 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:05:52.901Z] 2025-12-20 14:05:52 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:05:52.901Z] 2025-12-20 14:05:52 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:05:53.344Z] 2025-12-20 14:05:53 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:05:53.344Z] 2025-12-20 14:05:53 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:08:31.396Z] 2025-12-20 14:08:31 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:08:31.397Z] 2025-12-20 14:08:31 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:08:31.397Z] 2025-12-20 14:08:31 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:08:31.397Z] 2025-12-20 14:08:31 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:08:31.397Z] 2025-12-20 14:08:31 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:08:31.416Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:08:31.417Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:08:31.417Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:08:31.417Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:08:31.418Z] 2025-12-20 14:08:31 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:08:31.543Z] 2025-12-20 14:08:31 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:08:31.587Z] 2025-12-20 14:08:31 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:08:31.587Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:08:31.588Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:08:31.588Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:08:31.589Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:08:31.593Z] 2025-12-20 14:08:31 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:08:31.595Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:08:31.595Z] [EVENT] 2025-12-20 14:08:31 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:08:31.596Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:08:31.597Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:08:31.597Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:08:31.597Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:08:31.597Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:08:31.598Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:08:31.603Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:08:31.605Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:08:31.605Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:08:31.605Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:08:31.606Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:08:31.606Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:08:31.611Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:08:31.612Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:08:31.612Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:08:31.613Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:08:31.613Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:08:31.613Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:08:31.614Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:08:31.614Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:08:31.614Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:08:31.615Z] [COMMANDS] 2025-12-20 14:08:31 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:08:31.615Z] 2025-12-20 14:08:31 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:08:31.888Z] 2025-12-20 14:08:31 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:08:31.888Z] 2025-12-20 14:08:31 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:08:31.890Z] [INFO] 2025-12-20 14:08:31 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:08:32.717Z] 2025-12-20 14:08:32 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:08:32.717Z] 2025-12-20 14:08:32 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:08:32.717Z] 2025-12-20 14:08:32 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:08:32.717Z] 2025-12-20 14:08:32 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:08:32.876Z] 2025-12-20 14:08:32 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:08:32.876Z] 2025-12-20 14:08:32 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:08:32.877Z] [INFO] 2025-12-20 14:08:32 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:08:32.877Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:08:32.877Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:08:32.878Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:08:32.878Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:08:32.878Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:08:32.883Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:08:32.884Z] 2025-12-20 14:08:32 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:08:32.884Z] 2025-12-20 14:08:32 [CLIENT DISCORD] 📥 Serveur trouvé : San Andreas State Police
+[2025-12-20T13:08:33.152Z] 2025-12-20 14:08:33 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:08:33.153Z] 2025-12-20 14:08:33 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:08:33.154Z] 2025-12-20 14:08:33 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:08:33.154Z] 2025-12-20 14:08:33 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:08:33.155Z] 2025-12-20 14:08:33 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:08:33.156Z] 2025-12-20 14:08:33 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:08:34.151Z] [NOTIFY] 2025-12-20 14:08:34 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:08:34.606Z] 2025-12-20 14:08:34 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:08:34.607Z] 2025-12-20 14:08:34 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:08:35.151Z] 2025-12-20 14:08:35 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:08:35.151Z] 2025-12-20 14:08:35 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:19:44.454Z] 2025-12-20 14:19:44 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:19:44.455Z] 2025-12-20 14:19:44 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:19:44.455Z] 2025-12-20 14:19:44 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:19:44.455Z] 2025-12-20 14:19:44 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:19:44.455Z] 2025-12-20 14:19:44 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:19:44.474Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:19:44.475Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:19:44.475Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:19:44.475Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:19:44.476Z] 2025-12-20 14:19:44 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:44.602Z] 2025-12-20 14:19:44 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:44.648Z] 2025-12-20 14:19:44 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:44.648Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:19:44.649Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:19:44.649Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:19:44.649Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:19:44.653Z] 2025-12-20 14:19:44 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:44.657Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:19:44.657Z] [EVENT] 2025-12-20 14:19:44 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:19:44.658Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:19:44.658Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:19:44.658Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:19:44.659Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:19:44.659Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:19:44.659Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:19:44.660Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:19:44.664Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:19:44.665Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:19:44.665Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:19:44.665Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:19:44.666Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:19:44.669Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:19:44.669Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:19:44.669Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:19:44.669Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:19:44.669Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:19:44.670Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:19:44.670Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:19:44.671Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:19:44.671Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:19:44.672Z] [COMMANDS] 2025-12-20 14:19:44 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:19:44.672Z] 2025-12-20 14:19:44 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:19:45.182Z] 2025-12-20 14:19:45 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:19:45.182Z] 2025-12-20 14:19:45 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:19:45.184Z] [INFO] 2025-12-20 14:19:45 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:19:46.212Z] 2025-12-20 14:19:46 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:19:46.212Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:19:46.212Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:19:46.212Z] 2025-12-20 14:19:46 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:19:46.486Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:19:46.486Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:19:46.487Z] [INFO] 2025-12-20 14:19:46 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:19:46.487Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:19:46.487Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:19:46.487Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:19:46.488Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:19:46.488Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:19:46.493Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:19:46.494Z] 2025-12-20 14:19:46 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:19:46.494Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:19:46.798Z] 2025-12-20 14:19:46 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:19:46.798Z] 2025-12-20 14:19:46 [WARN] 🧹 Suppression de toutes les commandes...
+[2025-12-20T13:19:47.539Z] 2025-12-20 14:19:47 [CLIENT DISCORD] ✅ Toutes les commandes du serveur Blaine County Sheriff Office ont été supprimées.
+[2025-12-20T13:19:51.479Z] 2025-12-20 14:19:51 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:19:51.480Z] 2025-12-20 14:19:51 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:19:51.480Z] 2025-12-20 14:19:51 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:19:51.480Z] 2025-12-20 14:19:51 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:19:51.481Z] 2025-12-20 14:19:51 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:19:51.500Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:19:51.500Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:19:51.500Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:19:51.500Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:19:51.501Z] 2025-12-20 14:19:51 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:51.616Z] 2025-12-20 14:19:51 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:51.657Z] 2025-12-20 14:19:51 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:51.658Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:19:51.658Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:19:51.658Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:19:51.658Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:19:51.662Z] 2025-12-20 14:19:51 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:19:51.665Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:19:51.665Z] [EVENT] 2025-12-20 14:19:51 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:19:51.666Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:19:51.666Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:19:51.666Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:19:51.667Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:19:51.671Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:19:51.672Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:19:51.673Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:19:51.673Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:19:51.673Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:19:51.673Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:19:51.674Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:19:51.674Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:19:51.678Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:19:51.678Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:19:51.679Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:19:51.679Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:19:51.679Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:19:51.679Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:19:51.680Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:19:51.680Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:19:51.681Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:19:51.681Z] [COMMANDS] 2025-12-20 14:19:51 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:19:51.682Z] 2025-12-20 14:19:51 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:19:52.432Z] 2025-12-20 14:19:52 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:19:52.432Z] 2025-12-20 14:19:52 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:19:52.433Z] [INFO] 2025-12-20 14:19:52 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:19:55.109Z] 2025-12-20 14:19:55 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:19:55.109Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:19:55.109Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:19:55.110Z] 2025-12-20 14:19:55 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:19:55.418Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:19:55.418Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:19:55.419Z] [INFO] 2025-12-20 14:19:55 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:19:55.419Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:19:55.419Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:19:55.419Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:19:55.419Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:19:55.419Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:19:55.425Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:19:55.426Z] 2025-12-20 14:19:55 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:19:55.426Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:19:55.779Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 🔍 Commandes déjà présentes : Aucune
+[2025-12-20T13:19:55.779Z] 2025-12-20 14:19:55 [CLIENT DISCORD] 📦 Enregistrement de 24 commande(s)...
+[2025-12-20T13:19:56.255Z] 2025-12-20 14:19:56 [CLIENT DISCORD] ✅ Commandes enregistrées !
+[2025-12-20T13:19:56.256Z] 2025-12-20 14:19:56 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:19:56.256Z] 2025-12-20 14:19:56 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:19:56.257Z] 2025-12-20 14:19:56 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:19:56.257Z] 2025-12-20 14:19:56 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:19:57.470Z] [NOTIFY] 2025-12-20 14:19:57 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:19:57.959Z] 2025-12-20 14:19:57 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:19:57.959Z] 2025-12-20 14:19:57 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:19:58.516Z] 2025-12-20 14:19:58 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:19:58.516Z] 2025-12-20 14:19:58 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:20:13.559Z] 2025-12-20 14:20:13 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mpromote[39m [0mdans[0m [32mmoderator-only[39m
+[2025-12-20T13:20:13.559Z] 2025-12-20 14:20:13 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-12-20T13:20:14.457Z] 2025-12-20 14:20:14 [ERROR] (node:24329) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2025-12-20T13:26:09.491Z] 2025-12-20 14:26:09 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:26:09.492Z] 2025-12-20 14:26:09 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:26:09.492Z] 2025-12-20 14:26:09 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:26:09.492Z] 2025-12-20 14:26:09 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:26:09.492Z] 2025-12-20 14:26:09 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:26:09.513Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:26:09.513Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:26:09.513Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:26:09.514Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:26:09.514Z] 2025-12-20 14:26:09 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:26:09.637Z] 2025-12-20 14:26:09 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:26:09.679Z] 2025-12-20 14:26:09 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:26:09.680Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:26:09.680Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:26:09.680Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:26:09.680Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:26:09.684Z] 2025-12-20 14:26:09 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:26:09.687Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:26:09.687Z] [EVENT] 2025-12-20 14:26:09 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:26:09.688Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:26:09.689Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:26:09.689Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:26:09.689Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:26:09.689Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:26:09.690Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:26:09.690Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:26:09.690Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:26:09.691Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:26:09.691Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:26:09.691Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:26:09.692Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:26:09.700Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:26:09.700Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:26:09.701Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:26:09.701Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:26:09.701Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:26:09.701Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:26:09.702Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:26:09.702Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:26:09.703Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:26:09.703Z] [COMMANDS] 2025-12-20 14:26:09 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:26:09.703Z] 2025-12-20 14:26:09 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:26:10.264Z] 2025-12-20 14:26:10 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:26:10.264Z] 2025-12-20 14:26:10 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:26:10.264Z] [INFO] 2025-12-20 14:26:10 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:26:12.384Z] 2025-12-20 14:26:12 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:26:12.384Z] 2025-12-20 14:26:12 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:26:12.384Z] 2025-12-20 14:26:12 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:26:12.384Z] 2025-12-20 14:26:12 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:26:12.694Z] [INFO] 2025-12-20 14:26:12 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:26:12.694Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:26:12.698Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:26:12.699Z] 2025-12-20 14:26:12 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:26:12.699Z] 2025-12-20 14:26:12 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:26:13.399Z] 2025-12-20 14:26:13 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:26:13.399Z] 2025-12-20 14:26:13 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:26:13.400Z] 2025-12-20 14:26:13 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:26:13.401Z] 2025-12-20 14:26:13 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:26:13.402Z] 2025-12-20 14:26:13 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:26:13.402Z] 2025-12-20 14:26:13 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:26:14.507Z] [NOTIFY] 2025-12-20 14:26:14 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:26:14.899Z] 2025-12-20 14:26:14 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:26:14.899Z] 2025-12-20 14:26:14 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:26:15.218Z] 2025-12-20 14:26:15 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:26:15.218Z] 2025-12-20 14:26:15 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:27:02.191Z] 2025-12-20 14:27:02 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:27:02.192Z] 2025-12-20 14:27:02 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:27:02.192Z] 2025-12-20 14:27:02 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:27:02.192Z] 2025-12-20 14:27:02 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:27:02.192Z] 2025-12-20 14:27:02 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:27:02.213Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:27:02.213Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:27:02.213Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:27:02.214Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:27:02.214Z] 2025-12-20 14:27:02 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:02.333Z] 2025-12-20 14:27:02 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:02.378Z] 2025-12-20 14:27:02 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:02.378Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:27:02.379Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:27:02.379Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:27:02.379Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:27:02.383Z] 2025-12-20 14:27:02 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:02.386Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:27:02.386Z] [EVENT] 2025-12-20 14:27:02 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:27:02.387Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:27:02.387Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:27:02.387Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:27:02.388Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:27:02.388Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:27:02.388Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:27:02.389Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:27:02.389Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:27:02.389Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:27:02.389Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:27:02.390Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:27:02.390Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:27:02.400Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:27:02.400Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:27:02.400Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:27:02.400Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:27:02.401Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:27:02.401Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:27:02.401Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:27:02.402Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:27:02.402Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:27:02.402Z] [COMMANDS] 2025-12-20 14:27:02 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:27:02.403Z] 2025-12-20 14:27:02 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:27:02.901Z] 2025-12-20 14:27:02 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:27:02.902Z] 2025-12-20 14:27:02 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:27:02.903Z] [INFO] 2025-12-20 14:27:02 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:27:05.054Z] 2025-12-20 14:27:05 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:27:05.054Z] 2025-12-20 14:27:05 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:27:05.055Z] 2025-12-20 14:27:05 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:27:05.055Z] 2025-12-20 14:27:05 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:27:05.520Z] 2025-12-20 14:27:05 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:27:05.520Z] 2025-12-20 14:27:05 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:27:05.520Z] [INFO] 2025-12-20 14:27:05 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:27:05.520Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:27:05.520Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:27:05.521Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:27:05.521Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:27:05.521Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:27:05.526Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:27:05.528Z] 2025-12-20 14:27:05 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:27:05.528Z] 2025-12-20 14:27:05 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:27:06.287Z] 2025-12-20 14:27:06 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:27:06.287Z] 2025-12-20 14:27:06 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:27:06.288Z] 2025-12-20 14:27:06 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:27:06.288Z] 2025-12-20 14:27:06 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:27:06.293Z] 2025-12-20 14:27:06 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:27:06.294Z] 2025-12-20 14:27:06 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:27:07.365Z] [NOTIFY] 2025-12-20 14:27:07 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:27:08.072Z] 2025-12-20 14:27:08 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:27:08.072Z] 2025-12-20 14:27:08 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:27:08.950Z] 2025-12-20 14:27:08 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:27:08.951Z] 2025-12-20 14:27:08 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:27:58.701Z] 2025-12-20 14:27:58 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:27:58.702Z] 2025-12-20 14:27:58 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:27:58.702Z] 2025-12-20 14:27:58 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:27:58.702Z] 2025-12-20 14:27:58 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:27:58.702Z] 2025-12-20 14:27:58 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:27:58.723Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:27:58.724Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:27:58.724Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:27:58.724Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:27:58.725Z] 2025-12-20 14:27:58 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:58.859Z] 2025-12-20 14:27:58 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:58.905Z] 2025-12-20 14:27:58 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:58.906Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:27:58.906Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:27:58.906Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:27:58.906Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:27:58.911Z] 2025-12-20 14:27:58 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:27:58.914Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:27:58.914Z] [EVENT] 2025-12-20 14:27:58 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:27:58.915Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:27:58.915Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:27:58.915Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:27:58.916Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:27:58.916Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:27:58.916Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:27:58.916Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:27:58.917Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:27:58.922Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:27:58.923Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:27:58.923Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:27:58.924Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:27:58.928Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:27:58.928Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:27:58.928Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:27:58.929Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:27:58.929Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:27:58.929Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:27:58.930Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:27:58.930Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:27:58.931Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:27:58.931Z] [COMMANDS] 2025-12-20 14:27:58 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:27:58.932Z] 2025-12-20 14:27:58 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:27:59.464Z] 2025-12-20 14:27:59 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:27:59.464Z] 2025-12-20 14:27:59 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:27:59.465Z] [INFO] 2025-12-20 14:27:59 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:28:00.850Z] 2025-12-20 14:28:00 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:28:00.850Z] 2025-12-20 14:28:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:28:00.850Z] 2025-12-20 14:28:00 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:28:00.850Z] 2025-12-20 14:28:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:28:01.580Z] 2025-12-20 14:28:01 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:28:01.580Z] 2025-12-20 14:28:01 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:28:01.581Z] [INFO] 2025-12-20 14:28:01 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:28:01.581Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:28:01.581Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:28:01.581Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:28:01.582Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:28:01.582Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:28:01.587Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:28:01.588Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:28:01.588Z] 2025-12-20 14:28:01 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:28:01.842Z] 2025-12-20 14:28:01 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:28:01.842Z] 2025-12-20 14:28:01 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:28:01.843Z] 2025-12-20 14:28:01 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:28:01.843Z] 2025-12-20 14:28:01 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:28:01.845Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:28:01.846Z] 2025-12-20 14:28:01 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:28:03.281Z] [NOTIFY] 2025-12-20 14:28:03 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:28:06.873Z] 2025-12-20 14:28:06 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:28:06.873Z] 2025-12-20 14:28:06 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:28:07.900Z] 2025-12-20 14:28:07 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:28:07.900Z] 2025-12-20 14:28:07 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:28:44.418Z] 2025-12-20 14:28:44 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-20T13:28:44.419Z] 2025-12-20 14:28:44 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:28:44.419Z] 2025-12-20 14:28:44 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:28:44.419Z] 2025-12-20 14:28:44 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:28:44.419Z] 2025-12-20 14:28:44 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:28:44.442Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-20T13:28:44.442Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-20T13:28:44.443Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-20T13:28:44.443Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-20T13:28:44.444Z] 2025-12-20 14:28:44 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:28:44.561Z] 2025-12-20 14:28:44 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:28:44.606Z] 2025-12-20 14:28:44 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:28:44.607Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-20T13:28:44.607Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-20T13:28:44.607Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-20T13:28:44.607Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-20T13:28:44.611Z] 2025-12-20 14:28:44 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-20T13:28:44.613Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-20T13:28:44.614Z] [EVENT] 2025-12-20 14:28:44 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-20T13:28:44.614Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-20T13:28:44.615Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-20T13:28:44.615Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-20T13:28:44.615Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-20T13:28:44.615Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-20T13:28:44.616Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-20T13:28:44.616Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-20T13:28:44.616Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-20T13:28:44.622Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-20T13:28:44.623Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-20T13:28:44.623Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-20T13:28:44.624Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-20T13:28:44.628Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-20T13:28:44.629Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-20T13:28:44.629Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-20T13:28:44.629Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-20T13:28:44.630Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-20T13:28:44.630Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-20T13:28:44.631Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-20T13:28:44.631Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-20T13:28:44.632Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-20T13:28:44.632Z] [COMMANDS] 2025-12-20 14:28:44 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-20T13:28:44.633Z] 2025-12-20 14:28:44 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.3[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-20T13:28:45.231Z] 2025-12-20 14:28:45 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:28:45.232Z] 2025-12-20 14:28:45 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:28:45.234Z] [INFO] 2025-12-20 14:28:45 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:28:46.349Z] 2025-12-20 14:28:46 [DEBUG] 📦 Checking version from local...
+[2025-12-20T13:28:46.349Z] 2025-12-20 14:28:46 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-20T13:28:46.349Z] 2025-12-20 14:28:46 [CLIENT DISCORD] 🕒 Version locale : 2.3.3
+[2025-12-20T13:28:46.349Z] 2025-12-20 14:28:46 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-20T13:28:46.600Z] 2025-12-20 14:28:46 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-20T13:28:46.600Z] 2025-12-20 14:28:46 [CLIENT DISCORD] 🕒 Version distante : 2.3.3
+[2025-12-20T13:28:46.601Z] [INFO] 2025-12-20 14:28:46 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-20T13:28:46.601Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-20T13:28:46.601Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-20T13:28:46.601Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-20T13:28:46.601Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-20T13:28:46.601Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-20T13:28:46.607Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-20T13:28:46.608Z] 2025-12-20 14:28:46 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-20T13:28:46.608Z] 2025-12-20 14:28:46 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-20T13:28:47.017Z] 2025-12-20 14:28:47 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-20T13:28:47.017Z] 2025-12-20 14:28:47 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-20T13:28:47.017Z] 2025-12-20 14:28:47 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-20T13:28:47.017Z] 2025-12-20 14:28:47 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-20T13:28:47.019Z] 2025-12-20 14:28:47 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-20T13:28:47.019Z] 2025-12-20 14:28:47 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-20T13:28:48.751Z] [NOTIFY] 2025-12-20 14:28:48 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-20T13:28:49.135Z] 2025-12-20 14:28:49 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-20T13:28:49.135Z] 2025-12-20 14:28:49 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-20T13:28:51.212Z] 2025-12-20 14:28:51 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-20T13:28:51.212Z] 2025-12-20 14:28:51 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
