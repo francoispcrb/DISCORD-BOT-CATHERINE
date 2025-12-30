@@ -22,7 +22,7 @@ module.exports = {
             sendLog(embed);
 
             const date = new Date().toLocaleString();
-            console.log(chalk.green(`[MEMBER ADD] ${member.user.tag} est arrivé à ${date}`));
+            console.log(chalk.green(`[MEMBER ADD] ${member.user.tag} / ${member.user.id} est arrivé à ${date}`));
 
             // Récupération du channel de bienvenue
             const channelId = '1252234176032411739';  // Ton channel ID

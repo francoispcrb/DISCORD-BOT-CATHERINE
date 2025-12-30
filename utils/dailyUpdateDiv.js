@@ -8,8 +8,14 @@ function saveConfig() {
 }
 
 function cleanName(str) {
-    return str.replace(/[»#]/g, '').trim();
+    return str
+        .replace(/^#+/g, '')
+        .replace(/[*]/g, '')
+        .replace(/[»]/g, '')
+        .replace(/[^\w\s.]/g, '')
+        .trim();
 }
+
 
 async function divDaily(client) {
     console.log('[Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)');
@@ -34,12 +40,18 @@ async function divDaily(client) {
             embeds: [
                 new EmbedBuilder().setDescription(
                     "# Patrol Division\n\n" +
-                    "# Special Weapons and Tactics\n\n" +
                     "# Criminal Investigation\n\n" +
-                    "# Internal Investigation Division\n\n" +
-                    "# Administrative and Training Division\n\n" +
-                    "# Air Support\n\n" +
-                    "# K.9 Unit"
+
+                    "# Bureau Executif\n\n" +
+                    "### 🕵️ *Internal Investigation Division*\n\n" +
+                    "### 📋 *Administrative and Training Division*\n\n" +
+
+
+                    "# Specialized Units\n\n" +
+                    "### 🔫 *Special Weapons and Tactics*\n\n" +
+                    "### 🚁 *Air Support*\n\n" +
+                    "### 🐕 *K.9 Unit*\n\n"
+
                 )
             ]
         });

@@ -13,7 +13,7 @@ module.exports = {
         try {
             const embed = new EmbedBuilder()
                 .setTitle("🛑 Membre débanni")
-                .setColor("DarkGreen")
+                .setColor("DarkGreen") 
                 .setDescription(`**${ban.user.tag}** a été débanni du serveur.`)
                 .setThumbnail(ban.user.displayAvatarURL({ dynamic: true }))
                 .setTimestamp();

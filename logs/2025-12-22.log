@@ -1,0 +1,488 @@
+[2025-12-22T13:42:19.732Z] 2025-12-22 14:42:19 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-22T13:42:19.733Z] 2025-12-22 14:42:19 [DEBUG] 📦 Checking version from local...
+[2025-12-22T13:42:19.733Z] 2025-12-22 14:42:19 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-22T13:42:19.733Z] 2025-12-22 14:42:19 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2025-12-22T13:42:19.733Z] 2025-12-22 14:42:19 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-22T13:42:19.760Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-22T13:42:19.761Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-22T13:42:19.761Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-22T13:42:19.761Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-22T13:42:19.763Z] 2025-12-22 14:42:19 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T13:42:19.938Z] 2025-12-22 14:42:19 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T13:42:19.992Z] 2025-12-22 14:42:19 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T13:42:19.992Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-22T13:42:19.993Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-22T13:42:19.993Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-22T13:42:19.993Z] [EVENT] 2025-12-22 14:42:19 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-22T13:42:19.997Z] 2025-12-22 14:42:19 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T13:42:20.002Z] [EVENT] 2025-12-22 14:42:20 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-22T13:42:20.003Z] [EVENT] 2025-12-22 14:42:20 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-22T13:42:20.004Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-22T13:42:20.004Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-22T13:42:20.004Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-22T13:42:20.005Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-22T13:42:20.005Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-22T13:42:20.005Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-22T13:42:20.005Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-22T13:42:20.006Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-22T13:42:20.006Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-22T13:42:20.007Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-22T13:42:20.007Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-22T13:42:20.007Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-22T13:42:20.011Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-22T13:42:20.011Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-22T13:42:20.012Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-22T13:42:20.012Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-22T13:42:20.012Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-22T13:42:20.013Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-22T13:42:20.013Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-22T13:42:20.014Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-22T13:42:20.014Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-22T13:42:20.014Z] [COMMANDS] 2025-12-22 14:42:20 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-22T13:42:20.015Z] 2025-12-22 14:42:20 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-22T13:42:20.385Z] 2025-12-22 14:42:20 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-22T13:42:20.385Z] 2025-12-22 14:42:20 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2025-12-22T13:42:20.386Z] [INFO] 2025-12-22 14:42:20 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-22T13:42:20.981Z] 2025-12-22 14:42:20 [DEBUG] 📦 Checking version from local...
+[2025-12-22T13:42:20.982Z] 2025-12-22 14:42:20 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-22T13:42:20.982Z] 2025-12-22 14:42:20 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2025-12-22T13:42:20.983Z] 2025-12-22 14:42:20 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-22T13:42:21.210Z] 2025-12-22 14:42:21 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-22T13:42:21.212Z] 2025-12-22 14:42:21 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2025-12-22T13:42:21.214Z] [INFO] 2025-12-22 14:42:21 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-22T13:42:21.214Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-22T13:42:21.215Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-22T13:42:21.216Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-22T13:42:21.217Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-22T13:42:21.217Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-22T13:42:21.222Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-22T13:42:21.224Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-22T13:42:21.225Z] 2025-12-22 14:42:21 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-22T13:42:21.584Z] 2025-12-22 14:42:21 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-22T13:42:21.586Z] 2025-12-22 14:42:21 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-22T13:42:21.587Z] 2025-12-22 14:42:21 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-22T13:42:21.588Z] 2025-12-22 14:42:21 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-22T13:42:21.594Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-22T13:42:21.595Z] 2025-12-22 14:42:21 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-22T13:42:24.382Z] [NOTIFY] 2025-12-22 14:42:24 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-22T13:42:25.649Z] 2025-12-22 14:42:25 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-22T13:42:25.651Z] 2025-12-22 14:42:25 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T13:42:26.220Z] 2025-12-22 14:42:26 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-22T13:42:26.220Z] 2025-12-22 14:42:26 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T14:25:32.647Z] 2025-12-22 15:25:32 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m0[39m [0mdans[0m [32mmoderator-only[39m
+[2025-12-22T14:25:35.819Z] 2025-12-22 15:25:35 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-12-22T14:25:35.838Z] 2025-12-22 15:25:35 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32mmoderator-only[39m
+[2025-12-22T15:00:00.016Z] 2025-12-22 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2025-12-22T15:00:00.018Z] 2025-12-22 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-22T15:00:00.019Z] 2025-12-22 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-22T15:00:00.020Z] 2025-12-22 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2025-12-22T15:00:00.021Z] 2025-12-22 16:00:00 [DEBUG] 📦 Checking version from local...
+[2025-12-22T15:00:00.022Z] 2025-12-22 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-22T15:00:00.023Z] 2025-12-22 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2025-12-22T15:00:00.024Z] 2025-12-22 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-22T15:00:00.029Z] 2025-12-22 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2025-12-22T15:00:00.030Z] 2025-12-22 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2025-12-22T15:00:00.031Z] 2025-12-22 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2025-12-22T15:00:00.162Z] 2025-12-22 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 12 exécutif(s), 2 superviseur(s) et 4 commandement(s)
+[2025-12-22T15:00:00.298Z] 2025-12-22 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-22T15:00:00.300Z] 2025-12-22 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2025-12-22T15:00:00.301Z] [INFO] 2025-12-22 16:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-22T15:00:00.487Z] 2025-12-22 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2025-12-22T15:00:00.811Z] [NOTIFY] 2025-12-22 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-22T15:00:02.246Z] 2025-12-22 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-22T15:00:02.248Z] 2025-12-22 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T15:00:02.963Z] 2025-12-22 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-22T15:00:02.964Z] 2025-12-22 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T15:07:41.614Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-12-22T15:07:41.615Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1452677058802094200",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2025-12-22T15:07:41.621Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 📌 ID du message enregistré : 1452677058802094200
+[2025-12-22T15:07:41.622Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1452677058802094200
+[2025-12-22T15:07:41.623Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2025-12-22T15:07:41.627Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "2218-T | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-12-22T15:07:41.632Z] 2025-12-22 16:07:41 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`2218-T | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2025-12-22T15:07:43.224Z] 2025-12-22 16:07:43 [CLIENT DISCORD] [BUTTON] matharcane a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-12-22T15:19:20.122Z] 2025-12-22 16:19:20 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32m<@1195085032281346151>[39m [0mdans[0m [32m📜 Rappel sur les raports[39m
+[2025-12-22T15:25:02.299Z] 2025-12-22 16:25:02 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mHey ! [39m
+[32mOn reprend du service.[39m
+[32m[39m
+[32mCa se passe ici : https://discord.gg/xGD2mtNB[39m [0mdans[0m [32m💬-discussion[39m
+[2025-12-22T15:27:17.265Z] 2025-12-22 16:27:17 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-12-22T15:27:17.280Z] 2025-12-22 16:27:17 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32m.darkodin92[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📜 Rappel sur les raports[39m
+[2025-12-22T15:29:43.489Z] 2025-12-22 16:29:43 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m@everyone[39m [0mdans[0m [32m💬-discussion[39m
+[2025-12-22T15:29:58.853Z] 2025-12-22 16:29:58 [ERROR] (node:2654) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2025-12-22T15:29:59.260Z] 2025-12-22 16:29:59 [ERROR] Erreur dans executeButtons/executeModal: {}
+[2025-12-22T15:32:57.437Z] 2025-12-22 16:32:57 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mpromote[39m [0mdans[0m [32m📌-hiérarchie[39m
+[2025-12-22T15:32:57.438Z] 2025-12-22 16:32:57 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-12-22T15:33:12.488Z] 2025-12-22 16:33:12 [CLIENT DISCORD] [94m[COMMAND][39m [32mfrancois.piano[39m [0ma exécuté la commande[0m [32mpromote[39m [0mdans[0m [32m📌-hiérarchie[39m
+[2025-12-22T15:33:12.491Z] 2025-12-22 16:33:12 [CLIENT DISCORD] [42m✅ Utilisateur 449432156595552257 bypass les permissions.[49m
+[2025-12-22T15:33:26.415Z] 2025-12-22 16:33:26 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2025-12-22T15:33:26.416Z] 2025-12-22 16:33:26 [DEBUG] 📦 Checking version from local...
+[2025-12-22T15:33:26.417Z] 2025-12-22 16:33:26 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-22T15:33:26.418Z] 2025-12-22 16:33:26 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2025-12-22T15:33:26.419Z] 2025-12-22 16:33:26 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-22T15:33:26.437Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2025-12-22T15:33:26.438Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2025-12-22T15:33:26.439Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2025-12-22T15:33:26.440Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2025-12-22T15:33:26.442Z] 2025-12-22 16:33:26 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T15:33:26.549Z] 2025-12-22 16:33:26 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T15:33:26.588Z] 2025-12-22 16:33:26 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T15:33:26.589Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2025-12-22T15:33:26.590Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2025-12-22T15:33:26.590Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2025-12-22T15:33:26.591Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2025-12-22T15:33:26.599Z] 2025-12-22 16:33:26 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2025-12-22T15:33:26.602Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : ready
+[2025-12-22T15:33:26.603Z] [EVENT] 2025-12-22 16:33:26 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2025-12-22T15:33:26.606Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : ban
+[2025-12-22T15:33:26.607Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : clear
+[2025-12-22T15:33:26.607Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : commander
+[2025-12-22T15:33:26.608Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2025-12-22T15:33:26.609Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : div
+[2025-12-22T15:33:26.610Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : help
+[2025-12-22T15:33:26.611Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : info
+[2025-12-22T15:33:26.612Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2025-12-22T15:33:26.613Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : kick
+[2025-12-22T15:33:26.613Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : mute
+[2025-12-22T15:33:26.614Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2025-12-22T15:33:26.615Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : pex
+[2025-12-22T15:33:26.619Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : play
+[2025-12-22T15:33:26.619Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : promote
+[2025-12-22T15:33:26.620Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2025-12-22T15:33:26.621Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : rename
+[2025-12-22T15:33:26.621Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : role
+[2025-12-22T15:33:26.622Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : send
+[2025-12-22T15:33:26.623Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : shift
+[2025-12-22T15:33:26.624Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2025-12-22T15:33:26.625Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2025-12-22T15:33:26.626Z] [COMMANDS] 2025-12-22 16:33:26 [📌 COMMANDS NOTIFY] Chargée : warn
+[2025-12-22T15:33:26.628Z] 2025-12-22 16:33:26 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2025-12-22T15:33:26.934Z] 2025-12-22 16:33:26 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-22T15:33:26.935Z] 2025-12-22 16:33:26 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2025-12-22T15:33:26.936Z] [INFO] 2025-12-22 16:33:26 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-22T15:33:29.054Z] 2025-12-22 16:33:29 [DEBUG] 📦 Checking version from local...
+[2025-12-22T15:33:29.054Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 📦 Nom : catherine
+[2025-12-22T15:33:29.055Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2025-12-22T15:33:29.056Z] 2025-12-22 16:33:29 [DEBUG] 🌐 Checking version from GitHub...
+[2025-12-22T15:33:29.280Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2025-12-22T15:33:29.283Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2025-12-22T15:33:29.284Z] [INFO] 2025-12-22 16:33:29 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2025-12-22T15:33:29.285Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [34m==============================[39m
+[2025-12-22T15:33:29.286Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2025-12-22T15:33:29.287Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2025-12-22T15:33:29.287Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2025-12-22T15:33:29.288Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2025-12-22T15:33:29.293Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2025-12-22T15:33:29.295Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2025-12-22T15:33:29.296Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 📥 Serveur trouvé : Blaine County Sheriff Office
+[2025-12-22T15:33:29.510Z] 2025-12-22 16:33:29 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2025-12-22T15:33:29.512Z] 2025-12-22 16:33:29 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2025-12-22T15:33:29.514Z] 2025-12-22 16:33:29 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2025-12-22T15:33:29.514Z] 2025-12-22 16:33:29 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2025-12-22T15:33:29.517Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2025-12-22T15:33:29.518Z] 2025-12-22 16:33:29 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2025-12-22T15:33:30.444Z] [NOTIFY] 2025-12-22 16:33:30 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2025-12-22T15:33:32.281Z] 2025-12-22 16:33:32 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2025-12-22T15:33:32.283Z] 2025-12-22 16:33:32 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T15:33:32.766Z] 2025-12-22 16:33:32 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2025-12-22T15:33:32.768Z] 2025-12-22 16:33:32 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2025-12-22T15:34:35.332Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2025-12-22T15:34:35.333Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 🔴 Pas de clientData trouvé, utilisation de config !
+[2025-12-22T15:34:35.334Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 📌 ID du message enregistré : 1452677058802094200
+[2025-12-22T15:34:35.335Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1452677058802094200
+[2025-12-22T15:34:35.336Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "2218-T | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-12-22T15:34:35.342Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "2218-T | Erica Sanchez",
+    "2215-T | James Garcia"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2025-12-22T15:34:35.349Z] 2025-12-22 16:34:35 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`2218-T | Erica Sanchez`, `2215-T | James Garcia`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2025-12-22T15:34:36.390Z] 2025-12-22 16:34:36 [CLIENT DISCORD] [BUTTON] khalil35 a exécuté l'interaction bouton yes dans 1347963262892904469
+[2025-12-22T15:42:46.032Z] 2025-12-22 16:42:46 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m📥 Erica Sanchez MailBox[39m [0mdans[0m [32m📥-mail[39m
+[2025-12-22T15:42:46.988Z] 2025-12-22 16:42:46 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m📥 For <@1195085032281346151> [39m
+[32m```diff[39m
+[32m+ erica.sanchez@bcso-sa-gov.us[39m
+[32m+ Cpl. Erica Sanchez[39m
+[32m```[39m
+[32m[39m
+[32m📤 From <@449432156595552257> [39m
+[32m```diff[39m
+[32m+ sean.lennon@bcso-sa-gov.us[39m
+[32m+ Lt. Sean Lennon[39m
+[32m```[39m
+[32m[39m
+[32m`OBJET` : **Avis de promotion**[39m
+[32m[39m
+[32mMadame Sanchez,[39m
+[32m[39m
+[32mEn résultat de votre implication irréprochable dans le service continuellement depuis plusieurs années de services et de votre dénouement, je vous annonce :[39m
+[32m[39m
+[32mEn tant qu'assistant du Chef de poste, le Capitaine Crowner, de Sandy Shore; je vous promeus au grade de Caporal.[39m
+[32m[39m
+[32mSoyez humble et fière de cette promotion qui vous honore. Prenez les responsabilitées qui vous imcombe.[39m
+[32m[39m
+[32mCordialement,[39m
+[32m[39m
+[32m-# <@449432156595552257>, <:ltn_ye:1448020700794327282>Assistant Chief of Harmony Station,[39m
+[32m-# 🇺🇸 Lieutenant of Blaine County Sheriff Office,[39m
+[32m-# <:LSSDemblem:815757431430447114>  Commander of Detective Division,[39m
+[32m-# <:SASRP:1193606253872685098> Head of Internal Investigation Affairs.[39m [0mdans[0m [32m📥 Erica Sanchez MailBox[39m
+[2025-12-22T15:42:54.119Z] 2025-12-22 16:42:54 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-12-22T15:42:54.134Z] 2025-12-22 16:42:54 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📥-mail[39m
+[2025-12-22T15:45:09.053Z] 2025-12-22 16:45:09 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m📥 For <@1061348023046783036>[39m
+[32m```diff[39m
+[32m+ dixon.ella@bcso-sa-gov.us[39m
+[32m+ Mdp. Dixon Ella[39m
+[32m```[39m
+[32m[39m
+[32m📤 From <@449432156595552257> [39m
+[32m```diff[39m
+[32m+ sean.lennon@bcso-sa-gov.us[39m
+[32m+ Lt. Sean Lennon[39m
+[32m```[39m
+[32m[39m
+[32m`OBJET` : **Avis de promotion**[39m
+[32m[39m
+[32mMadame Ella,[39m
+[32m[39m
+[32mEn résultat de votre implication irréprochable dans le service continuellement depuis plusieurs années de services et de votre dénouement, je vous annonce :[39m
+[32m[39m
+[32mEn tant qu'assistant du Chef de poste, le Capitaine Crowner, de Sandy Shore; je vous promeus au grade de Master Deputy.[39m
+[32m[39m
+[32mSoyez humble et fière de cette promotion qui vous honore. Prenez les responsabilitées qui vous imcombe.[39m
+[32m[39m
+[32mCordialement,[39m
+[32m[39m
+[32m-# <@449432156595552257>, <:ltn_ye:1448020700794327282>Assistant Chief of Harmony Station,[39m
+[32m-# 🇺🇸 Lieutenant of Blaine County Sheriff Office,[39m
+[32m-# <:LSSDemblem:815757431430447114>  Commander of Detective Division,[39m
+[32m-# <:SASRP:1193606253872685098> Head of Internal Investigation Affairs.[39m [0mdans[0m [32m📥 Dixon Ella MailBox[39m
+[2025-12-22T15:47:10.939Z] 2025-12-22 16:47:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@767703415413014579>[39m [0mdans[0m [32m📌-hiérarchie[39m
+[2025-12-22T15:47:12.779Z] 2025-12-22 16:47:12 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-12-22T15:47:12.796Z] 2025-12-22 16:47:12 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📌-hiérarchie[39m
+[2025-12-22T16:17:39.079Z] 2025-12-22 17:17:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m📥 Marcus Cortez MailBox[39m [0mdans[0m [32m📥-mail[39m
+[2025-12-22T16:17:40.103Z] 2025-12-22 17:17:40 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m📥 For <@1195085032281346151> [39m
+[32m```diff[39m
+[32m+ marus.cortez@bcso-sa-gov.us[39m
+[32m+ Sgt. Marcus Cortez[39m
+[32m```[39m
+[32m[39m
+[32m📤 From <@449432156595552257> [39m
+[32m```diff[39m
+[32m+ sean.lennon@bcso-sa-gov.us[39m
+[32m+ Lt. Sean Lennon[39m
+[32m```[39m
+[32m[39m
+[32m`OBJET` : **Avis de promotion**[39m
+[32m[39m
+[32mMonsieur Cortez,[39m
+[32m[39m
+[32mEn résultat de votre implication irréprochable dans le service continuellement depuis plusieurs années de services et de votre dénouement, je vous annonce :[39m
+[32m[39m
+[32mEn tant qu'assistant du Chef de poste, le Capitaine Crowner, de Sandy Shore; je vous promeus au grade de Sergent.[39m
+[32m[39m
+[32mSoyez humble et fière de cette promotion qui vous honore. Prenez les responsabilitées qui vous imcombe.[39m
+[32m[39m
+[32mCordialement,[39m
+[32m[39m
+[32m-# <@449432156595552257>, <:ltn_ye:1448020700794327282>Assistant Chief of Harmony Station,[39m
+[32m-# 🇺🇸 Lieutenant of Blaine County Sheriff Office,[39m
+[32m-# <:LSSDemblem:815757431430447114>  Commander of Detective Division,[39m
+[32m-# <:SASRP:1193606253872685098> Head of Internal Investigation Affairs.[39m [0mdans[0m [32m📥 Marcus Cortez MailBox[39m
+[2025-12-22T16:17:43.277Z] 2025-12-22 17:17:43 [ERROR] [31mErreur lors de la récupération des logs d'audit :[39m {
+  "requestBody": {},
+  "rawError": {
+    "message": "Invalid Form Body",
+    "code": 50035,
+    "errors": {
+      "action_type": {
+        "_errors": [
+          {
+            "code": "NUMBER_TYPE_COERCE",
+            "message": "Value \"MESSAGE_DELETE\" is not int32."
+          }
+        ]
+      }
+    }
+  },
+  "code": 50035,
+  "status": 400,
+  "method": "GET",
+  "url": "https://discord.com/api/v10/guilds/1252231195312259073/audit-logs?limit=1&action_type=MESSAGE_DELETE"
+}
+[2025-12-22T16:17:43.294Z] 2025-12-22 17:17:43 [CLIENT DISCORD] [94m[MESSAGE_REMOVE][39m [32mfrancois.piano[39m [0m→ supprimé par[0m [32mInconnu[39m [0mdans[0m [32m📥-mail[39m
+[2025-12-22T17:51:57.590Z] 2025-12-22 18:51:57 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32m@everyone Pour récupérer vos munitions et vos armes ils vous suffira de vous rendre aux vestiaires du bureau du sheriff (voir photo) et d'appuyer deux fois sur votre muscle E.[39m [0mdans[0m [32m💬-discussion[39m
+[2025-12-22T17:53:42.701Z] 2025-12-22 18:53:42 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mPS: On ne prend 40 000 munitions d'un coup on pense à ses petits camarades^^[39m [0mdans[0m [32m💬-discussion[39m
+[2025-12-22T17:53:53.199Z] 2025-12-22 18:53:53 [CLIENT DISCORD] [MESSAGE UPDATED] matharcane a modifié un message dans #💬-discussion: "PS: On ne prend 40 000 munitions d'un coup on pense à ses petits camarades^^" → "PS: On ne prend pas 40 000 munitions d'un coup on pense à ses petits camarades^^"
+[2025-12-22T17:55:12.865Z] 2025-12-22 18:55:12 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32msinon des sanctions seront prises (en gros on le tabassera) 😘[39m [0mdans[0m [32m💬-discussion[39m

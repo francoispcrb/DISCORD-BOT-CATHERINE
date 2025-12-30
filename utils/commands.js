@@ -27,14 +27,13 @@ const commands = {
                         .setDescription('Nom de la division')
                         .setRequired(true)
                         .addChoices(
-                            { name: 'Patrol Division', value: 'Patrol Division' },
-                            { name: 'Special Enforcement Bureau', value: 'Special Enforcement Bureau' },
-                            { name: 'Detective Division', value: 'Detective Division' },
-                            { name: 'Division de protection Judiciaire', value: 'Division de protection Judiciaire' },
-                            { name: 'Park Ranger', value: 'Park Ranger' },
-                            { name: 'Traffic Enforcement Bureau', value: 'Traffic Enforcement Bureau' },
-                            { name: 'Bureau Executif (PSD & Affaires Internes)', value: 'Bureau Executif (PSD & Affaires Internes)' },
-                            { name: 'Administrative and Training Division', value: 'Administrative and Training Division' }
+                            { name: 'Patrol Division', value: 'PD' },
+                            { name: 'Special Weapons and Tactics', value: 'SWAT' },
+                            { name: 'Criminal Investigation', value: 'CI' },
+                            { name: 'Internal Investigation Division', value: 'IID' },
+                            { name: 'Administrative and Training Division', value: 'ATD' },
+                            { name: 'Air Support', value: 'AS' },
+                            { name: 'K.9 Unit', value: 'K9' }
                         )
                 )
         ),

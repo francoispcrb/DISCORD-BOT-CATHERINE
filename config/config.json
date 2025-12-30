@@ -41,7 +41,7 @@
     "plugin": {
         "ticket_plugin": {
             "avaible": true,
-            "var": 101,
+            "var": 102,
             "ticket_file": "./config/ticket.json"
         },
         "log_plugin": {
@@ -68,18 +68,19 @@
             "ban_file": "./config/ban.json"
         }
     },
-    "openservice_last_id": "1381286795622354954",
+    "openservice_last_id": "1452677058802094200",
     "openservice_channel_id": "1347963262892904469",
     "openservice_participants": {
         "yes": [
-            "287 I Rodriguez DaSilva"
+            "2218-T | Erica Sanchez",
+            "2215-T | James Garcia"
         ],
         "no": [],
         "maybe": []
     },
     "tabs": {
-        "id_message": "1451973520060842005",
-        "id_message_div": "1451973518312079411"
+        "id_message": "1455248460570693726",
+        "id_message_div": "1455248458733719624"
     },
     "veh": {
         "id_message": ""

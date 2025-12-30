@@ -22,7 +22,7 @@ module.exports = {
             sendLog(embed);
 
             const date = new Date().toLocaleString();
-            console.log(chalk.red(`[MEMBER REMOVE] ${member.user.tag} est parti à ${date}`));
+            console.log(chalk.red(`[MEMBER REMOVE] ${member.user.tag} / ${member.user.id} est parti à ${date}`));
 
             // Récupération du channel de départ
             const channelId = '1252234176032411739';  // Remplace par le channel voulu
