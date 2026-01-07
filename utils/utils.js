@@ -11,18 +11,19 @@ const CORPS = {
 };
 
 const RANKS = {
-    //Application
+    //Application<:Corporal_FTO:1451908614326587494>
     "Deputy Trainee":         { id: "1414910715097251861", name: "• Deputy Trainee" , emoji: ""},
     "Deputy":                 { id: "1271893900344299692", name: "• Deputy"         , emoji: ""},
-    "Master Deputy":          { id: "1252231983497744507", name: "• Master Deputy"      , emoji: "<:Deputy_II:1451908616633450597> "},
-    "Corporal":               { id: "1343603998745432084", name: "• Corporal"     , emoji: "<:Deputy_FTO:1451908614326587494>"},
+    "Master Deputy":          { id: "1252231983497744507", name: "• Master Deputy"      , emoji: "<:Master_Deputy:1451908616633450597>"},
+    "Corporal":               { id: "1343603998745432084", name: "• Corporal"     , emoji: "<:Corporal_FTO:1451908614326587494>"},
     //Superivision
     "Sergeant":               { id: "1252231826680975500", name: "• Sergeant"              , emoji: "<:Sergeant:1451908627387518976>"},
+    "Master Sergeant":        { id: "1458178046195667129", name: "• Master Sergeant"       , emoji: "<:Master_Sergeant:1458416233899753596>"},
     //Commandement
     "Lieutenant":             { id: "1252232160916668437", name: "• Lieutenant"            , emoji: "<:Lieutenant:1451908622941687818>"},
     "Captain":                { id: "1252232015948808244", name: "• Captain"               , emoji: "<:Captain:1451908612157866004>"},
     //Direction
-    "Major":                  { id: "1414944268933533696", name: "• Major"     , emoji: "<:Area_Commander:1451908606445224046>"},
+    "Major":                  { id: "1414944268933533696", name: "• Major"     , emoji: "<:Major:1456714776179642411>"},
     "Undersheriff":           { id: "1414944314903236740", name: "• Undersheriff"        , emoji: "<:Under_Sherif:1451908631221108849>"},
     "Sheriff":                { id: "1414944355524808704", name: "• Sheriff"               , emoji: "<:Sheriff:1451908629182812230>"},
 };

@@ -1,0 +1,462 @@
+[2026-01-04T00:25:43.314Z] 2026-01-04 01:25:43 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mhttps://docs.google.com/document/d/17XHyzjV23n-lp4eMRZPoUSQJUOa3s9IN3Pf5dbp3LEg/edit?tab=t.0[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_03_01[39m
+[2026-01-04T00:45:17.225Z] 2026-01-04 01:45:17 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mhttps://docs.google.com/document/d/1oCpx6sjfRQ6N7JumPNDTgAUul_td0EIUlsqF0D1wswA/edit?tab=t.0[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_04_01[39m
+[2026-01-04T04:00:00.017Z] 2026-01-04 05:00:00 [CLIENT DISCORD] [32m🌙 Tâches de la nuit exécutées ![39m
+[2026-01-04T04:00:00.019Z] 2026-01-04 05:00:00 [DEBUG] 📦 Checking version from local...
+[2026-01-04T04:00:00.021Z] 2026-01-04 05:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2026-01-04T04:00:00.022Z] 2026-01-04 05:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2026-01-04T04:00:00.023Z] 2026-01-04 05:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2026-01-04T04:00:00.025Z] 2026-01-04 05:00:00 [WARN] [REBOOT] Attention, Catherine redémarre (checker les logs). Instruction reboot.js
+[2026-01-04T04:00:06.075Z] 2026-01-04 05:00:06 [CLIENT DISCORD] Les modules [32mloggers[39m ont correctement été exportés.
+[2026-01-04T04:00:06.077Z] 2026-01-04 05:00:06 [DEBUG] 📦 Checking version from local...
+[2026-01-04T04:00:06.078Z] 2026-01-04 05:00:06 [CLIENT DISCORD] 📦 Nom : catherine
+[2026-01-04T04:00:06.079Z] 2026-01-04 05:00:06 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2026-01-04T04:00:06.081Z] 2026-01-04 05:00:06 [DEBUG] 🌐 Checking version from GitHub...
+[2026-01-04T04:00:06.103Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : guildBanAdd
+[2026-01-04T04:00:06.104Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : guildBanRemove
+[2026-01-04T04:00:06.105Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : guildMemberAdd
+[2026-01-04T04:00:06.106Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : guildMemberRemove
+[2026-01-04T04:00:06.108Z] 2026-01-04 05:00:06 [CLIENT DISCORD] Les modules  [32mutils.js[39m [0m ont correctement été exporté.[0m
+[2026-01-04T04:00:06.233Z] 2026-01-04 05:00:06 [CLIENT DISCORD] L'interaction  [32mbuttons.js[39m [0m ont correctement été exporté.[0m
+[2026-01-04T04:00:06.278Z] 2026-01-04 05:00:06 [CLIENT DISCORD] L'interaction  [32mmodals.js[39m [0m ont correctement été exporté.[0m
+[2026-01-04T04:00:06.279Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : interactionCreate
+[2026-01-04T04:00:06.280Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : messageCreate
+[2026-01-04T04:00:06.281Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : messageDelete
+[2026-01-04T04:00:06.283Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : messageUpdate
+[2026-01-04T04:00:06.289Z] 2026-01-04 05:00:06 [CLIENT DISCORD] Les modules  [32mcommands.js[39m [0m ont correctement été exporté.[0m
+[2026-01-04T04:00:06.293Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : ready
+[2026-01-04T04:00:06.295Z] [EVENT] 2026-01-04 05:00:06 [📅 EVENT NOTIFY] Chargé : voiceStateUpdate
+[2026-01-04T04:00:06.299Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : ban
+[2026-01-04T04:00:06.300Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : clear
+[2026-01-04T04:00:06.302Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : commander
+[2026-01-04T04:00:06.303Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : createreport
+[2026-01-04T04:00:06.304Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : div
+[2026-01-04T04:00:06.305Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : help
+[2026-01-04T04:00:06.306Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : info
+[2026-01-04T04:00:06.312Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : infoshift
+[2026-01-04T04:00:06.314Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : kick
+[2026-01-04T04:00:06.316Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : mute
+[2026-01-04T04:00:06.318Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : openservice
+[2026-01-04T04:00:06.320Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : pex
+[2026-01-04T04:00:06.324Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : play
+[2026-01-04T04:00:06.325Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : promote
+[2026-01-04T04:00:06.326Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : recruit
+[2026-01-04T04:00:06.327Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : rename
+[2026-01-04T04:00:06.328Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : role
+[2026-01-04T04:00:06.329Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : send
+[2026-01-04T04:00:06.330Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : shift
+[2026-01-04T04:00:06.331Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : ticket
+[2026-01-04T04:00:06.332Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : userinfo
+[2026-01-04T04:00:06.333Z] [COMMANDS] 2026-01-04 05:00:06 [📌 COMMANDS NOTIFY] Chargée : warn
+[2026-01-04T04:00:06.336Z] 2026-01-04 05:00:06 [CLIENT DISCORD] [42m[30mChargement des informations du package.[39m[49m
+[42m[30m[39m[49m [46m[PACKAGE][49m [32mAuth. : François 🌸[39m
+[32m[39m [46m[PACKAGE][49m [32mDepd. : axios, chalk, cron, discord-html-transcripts, discord-player, discord.js, distube, dotenv, express, express-session, form-data, fs, googleapis, luxon, multer, node-cron, node-fetch, ora, patch, path, pdf-lib, pdfkit, play-dl, readline, rl, uuid[39m
+[32m[39m [46m[PACKAGE][49m [32mDesc. : Official Bot Catherine for 911 Community.[39m
+[32m[39m [46m[PACKAGE][49m [32mLisc. : ISC[39m
+[32m[39m [46m[PACKAGE][49m [32mMain. : index.js[39m
+[32m[39m [46m[PACKAGE][49m [32mName. : catherine[39m
+[32m[39m [46m[PACKAGE][49m [32mScrp. : {"test":"echo \"Error: no test specified\" && exit 1","start":"node server.js"}[39m
+[32m[39m [46m[PACKAGE][49m [32mVers. : 2.3.5[39m
+[32m[39m [46m[PACKAGE][49m [32mPatch Note. : **[PN - 07/06]** *Passage 2.0 with new patch (shift, tabs... new commands handler)*[39m
+[32m[39m
+[2026-01-04T04:00:06.675Z] 2026-01-04 05:00:06 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2026-01-04T04:00:06.676Z] 2026-01-04 05:00:06 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2026-01-04T04:00:06.677Z] [INFO] 2026-01-04 05:00:06 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2026-01-04T04:00:07.239Z] 2026-01-04 05:00:07 [DEBUG] 📦 Checking version from local...
+[2026-01-04T04:00:07.240Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 📦 Nom : catherine
+[2026-01-04T04:00:07.304Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2026-01-04T04:00:07.306Z] 2026-01-04 05:00:07 [DEBUG] 🌐 Checking version from GitHub...
+[2026-01-04T04:00:07.468Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2026-01-04T04:00:07.470Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2026-01-04T04:00:07.471Z] [INFO] 2026-01-04 05:00:07 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2026-01-04T04:00:07.472Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [34m==============================[39m
+[2026-01-04T04:00:07.472Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [32m🚀 Démarrage du bot...[39m
+[2026-01-04T04:00:07.473Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [33m🔗 Connexion à Discord API...[39m
+[2026-01-04T04:00:07.474Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [36m✅ Bot RP en ligne ! Connecté en tant que 293 | Catherine#8045[39m
+[2026-01-04T04:00:07.474Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [34m==============================[39m
+[34m[39m
+[2026-01-04T04:00:07.479Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [player] Initialisation du Player terminée.
+[2026-01-04T04:00:07.480Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [player] Extracteurs chargés avec succès.
+[2026-01-04T04:00:07.481Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 📥 Serveur trouvé : Broward County Sheriff Office
+[2026-01-04T04:00:07.796Z] 2026-01-04 05:00:07 [CLIENT DISCORD] 🔍 Commandes déjà présentes : commander, play, rules, createreport, div, role, info, pex, openservice, infoshift, recruit, help, ban, ticket, shutdown, userinfo, send, clear, kick, warn, mute, rename, shift, promote
+[2026-01-04T04:00:07.798Z] 2026-01-04 05:00:07 [WARN] ⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.
+[2026-01-04T04:00:07.799Z] 2026-01-04 05:00:07 [ERROR] ❌ Erreur lors de l'enregistrement des commandes : {}
+[2026-01-04T04:00:07.799Z] 2026-01-04 05:00:07 [CLIENT DISCORD] ✅ Bot prêt en tant que 293 | Catherine#8045
+[2026-01-04T04:00:07.801Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2026-01-04T04:00:07.802Z] 2026-01-04 05:00:07 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2026-01-04T04:00:08.854Z] [NOTIFY] 2026-01-04 05:00:08 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2026-01-04T04:00:09.229Z] 2026-01-04 05:00:09 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2026-01-04T04:00:09.230Z] 2026-01-04 05:00:09 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T04:00:09.638Z] 2026-01-04 05:00:09 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2026-01-04T04:00:09.640Z] 2026-01-04 05:00:09 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T07:00:00.011Z] 2026-01-04 08:00:00 [CLIENT DISCORD] [32m🌅 Tâches du matin exécutées ![39m
+[2026-01-04T07:00:00.012Z] 2026-01-04 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2026-01-04T07:00:00.014Z] 2026-01-04 08:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2026-01-04T07:00:00.015Z] 2026-01-04 08:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2026-01-04T07:00:00.017Z] 2026-01-04 08:00:00 [DEBUG] 📦 Checking version from local...
+[2026-01-04T07:00:00.018Z] 2026-01-04 08:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2026-01-04T07:00:00.019Z] 2026-01-04 08:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2026-01-04T07:00:00.020Z] 2026-01-04 08:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2026-01-04T07:00:00.023Z] 2026-01-04 08:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2026-01-04T07:00:00.025Z] 2026-01-04 08:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2026-01-04T07:00:00.025Z] 2026-01-04 08:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2026-01-04T07:00:00.156Z] 2026-01-04 08:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 12 exécutif(s), 3 superviseur(s) et 4 commandement(s)
+[2026-01-04T07:00:00.487Z] 2026-01-04 08:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2026-01-04T07:00:00.489Z] 2026-01-04 08:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2026-01-04T07:00:00.492Z] [INFO] 2026-01-04 08:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2026-01-04T07:00:01.341Z] 2026-01-04 08:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2026-01-04T07:00:01.343Z] 2026-01-04 08:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T07:00:01.852Z] [NOTIFY] 2026-01-04 08:00:01 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2026-01-04T07:00:02.656Z] 2026-01-04 08:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2026-01-04T07:00:02.659Z] 2026-01-04 08:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T07:42:35.200Z] 2026-01-04 08:42:35 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32moctavio1633[39m [0ma envoyé[0m [32mMais ?[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T09:42:32.973Z] 2026-01-04 10:42:32 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mrory.p71[39m [0ma envoyé[0m [32mEh comme neuve l'auto[39m [0mdans[0m [32m🌆-photos-hrp[39m
+[2026-01-04T11:20:25.502Z] 2026-01-04 12:20:25 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T11:35:34.809Z] 2026-01-04 12:35:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mhttps://tenor.com/view/but-wait-nope-gif-14217892[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T11:35:47.917Z] 2026-01-04 12:35:47 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mlewis024371[39m [0ma envoyé[0m [32mil y a bientôt 1 an en plus[39m [0mdans[0m [32m🌆-photos-hrp[39m
+[2026-01-04T11:36:25.675Z] 2026-01-04 12:36:25 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mlewis024371[39m [0ma envoyé[0m [32mça va les guys ?[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T12:03:31.300Z] 2026-01-04 13:03:31 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@194731603673481216>[39m [0mdans[0m [32m🪖-supervision[39m
+[2026-01-04T12:05:28.448Z] 2026-01-04 13:05:28 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32m<@194731603673481216>[39m [0mdans[0m [32m🗯 Général HRP[39m
+[2026-01-04T12:32:28.104Z] 2026-01-04 13:32:28 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32m<@767703415413014579>[39m [0mdans[0m [32m🗯 Général HRP[39m
+[2026-01-04T13:02:28.292Z] 2026-01-04 14:02:28 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32mBien et toi[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:13:34.810Z] 2026-01-04 14:13:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mlewis024371[39m [0ma envoyé[0m [32mça va ça va[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:13:39.267Z] 2026-01-04 14:13:39 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mlewis024371[39m [0ma envoyé[0m [32mil y a du monde en jeu ?[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:17:04.960Z] 2026-01-04 14:17:04 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mbof[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:17:10.465Z] 2026-01-04 14:17:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mon doit être 6[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:17:12.004Z] 2026-01-04 14:17:12 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mje pense[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:30:13.824Z] 2026-01-04 14:30:13 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mlewis024371[39m [0ma envoyé[0m [32mokyy[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T13:32:34.930Z] 2026-01-04 14:32:34 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.darkodin92[39m [0ma envoyé[0m [32mOn n'est 10[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T14:15:04.379Z] 2026-01-04 15:15:04 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1437050808389730399> [39m
+[32m[39m
+[32mJ'ai lu votre rapport et clôs l'affaire.[39m
+[32m[39m
+[32mPouvez-vous renseigner l'individus dans les <#1417242678214656200> ?[39m
+[32m[39m
+[32mMerci.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_03_01[39m
+[2026-01-04T14:16:37.522Z] 2026-01-04 15:16:37 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1195085032281346151> [39m
+[32m[39m
+[32mJ'ai lu votre rapport et clôs l'affaire.[39m
+[32m[39m
+[32mPouvez-vous renseigner l'individu dans les <#1417242678214656200>  ?[39m
+[32m[39m
+[32mMerci.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_03_01[39m
+[2026-01-04T14:17:00.915Z] 2026-01-04 15:17:00 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mJe ne peux pas lire votre rapport <@1195085032281346151>.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_03_01[39m
+[2026-01-04T14:17:22.228Z] 2026-01-04 15:17:22 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mJe ne peux pas lire votre rapport <@1195085032281346151>.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_04_01[39m
+[2026-01-04T14:19:04.848Z] 2026-01-04 15:19:04 [CLIENT DISCORD] [MESSAGE UPDATED] francois.piano a modifié un message dans #SA-GOV/INTER_REPORT_03_01: "<@1437050808389730399> 
+
+J'ai lu votre rapport et clôs l'affaire.
+
+Pouvez-vous renseigner l'individus dans les <#1417242678214656200> ?
+
+Merci." → "<@1437050808389730399> 
+
+J'ai lu votre rapport et clôs l'affaire.
+
+Pouvez-vous renseigner l'individu dans les <#1417242678214656200> ?
+
+Merci."
+[2026-01-04T14:21:44.577Z] 2026-01-04 15:21:44 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1195085032281346151> [39m
+[32m[39m
+[32mJ'ai lu votre rapport et clôs l'affaire.[39m
+[32m[39m
+[32mPouvez-vous renseigner l'individu dans les <#1417242678214656200>  ?[39m
+[32m[39m
+[32mMerci.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_03_01[39m
+[2026-01-04T14:22:24.597Z] 2026-01-04 15:22:24 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@1195085032281346151> [39m
+[32m[39m
+[32mJ'ai lu votre rapport et clôs l'affaire.[39m
+[32m[39m
+[32mPouvez-vous renseigner l'individu dans les <#1417242678214656200>  ?[39m
+[32m[39m
+[32mMerci.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_04_01[39m
+[2026-01-04T14:25:07.824Z] 2026-01-04 15:25:07 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32m<@449432156595552257> J'aimerais bien mais je n'ai pas la permission pour poster dans les registres. Je n'ai pas les accès.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_04_01[39m
+[2026-01-04T14:43:58.953Z] 2026-01-04 15:43:58 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32m<@194731603673481216> ils sont bleues j'te jure[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T14:46:10.010Z] 2026-01-04 15:46:10 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mJe règle ça.[39m [0mdans[0m [32mSA-GOV/INTER_REPORT_04_01[39m
+[2026-01-04T14:53:05.139Z] 2026-01-04 15:53:05 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mIl a été arrêté deux fois les 3 et 4 Janvier 2026 pour refus d'obtempérer.[39m [0mdans[0m [32mAkana Dixon[39m
+[2026-01-04T14:54:43.342Z] 2026-01-04 15:54:43 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mIl a été arrêté le 3 Janvier 2026 pour refus d'obtempérer.[39m [0mdans[0m [32mMarco Polo[39m
+[2026-01-04T15:00:00.014Z] 2026-01-04 16:00:00 [CLIENT DISCORD] [32m🌇 Tâches du soir exécutées ![39m
+[2026-01-04T15:00:00.016Z] 2026-01-04 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie (tabs)...
+[2026-01-04T15:00:00.018Z] 2026-01-04 16:00:00 [CLIENT DISCORD] [Cron] 🕒 Démarrage de la régénération automatique de la hiérarchie... (DIV)
+[2026-01-04T15:00:00.019Z] 2026-01-04 16:00:00 [CLIENT DISCORD] 🔍 Vérification des règles...
+[2026-01-04T15:00:00.020Z] 2026-01-04 16:00:00 [DEBUG] 📦 Checking version from local...
+[2026-01-04T15:00:00.021Z] 2026-01-04 16:00:00 [CLIENT DISCORD] 📦 Nom : catherine
+[2026-01-04T15:00:00.023Z] 2026-01-04 16:00:00 [CLIENT DISCORD] 🕒 Version locale : 2.3.5
+[2026-01-04T15:00:00.024Z] 2026-01-04 16:00:00 [DEBUG] 🌐 Checking version from GitHub...
+[2026-01-04T15:00:00.028Z] 2026-01-04 16:00:00 [CLIENT DISCORD] ✅ rules_1.txt inchangé, pas de mise à jour.
+[2026-01-04T15:00:00.030Z] 2026-01-04 16:00:00 [CLIENT DISCORD] ✅ rules_2.txt inchangé, pas de mise à jour.
+[2026-01-04T15:00:00.031Z] 2026-01-04 16:00:00 [CLIENT DISCORD] ✅ Vérification des règles terminée.
+[2026-01-04T15:00:00.161Z] 2026-01-04 16:00:00 [CLIENT DISCORD] [EXPORT] access.json mis à jour avec 12 exécutif(s), 3 superviseur(s) et 4 commandement(s)
+[2026-01-04T15:00:00.371Z] 2026-01-04 16:00:00 [CLIENT DISCORD] 📦 Nom GitHub : catherine
+[2026-01-04T15:00:00.372Z] 2026-01-04 16:00:00 [CLIENT DISCORD] 🕒 Version distante : 2.3.5
+[2026-01-04T15:00:00.373Z] [INFO] 2026-01-04 16:00:00 [ℹ️ INFO NOTIFY] ✅ Les versions sont identiques.
+[2026-01-04T15:00:00.572Z] 2026-01-04 16:00:00 [CLIENT DISCORD] ✅ Données écrites dans config.json
+[2026-01-04T15:00:00.960Z] [NOTIFY] 2026-01-04 16:00:00 [🟢 SOFT NOTIFY] Message TABS supprimé
+[2026-01-04T15:00:01.912Z] 2026-01-04 16:00:01 [CLIENT DISCORD] [✅] Hiérarchie DIV envoyée.
+[2026-01-04T15:00:01.914Z] 2026-01-04 16:00:01 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T15:00:02.729Z] 2026-01-04 16:00:02 [CLIENT DISCORD] [✅] Hiérarchie TABS envoyée.
+[2026-01-04T15:00:02.731Z] 2026-01-04 16:00:02 [CLIENT DISCORD] [Cron] 🕒 Fin de la régénération automatique de la hiérarchie.
+[2026-01-04T15:00:07.852Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 🔵 Interaction détectée : yes
+[2026-01-04T15:00:07.853Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1457388100845310097",
+  "participants": {
+    "yes": [],
+    "no": [],
+    "maybe": []
+  }
+}
+[2026-01-04T15:00:07.860Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 📌 ID du message enregistré : 1457388100845310097
+[2026-01-04T15:00:07.861Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1457388100845310097
+[2026-01-04T15:00:07.862Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [],
+  "no": [],
+  "maybe": []
+}
+[2026-01-04T15:00:07.866Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2026-01-04T15:00:07.872Z] 2026-01-04 16:00:07 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`244-FTO | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "Aucun",
+      "inline": true
+    }
+  ]
+}
+[2026-01-04T15:00:09.244Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2026-01-04T15:00:09.246Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1457388100845310097",
+  "participants": {
+    "yes": [
+      "244-FTO | Erica Sanchez"
+    ],
+    "no": [],
+    "maybe": []
+  }
+}
+[2026-01-04T15:00:09.253Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 📌 ID du message enregistré : 1457388100845310097
+[2026-01-04T15:00:09.254Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1457388100845310097
+[2026-01-04T15:00:09.254Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": []
+}
+[2026-01-04T15:00:09.259Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": [
+    "CAR-1 | Rodriguez DaSilva"
+  ]
+}
+[2026-01-04T15:00:09.264Z] 2026-01-04 16:00:09 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`244-FTO | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`CAR-1 | Rodriguez DaSilva`",
+      "inline": true
+    }
+  ]
+}
+[2026-01-04T15:00:09.778Z] 2026-01-04 16:00:09 [CLIENT DISCORD] [BUTTON] .darkodin92 a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2026-01-04T15:00:10.798Z] 2026-01-04 16:00:10 [CLIENT DISCORD] [BUTTON] matharcane a exécuté l'interaction bouton yes dans 1347963262892904469
+[2026-01-04T15:40:01.144Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2026-01-04T15:40:01.146Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1457388100845310097",
+  "participants": {
+    "yes": [
+      "244-FTO | Erica Sanchez"
+    ],
+    "no": [],
+    "maybe": [
+      "CAR-1 | Rodriguez DaSilva"
+    ]
+  }
+}
+[2026-01-04T15:40:01.154Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 📌 ID du message enregistré : 1457388100845310097
+[2026-01-04T15:40:01.154Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1457388100845310097
+[2026-01-04T15:40:01.155Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": [
+    "CAR-1 | Rodriguez DaSilva"
+  ]
+}
+[2026-01-04T15:40:01.160Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": [
+    "CAR-1 | Rodriguez DaSilva",
+    "862-SGT | Matthew Lewis"
+  ]
+}
+[2026-01-04T15:40:01.167Z] 2026-01-04 16:40:01 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`244-FTO | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`CAR-1 | Rodriguez DaSilva`, `862-SGT | Matthew Lewis`",
+      "inline": true
+    }
+  ]
+}
+[2026-01-04T15:40:02.066Z] 2026-01-04 16:40:02 [CLIENT DISCORD] [BUTTON] lewis024371 a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2026-01-04T15:44:22.160Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 🔵 Interaction détectée : maybe
+[2026-01-04T15:44:22.161Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 🟢 clientData trouvé : {
+  "messageId": "1457388100845310097",
+  "participants": {
+    "yes": [
+      "244-FTO | Erica Sanchez"
+    ],
+    "no": [],
+    "maybe": [
+      "CAR-1 | Rodriguez DaSilva",
+      "862-SGT | Matthew Lewis"
+    ]
+  }
+}
+[2026-01-04T15:44:22.203Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 📌 ID du message enregistré : 1457388100845310097
+[2026-01-04T15:44:22.203Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 📌 ID du message de l'interaction : 1457388100845310097
+[2026-01-04T15:44:22.204Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 🟢 Avant modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": [
+    "CAR-1 | Rodriguez DaSilva",
+    "862-SGT | Matthew Lewis"
+  ]
+}
+[2026-01-04T15:44:22.210Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 🟢 Après modification des participants : {
+  "yes": [
+    "244-FTO | Erica Sanchez"
+  ],
+  "no": [],
+  "maybe": [
+    "CAR-1 | Rodriguez DaSilva",
+    "862-SGT | Matthew Lewis",
+    "893-LT | Sean Lennon"
+  ]
+}
+[2026-01-04T15:44:22.217Z] 2026-01-04 16:44:22 [CLIENT DISCORD] 🟢 Embed mis à jour : {
+  "title": "Qui sera présent ce soir ?",
+  "description": "Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.",
+  "color": 44678,
+  "fields": [
+    {
+      "name": "✅ Oui",
+      "value": "`244-FTO | Erica Sanchez`",
+      "inline": true
+    },
+    {
+      "name": "❌ Non",
+      "value": "Aucun",
+      "inline": true
+    },
+    {
+      "name": "🤔 Peut-être",
+      "value": "`CAR-1 | Rodriguez DaSilva`, `862-SGT | Matthew Lewis`, `893-LT | Sean Lennon`",
+      "inline": true
+    }
+  ]
+}
+[2026-01-04T15:44:23.175Z] 2026-01-04 16:44:23 [CLIENT DISCORD] [BUTTON] francois.piano a exécuté l'interaction bouton maybe dans 1347963262892904469
+[2026-01-04T15:48:16.133Z] 2026-01-04 16:48:16 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mAh ouais tu connais la couleur bleu[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T15:48:45.626Z] 2026-01-04 16:48:45 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32mIl est trop bien[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T15:49:08.970Z] 2026-01-04 16:49:08 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmatharcane[39m [0ma envoyé[0m [32mah bah on est des professionnels ici 😎[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T16:25:26.896Z] 2026-01-04 17:25:26 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mmrbobolt[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32m💬-discussion-hrp[39m
+[2026-01-04T18:47:56.265Z] 2026-01-04 19:47:56 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m@everyone Vous pouvez mettre le Tag ![39m [0mdans[0m [32m💬-discussion[39m
+[2026-01-04T19:38:15.252Z] 2026-01-04 20:38:15 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m<@&1259234502866108456> [39m
+[32m# Poursuite d'un semi remorque : risque de fuit, dangereux & armée[39m
+[32m[39m
+[32m*9273, Popular Street, LS, SA*[39m [0mdans[0m [32m📠-radio[39m
+[2026-01-04T19:49:50.978Z] 2026-01-04 20:49:50 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mCi joint.[39m [0mdans[0m [32mConvois[39m
+[2026-01-04T19:50:17.852Z] 2026-01-04 20:50:17 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m# Convoi d'autorités civiles :[39m [0mdans[0m [32mConvois[39m
+[2026-01-04T19:58:22.054Z] 2026-01-04 20:58:22 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32m## Les deux véhicules autorités[39m
+[32m> - Ils sont blindés.[39m
+[32m> - Ils ont les mêmes plaques.[39m
+[32m> Les autoritées se trouvent SOIT à bord du premier, SOIT du second.[39m
+[32m[39m
+[32m## Les deux véhicules qui entourent de la Viper Team[39m
+[32m> - Celui à l'arrière doit protéger à tout prix et doit prévenir les dangers (carrefour...)[39m
+[32m> - En cas d'incapacité du Viper Team Car, le véhicule autorités leurre peut éventuellement prendre le relais.[39m
+[32m> - Le Front Viper Team Car est optionnelle, et sert à prévenir les dangers avant.[39m
+[32m> - Les deux VTC peuvent se mettre au même niveau des VA en cas de besoins.[39m
+[32m[39m
+[32m## Le véhicule de la SWAT Team[39m
+[32m> - Il est plus optionnel.[39m
+[32m> - Il abrite plusieurs membres du SWAT.[39m
+[32m> - Peut prendre le relai si le Front VTC est HS[39m
+[32m[39m
+[32m## Les deux véhicules à l'avant[39m
+[32m> - Ouvre la marche.[39m
+[32m> - En code 2+[39m
+[32m> - Reste proche du convoi (inverse c'est le rôle des motos)[39m
+[32m[39m
+[32m## Les deux véhicules à l'arrière[39m
+[32m> - Ferme la marche[39m
+[32m> - En code 2[39m
+[32m> - Vérifie l'arrière de la route.[39m
+[32m> - Doit prévenir de chaque danger.[39m [0mdans[0m [32mConvois[39m
+[2026-01-04T20:04:45.281Z] 2026-01-04 21:04:45 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mMême principe[39m [0mdans[0m [32mConvois[39m
+[2026-01-04T20:05:04.634Z] 2026-01-04 21:05:04 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mfrancois.piano[39m [0ma envoyé[0m [32mPour les transports de prisonnier (à adapter en fonction du prisonnier)[39m [0mdans[0m [32mConvois[39m
+[2026-01-04T20:52:09.747Z] 2026-01-04 21:52:09 [CLIENT DISCORD] [32m[MEMBER ADD] jeffdosantos / 276479700128366593 est arrivé à 04/01/2026, 21:52:09[39m
+[2026-01-04T20:52:23.175Z] 2026-01-04 21:52:23 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32mjeffdosantos[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+[2026-01-04T20:52:45.771Z] 2026-01-04 21:52:45 [CLIENT DISCORD] [32m[MEMBER ADD] .xavierjackson / 269904563891339264 est arrivé à 04/01/2026, 21:52:45[39m
+[2026-01-04T20:55:17.240Z] 2026-01-04 21:55:17 [CLIENT DISCORD] [94m[MESSAGE_SENT][39m [32m.xavierjackson[39m [0ma envoyé[0m [32m*Aucun contenu*[39m [0mdans[0m [32mmoderator-only[39m
+[2026-01-04T21:01:25.262Z] 2026-01-04 22:01:25 [CLIENT DISCORD] [BUTTON] jeffdosantos a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2026-01-04T21:01:40.931Z] 2026-01-04 22:01:40 [ERROR] (node:153193) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2026-01-04T21:01:41.239Z] 2026-01-04 22:01:41 [CLIENT DISCORD] [MODAL] jeffdosantos a exécuté l'interaction modal rulesModal dans 1252234244760141874
+[2026-01-04T21:05:49.966Z] 2026-01-04 22:05:49 [CLIENT DISCORD] [BUTTON] .xavierjackson a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2026-01-04T21:06:01.127Z] 2026-01-04 22:06:01 [CLIENT DISCORD] [BUTTON] .xavierjackson a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2026-01-04T21:06:11.472Z] 2026-01-04 22:06:11 [CLIENT DISCORD] [BUTTON] .xavierjackson a exécuté l'interaction bouton rulescheck dans 1252234244760141874
+[2026-01-04T21:06:21.506Z] 2026-01-04 22:06:21 [CLIENT DISCORD] [MODAL] .xavierjackson a exécuté l'interaction modal rulesModal dans 1252234244760141874

@@ -28,7 +28,7 @@ async function tabsDaily(client) {
             }
 
             // INIT
-            const LSSD = '<:Logo_LSCSD:1451908624933720250>';
+            const BCSO = "<:Seal_of_the_Broward_County_Sheri:1456714284062212137>";
             const CMD = '<:CMD:1379898553157025984>';
             const SPV = '<:SPV:1379898592361189376>';
             const TRP = '<:TRP:1379898584371298355>';
@@ -46,18 +46,18 @@ async function tabsDaily(client) {
             };
 
             const rankOrder = [
-                "• Sheriff", "• Undersheriff", "• Area Commander",
+                "• Sheriff", "• Undersheriff", "• Major",
                 "• Captain", "• Lieutenant",
-                "• Sergeant",
+                "• Master Sergeant", "• Sergeant",
                 "• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"
             ];
 
             const getSectionForGrade = (gradeName) => {
                 if (["• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"].includes(gradeName)) {
                     return SECTION_LABELS.TRP;
-                } else if (["• Sergeant"].includes(gradeName)) {
+                } else if (["• Master Sergeant", "• Sergeant"].includes(gradeName)) {
                     return SECTION_LABELS.SPV;
-                } else if (["• Sheriff", "• Undersheriff", "• Area Commander", "• Captain", "• Lieutenant"].includes(gradeName)) {
+                } else if (["• Sheriff", "• Undersheriff", "• Major", "• Captain", "• Lieutenant"].includes(gradeName)) {
                     return SECTION_LABELS.CMD;
                 }
                 return null;
@@ -65,7 +65,7 @@ async function tabsDaily(client) {
 
             // Envoyer le message initial
             const newMessage = await channel.send({
-                content: `# ${LSSD} Hiérarchie au sein de la San Andreas State Police ${LSSD}`,
+                content: `# ${BCSO} Hiérarchie au sein du Broward County Sheriff Office ${BCSO}`,
                 embeds: [
                     new EmbedBuilder().setDescription(
                         `${SECTION_LABELS.CMD}\n\n${SECTION_LABELS.SPV}\n\n${SECTION_LABELS.TRP}`

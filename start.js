@@ -21,7 +21,7 @@ async function startBot() {
 
     botProcess.on("exit", async (code) => {
         console.log(chalk.yellow(`[BOT EXIT] Le bot s'est arrêté avec le code ${code}. Redémarrage dans 5 secondes...`));
-        //await sendDiscordMessage(`⚠️ **Le bot a crashé (code ${code}) et redémarre...**`);
+        await sendDiscordMessage(`⚠️ **Le bot a crashé (code ${code}) et redémarre...**`);
         setTimeout(startBot, 5000);
     });
 

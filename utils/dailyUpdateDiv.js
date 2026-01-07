@@ -34,9 +34,9 @@ async function divDaily(client) {
         }
 
         // ✅ Message initial
-        const LSSD = '<:Logo_LSCSD:1451908624933720250>';
+            const BCSO = "<:Seal_of_the_Broward_County_Sheri:1456714284062212137>";
         const sentMessage = await channel.send({
-            content: `# ${LSSD} Hiérarchie au sein du Los Santos Sheriff Department ${LSSD}`,
+            content: `# ${BCSO} Hiérarchie au sein du Broward County Sheriff Office ${BCSO}`,
             embeds: [
                 new EmbedBuilder().setDescription(
                     "# Patrol Division\n\n" +
@@ -82,7 +82,7 @@ async function divDaily(client) {
         const rankOrder = [
             "• Sheriff", "• Undersheriff", "• Major",
             "• Captain", "• Lieutenant",
-            "• Sergeant",
+            "• Master Sergeant", "• Sergeant",
             "• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"
         ];
 

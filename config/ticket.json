@@ -66,13 +66,26 @@
     "1455230232800923781": {
         "users": [
             "449432156595552257",
-            "1021090086756036648"
+            "1021090086756036648",
+            "1195085032281346151"
         ],
         "auth": "François 🍂",
         "type": "cmd",
         "ticketname": "probation j martin",
+        "islock": true,
+        "isarchived": false,
+        "nb": 102,
+        "delete": "waiting"
+    },
+    "1457087999249613026": {
+        "users": [
+            "794334752165330964"
+        ],
+        "auth": "Rory",
+        "type": "cmd",
+        "ticketname": "🔰-cmd-roryp71",
         "islock": false,
         "isarchived": false,
-        "nb": 102
+        "nb": 103
     }
 }
