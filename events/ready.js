@@ -34,7 +34,26 @@ module.exports = {
 
         rl.prompt();
 
+        
         rl.on('line', async (input) => {
+
+            if (input.trim() === '>ver') {
+                try {
+                    const pkg = JSON.parse(await fs.readFile('./package.json', 'utf8'));
+                    console.log(`📦 Version du bot : v${pkg.version}`);
+                } catch (err) {
+                    console.log('❌ Impossible de lire la version dans package.json');
+                }
+                return rl.prompt();
+            }
+
+            if (input.trim() === '>exit') {
+                console.log('👋 Fermeture du bot...');
+                process.exit(0);
+            }
+
+
+
             if (!input.startsWith('>send')) {
                 rl.prompt();
                 return;
@@ -133,6 +152,11 @@ module.exports = {
             rl.prompt();
         });
 
+            var activity = {
+                name: 'gérer le BCSO',
+                type: ActivityType.Playing
+            };
+
         // --- Enregistrement des commandes ---
         try {
             const GUILD_ID = config.server.test.id;
@@ -144,12 +168,31 @@ module.exports = {
             console.log(`🔍 Commandes déjà présentes : ${commandNames.join(', ') || 'Aucune'}`);
 
             const launchArgs = process.argv.slice(2);
-            const mode = launchArgs.find(arg => ['clearcommand', 'debug'].includes(arg));
+            const mode = launchArgs.find(arg => ['clearcommand', 'debug', 'tty1', 'tty2', 'tty3', 'tty4', 'tty5', 'default'].includes(arg));
 
             if (mode === 'clearcommand') {
                 console.warn("🧹 Suppression de toutes les commandes...");
                 await guild.commands.set([]);
+                client.channels.fetch(config.channel.tty).then(channel => {
+                    channel.send(`🤖 Catherine lancé en mode par clearcommand`);
+                })
+
                 return console.log(`✅ Toutes les commandes du serveur ${guild.name} ont été supprimées.`);
+                
+            }
+
+            if (mode.startsWith('tty')) {
+                console.debug(`Lancé dans le Shell ${mode}`)
+                client.channels.fetch(config.channel.tty).then(channel => {
+                    channel.send(`🤖 Caherine lancé en ${mode} ; Linux SHELL`);
+                })
+            }
+
+            if (mode === 'default') {
+                console.debug(`Lancé en mode par défaut`);
+                client.channels.fetch(config.channel.tty).then(channel => {
+                    channel.send(`🤖 Catherine lancé en mode par défaut`);
+                })
             }
 
             const commandsArray = Object.values(commands.commands || {});
@@ -161,15 +204,16 @@ module.exports = {
                 console.log(`📦 Enregistrement de ${commandsArray.length} commande(s)...`);
                 await guild.commands.set(commandsArray);
                 console.log("✅ Commandes enregistrées !");
+                                client.channels.fetch(config.channel.tty).then(channel => {
+                    channel.send(`🤖 Catherine lancé en mode debug`);
+                })
+
             } else {
                 console.warn("⚠️ Les commandes sont déjà enregistrées. Lance avec 'debug' pour forcer l'écrasement.");
             }
 
             // --- Activité du bot ---
-            const activity = {
-                name: 'gérer le BCSO',
-                type: ActivityType.Playing
-            };
+
             client.user.setPresence({
                 activities: [activity],
                 status: "online"
