@@ -42,8 +42,8 @@ module.exports = {
                             .setLabel('👨‍💼 Ticket Commandement')
                             .setStyle(ButtonStyle.Primary),
                         new ButtonBuilder()
-                            .setCustomId('dir')
-                            .setLabel('🏢 Ticket Direction')
+                            .setCustomId('spv')
+                            .setLabel('🏢 Ticket Supervision')
                             .setStyle(ButtonStyle.Primary),
                         new ButtonBuilder()
                             .setCustomId('recruit')

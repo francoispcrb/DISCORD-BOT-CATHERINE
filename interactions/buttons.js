@@ -324,10 +324,10 @@ try {
                 };
 
                 const ticketConfigMap = {
-                    'cmd':        { emoji: '🔰', role: config.role.cmd },
-                    'dir':        { emoji: '⚔️', role: config.role.dir },
-                    'ticket-mod': { emoji: '🌐', role: config.role.comm },
-                    'ticket-dev': { emoji: '🌐', role: config.role.dev }
+                    'cmd':        { emoji: '🔰', role: config.role.cmd, name:"commandement" },
+                    'spv':        { emoji: '⚔️', role: config.role.spv, name:"supervision" },
+                    'ticket-mod': { emoji: '🌐', role: config.role.comm, name:"moderation" },
+                    'ticket-dev': { emoji: '🌐', role: config.role.dev, name:"development" }
                 };
 
                 if (roleMap[interaction.customId]) {
@@ -367,7 +367,7 @@ try {
                 
                 const ticketConf = ticketConfigMap[interaction.customId];
                 if (ticketConf) {
-                    return createTicketChannel(interaction, ticketConf.emoji, ticketConf.role);
+                    return createTicketChannel(interaction, ticketConf.emoji, ticketConf.role, ticketConf.name);
                 }
 
                 if (interaction.customId === 'claim') {

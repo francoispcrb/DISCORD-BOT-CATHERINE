@@ -19,7 +19,6 @@
     },
     "role": {
         "spv": "1342563302043025408",
-        "dir": "1342565895188254740",
         "cmd": "1342563289338744872",
         "lssd": "1259234502866108456",
         "gov": "1260947297307463783",
@@ -42,7 +41,7 @@
     "plugin": {
         "ticket_plugin": {
             "avaible": true,
-            "var": 103,
+            "var": 112,
             "ticket_file": "./config/ticket.json"
         },
         "log_plugin": {
@@ -69,23 +68,21 @@
             "ban_file": "./config/ban.json"
         }
     },
-    "openservice_last_id": "1458112876886626375",
+    "openservice_last_id": "1458475265595277548",
     "openservice_channel_id": "1347963262892904469",
     "openservice_participants": {
-        "yes": [],
-        "no": [
-            "CAR-2 | Marc Wheeler"
-        ],
-        "maybe": [
-            "244-FTO | Erica Sanchez",
-            "CAR-1 | Rodriguez DaSilva",
+        "yes": [
+            "CAR-2 | Marc Wheeler",
+            "344-FTO | Erica Sanchez",
             "893-LT | Sean Lennon",
-            "215-DPT | James Garcia"
-        ]
+            "CAR-1 | Rodriguez DaSilva"
+        ],
+        "no": [],
+        "maybe": []
     },
     "tabs": {
-        "id_message": "1458429237248921610",
-        "id_message_div": "1458429234195202078"
+        "id_message": "1458522257084125463",
+        "id_message_div": "1458522254928510976"
     },
     "veh": {
         "id_message": ""

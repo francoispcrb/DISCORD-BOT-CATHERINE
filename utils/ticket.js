@@ -13,14 +13,21 @@ const {
 
 let nbTicket = config.plugin.ticket_plugin.var;
 
-async function createTicketChannel(interaction, emoji, roleId) {
+async function createTicketChannel(interaction, emoji, roleId, name) {
     console.log(`[ACTION BUTTON] ${interaction.customId} of command /ticket has been used.`);
 
     nbTicket++;
     config.plugin.ticket_plugin.var = nbTicket;
     saveConfig();
 
-    const channelName = `${emoji}-${interaction.customId}-${interaction.user.tag}`;
+    const cleanName = interaction.member.displayName
+        .toLowerCase()
+        .normalize("NFD")                 // sépare les accents
+        .replace(/[\u0300-\u036f]/g, "")  // supprime les accents
+        .replace(/[^a-z\s]/g, "");        // garde lettres + espaces
+
+    const channelName = `${emoji}-${name}-${cleanName}-${nbTicket}`;
+
 
     const channel = await interaction.guild.channels.create({
         name: channelName,
