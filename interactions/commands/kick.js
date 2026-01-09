@@ -1,5 +1,5 @@
 const { EmbedBuilder, PermissionsBitField } = require('discord.js');
-const { kickFile } = require('../../config/kick.json'); // Modifie le chemin selon ta structure
+const { kickFile } = require('../../config/kick.json'); 
 const { saveKick } = require('../../utils/functions')
 
 module.exports = {
@@ -13,7 +13,6 @@ module.exports = {
         }
 
         try {
-            // Essayer d'envoyer un DM
             try {
                 await user.send(
                     new EmbedBuilder()
@@ -28,7 +27,6 @@ module.exports = {
 
             await interaction.guild.members.kick(user, { reason });
 
-            // Enregistrement du kick
             if (!kickFile[user.id]) {
                 kickFile[user.id] = {
                     count: 1,

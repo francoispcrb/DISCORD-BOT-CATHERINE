@@ -185,7 +185,6 @@ textarea { min-height: 150px; resize: vertical; }
 <script>
 let allMails = [];
 
-// Charger boîtes accessibles
 async function loadMailboxes() {
   const res = await fetch('/api/getUserMails');
   const data = await res.json();
@@ -208,14 +207,12 @@ async function loadMailboxes() {
   document.getElementById('fromField').value = data.mails[0];
 }
 
-// Charger toutes les adresses (pour autocomplétion)
 async function loadAllMails() {
   const res = await fetch('/api/getAllMails');
   const data = await res.json();
   allMails = data.mails || [];
 }
 
-// Init champs chips
 function initChipsInput(containerId, hiddenId) {
   const container = document.getElementById(containerId);
   const hidden = document.getElementById(hiddenId);
@@ -279,7 +276,6 @@ function submitForm(folder) {
   document.getElementById('mailForm').requestSubmit();
 }
 
-// Envoi formulaire
 document.getElementById('mailForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);
@@ -288,7 +284,6 @@ document.getElementById('mailForm').addEventListener('submit', async (e) => {
   alert(data.message);
 });
 
-// Init
 document.addEventListener('DOMContentLoaded', async () => {
   await loadMailboxes();
   await loadAllMails();

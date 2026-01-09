@@ -160,7 +160,6 @@ try {
                         const minutes = Math.floor((durationMs % 3600000) / 60000);
                         const seconds = Math.floor((durationMs % 60000) / 1000);
 
-                        // ✅ Corrigé : récupération du type + véhicule
                         const usedType = shiftUser[userIdToStop]?.type;
                         const usedVeh = shiftUser[userIdToStop]?.veh;
 
@@ -236,17 +235,14 @@ try {
                 
                     console.log("🟢 Avant modification des participants :", participants);
                 
-                    // Mise à jour des participants
                     const username = interaction.member.nickname;
                     const category = interaction.customId;
                 
                     const wasInCategory = participants[category].includes(username);
                 
                     if (wasInCategory) {
-                        // Si l'utilisateur était déjà dans cette catégorie, on le retire (annulation du choix)
                         participants[category] = participants[category].filter(user => user !== username);
                     } else {
-                        // Sinon, on le retire des autres catégories et on l'ajoute à celle-ci
                         for (const key in participants) {
                             participants[key] = participants[key].filter(user => user !== username);
                         }
@@ -255,7 +251,6 @@ try {
                 
                     console.log("🟢 Après modification des participants :", participants);
                 
-                    // Création de l'embed mis à jour
                     const updatedEmbed = new EmbedBuilder()
                         .setTitle('Qui sera présent ce soir ?')
                         .setDescription('Veuillez indiquer votre présence en appuyant sur un bouton ci-dessous.')
@@ -271,7 +266,6 @@ try {
                     await interaction.deferUpdate();
                     await interaction.editReply({ content: "@everyone, qui sera présent ce soir ?", embeds: [updatedEmbed] });
                 
-                    // Mise à jour du fichier config.json
                     config.openservice_participants = {
                         yes: participants.yes,
                         no: participants.no,
@@ -306,7 +300,6 @@ try {
                             }
                         }
                     } else if (wasInCategory && thread) {
-                        // Retirer l'utilisateur du thread s'il était dans "Oui" et change de catégorie
                         try {
                             await thread.members.remove(interaction.user.id);
                         } catch (error) {
@@ -381,7 +374,6 @@ try {
                         });
                     }
 
-                    // Lire le cache.json pour retrouver le message
                     let cacheData = [];
                     if (fs.existsSync(cachePath)) {
                         try {
@@ -392,7 +384,6 @@ try {
                         }
                     }
 
-                    // Trouver l'entrée correspondant à ce message
                     const entryIndex = cacheData.findIndex(entry => entry.messageId === interaction.message.id);
 
                     if (entryIndex === -1) {
@@ -404,17 +395,14 @@ try {
 
                     const { userId } = cacheData[entryIndex];
 
-                    // Modifier le message original
                     await interaction.message.edit({
                         content: `🛡️ <@${interaction.user.id}> s’est occupé de <@${userId}>.`,
-                        components: [] // supprime les boutons
+                        components: [] 
                     });
 
-                    // Supprimer l'entrée du cache
                     cacheData.splice(entryIndex, 1);
                     fs.writeFileSync(cachePath, JSON.stringify(cacheData, null, 2), 'utf-8');
 
-                    // Accusé de réception silencieux
                     await interaction.deferUpdate();
                 }
 
@@ -499,23 +487,19 @@ try {
                             });
                         }
 
-                        // Génère la transcription
                         createTranscript(channel, {
                             limit: -1,
                             returnBuffer: false,
                             fileName: `${channel.name}_transcript.html`,
                         }).then(async (attachment) => {
-                            // Envoie la transcription dans le salon de logs
                             await logChannel.send({
                                 content: `📁 Transcription du ticket \`${channel.name}\` fermé par <@${interaction.user.id}> :`,
                                 files: [attachment],
                             });
 
-                            // Supprime le fichier du système de tickets (si applicable)
                             delete ticketFile[channel.id];
                             saveTicket();
 
-                            // Supprime le salon
                             await channel.delete('Ticket fermé');
 
                             console.notify("soft", "🗑️ [ACTION BUTTON] : Ticket supprimé avec succès.");
@@ -530,17 +514,17 @@ try {
         
                 if(interaction.customId === 'lock') {
                     if(interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
-                        const userids = ticketFile[interaction.channel.id]['users']; // Tableau d'IDs utilisateur
+                        const userids = ticketFile[interaction.channel.id]['users']; 
         
                         let permissionOverwrites = [
                             {
-                                id: interaction.guild.roles.everyone.id, // Bloque @everyone
+                                id: interaction.guild.roles.everyone.id, 
                                 deny: [PermissionsBitField.Flags.ViewChannel]
                             },
                             ...userids.map(id => ({
                                 id: id,
-                                allow: [PermissionsBitField.Flags.ViewChannel], // Seuls les utilisateurs listés peuvent voir le channel
-                                deny: [PermissionsBitField.Flags.SendMessages] // Mais ne peuvent pas envoyer de messages
+                                allow: [PermissionsBitField.Flags.ViewChannel], 
+                                deny: [PermissionsBitField.Flags.SendMessages] 
                             }))
                         ];
         
@@ -576,16 +560,16 @@ try {
         
                 if(interaction.customId === 'unlock'){
                     if(interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
-                        const userids = ticketFile[interaction.channel.id]['users']; // Tableau d'IDs utilisateur
+                        const userids = ticketFile[interaction.channel.id]['users']; 
         
                         let permissionOverwrites = [
                             {
-                                id: interaction.guild.roles.everyone.id, // Bloque @everyone
+                                id: interaction.guild.roles.everyone.id, 
                                 deny: [PermissionsBitField.Flags.ViewChannel]
                             },
                             ...userids.map(id => ({
                                 id: id,
-                                allow: [PermissionsBitField.Flags.ViewChannel, PermissionsBitField.Flags.SendMessages], // Seuls les utilisateurs listés peuvent voir le channel
+                                allow: [PermissionsBitField.Flags.ViewChannel, PermissionsBitField.Flags.SendMessages],
                             }))
                         ];
                 
@@ -616,7 +600,7 @@ try {
                     if (interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
                         interaction.channel.permissionOverwrites.set([
                             {
-                                id: interaction.guild.roles.everyone, // Bloque tout le monde
+                                id: interaction.guild.roles.everyone, 
                                 deny: [PermissionsBitField.Flags.ViewChannel]
                             },
                             ...interaction.channel.permissionOverwrites.cache.map(overwrite => ({
@@ -640,7 +624,6 @@ try {
                     const userId = interaction.user.id;
                     const messageId = interaction.message.id;
 
-                    // Vérifie si le message correspond à celui enregistré pour cet utilisateur
                     if (config.message[userId] === messageId) {
                         interaction.message.delete().catch(console.error);
                         await interaction.reply({ content: 'Message marqué comme vu et supprimé ✅', ephemeral: true });
@@ -670,5 +653,5 @@ try {
 
 } catch (err) {
     console.error("[FATAL_ERROR] Les boutons n'ont pas été exporté correctement. Le processus va s'arrêter., ", err)
-    process.exit(0); // Arrête le processus du bot
+    process.exit(0); 
 };

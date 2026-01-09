@@ -77,7 +77,7 @@ const commands = {
             let divOption = option
                 .setName('div')
                 .setDescription('Division à attribuer')
-                .setRequired(true); // Rendu obligatoire pour garantir que l'action est bien ciblée
+                .setRequired(true); 
 
             for (const permission in DIV_MAP) {
                 divOption = divOption.addChoices({ name: permission, value: permission });
@@ -107,7 +107,7 @@ const commands = {
             let roleOption = option
                 .setName('role')
                 .setDescription('Rôle à attribuer')
-                .setRequired(true); // obligatoire pour le bon fonctionnement
+                .setRequired(true); 
 
             for (const permission in ROLE_MAP) {
                 roleOption = roleOption.addChoices({ name: permission, value: permission });
@@ -149,7 +149,7 @@ const commands = {
         .addStringOption(option =>
             option.setName('permission')
             .setDescription('Permission complète')
-            .setAutocomplete(true) // ✅ obligatoire pour l’autocomplete
+            .setAutocomplete(true) 
             .setRequired(false)),
 
     openserivce: new SlashCommandBuilder()

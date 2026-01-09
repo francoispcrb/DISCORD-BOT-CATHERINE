@@ -1,4 +1,3 @@
-// compareVersions.js
 const getLocalVersion = require('./getLocalVersion');
 const getGitVersion = require('./getGitVersion');
 

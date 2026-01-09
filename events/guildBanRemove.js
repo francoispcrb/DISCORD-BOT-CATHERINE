@@ -3,11 +3,11 @@ const { sendLog } = require('..');
 const chalk = require('chalk');
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; //global
 }
 
 module.exports = {
-    name: 'guildBanRemove', // correction du nom de l'event
+    name: 'guildBanRemove', 
 
     async execute(ban) {
         try {

@@ -25,9 +25,7 @@ function sendLog(embed) {
 }
 module.exports = { sendLog };
 
-// ==============================
-// 🔹 ÉTAPE 1 - Chargement des EVENTS
-// ==============================
+//  load events
 const eventsSpinner = ora("Chargement des événements...\n").start();
 try {
     const eventFiles = fs.readdirSync(path.join(__dirname, 'events')).filter(file => file.endsWith('.js'));
@@ -46,9 +44,7 @@ try {
     console.error(err);
 }
 
-// ==============================
-// 🔹 ÉTAPE 2 - Chargement des COMMANDES
-// ==============================
+// loazd commands
 const commandsSpinner = ora("Chargement des commandes...\n").start();
 try {
     client.commands = new Map();
@@ -70,9 +66,7 @@ try {
     console.error(err);
 }
 
-// ==============================
-// 🔹 ÉTAPE 3 - Chargement des données config
-// ==============================
+// load config
 const configSpinner = ora("Chargement de config.json...\n").start();
 globalThis.clientData = {};
 try {
@@ -93,9 +87,7 @@ try {
     console.error(error);
 }
 
-// ==============================
-// 🔹 ÉTAPE 4 - Initialisation fonctions utilitaires
-// ==============================
+// load func
 const utilSpinner = ora("Initialisation des fonctions utilitaires...\n").start();
 try {
     loader();
@@ -106,9 +98,7 @@ try {
     console.error(error);
 }
 
-// ==============================
-// 🔹 ÉTAPE 5 - Connexion à Discord
-// ==============================
+// connect discord
 const connectSpinner = ora("Connexion à Discord...").start();
 require('dotenv').config();
 client.login(process.env.TOKEN)

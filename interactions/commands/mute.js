@@ -11,7 +11,6 @@ module.exports = {
         const reason = interaction.options.getString('reason')
         const duration = interaction.options.getString('temps')
 
-        // Récupérer le membre dans le serveur
         const memberToMute = await interaction.guild.members.fetch(user.id).catch(() => null)
 
         if (!memberToMute) {
@@ -26,7 +25,6 @@ module.exports = {
             return interaction.reply({ content: "Vous ne pouvez pas mute un membre de rang égal ou supérieur au vôtre.", ephemeral: true })
         }
 
-        // Parse durée
         const timeRegex = /^(\d+)([smhd])$/
         const match = duration.match(timeRegex)
         if (!match) {

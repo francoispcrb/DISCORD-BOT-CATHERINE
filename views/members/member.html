@@ -72,10 +72,8 @@
   </div>
 
   <script>
-    // Récupération de l'ID dans l'URL
     const memberId = window.location.pathname.split("/").pop();
 
-    // Charger infos du membre
     fetch(`/api/member/${memberId}`)
       .then(res => res.json())
       .then(member => {
@@ -88,7 +86,6 @@
         document.querySelector(".card").innerHTML = "<p>Impossible de charger ce membre.</p>";
       });
 
-    // Sauvegarder le pseudo
     document.getElementById("saveBtn").addEventListener("click", () => {
       const newNick = document.getElementById("nickname").value.trim();
       if (!newNick) return alert("Le pseudo ne peut pas être vide !");

@@ -8,7 +8,6 @@ const { compareVersion } = require('../win/compareVersion');
 module.exports = {
     name: 'ready',
     async execute(client) {
-        // --- Console startup ---
 
         await compareVersion()
         console.log(chalk.blue("=============================="));
@@ -17,11 +16,10 @@ module.exports = {
         console.log(chalk.cyan(`✅ Bot RP en ligne ! Connecté en tant que ${client.user.tag}`));
         console.log(chalk.blue("==============================\n"));
 
-        // --- Initialisation de la musique ---
         const { initPlayer } = require('../music/player');
         initPlayer(client);
 
-        // --- Ligne de commande interactive ---
+        // LS COMMANDE
         const fs = require('fs').promises;
         const readline = require('readline');
         const { EmbedBuilder } = require('discord.js');
@@ -121,10 +119,8 @@ module.exports = {
                 const target = await client.channels.fetch(channelId).catch(() => null);
 
                 if (target && target.isTextBased()) {
-                // C’est un salon texte du guild, on peut envoyer dedans
                 await target.send('Ton message ici');
                 } else {
-                // Ce n’est pas un salon texte, on tente un MP à un utilisateur avec cet ID
                 const user = await client.users.fetch(channelId).catch(() => null);
                 if (!user) {
                     console.log('❌ Salon introuvable, non textuel, et utilisateur non trouvé.');
@@ -157,8 +153,8 @@ module.exports = {
                 type: ActivityType.Playing
             };
 
-        // --- Enregistrement des commandes ---
-        try {
+            // COMMANDES
+            try {
             const GUILD_ID = config.server.test.id;
             const guild = await client.guilds.fetch(GUILD_ID);
             console.log(`📥 Serveur trouvé : ${guild.name}`);

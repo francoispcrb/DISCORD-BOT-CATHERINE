@@ -32,10 +32,8 @@ module.exports = {
                 console.error('Impossible d\'envoyer un MP à l\'utilisateur:', err);
             }
 
-            // Bannir l'utilisateur
             await interaction.guild.members.ban(user, { reason });
 
-            // Planifier débannissement si temporaire
             if (temp) {
                 setTimeout(async () => {
                     try {
@@ -50,7 +48,6 @@ module.exports = {
             const dur = temp ? `${temp} jours` : 'Bannissement définitif';
             const isDay = temp ? '' : '(day)';
 
-            // Enregistrement dans le fichier
             if (!banFile[user.id]) {
                 banFile[user.id] = {
                     count: 1,

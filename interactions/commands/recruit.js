@@ -1,6 +1,6 @@
 const fs = require('fs');
 const chalk = require('chalk');
-const { RANKS, CORPS, DIV_MAP } = require('../../utils/utils'); // Adapte le chemin si besoin
+const { RANKS, CORPS, DIV_MAP } = require('../../utils/utils'); 
 const config = require('../../config/config.json');
 const indicatifFile = require('../../config/indicatif.json');
 

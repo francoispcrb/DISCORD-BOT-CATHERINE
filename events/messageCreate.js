@@ -3,7 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 const { sendLog } = require('..');
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; // global
 }
 
 module.exports = {
@@ -11,7 +11,6 @@ module.exports = {
 
   async execute(message) {
     try {
-      // Ignore les messages des bots
       if (message.author.bot) return;
 
       if (message.channel.type === 1) { // DM
@@ -45,7 +44,6 @@ module.exports = {
       }
 
 
-      // Récupérer et tronquer le contenu si trop long
       const contentValue = message.content?.length > 1024
         ? message.content.substring(0, 1021) + '...'
         : message.content || "*Aucun contenu*";

@@ -33,7 +33,6 @@ async function divDaily(client) {
             }
         }
 
-        // ✅ Message initial
             const BCSO = "<:Seal_of_the_Broward_County_Sheri:1456714284062212137>";
         const sentMessage = await channel.send({
             content: `# ${BCSO} Hiérarchie au sein du Broward County Sheriff Office ${BCSO}`,
@@ -66,13 +65,11 @@ async function divDaily(client) {
             .filter(l => l.startsWith('#'))
             .map(h => h.trim());
 
-        // 🧱 Initialisation des sections
         const sections = {};
         for (const h of headers) {
             sections[cleanName(h)] = { commanders: [], others: [] };
         }
 
-        // 🛡️ Utiliser le cache (anti-timeout)
         let members = guild.members.cache;
         if (members.size === 0) {
             await guild.members.fetch({ limit: 1000 });
@@ -86,12 +83,10 @@ async function divDaily(client) {
             "• Corporal", "• Master Deputy", "• Deputy", "• Deputy Trainee"
         ];
 
-        // 🔁 Traitement des membres
         members.forEach(member => {
             const roles = member.roles.cache;
             const nickname = member.displayName;
 
-            // 🔍 Rank
             let matchedRank = null;
             for (const rank of Object.values(RANKS)) {
                 if (roles.has(rank.id)) {
@@ -108,9 +103,6 @@ async function divDaily(client) {
                 return `> - ${emoji} **\`${rankName}\` ${nickname}**${line}`;
             };
 
-            /* =========================
-               🟦 PATROL DIVISION (TOUS)
-            ========================= */
             if (sections["Patrol Division"]) {
                 const isCmd = COMMANDER["Patrol Division"] === member.id;
                 if (isCmd) {
@@ -125,9 +117,6 @@ async function divDaily(client) {
                 }
             }
 
-            /* =========================
-               🟥 DIVISIONS SPÉCIALISÉES
-            ========================= */
             for (const div of Object.values(DIV_MAP)) {
                 if (!roles.has(div.id)) continue;
 
@@ -148,7 +137,6 @@ async function divDaily(client) {
             }
         });
 
-        // 🧩 Reconstruction de l'embed
         const rebuilt = [];
         for (const h of headers) {
             const division = cleanName(h);

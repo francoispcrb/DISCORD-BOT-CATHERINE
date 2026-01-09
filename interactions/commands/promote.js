@@ -19,7 +19,6 @@ module.exports = {
             return interaction.reply({ content: "Rôle de grade introuvable.", ephemeral: true });
         }
 
-        // Suppression des anciens grades
         for (const key in RANKS) {
             const oldRole = interaction.guild.roles.cache.get(RANKS[key].id);
             if (oldRole && member.roles.cache.has(oldRole.id)) {
@@ -27,7 +26,6 @@ module.exports = {
             }
         }
 
-        // Réaffectation des corps selon le nouveau grade
         const removeCorps = [
             CORPS.EXECUTIVE_BODY.id,
             CORPS.SUPERVISION_BODY.id,

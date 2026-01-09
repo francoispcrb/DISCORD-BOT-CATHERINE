@@ -11,7 +11,7 @@ const { sendLog } = require('..');
 async function checkTicketInit(client) {
   try {
     const messageId = config.ticket_message;
-    const channelId = '1252239174610718782'; // Salon cible
+    const channelId = '1252239174610718782'; 
 
     const channel = await client.channels.fetch(channelId);
     if (!channel || !channel.isTextBased()) {

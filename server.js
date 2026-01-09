@@ -9,7 +9,7 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// === Middleware ===
+// middleware
 app.use(session({
   secret: process.env.SESSION_SECRET || 'un-secret-tres-secret',
   resave: false,
@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'views')));
 
-// Helper: lire access.json depuis api/ (fallback data/)
 function readAccessData() {
   const pApi = path.join(__dirname, 'api', 'access.json');
   const pData = path.join(__dirname, 'data', 'access.json');
@@ -33,7 +32,6 @@ function readAccessData() {
   return JSON.parse(raw);
 }
 
-// === Routes publiques ===
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
@@ -82,7 +80,6 @@ app.get('/auth/discord/callback', async (req, res) => {
   }
 });
 
-// === Contrôle d'accès (middleware) ===
 function panelAccessMiddleware(sectionsAllowed) {
   return (req, res, next) => {
     if (!req.session.userId) return res.status(403).send('Non connecté');
@@ -119,7 +116,6 @@ function panelAccessMiddleware(sectionsAllowed) {
   };
 }
 
-// === Pages protégées ===
 app.get('/gen_panel', (req, res) => {
   if (!req.session.userId) return res.redirect('/');
   res.sendFile(path.join(__dirname, 'views', 'gen_panel.html'));
@@ -137,7 +133,6 @@ app.get('/supervision_panel.html', panelAccessMiddleware(['supervisor']), (req, 
   res.sendFile(path.join(__dirname, 'views', 'supervision_panel.html'));
 });
 
-// === API accès utilisateur ===
 app.get('/api/access', async (req, res) => {
   if (!req.session.userId) return res.status(401).json({ error: 'Non connecté' });
 
@@ -206,7 +201,6 @@ app.get('/api/access', async (req, res) => {
   }
 });
 
-// === API exécutif-members ===
 app.get('/api/executif-members', async (req, res) => {
   try {
     const access = readAccessData();
@@ -249,7 +243,6 @@ app.get('/api/executif-members', async (req, res) => {
   }
 });
 
-// === Google Docs integration ===
 const SERVICE_ACCOUNT_FILE = path.join(__dirname, 'config', 'catherine-461314-b18ed30046d7.json');
 const TEMPLATE_DOC_ID = '1YimPZpfgvii1jdnJ5EkZ0asZI5-OeFVWLH1nAXtAmiA';
 
@@ -315,7 +308,6 @@ app.post('/api/generate-pdf', async (req, res) => {
   }
 });
 
-// === Recrutement ===
 app.get('/recrutement', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'recrutement.html'));
 });
@@ -358,7 +350,6 @@ app.post('/submit-recrutement', async (req, res) => {
   }
 });
 
-// === Déconnexion ===
 app.get('/logout', (req, res) => {
   req.session.destroy(err => {
     if (err) return res.status(500).send("Erreur déconnexion");
@@ -367,19 +358,16 @@ app.get('/logout', (req, res) => {
 });
 
 
-// Page profil membre (toujours le même HTML générique)
 app.get('/member/:id', (req, res) => {
   res.sendFile(path.join(__dirname, 'views/members', 'member.html'));
 });
 
-// API: infos d’un membre
 app.get('/api/member/:id', async (req, res) => {
   const memberId = req.params.id;
   const BOT_TOKEN = process.env.TOKEN || process.env.DISCORD_BOT_TOKEN;
 
   if (!BOT_TOKEN) return res.status(500).json({ error: 'Bot token non configuré' });
 
-  // Récupération guildId sûr
   let guildId = "1252231195312259073";
   try {
     const config = require('./config/config.json');
@@ -404,7 +392,6 @@ app.get('/api/member/:id', async (req, res) => {
   }
 });
 
-// API: changer le pseudo d’un membre
 app.post('/api/member/:id/nickname', async (req, res) => {
   const memberId = req.params.id;
   const { nickname } = req.body;
@@ -441,8 +428,7 @@ app.post('/api/change-nick', async (req, res) => {
   const BOT_TOKEN = process.env.TOKEN || process.env.DISCORD_BOT_TOKEN;
   if (!BOT_TOKEN) return res.status(500).json({ error: 'Bot token non configuré' });
 
-  // Récupération guildId sûr
-  let guildId = "1252231195312259073"; // fallback par défaut
+  let guildId = "1252231195312259073"; 
   try {
     const config = require('./config/config.json');
     if (config?.server?.test?.id) guildId = config.server.test.id;
@@ -465,7 +451,6 @@ app.post('/api/change-nick', async (req, res) => {
 });
 
 
-// === Mail system ===
 const multer = require('multer');
 const upload = multer({ dest: path.join(__dirname, 'uploads/') });
 
@@ -479,7 +464,6 @@ app.get('/api/getUserMails', (req, res) => {
 
   const userId = req.session.userId;
 
-  // On prend toutes les adresses dont la valeur = l’ID utilisateur
   const mails = Object.keys(mailData).filter(
     email => mailData[email] === userId
   );
@@ -490,14 +474,12 @@ app.get('/api/getUserMails', (req, res) => {
 
 });
 
-// API: récupérer toutes les adresses mails disponibles
 app.get('/api/getAllMails', (req, res) => {
   const mails = Object.keys(mailData);
   res.json({ mails });
 });
 
 
-// Récupérer les mails d’un dossier
 app.get('/api/folder', (req, res) => {
   const { mailbox, folder } = req.query;
   if (!mailbox || !folder) return res.status(400).json({ error: 'mailbox et folder requis' });
@@ -514,10 +496,6 @@ app.get('/api/folder', (req, res) => {
   res.json(mails);
 });
 
-// Envoyer / sauvegarder un mail
-// === Mail Panel APIs ===
-
-// Envoyer / sauvegarder / archiver mail
 app.post('/api/sendMail', upload.array('attachments'), (req, res) => {
   const { from, to, cc, bcc, subject, body, folderAction } = req.body;
   const attachments = req.files.map(f => f.path);
@@ -551,9 +529,6 @@ app.post('/api/sendMail', upload.array('attachments'), (req, res) => {
   res.json({ success: true, message: `Mail ajouté dans ${folder} avec succès !` });
 });
 
-
-
-
 app.post('/member/:id/nickname', async (req, res) => {
   const id = req.params.id;
   const nickname = req.body.nickname;
@@ -585,7 +560,6 @@ app.post('/member/:id/nickname', async (req, res) => {
 
 const savedDataDir = path.join(__dirname, "views", "register", "saved_data");
 
-// API pour lister fichiers véhicules
 app.get("/api/getVehicles", (req, res) => {
   try {
     const files = fs.readdirSync(savedDataDir).filter(f => f.endsWith(".html"));
@@ -595,7 +569,6 @@ app.get("/api/getVehicles", (req, res) => {
   }
 });
 
-// API pour ajouter un véhicule
 app.post("/api/addVehicle", (req, res) => {
   const { name, plate, owner, infraction } = req.body;
 
@@ -603,11 +576,9 @@ app.post("/api/addVehicle", (req, res) => {
     return res.status(400).json({ message: "Nom et plaque requis !" });
   }
 
-  // Nom du fichier (ex: Dodge_Charger_DIV569.html)
   const fileName = `${name.replace(/\s+/g, "_")}_${plate}.html`;
   const filePath = path.join(__dirname, "gen_panel/register/saved_data", fileName);
 
-  // Template HTML de la fiche véhicule
   const template = `
 <!DOCTYPE html>
 <html lang="fr">
@@ -700,7 +671,7 @@ app.post("/api/addVehicle", (req, res) => {
     res.status(500).json({ message: "Erreur lors de la sauvegarde" });
   }
 });
-// === Start server ===
+// start server 
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur http://localhost:${PORT}`);
 });

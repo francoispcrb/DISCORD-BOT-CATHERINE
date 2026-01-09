@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const {DESC_COMMAND} = require('../../utils/utils'); // ou un autre fichier selon ton projet
-const {PEX} = require('../../utils/utils'); // idem
+const {DESC_COMMAND} = require('../../utils/utils'); 
+const {PEX} = require('../../utils/utils'); 
 
 module.exports = {
     name:'help',
@@ -14,7 +14,6 @@ module.exports = {
         console.log("Commande normalisée:", normalizedCmd);
         console.log("Clés disponibles:", Object.keys(DESC_COMMAND).toString());
 
-        // --- Cas où une commande spécifique est demandée et existe ---
         if (normalizedCmd && DESC_COMMAND[normalizedCmd]) {
             const commandEmbed = new EmbedBuilder()
                 .setTitle(`📜 Aide pour la commande /${normalizedCmd}`)
@@ -25,7 +24,6 @@ module.exports = {
             return interaction.reply({ embeds: [commandEmbed], ephemeral: true });
         }
 
-        // --- Cas où 'false' est passé (sélecteur vide ou désactivé) ---
         if (commandRequested === 'false') {
             const helpEmbed = new EmbedBuilder()
                 .setTitle("📜 Liste des commandes disponibles")
@@ -39,7 +37,6 @@ module.exports = {
             return interaction.reply({ embeds: [helpEmbed], ephemeral: true });
         }
 
-        // --- Cas par défaut : pas de commande spécifiée ou commande inconnue ---
         const helpEmbed = new EmbedBuilder()
             .setTitle("📜 Liste des commandes disponibles")
             .setDescription("Voici la liste des commandes que vous pouvez utiliser sur ce serveur :")

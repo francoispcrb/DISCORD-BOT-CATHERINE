@@ -10,10 +10,8 @@ module.exports = {
 
   async execute(oldMessage, newMessage) {
     try {
-      // Ignore si c'est un bot ou si le contenu n'a pas changé
-      if (oldMessage.author?.bot || oldMessage.content === newMessage.content) return;
+      if (oldMessage.author?.bot || oldMessage.content === newMessage.content) return; // ingore if logs
 
-      // Sécurise les contenus avec fallback et tronque si trop long
       const truncate = (text) => text?.length > 1024 ? text.substring(0, 1021) + '...' : text || "*Aucun contenu*";
 
       const contentOfOldMessage = truncate(oldMessage.content);

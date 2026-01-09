@@ -1,7 +1,7 @@
 const chalk = require("chalk");
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; // global
 }
 
 const { EmbedBuilder } = require('discord.js');

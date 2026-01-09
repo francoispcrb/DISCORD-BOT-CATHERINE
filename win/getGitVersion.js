@@ -1,4 +1,3 @@
-// getGitVersion.js
 const https = require('https');
 
 module.exports = function getGitVersion() {

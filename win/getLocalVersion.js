@@ -1,4 +1,3 @@
-// getLocalVersion.js
 module.exports = function getLocalVersion() {
   console.debug("📦 Checking version from local...");
 

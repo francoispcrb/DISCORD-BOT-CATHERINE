@@ -12,14 +12,12 @@ function initPlayer(client) {
       },
     });
 
-    // ✅ Nouvelle méthode recommandée pour charger les extracteurs
     playerInstance.extractors.loadMulti(DefaultExtractors).then(() => {
       console.log('[player] Extracteurs chargés avec succès.');
     }).catch(err => {
       console.error('[player] Erreur lors du chargement des extracteurs :', err);
     });
 
-    // Gestion d'erreurs
     playerInstance.events.on('error', (queue, error) => {
       console.error(`[discord-player] Erreur dans la queue de ${queue.guild.name} :`, error);
     });

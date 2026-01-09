@@ -6,7 +6,7 @@ const Client = new Discord.Client({intents})
 const PDFDocument = require('pdfkit')
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; // global
 }
 const config     = require('../config/config.json')
 const shiftFile  = require('../config/shift.json')
@@ -63,7 +63,7 @@ try {
                             { id: config.role.spv ?? "", allow: [PermissionsBitField.Flags.ViewChannel] },
                             { id: config.role.cpl ?? "", allow: [PermissionsBitField.Flags.ViewChannel] },
                             { id: guild.id, deny: [PermissionsBitField.Flags.ViewChannel] }
-                        ].filter(p => p.id) // évite un ID vide si spv est non défini
+                        ].filter(p => p.id) 
                     });
                 };
 
@@ -139,14 +139,12 @@ try {
                         const PDFDocument = require('pdfkit');
                         const fs = require('fs');
                         const path = require('path');
-                        // Créer le chemin vers le dossier
                         const pdfFolderPath = path.resolve(__dirname, '../submit/discord');
                         if (!fs.existsSync(pdfFolderPath)) {
                             fs.mkdirSync(pdfFolderPath, { recursive: true });
                         }
                         const fileName = `recruit_${user.id}_${Date.now()}.pdf`;
                         const filePath = path.join(pdfFolderPath, fileName);
-                        // Créer le PDF
                         const doc = new PDFDocument();
                         doc.pipe(fs.createWriteStream(filePath));
                         doc.font('Helvetica-Bold').fontSize(16).text('Candidature Recrutement', { align: 'center' });
@@ -244,5 +242,5 @@ try {
 } catch (err) {
     console.error("[FATAL_ERROR] Les modals n'ont pas été exporté correctement. Le processus va s'arrêter., ", err)
     console.notify('hot', 'FATAL ERROR IN PROCESS, TYPING process.exit(0).')
-    process.exit(0); // Arrête le processus du bot
+    process.exit(0); 
 }

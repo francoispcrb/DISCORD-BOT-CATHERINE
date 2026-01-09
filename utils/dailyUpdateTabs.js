@@ -73,15 +73,11 @@ async function tabsDaily(client) {
                 ]
             });
 
-            // Enregistrer le nouvel ID de message
             config.tabs.id_message = newMessage.id;
             saveConfig();
 
-            // Collecte des membres et classification
-            // Utiliser le cache en priorité
             let members = guild.members.cache;
 
-            // Si le cache est vide (au démarrage du bot)
             if (members.size === 0) {
                 console.log('[Cron] Cache membres vide, fetch partiel...');
                 await guild.members.fetch({ limit: 1000 });
@@ -113,7 +109,6 @@ async function tabsDaily(client) {
                 }
             }
 
-            // Génération finale du texte
             let description = '';
             for (const [section, entries] of Object.entries(sections)) {
                 description += `${section}\n`;
@@ -130,7 +125,6 @@ async function tabsDaily(client) {
                 }
             }
 
-            // Vérification limite Discord
             if (description.length > 6000) {
                 console.warn('[Cron] ⚠️ Description trop longue pour un embed, tronquée.');
                 description = description.slice(0, 5990) + '\n...';

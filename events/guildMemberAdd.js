@@ -3,7 +3,7 @@ const { sendLog } = require('..');
 const chalk = require('chalk');
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; // global
 }
 
 module.exports = {
@@ -11,7 +11,6 @@ module.exports = {
 
     async execute(member) {
         try {
-            // Envoi du log
             const embed = new EmbedBuilder()
                 .setTitle("✅ Nouveau membre")
                 .setColor("Green")
@@ -24,7 +23,6 @@ module.exports = {
             const date = new Date().toLocaleString();
             console.log(chalk.green(`[MEMBER ADD] ${member.user.tag} / ${member.user.id} est arrivé à ${date}`));
 
-            // Récupération du channel de bienvenue
             const channelId = '1252234176032411739';  // Ton channel ID
             const channel = await member.guild.channels.fetch(channelId);
             if (!channel) {
@@ -32,7 +30,6 @@ module.exports = {
                 return;
             }
 
-            // Création du message de bienvenue
             const welcomeEmbed = new EmbedBuilder()
                 .setColor('#00BFFF')
                 .setTitle('🎉 Bienvenue sur le serveur !')
@@ -45,7 +42,6 @@ module.exports = {
                 .setFooter({ text: 'Nous sommes ravis de t\'avoir ici !', iconURL: member.guild.iconURL() })
                 .setTimestamp();
 
-            // Envoi du message dans le channel
             await channel.send({ embeds: [welcomeEmbed] });
 
         } catch (error) {

@@ -181,7 +181,6 @@ module.exports = {
     }
 };
 
-// Fonction auxiliaire pour exécuter la commande
 async function executeCommand(interaction) {
     const commandName = interaction.commandName.toLowerCase();
 

@@ -3,7 +3,7 @@ const { sendLog } = require('..');
 const chalk = require('chalk');
 
 if (!globalThis.clientData) {
-    globalThis.clientData = {}; // Initialise un objet global
+    globalThis.clientData = {}; // global
 }
 
 module.exports = {
@@ -11,7 +11,6 @@ module.exports = {
 
     async execute(member) {
         try {
-            // Log du départ du membre
             const embed = new EmbedBuilder()
                 .setTitle("❌ Membre parti")
                 .setColor("Red")
@@ -24,7 +23,6 @@ module.exports = {
             const date = new Date().toLocaleString();
             console.log(chalk.red(`[MEMBER REMOVE] ${member.user.tag} / ${member.user.id} est parti à ${date}`));
 
-            // Récupération du channel de départ
             const channelId = '1252234176032411739';  // Remplace par le channel voulu
             const channel = await member.guild.channels.fetch(channelId);
             if (!channel) {
@@ -32,7 +30,6 @@ module.exports = {
                 return;
             }
 
-            // Création du message d'au revoir
             const goodbyeEmbed = new EmbedBuilder()
                 .setColor('#FF4500')
                 .setTitle('😢 Un membre nous a quitté')
@@ -41,7 +38,6 @@ module.exports = {
                 .setFooter({ text: 'Nous sommes tristes de te voir partir.', iconURL: member.guild.iconURL() })
                 .setTimestamp();
 
-            // Envoi du message dans le channel
             await channel.send({ embeds: [goodbyeEmbed] });
 
         } catch (error) {

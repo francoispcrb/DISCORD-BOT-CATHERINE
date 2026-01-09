@@ -40,7 +40,6 @@ module.exports = {
             content: "@everyone, qui sera présent ce soir ?" 
         });
 
-        // Initialisation globale
         globalThis.clientData[interaction.guildId] = { 
             messageId: message.id, 
             participants: { yes: [], no: [], maybe: [] }
@@ -48,7 +47,6 @@ module.exports = {
 
         console.log("✅ Données stockées :", globalThis.clientData[interaction.guildId]);
 
-        // Sauvegarde dans config.json
         const participants = globalThis.clientData[interaction.guildId].participants;
         config.openservice_participants = { 
             yes: participants.yes, 

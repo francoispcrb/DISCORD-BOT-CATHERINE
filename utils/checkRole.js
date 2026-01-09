@@ -10,10 +10,10 @@ const FILE_PATH = path.join(__dirname, '../api/access.json');
 
 async function checkMemberRole(client) {
   try {
-    const guild = client.guilds.cache.get(config.server.test.id); // ou client.guilds.cache.get('ID_DU_SERVEUR');
+    const guild = client.guilds.cache.get(config.server.test.id); 
     if (!guild) return console.error("Serveur non trouvé.");
 
-    await guild.members.fetch(); // charge tous les membres du serveur
+    await guild.members.fetch(); 
 
     const roleExecutif = guild.roles.cache.get(ROLE_EXECUTIF);
     const roleSupervisor = guild.roles.cache.get(ROLE_SUPERVISOR);

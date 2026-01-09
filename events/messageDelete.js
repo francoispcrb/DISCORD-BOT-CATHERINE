@@ -10,12 +10,10 @@ module.exports = {
       if (message.partial) await message.fetch();
       if (!message.guild || message.author?.bot) return;
 
-      // Tronquer le message si trop long
       const contentValue = message.content?.length > 1024
         ? message.content.substring(0, 1021) + '...'
         : message.content || "*Aucun contenu*";
 
-      // Tenter de récupérer l'auteur de la suppression dans les logs d'audit
       let executor = "Inconnu";
 
       try {
@@ -29,7 +27,6 @@ module.exports = {
           const { executor: logExecutor, target, createdTimestamp } = deletionLog;
           const timeDiff = Date.now() - createdTimestamp;
 
-          // Vérifier que le log concerne bien le message supprimé dans les 5 dernières secondes
           if (target.id === message.author.id && timeDiff < 5000) {
             executor = logExecutor.tag;
           }

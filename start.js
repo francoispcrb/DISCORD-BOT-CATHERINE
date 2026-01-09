@@ -3,16 +3,11 @@ const axios = require("axios");
 const config = require("./config/config.json");
 const chalk = require("chalk");
 
-// =======================
-// ARGUMENTS CLI
-// =======================
-// ex: node start tty1
-const args = process.argv.slice(2); // ["tty1"]
+// Args Cli
+const args = process.argv.slice(2);
 const mode = args[0] || "default";
 
-// =======================
-// WEBHOOK
-// =======================
+// webhook
 const WEBHOOK_URL = config.server.test.webhook_moderator_only;
 
 async function sendDiscordMessage(content) {
@@ -27,21 +22,19 @@ async function sendDiscordMessage(content) {
     }
 }
 
-// =======================
-// START BOT
-// =======================
+// start function
 async function startBot() {
     console.log(chalk.cyan(`[MODE] Lancement en mode : ${mode}`));
     await sendDiscordMessage(`🔄 **Le bot redémarre** (mode : \`${mode}\`)`);
 
-    // ----- BOT DISCORD -----
+    // discord
     const botProcess = spawn(
         "node",
         ["index.js", ...args],
         { stdio: "inherit" }
     );
 
-    // ----- SERVER WEB -----
+    // intranet
     const serProcess = spawn(
         "node",
         ["server.js", ...args],
@@ -75,8 +68,5 @@ async function startBot() {
     });
 }
 
-// =======================
-// INIT
-// =======================
 console.log(chalk.green("[START] Lancement du bot via start.js"));
 startBot();

@@ -22,9 +22,9 @@ async function createTicketChannel(interaction, emoji, roleId, name) {
 
     const cleanName = interaction.member.displayName
         .toLowerCase()
-        .normalize("NFD")                 // sépare les accents
-        .replace(/[\u0300-\u036f]/g, "")  // supprime les accents
-        .replace(/[^a-z\s]/g, "");        // garde lettres + espaces
+        .normalize("NFD")                 
+        .replace(/[\u0300-\u036f]/g, "")  
+        .replace(/[^a-z\s]/g, "");  
 
     const channelName = `${emoji}-${name}-${cleanName}-${nbTicket}`;
 
@@ -50,7 +50,7 @@ async function createTicketChannel(interaction, emoji, roleId, name) {
     console.debug('[NEW TICKET CREATE]')
     console.log('[ACTION BUTTON] New channel created');
 
-    const ticketFile = require('../config/ticket.json'); // à adapter
+    const ticketFile = require('../config/ticket.json'); 
 
     ticketFile[channel.id] = {
         users: [interaction.user.id],
@@ -64,7 +64,7 @@ async function createTicketChannel(interaction, emoji, roleId, name) {
 
     saveTicket();
 
-    const { closeTicketEmbed, closeTicketButton } = require('../interactions/buttons'); // à adapter
+    const { closeTicketEmbed, closeTicketButton } = require('../interactions/buttons'); 
 
     await channel.send({
         embeds: [closeTicketEmbed],

@@ -33,7 +33,6 @@ module.exports = {
 
             if (!shiftFile[userId]) shiftFile[userId] = {};
 
-            // --- Sync automatique dyn avec stock ---
             for (const t in shiftVeh) {
                 if (!shiftVehDyn[t]) shiftVehDyn[t] = {};
                 for (const v in shiftVeh[t]) {
@@ -43,7 +42,6 @@ module.exports = {
                 }
             }
 
-            // Fonction mise à jour de l'embed
             async function updateVehiculeEmbed(client) {
                 const embedId = config.embedMessageId;
                 const channel = await client.channels.fetch(config.channel.shift);
@@ -88,7 +86,6 @@ module.exports = {
                 }
             }
 
-            // --- Fin de service ---
             if (shiftFile[userId].start) {
                 await interaction.deferReply({ ephemeral: true });
 
@@ -130,7 +127,6 @@ module.exports = {
                 await interaction.editReply({ content: "Good !", ephemeral: true });
 
             } else {
-                // --- Début de service ---
                 if (!shiftVehDyn[type]) shiftVehDyn[type] = {};
                 if (typeof shiftVehDyn[type][veh] !== 'number') {
                     shiftVehDyn[type][veh] = shiftVeh[type]?.[veh] ?? 0;
