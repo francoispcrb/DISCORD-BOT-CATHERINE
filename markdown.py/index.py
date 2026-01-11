@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon, QKeySequence, QTextCursor, QTextCharFormat, QFont
 from PyQt5.QtCore import Qt
-from markdownify import markdownify as md  # pip install markdownify
+from markdownify import markdownify as md 
 
 
 class MarkdownEditor(QMainWindow):
@@ -14,15 +14,12 @@ class MarkdownEditor(QMainWindow):
         self.setWindowTitle("Éditeur Markdown (Pro)")
         self.setGeometry(100, 100, 900, 600)
 
-        # Zone d'édition
         self.text_edit = QTextEdit()
         self.setCentralWidget(self.text_edit)
 
-        # Toolbar
         toolbar = QToolBar("Outils")
         self.addToolBar(toolbar)
 
-        # Boutons de formatage
         bold_action = QAction(QIcon(), "Gras", self)
         bold_action.setShortcut(QKeySequence.Bold)
         bold_action.triggered.connect(self.set_bold)
@@ -45,7 +42,6 @@ class MarkdownEditor(QMainWindow):
         bullet_action.triggered.connect(self.insert_bullet_list)
         toolbar.addAction(bullet_action)
 
-        # Menu fichier
         file_menu = self.menuBar().addMenu("Fichier")
 
         export_action = QAction("Exporter en Markdown", self)
